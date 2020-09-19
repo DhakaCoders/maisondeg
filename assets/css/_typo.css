@@ -4,20 +4,24 @@ All heading
 h1,h2,h3,h4,h5,h6{
 	line-height: 1;	
 	margin-top: 0;
+	font-weight: 300;
+	font-family: 'CactusLight';
 	margin-bottom: 20px;
+	letter-spacing: 0.1em;
+	text-transform: capitalize;
 }
 h1{
-	font-size: 33px;
+	font-size: 60px;
 }
 h2{
-	font-size: 30px;
+	font-size: 36px;
 }
 h3{
-	font-size: 28px;
-}
-h4{
 	font-size: 24px;
 }
+h4{
+	font-size: 18px;
+}
 h5{
-	font-size: 15px;
+	
 }

@@ -2,11 +2,31 @@
 @import url('_typo.css');
 @import url('_spaces.css');
 @import url('_effects.css');
-@import url('_header.css');
 @import url('_page.css');
 @import url('_home.css');
 @import url('_contact.css');
+
+/*----- Start of Rannojit -----*/
+@import url('_header.css');
+@import url('_binnenpagina.css');
+
+
+
+
+/*----- Start of Noyon -----*/
+
+
+
+
+/*----- Start of Shoriful -----*/
+
+
+
+
+
+/*----- Start of Milon -----*/
 @import url('_footer.css');
+
 
 
 

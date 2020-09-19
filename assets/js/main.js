@@ -149,6 +149,29 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 }
 
+
+
+
+
+/*----- End of Milon -----*/
+
+
+
+
+/*----- End of Noyon -----*/
+
+
+
+/*----- End of Shoriful -----*/
+
+
+
+
+
+/*----- End of Rannojit -----*/
+
+
+
     new WOW().init();
 
 })(jQuery);

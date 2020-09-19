@@ -16,14 +16,19 @@ a, a:hover, a:focus, button:hover, button:focus{
 }
 
 body {
-    background: #f8f8f8;
-    color: #000000;
-    font-size: 18px;
-    line-height: 24px;
+    background: #fff;
+    color: #7D7D7D;
+    font-size: 14px;
+	line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 p{
-	line-height: 1.2;
+	font-size: 14px;
+	line-height: 24px;
 	margin-bottom: 15px;
+	letter-spacing: 0.04em;
+	font-weight: 300;
 }
 /*-- app gap use pattern --*/
 /*data-xxs = 575
