@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'CactusLight';
+    src: url('CactusLight/CactusLight.eot');
+    src: url('CactusLight/CactusLight.eot?#iefix') format('embedded-opentype'),
+        url('CactusLight/CactusLight.woff2') format('woff2'),
+        url('CactusLight/CactusLight.woff') format('woff'),
+        url('CactusLight/CactusLight.ttf') format('truetype'),
+        url('CactusLight/CactusLight.svg#CactusLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
