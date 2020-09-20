@@ -10,4 +10,12 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'CactusMedium';
+    src:url('CactusMedium/CactusMedium.woff2') format('woff2'),
+        url('CactusMedium/CactusMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 
