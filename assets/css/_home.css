@@ -170,8 +170,10 @@
 
 
 .hm-juwellary-sec{
-	background: linear-gradient(269.67deg, #F4E6DB 69.01%, rgba(244, 230, 219, 0) 98.72%);
-	min-height: 1000px;
+	background: url('../images/hm-jwlr-bg-color.png');
+	background-repeat: no-repeat!important;
+	background-position: left center!important;
+	min-height: 1012px;
 	display: flex;
 	align-items: center;
 	position: relative;
@@ -192,11 +194,6 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	bottom: 0;
-	background: url('../images/hm-juwellary-sec-bg.jpg');
-	background-repeat: no-repeat!important;
-	background-position: right center!important;
-	width: 75%;
 }
 .hm-juwellary-des{
 	max-width: 660px;
