@@ -18,6 +18,10 @@
 }
 .h-our-history{
 	min-height: 1012px;
+	
+}
+.h-our-history-cntlr{
+	height: 100%;
 	display: flex;
 	align-items: center;
 }
