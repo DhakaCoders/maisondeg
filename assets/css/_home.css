@@ -85,7 +85,18 @@
 	text-transform: uppercase;
 	letter-spacing: 0.01em;
 	padding-right: 15px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
 	position: relative;
+}
+.hm-msnr-des a:hover,
+.hm-msnr-grd-items ul li:nth-child(4) .hm-msnr-des a:hover,
+.hm-msnr-grd-items ul li:nth-child(6) .hm-msnr-des a:hover{
+	color: #FF674D;
+}
+.hm-msnr-des a:hover svg{
+	fill: #FF674D;
 }
 
 .hm-msnr-des a i{
@@ -103,8 +114,17 @@
 	align-items: center;
 	justify-content: center;
 	color: #1D1D1B;
+	letter-spacing: 0.1em;
 	background: #fff;
 	border: 2px solid #fff;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+.hm-msnr-grd-items ul li:nth-child(5) .hm-msnr-des a:hover{
+	background: #FF674D;
+	border: 2px solid #FF674D;
+	color: #fff;
 }
 
 
@@ -157,6 +177,14 @@
 	border: 2px solid #1D1D1B;
 	margin-left: auto;
 	margin-right: auto;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+.hm-watch-des a:hover,
+.hm-juwellary-des a:hover{
+	background: #1D1D1B;
+	color: #fff;
 }
 
 
