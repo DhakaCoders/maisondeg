@@ -83,6 +83,7 @@ header.header{
     -webkit-transform: translateY(-50%);
     right: 15px;
     line-height: 15px;
+    z-index: 21;
 
 }
 .fl-lang ul li a:hover{
@@ -125,6 +126,7 @@ header.header{
 	display: inline-block;
 	vertical-align: baseline;
 	color: #1D1D1B;
+	cursor: pointer;
 }
 .hdr-search{
 	padding-left: 45px;
@@ -135,6 +137,7 @@ header.header{
 }
 .hdr-search button{
 	background: transparent;
+	cursor: pointer;
 }
 
 nav.main-nav ul{
