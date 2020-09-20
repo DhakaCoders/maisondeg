@@ -18,6 +18,10 @@
 }
 .h-our-history{
 	min-height: 1012px;
+	
+}
+.h-our-history-cntlr{
+	height: 100%;
 	display: flex;
 	align-items: center;
 }
@@ -30,7 +34,6 @@
 }
 .h-our-history-inr p{
 	font-size: 16px;
-	line-height: 24px;
 }
 .h-our-history-img{
 	margin-bottom: 25px;
@@ -76,17 +79,17 @@
 }
 .about-grid-item-title{
 	font-size: 36px;
-	font-weight: 400;
-	margin-bottom: 32px;
+	font-family: 'CactusMedium';
+	margin-bottom: 27px;
 	margin-top: 38px;
 	line-height: 1;
 	color: #1D1D1B;
 }
-.about-grid-item > p{
-	line-height: 24px;
+.about-grid-item-des > p{
+	margin-bottom: 0;
 }
 .about-grid-item-btn{
-	margin-top: 23px;
+	margin-top: 37px;
 }
 .about-grid-item-btn{
 
@@ -99,6 +102,7 @@
 	color: #1D1D1B;
 	font-weight: 400;
 	text-transform: uppercase;
+	z-index: 22;
 }
 .about-grid-item-btn > a i{
 	position: absolute;
@@ -130,21 +134,33 @@
 }
 .image-text-grid-title{
 	font-size: 36px;
-	font-size: 400;
-	margin-bottom: 25px;
+	margin-bottom: 30px;
+	color: #1D1D1B;
 	line-height: 1;
+    font-family: 'CactusMedium';
 
 }
 .image-text-grid-desc p{
 	font-size: 16px;
+	margin-bottom: 0;
+}
+.image-text-grid-btn{
+	margin-top: 37px;
 }
 .image-text-grid-btn .btn{
+	color: #1D1D1B;
+	border-color: #1D1D1B;
+	width: 210px;
+	height: 48px;
+}
+.itg-odd-btn .btn{
 	margin-top: 10px;
 	color: #1D1D1B;
 	border-color: #1D1D1B;
-	widows: 210px;
+	width: 300px;
 	height: 48px;
 }
+.itg-odd-btn .btn:hover,
 .image-text-grid-btn .btn:hover{
 	border-color: #FF674D;
 	color: #FF674D;
