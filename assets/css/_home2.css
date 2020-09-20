@@ -17,13 +17,22 @@
 	color: #FF674D;
 }
 .h-our-history{
+	position: relative;
 	min-height: 1012px;
-	
-}
-.h-our-history-cntlr{
-	height: 100%;
 	display: flex;
 	align-items: center;
+}
+.h-our-history:after{
+	content: "";
+	display: block;
+	min-height: inherit;
+	font-size: 0;
+}
+.h-our-history-cntlr{
+	width: 100%;
+	height:100%; 
+	align-items: center;
+	display:flex;
 }
 .h-our-history-inr{
 	display: flex;
