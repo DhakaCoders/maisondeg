@@ -1,9 +1,12 @@
 .hm-msnr-sec{
 	padding: 195px 0;
+}
+.hm-msnr-grd-items{
+	position: relative;
 	min-height: 1435px;
 	height: 100%;
-	position: relative;
 }
+
 .hm-msnr-grd-items ul li{
 	position: absolute;
 	top: 0;
@@ -105,12 +108,86 @@
 }
 
 
+.hm-watch-sec{
+	background: url('../images/hm-watch-sec-bg.jpg');
+	background-repeat: no-repeat!important;
+	background-position: left center!important;
+}
+/*.hm-watch-sec span{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: #f5f5f5;
+	width: 25%;
+
+}*/
 
 .hm-watch-sec-inr{
+	padding: 375px 0;
 	max-width: 650px;
 	width: 100%;
 	margin-left: auto;
 }
-.hm-watch-des{
+.hm-watch-des,
+.hm-juwellary-des{
 	text-align: center;
+}
+.hm-watch-des img{
+	display: inline-block;
+	vertical-align: baseline;
+	margin-bottom: 30px;
+}
+.hm-watch-des p,
+.hm-juwellary-des p{
+	font-size: 16px;
+	color: #1D1D1B;
+	margin-bottom: 20px;
+}
+.hm-watch-des a,
+.hm-juwellary-des a{
+	width: 168px;
+	height: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #1D1D1B;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	border: 2px solid #1D1D1B;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.hm-juwellary-sec{
+	background: url('../images/hm-juwellary-sec-bg.jpg');
+	background-repeat: no-repeat!important;
+	background-position: right center!important;
+	padding: 370px 0 380px;
+	position: relative;
+}
+.hm-juwellary-sec span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background: linear-gradient(269.67deg, #F4E6DB 69.01%, rgba(244, 230, 219, 0) 98.72%);
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+	width: 980px;
+}
+.hm-juwellary-sec-inr{
+	max-width: 660px;
+	width: 100%;
+}
+.hm-jwlr-title{
+	display: block;
+	font-size: 60px;
+	line-height: 1;
+	margin-bottom: 15px;
+	font-weight: 700;
+	font-family: 'Cabin', sans-serif;
+	color: #1D1D1B;
+	text-transform: capitalize;
+	letter-spacing: 0.1em;
 }
