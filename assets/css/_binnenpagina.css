@@ -10,18 +10,21 @@
 .fl-dft-overflow-controller {
 	overflow: hidden;
 }
-.default-page-con h1,
+.innerpage-con-wrap h1,
 .dfp-promo-module-title,
-.default-page-con h2,
-.default-page-con h3,
-.default-page-con h4,
-.default-page-con h5{
+.innerpage-con-wrap h2,
+.innerpage-con-wrap h3,
+.innerpage-con-wrap h4,
+.innerpage-con-wrap h5{
 	margin-bottom: 25px;
 	line-height: 1.1;
 }
 .default-page-con h2{
 	margin-bottom: 20px;
 	padding-top: 20px;
+}
+.innerpage-con-wrap h3{
+	font-weight: 400;
 }
 .dfp-text-module{
 	
