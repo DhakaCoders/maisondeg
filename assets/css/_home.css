@@ -135,15 +135,6 @@
 	color: #fff;
 }
 
-
-.hm-msnr-grd-items ul li:nth-child(5) .hm-msnr-des a:hover{
-	background: #FF674D;
-	border: 2px solid #FF674D;
-	color: #fff;
-}
-
-
-
 .fea-watch-des{
 	max-width: 550px;
 	width: 100%;
@@ -163,24 +154,15 @@
 	color: #1D1D1B;
 	margin-bottom: 20px;
 }
-.fea-watch-des a,
-.fea-juwellary-des a{
-	width: 168px;
-	height: 48px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: #1D1D1B;
-	letter-spacing: 0.01em;
-	text-transform: uppercase;
+
+.fea-juwellary-sec .dg-btn,
+.fea-watch-sec .dg-btn{
 	border: 2px solid #1D1D1B;
+	color: #1D1D1B;
 	margin-left: auto;
 	margin-right: auto;
-}
-.fea-watch-des a:hover,
-.fea-juwellary-des a:hover{
-	background: #1D1D1B;
-	color: #fff;
+	width: 168px;
+	height: 48px;
 }
 
 
