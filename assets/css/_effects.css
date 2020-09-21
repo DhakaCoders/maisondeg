@@ -1,11 +1,13 @@
 /**
 All Transitions
 */
+.tm-post-grid-innr:hover .tm-post-grid-img,
 a,input,img,textarea,button,svg{
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
+.tm-post-grid-innr:hover .tm-post-grid-img,
 .scale{
 	transform: scale(1.1);
 	-ms-transform: scale(1.1);

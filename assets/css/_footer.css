@@ -1,0 +1,367 @@
+/*
+-------------------
+ Footer Css
+-------------------
+*/
+.ftr-top{
+    padding-top: 145px;
+    padding-bottom: 60px;
+}
+.ftr-col-tp-lft{
+	width: 27%;
+	float: left;
+	padding-right: 80px;
+}
+.ftr-col-tp-rgt{
+	width: 73%;
+	float: right;
+}
+.ftr-logo a{
+    display: inline-block;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+.ftr-logo a img:nth-child(1){
+	padding-bottom: 30px;
+	padding-left: 15px;
+}
+.ftr-col-tp-bdr {
+    border-top: 1px solid #1D1D1B;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.ftr-col-tp-bdr ul{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+/*bootstrap-select*/
+.ful-wth-slct .bootstrap-select{
+    text-transform: uppercase;
+    color: #1D1D1B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    width: 150px !important;
+}
+.ful-wth-slct .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100%;
+}
+.ful-wth-slct .bootstrap-select button {
+    color: #1D1D1B;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 0;
+    border: 1px solid #000 !important;
+    width: 150px;
+    height: 48px;
+    position: absolute;
+    right: 0;
+    top: -42px;
+    z-index: 1;
+    background: #fff !important;
+}
+.ful-wth-slct .bootstrap-select button.btn {
+    padding: 13px 20px 15px 35px;
+}
+.ful-wth-slct .dropdown-toggle::before {
+    content: "";
+    font-size: 14px;
+    padding-right: 0;
+    position: absolute;
+    right: 35px;
+    top: 22px;
+    line-height: 15px;
+    background-image: url(../images/down-up-icon.png) !important;
+    background-repeat: no-repeat !important;
+    width: 6px;
+    height: 4px;
+    font-weight: 400;
+}
+.from-group .ful-wth-slct .dropdown-toggle::before{
+	right: 22px;
+	top: 50%;
+}
+/*.ful-wth-slct .bootstrap-select.open .caret::before{
+    content: "\f0d8";
+}*/
+.ful-wth-slct .open > .dropdown-toggle.btn-default:hover,
+.ful-wth-slct .btn-default.active, 
+.btn-default:active, 
+.ful-wth-slct .open > .dropdown-toggle.btn-default{
+    color: #fff;
+    background-color: #ddd;
+    border-width: 1px;
+}
+.ful-wth-slct .btn-default:hover,
+.ful-wth-slct .btn-default:focus,
+.ful-wth-slct .btn-default.active.focus, 
+.ful-wth-slct .btn-default.active:focus, 
+.ful-wth-slct .btn-default.active:hover, 
+.ful-wth-slct .btn-default:active.focus, 
+.ful-wth-slct .btn-default:active:focus, 
+.ful-wth-slct .btn-default:active:hover, 
+.ful-wth-slct .open>.dropdown-toggle.btn-default.focus, 
+.ful-wth-slct .open>.dropdown-toggle.btn-default:focus,
+.ful-wth-slct .open>.dropdown-toggle.btn-default:hover{
+	color: #fff;
+	background-color: #c7a46f;
+	border-width: 1px;
+	outline: 0!important;
+}
+.ful-wth-slct .bootstrap-select .dropdown-toggle:focus{
+    outline: 0!important;
+}
+.ful-wth-slct  .dropdown-menu{
+    margin: 0;
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 12px 0 10px;
+}
+.ful-wth-slct .dropdown-menu li{
+    position: relative;
+    margin-bottom: 6px;
+}
+.ful-wth-slct .dropdown-menu li a{
+    padding-top: 6px;
+    color: #fff;
+    font-size: 13px;
+	font-weight: 700;
+	line-height: 18px;
+	letter-spacing: 1.3px;
+}
+.ful-wth-slct .dropdown-menu>.active>a, 
+.ful-wth-slct .dropdown-menu>.active>a:focus, 
+.ful-wth-slct .dropdown-menu>.active>a:hover{
+    background-color:#c7a46f;
+}
+.ful-wth-slct .bootstrap-select .btn-default{
+    color: #fff;
+    background-color: #c7a46f;
+    border-color: #1D1D1B;
+    padding: 8px 20px 8px;
+    border-radius: 0;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1.3px;
+    padding-left: 60px;
+    padding-top: 18px;
+    height: 52px;
+}
+.ful-wth-slct .btn-default.active, 
+.ful-wth-slct .btn-default:active, 
+.ful-wth-slct .open > .dropdown-toggle.btn-default {
+    color: #fff;
+    background-color: #c7a46f;
+    border-color: #1D1D1B;
+    border-radius: 0;
+}
+.ful-wth-slct .dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+.ftr-col-3,
+.ftr-col-2{
+	width: 22%;
+	float: left;
+}
+.ftr-col-4{
+	width: 25%;
+	float: left;
+}
+.ftr-col-5{
+	width: 31%;
+	float: left;
+}
+.ftr-title{
+	display: block;
+	font-size: 24px;
+	line-height: 26px;
+	color: #1D1D1B;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.ftr-col ul li span,
+.ftr-col ul li{
+    padding: 0;
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+.ftr-col ul li a span,
+.ftr-col ul li a {
+    color: #7D7D7D;
+    transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+.ftr-social ul li {
+    float: left;
+    display: inline-block;
+    margin-right: 8px;
+}
+.ftr-social ul li a{
+    display: inline-block;
+    vertical-align: baseline;
+}
+.ftr-top-newsletter .from-group{
+	padding-bottom: 14px;
+}
+.ftr-top-newsletter .from-group input{
+    width: 100%;
+    border: 2px solid #EDEDED;
+    padding: 18px 24px 20px;
+    height: 56px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7D7D7D;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.ftr-top-newsletter .from-group input:focus{
+	border-color: #000;
+}
+.from-group-sub button{
+    width: 100%;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #1D1D1B;
+    text-align: right;
+    position: relative;
+    background: transparent;
+    padding-right: 15px;
+    margin-top: 6px;
+}
+.from-group-sub button:after{
+	content: "";
+	position: absolute;
+	width: 4px;
+	height: 6px;
+	background: url(../images/down-icon.png);
+	background-repeat: no-repeat;
+	right: 0;
+	top: 5px;
+}
+.ftr-btm-col{
+	border-top: 4px solid#f8f8f8;
+	padding-top: 60px;
+	padding-bottom: 65px;
+}
+.ftr-btm-col ul{
+	display: table;
+	margin: 0 auto;
+}
+.ftr-btm-col ul li{
+    padding: 0;
+    padding-left: 13px;
+    padding-right: 13px;
+    float: left;
+    position: relative;
+    font-size: 14px;
+    line-height: 16px;
+}
+.ftr-btm-col ul li a {
+    color: #7D7D7D;
+    display: inline-block;
+    vertical-align: baseline;
+}
+.ftr-btm-col ul li a::after {
+    content: "" !important;
+    position: absolute;
+    width: 14px;
+    height: 1px;
+    background: #7D7D7D;
+    top: 50%;
+    right: -8px;
+}
+.ftr-btm-col ul li:last-of-type a::after{
+	content: none !important;
+}
+.from-group ul li{
+	margin-bottom: 0 !important;
+}
+.from-group .ful-wth-slct .bootstrap-select button.btn {
+    padding: 18px 24px 18px 24px;
+}
+.from-group .ful-wth-slct .bootstrap-select button{
+	top: 0;
+	border: 2px solid #EDEDED !important;
+	width: 100% !important;
+	height: 56px !important;
+	position: static !important;
+	text-transform: capitalize;
+	color: #7D7D7D;
+	font-weight: 300;
+}
+.from-group .ful-wth-slct .bootstrap-select {
+    text-transform: capitalize !important;
+    color: #7D7D7D;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    width: 100% !important;
+}
+.from-group .ful-wth-slct .dropdown-menu{
+	background:#EDEDED;
+}
+
+/*
+------------------
+ footer-top-sec-wrp
+------------------
+*/
+.footer-top-sec-wrp{
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    height: 650px !important;
+    padding-top: 220px;
+    padding-bottom: 165px;
+}
+.footer-top-dsc{
+    max-width: 725px;
+    width: 100%;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1B;
+    margin-right: -10px;
+}
+.footer-top-dsc p{
+    margin-bottom: 30px;
+}
+.footer-top-dsc-title{
+    display: block;
+    font-size: 60px;
+    line-height: 73px;
+    letter-spacing: 0.1em;
+    color: #1D1D1B;
+    margin-bottom: 25px;
+}
+.footer-top-dsc a{
+    display: inline-block;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1D1D1B;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 2px solid #1D1D1B;
+    padding: 14px 45px;
+}

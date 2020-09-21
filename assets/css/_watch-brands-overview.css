@@ -1,0 +1,123 @@
+/*
+---------------------
+wb-gallery-sec-wrp
+---------------------
+*/
+.wb-gallery-sec-wrp{
+	background:#fdfdfd;
+	padding-top: 110px;
+	padding-bottom: 150px;
+}
+.wb-gallery-head{
+	max-width: 866px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.wb-gallery-head-title{
+	font-size: 60px;
+	line-height: 1.2;
+	letter-spacing: 0.1em;
+	text-transform: capitalize;
+	color: #1D1D1B;
+	display: block;
+	margin-bottom: 40px;
+}
+.wb-gallery-head p{
+	font-size: 22px;
+	line-height: 1.4;
+	color:#1D1D1B;
+	margin-bottom: 30px;
+}
+.wb-gallery-wrp{
+	padding-top: 80px;
+}
+.wb-gallery-two-grid-wrp ul{
+	margin: 0 -13px;
+}
+.wb-gallery-two-grid-wrp ul li{
+	width: 50%;
+	float: left;
+	padding: 0 13px 45px;
+}
+.wb-gallery-two-grid-inr{
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	background-size: cover !important;
+	height: 720px !important;
+	position: relative;
+}
+.wb-gallery-two-grid-dsc{
+	position: absolute;
+	left: 35px;
+	bottom: 35px;
+}
+.wb-gallery-two-grid-dsc-title{
+	display: block;
+	font-size: 60px;
+	line-height: 1;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.wb-gallery-two-grid-dsc a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	position: relative;
+	padding-right: 15px;
+}
+.wb-gallery-two-grid-dsc a:after{
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 5px;
+	background:url(../images/down-white-icon.png);
+	background-repeat: no-repeat;
+	width: 4px;
+	height: 6px;
+}
+.wb-gallery-full-grid{
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: center center !important;
+	height: 550px !important;
+	padding: 140px 55px 150px;
+	margin-top: 65px;
+	margin-bottom: 115px;
+}
+.wb-gallery-full-grid-dsc{
+	float: right;
+	max-width: 545px;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+}
+.wb-gallery-full-grid-dsc-title{
+	font-size: 60px;
+	line-height: 1;
+	color: #fff;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 25px;
+}
+.wb-gallery-full-grid-dsc a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 16px;
+	border: 2px solid #FFFFFF;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 400;
+	padding: 15px 50px;
+	margin-top: 8px;
+
+}

@@ -19,3 +19,14 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'CabinBold';
+    src: url('CabinBold/CabinBold.eot');
+    src: url('CabinBold/CabinBold.eot') format('embedded-opentype'),
+         url('CabinBold/CabinBold.woff2') format('woff2'),
+         url('CabinBold/CabinBold.woff') format('woff'),
+         url('CabinBold/CabinBold.ttf') format('truetype'),
+         url('CabinBold/CabinBold.svg#CabinBold') format('svg');
+}
+
+
