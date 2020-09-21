@@ -139,14 +139,13 @@
 	align-items: center;
 }
 .image-text-grid-fea-img-cntlr{
-	width: 50%;
-	
+	width: 50%;	
 }
 .image-text-grid-fea-img{
-	min-height: 450px;
+	min-height: 440px;
 }
 .image-text-grid-desc{
-	padding-left: 80px;
+	padding-left: 100px;
 	width: 50%;
 }
 .image-text-grid-title{
@@ -188,5 +187,5 @@
 .itg-odd .image-text-grid-desc{
 	order: 1;
 	padding-left: 0;
-	padding-right: 80px;
+	padding-right: 100px;
 }
