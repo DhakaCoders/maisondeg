@@ -25,3 +25,8 @@
 	width: 16px;
 	height: 16px;
 }
+
+
+.gray-gradient-bg{
+	/*background: linear-gradient(180deg, #F2F2F2 0%, rgba(255, 255, 255, 0) 100%);*/
+}
