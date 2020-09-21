@@ -146,6 +146,7 @@ team-member-sec-wrp
 	color: #1D1D1B;
 	font-weight: 600;
 	margin-bottom: 15px;
+	font-family: 'CactusMedium';
 }
 .team-member-grid-dsc span{
 	display: inline-block;
@@ -172,6 +173,9 @@ tm-post-grid-sec-wrp
 	float: left;
 	padding: 0 12px;
 }
+.tm-post-grid-innr{
+	position: relative;
+}
 .tm-post-grid-img-cntlr{
 	position: relative;
 	overflow: hidden;
@@ -187,7 +191,6 @@ tm-post-grid-sec-wrp
 }
 .tm-post-grid-dsc{
 	padding-top: 40px;
-	padding-bottom: 20px;
 }
 .tm-post-grid-dsc-title{
 	display: block;
@@ -195,6 +198,7 @@ tm-post-grid-sec-wrp
 	line-height: 1;
 	color: #1D1D1B;
 	margin-bottom: 20px;
+	font-family: 'CactusMedium';
 }
 .tm-post-grid-dsc-title a{
 	display: inline-block;
@@ -206,11 +210,13 @@ tm-post-grid-sec-wrp
 	color:#FF674D;
 }
 .tm-post-grid-dsc p{
-	height: 150px;
 	margin-bottom: 0;
 	letter-spacing: 0;
 }
-.tm-post-grid-dsc > a{
+.tm-post-grid-dsc-btn{
+	padding-top: 30px;
+}
+.tm-post-grid-dsc-btn > a{
 	display: inline-block;
 	vertical-align: baseline;
 	text-decoration: none;
@@ -221,11 +227,12 @@ tm-post-grid-sec-wrp
 	line-height: 1;
 	padding-right: 15px;
 	position: relative;
+	font-weight: 400;
 }
-.tm-post-grid-dsc > a:hover{
+.tm-post-grid-dsc-btn > a:hover{
 	color: #FF674D;
 }
-.tm-post-grid-dsc > a:after{
+.tm-post-grid-dsc-btn > a:after{
 	content: "";
 	position: absolute;
 	right: 0;
@@ -237,6 +244,6 @@ tm-post-grid-sec-wrp
 	width: 4px;
 	height: 6px;
 }
-.tm-post-grid-dsc > a:hover:after{
+.tm-post-grid-dsc-btn > a:hover:after{
 	background:url(../images/down-icon-hover.png);
 }
