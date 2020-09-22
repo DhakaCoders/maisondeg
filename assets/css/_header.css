@@ -497,5 +497,70 @@ header.bnr-hdr{
 }
 
 .hm-bnr-grd-col{
-	height: 1024px;
+	height: 924px;
+	position: relative;
+}
+.hm-bnr-grd-col.inline-bg{
+	background-position: left center!important;
+}
+
+.hm-bnr-grd-col-btm-des{
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding: 0 20px 70px 70px;
+	z-index: 20;
+	bottom: 0;
+}
+.hbgcbd-title{
+	font-size: 60px;
+	line-height: 90px;
+	margin-bottom: 22px;
+}
+.hm-bnr-grd-col-btm-des p{
+	font-size: 16px;
+	line-height: 1.2;
+	color: #1D1D1B;
+	letter-spacing: 0.04em;
+}
+.hbgcbd-title a{
+	color: #1D1D1B;
+}
+
+.hm-bnr-grd-col-btm-des > a{
+	font-size: 13px;
+	line-height: 1;
+	position: relative;
+	color: #1D1D1B;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-right: 13px;
+	margin-left: -10px;
+	opacity: 0;
+}
+.hm-bnr-grd-col:hover .hm-bnr-grd-col-btm-des > a{
+	opacity: 1;
+	margin-left: 0;
+}
+.hm-bnr-grd-col-btm-des > a:after {
+    content: "";
+    content: "\f0da";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    text-decoration: inherit;
+    color: #1d1d1b;
+    font-size: 11px;
+    padding-right: 0;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    line-height: 15px;
+    z-index: 21;
+    transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+.hm-bnr-grd-col-btm-des > a:hover:after{
+	right: -2px;
 }
