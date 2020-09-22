@@ -1,0 +1,128 @@
+/*
+------------------------
+ about-image-text-grids
+------------------------
+*/
+.about-image-text-grids{
+	padding-top: 280px;
+	padding-bottom: 200px;
+}
+.about-image-text-grids-prd .itg-odd .image-text-grid-desc{
+	padding-right: 60px;
+}
+.about-image-text-grids .image-text-grid-fea-img {
+    min-height: 720px;
+}
+.about-text-grid-btn a{
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 400;
+    background: transparent;
+    color: #1D1D1B;
+    width: 215px;
+    height: 48px;
+    border: 2px solid #1D1D1B;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+	text-align: center;
+	padding: 15px 85px 15px 55px;
+	position: relative;
+}
+.about-text-grid-btn a:last-child{
+	margin-left: 16px;
+}
+.about-text-grid-btn a:after{
+	content: "";
+	position: absolute;
+	right: 58px;
+	top: 19px;
+	background:url(../images/image-text-angle.svg);
+	background-repeat: no-repeat;
+	background-size: 13px 6px;
+	width: 13px;
+	height: 6px;
+}
+.about-text-grid-btn a:hover{
+	color: #FF674D;
+	border-color: #FF674D;
+}
+.about-text-grid-btn a:hover:after{
+	background:url(../images/image-text-angle-hover.svg);
+}
+.about-image-text-grids-prd{
+	padding-top: 180px;
+	padding-bottom: 190px;
+}
+
+.about-fea-juwellary-sec .fea-juwellary-des{
+	max-width: 630px;
+}
+.about-fea-juwellary-sec .fea-jwlr-title{
+	font-family: 'CactusLight';
+	font-weight: 300;
+	color: #1D1D1B;
+
+}
+.about-fea-juwellary-sec .dg-btn{
+	width: 220px;
+}
+.about-fea-juwellary-des-rgt{
+	float: right;
+}
+.fea-juwellary-des a:hover{
+	color: #FF674D;
+	border-color: #FF674D;
+}
+/*
+-------------------------
+about-team-member-sec-wrp
+-------------------------
+*/
+.about-team-member-sec-wrp{
+	padding-top: 190px;
+	padding-bottom: 200px;
+}
+.about-team-member-head{
+	max-width: 720px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 40px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #1D1D1B;
+	font-family: 'NunitoSansRegular';
+}
+.about-team-member-head-title{
+	display: block;
+	font-size: 60px;
+	line-height: 1;
+	letter-spacing: 0.1em;
+	text-transform: capitalize;
+	color: #1D1D1B;
+	margin-bottom: 50px;
+}
+.about-team-member-img{
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	background-size: cover !important;
+	min-height: 680px !important;
+	margin-bottom: 60px;
+}
+.about-team-member-btn a{
+	display: inline-block;
+	vertical-align: baseline;
+	letter-spacing: 0.1em;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	color: #1D1D1B;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 400;
+	text-align: center;
+}
+.about-team-member-btn a:hover{
+	color: #FF674D;
+}
+
