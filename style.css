@@ -12,3 +12,11 @@ Text Domain: clipfresh
 */
 
 @import url('assets/css/main.css');
+
+.jco-grd-items ul li{
+	margin-bottom: 70px;
+	padding-bottom: 0;
+}
+.jco-grd-items ul li:nth-child(2){
+	margin-top: 80px;
+}
