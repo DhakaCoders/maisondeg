@@ -172,6 +172,9 @@ if( $('.blg-tabs').length ){
   });
 }
 
+ 
+
+
 
 
 /*----- End of Noyon -----*/

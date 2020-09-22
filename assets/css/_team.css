@@ -116,6 +116,7 @@ team-member-sec-wrp
 	transition: 0.5s;
     -ms-transition: 0.5s;
     -webkit-transition: 0.5s;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71));
 }
 .team-member-grid-hover a{
 	display: inline-block;
@@ -136,9 +137,6 @@ team-member-sec-wrp
     -ms-transition: 0.5s;
     -webkit-transition: 0.5s;
     z-index: 2;
-}
-.team-member-grid-cntlr:hover .team-member-grid-hover a{
-	color: #fe674c;
 }
 .team-member-grid-dsc{
 	text-align: center;
@@ -333,3 +331,63 @@ tm-post-grid-sec-wrp
 .tm-model-dsc p{
 	margin-bottom: 22px;
 }
+
+
+.popup-btn{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+}
+.popup-btn button{
+	background: #fd6607;
+	padding: 20px;
+	font-size: 22px;
+	color: #fff;
+	border-radius: 50px;
+	border:none;
+	text-transform: uppercase;
+}
+.popup-dsc-lg{
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+	background: #000;
+	text-align: center;
+	color: #fff;
+	border-radius: 10px;
+	position: relative;
+	font-size: 18px;
+	line-height: 20px;
+	display: none !important;
+}
+.popup-dsc-lg.popup-dsc-add-cls{
+	display: block !important;
+}
+.popup-dsc{
+	padding: 40px 20px;
+	display: inline-block;
+	vertical-align: baseline;
+}
+.popup-dsc-lg h1{
+	margin: 0;
+	color: #fff;
+}
+.popup-dsc-lg span{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 20px;
+	line-height: 22px;
+	color: #fff;
+	background: #fd6607;
+	width: 80px;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: baseline;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
