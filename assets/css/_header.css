@@ -497,5 +497,15 @@ header.bnr-hdr{
 }
 
 .hm-bnr-grd-col{
-	height: 1024px;
+	height: 924px;
+}
+.hm-bnr-grd-col.inline-bg{
+	background-position: left center!important;
+}
+
+.hm-bnr-grd-col-btm-des{
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding: 0 20px 70px 90px;
 }
