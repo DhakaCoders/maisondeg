@@ -193,6 +193,11 @@ $('div.fl-tabs button').click(function(){
         $(this).addClass('current');
         $("#"+tab_id).addClass('current');
     });
+if( $('.grid').length ){
+  $('.grid').masonry({
+    itemSelector: '.grid-item'
+  });
+}
 /*----- End of Rannojit -----*/
 
 
