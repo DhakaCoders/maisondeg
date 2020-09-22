@@ -256,7 +256,7 @@ tm-post-grid-sec-wrp
     background-color: #fff !important;
     border: 0 !important;
     border-radius: 0 !important;
-    padding: 80px 70px 50px 70px;
+    padding: 60px 30px 30px 30px;
 }
 .tm-model-sec-wrp .modal-header {
     border: 0 !important;
@@ -284,7 +284,7 @@ tm-post-grid-sec-wrp
     transform: translate(0,25%) !important;
 }
 .modal-dialog {
-    max-width: 1318px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 .modal-content{
@@ -301,7 +301,7 @@ tm-post-grid-sec-wrp
 	background-size: cover !important;
 }
 .tm-model-dsc-rgt{
-	padding-left: 40px;
+	padding-left: 20px;
 	width: 55%;
 	float: right;
 }
