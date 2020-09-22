@@ -188,7 +188,7 @@ nav.main-nav > ul > li:first-child{
 nav.main-nav > ul > li > a{
 	position: relative;
 	padding-right: 11px;
-	padding-bottom: 80px;
+	padding-bottom: 81px;
 }
 
 nav.main-nav > ul > li.current-menu-item > a{
