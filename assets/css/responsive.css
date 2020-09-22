@@ -27,6 +27,9 @@
 	.show-md{
 		display: block!important;
 	}
+	br{
+		display: none;
+	}
 	
 }
 
