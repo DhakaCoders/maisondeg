@@ -474,3 +474,28 @@ nav.main-nav > ul > li.menu-item-has-children:hover .sub-menu-cntlr,
 	background: #1D1D1B;
 	color: #fff;
 }
+
+
+
+
+/* all banners */
+
+header.bnr-hdr{
+	position: absolute;
+	left: 0;
+	right: 0;
+	box-shadow: none;
+	z-index: 120;
+	background: transparent;
+}
+.home-banner-cntlr{
+
+}
+.home-banner-cntlr ul li{
+	float: left;
+	width: 50%;
+}
+
+.hm-bnr-grd-col{
+	height: 1024px;
+}
