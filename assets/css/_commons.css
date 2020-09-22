@@ -23,6 +23,9 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     /*font-family: 'Cabin', sans-serif;*/
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    letter-spacing: 0.1em;
 }
 p{
 	font-size: 14px;
@@ -105,7 +108,7 @@ Containers
 }
 
 .container-sm{
-	max-width: 910px;
+	max-width: 930px;
 }
 
 
