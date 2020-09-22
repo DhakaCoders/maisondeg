@@ -8,6 +8,9 @@ team-member-sec-wrp
 	padding-top: 60px;
 	padding-bottom: 120px;
 }
+.team-member-sec-wrp .wb-gallery-head-title{
+	margin-bottom: 45px;
+}
 .tm-back-btn{
 	padding-bottom: 30px;
 }
@@ -47,6 +50,7 @@ team-member-sec-wrp
 }
 .team-member-sec-wrp .wb-gallery-head{
 	margin-bottom: 90px;
+	max-width: 880px;
 }
 .team-member-sec-wrp .wb-gallery-head p{
 	margin-bottom: 0;
@@ -112,6 +116,7 @@ team-member-sec-wrp
 	transition: 0.5s;
     -ms-transition: 0.5s;
     -webkit-transition: 0.5s;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71));
 }
 .team-member-grid-hover a{
 	display: inline-block;
@@ -133,9 +138,6 @@ team-member-sec-wrp
     -webkit-transition: 0.5s;
     z-index: 2;
 }
-.team-member-grid-cntlr:hover .team-member-grid-hover a{
-	color: #fe674c;
-}
 .team-member-grid-dsc{
 	text-align: center;
 	padding: 40px 0 60px;
@@ -144,8 +146,7 @@ team-member-sec-wrp
 	display: block;
 	font-size: 36px;
 	color: #1D1D1B;
-	font-weight: 600;
-	margin-bottom: 15px;
+	margin-bottom: 8px;
 	font-family: 'CactusMedium';
 }
 .team-member-grid-dsc span{
@@ -153,6 +154,7 @@ team-member-sec-wrp
 	vertical-align: baseline;
 	font-size: 14px;
 	color: #FF674D;
+	letter-spacing: 0;
 }
 
 /*
@@ -252,7 +254,7 @@ tm-post-grid-sec-wrp
     background-color: #fff !important;
     border: 0 !important;
     border-radius: 0 !important;
-    padding: 80px 70px 50px 70px;
+    padding: 60px 50px 30px 50px;
 }
 .tm-model-sec-wrp .modal-header {
     border: 0 !important;
@@ -280,7 +282,7 @@ tm-post-grid-sec-wrp
     transform: translate(0,25%) !important;
 }
 .modal-dialog {
-    max-width: 1318px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 .modal-content{
@@ -297,7 +299,7 @@ tm-post-grid-sec-wrp
 	background-size: cover !important;
 }
 .tm-model-dsc-rgt{
-	padding-left: 40px;
+	padding-left: 30px;
 	width: 55%;
 	float: right;
 }
@@ -319,7 +321,7 @@ tm-post-grid-sec-wrp
 	letter-spacing: 0.04em;
 	color: #FF674D;
 	font-weight: 300;
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 }
 .tm-model-dsc p strong{
 	color: #1D1D1B;
@@ -329,3 +331,5 @@ tm-post-grid-sec-wrp
 .tm-model-dsc p{
 	margin-bottom: 22px;
 }
+
+
