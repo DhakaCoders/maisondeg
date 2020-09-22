@@ -29,4 +29,24 @@
          url('CabinBold/CabinBold.svg#CabinBold') format('svg');
 }
 
+@font-face {
+    font-family: 'NunitoSansRegular';
+    src: url('NunitoSansRegular/NunitoSansRegular.eot');
+    src: url('NunitoSansRegular/NunitoSansRegular.eot') format('embedded-opentype'),
+         url('NunitoSansRegular/NunitoSansRegular.woff2') format('woff2'),
+         url('NunitoSansRegular/NunitoSansRegular.woff') format('woff'),
+         url('NunitoSansRegular/NunitoSansRegular.ttf') format('truetype'),
+         url('NunitoSansRegular/NunitoSansRegular.svg#NunitoSansRegular') format('svg');
+}
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url('MontserratRegular/MontserratRegular.eot');
+    src: url('MontserratRegular/MontserratRegular.eot') format('embedded-opentype'),
+         url('MontserratRegular/MontserratRegular.woff2') format('woff2'),
+         url('MontserratRegular/MontserratRegular.woff') format('woff'),
+         url('MontserratRegular/MontserratRegular.ttf') format('truetype'),
+         url('MontserratRegular/MontserratRegular.svg#MontserratRegular') format('svg');
+}
+
+
 

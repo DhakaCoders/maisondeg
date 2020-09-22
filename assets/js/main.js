@@ -154,7 +154,23 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 /*----- End of Milon -----*/
+/*
+----------------------
+ Tabs Js
+----------------------
+*/
+if( $('.blg-tabs').length ){
+  $('.blg-tabs:first').show();
+  $('.tabs-menu li:first').addClass('active');
 
+  $('.tabs-menu li').on('click',function(){
+    index = $(this).index();
+    $('.tabs-menu li').removeClass('active');
+    $(this).addClass('active');
+    $('.blg-tabs').hide();
+    $('.blg-tabs').eq(index).show();
+  });
+}
 
 
 
@@ -168,6 +184,15 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 
+$('div.fl-tabs button').click(function(){
+        var tab_id = $(this).attr('data-tab');
+
+        $('div.fl-tabs button').removeClass('current');
+        $('.fl-tab-content').removeClass('current');
+
+        $(this).addClass('current');
+        $("#"+tab_id).addClass('current');
+    });
 /*----- End of Rannojit -----*/
 
 

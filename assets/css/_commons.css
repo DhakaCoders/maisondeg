@@ -23,6 +23,9 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     /*font-family: 'Cabin', sans-serif;*/
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    letter-spacing: 0.1em;
 }
 p{
 	font-size: 14px;
@@ -105,7 +108,7 @@ Containers
 }
 
 .container-sm{
-
+	max-width: 930px;
 }
 
 
@@ -332,4 +335,135 @@ form .dropdown-menu li a{
     width: 194px;
     height: 52px;
     text-transform: uppercase;
+}
+
+
+/*
+--------------
+ Select Css
+--------------
+*/
+/*bootstrap-select*/
+.dg-select-field .bootstrap-select{
+    color: #1D1D1B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    width: 100% !important;
+}
+.dg-select-field .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100%;
+}
+.dg-select-field .bootstrap-select button {
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    color: #7D7D7D;
+    font-weight: 300;
+    border-radius: 0;
+    border: 2px solid #EDEDED !important;
+    width: 100%;
+    height: 56px;
+    text-transform: capitalize;
+    padding: 15px 22px 15px 22px;
+}
+
+.dg-select-field .dropdown-toggle::before {
+    content: "";
+    font-size: 14px;
+    padding-right: 0;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    line-height: 15px;
+    background-image: url(../images/down-up-icon.png) !important;
+    background-repeat: no-repeat !important;
+    width: 6px;
+    height: 4px;
+    font-weight: 400;
+    background-size: 6px 4px;
+}
+
+.dg-select-field .open > .dropdown-toggle.btn-default:hover,
+.dg-select-field .btn-default.active, 
+.btn-default:active, 
+.dg-select-field .open > .dropdown-toggle.btn-default{
+    color: #fff;
+    background-color: #ddd;
+    border-width: 1px;
+}
+.dg-select-field .btn-default:hover,
+.dg-select-field .btn-default:focus,
+.dg-select-field .btn-default.active.focus, 
+.dg-select-field .btn-default.active:focus, 
+.dg-select-field .btn-default.active:hover, 
+.dg-select-field .btn-default:active.focus, 
+.dg-select-field .btn-default:active:focus, 
+.dg-select-field .btn-default:active:hover, 
+.dg-select-field .open>.dropdown-toggle.btn-default.focus, 
+.dg-select-field .open>.dropdown-toggle.btn-default:focus,
+.dg-select-field .open>.dropdown-toggle.btn-default:hover{
+	color: #fff;
+	background-color: #c7a46f;
+	border-width: 1px;
+	outline: 0!important;
+}
+.dg-select-field .bootstrap-select .dropdown-toggle:focus{
+    outline: 0!important;
+}
+.dg-select-field  .dropdown-menu{
+    margin: 0;
+    background-color: #ddd;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 12px 0 10px;
+    /*border: 2px solid #EDEDED !important;*/
+}
+.dg-select-field .dropdown-menu li{
+    position: relative;
+    margin-bottom: 6px;
+}
+.dg-select-field .dropdown-menu li a{
+    padding-top: 6px;
+    color: #fff;
+    font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0.06em;
+	text-transform: capitalize;
+}
+.dg-select-field .dropdown-menu>.active>a, 
+.dg-select-field .dropdown-menu>.active>a:focus, 
+.dg-select-field .dropdown-menu>.active>a:hover{
+    background-color:#c7a46f;
+}
+.dg-select-field .bootstrap-select .btn-default{
+    color: #fff;
+    background-color: #c7a46f;
+    border-color: #1D1D1B;
+    padding: 8px 20px 8px;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    padding-left: 60px;
+    padding-top: 18px;
+    height: 52px;
+}
+.dg-select-field .btn-default.active, 
+.dg-select-field .btn-default:active, 
+.dg-select-field .open > .dropdown-toggle.btn-default {
+    color: #fff;
+    background-color: #c7a46f;
+    border-color: #1D1D1B;
+    border-radius: 0;
+}
+.dg-select-field .dropdown-menu > li > a {
+    display: block;
+    padding: 5px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
 }

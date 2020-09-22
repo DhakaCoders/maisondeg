@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'NunitoSansRegular';
+    src: url('NunitoSansRegular/NunitoSansRegular.eot');
+    src: url('NunitoSansRegular/NunitoSansRegular.eot') format('embedded-opentype'),
+         url('NunitoSansRegular/NunitoSansRegular.woff2') format('woff2'),
+         url('NunitoSansRegular/NunitoSansRegular.woff') format('woff'),
+         url('NunitoSansRegular/NunitoSansRegular.ttf') format('truetype'),
+         url('NunitoSansRegular/NunitoSansRegular.svg#NunitoSansRegular') format('svg');
+}

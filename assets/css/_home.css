@@ -1,59 +1,83 @@
-.hm-msnr-sec{
+.hm-msnry-sec{
 	padding: 195px 0;
 }
 
 
-.hm-msnr-grd-items ul{
-	margin-left: -12px;
-	margin-right: -12px;
+.hm-msnry-sec-ctlr{
+	min-height: 1055px;
+	position: relative;
 }
-.hm-msnr-grd-items ul li{
-	float: left;
-	width: 33.3333%;
-	padding-left: 12px;
-	padding-right: 12px;
-	padding-bottom: 30px;
+.hm-msnry-grd-item{
+	position: absolute;
+	top: 0;
+	left: 0;
 }
-
-.hm-msnr-grd-items ul li:nth-child(1) .hm-msnr-grd-item{
-	margin-top: 60px;
-	margin-left: 50px;
+.one{
+	top: 60px;
+	left: 45px;
+	width:  29.4871%;
 }
-.hm-msnr-grd-items ul li:nth-child(1) .hm-msnr-des{
-	padding: 350px 20px 20px 20px;
+.two{
+	top: 0;
+	left: 415px;
+	width:  37.6068%;
 }
-
-.hm-msnr-grd-items ul li:nth-child(2) .hm-msnr-des{
-	height: 640px;
+.three{
+	top: 190px;
+	left: 880px;
+	width:  29.9145%;
 }
-
-.hm-msnr-grd-items ul li:nth-child(3) .hm-msnr-grd-item{
-	margin-top: 190px;
-	margin-right: 50px;
+.four{
+	top: 585px;
+	left: 0;
+	width: 33.1966%;
 }
-.hm-msnr-grd-items ul li:nth-child(3) .hm-msnr-des{
-	padding: 350px 20px 20px 20px;
+.five{
+	top: 670px;
+	left: 415px;
+	width:  37.6068%;
 }
-
-.hm-msnr-grd-items ul li:nth-child(4) .hm-msnr-grd-item{
-	margin-top: -105px;
-}
-.hm-msnr-grd-items ul li:nth-child(4) .hm-msnr-des{
-	padding: 200px 20px 25px 20px;
-} 
-
-.hm-msnr-grd-items ul li:nth-child(5) .hm-msnr-grd-item{
-	margin-top: -32px;
-} 
-.hm-msnr-grd-items ul li:nth-child(5) .hm-msnr-des{
-	padding: 165px 50px;
+.six{
+	top: 705px;
+	left: 880px;
+	width: 31.1966%;
 }
 
-.hm-msnr-grd-items ul li:nth-child(6) .hm-msnr-des{
-	padding: 200px 20px 25px 20px;
+
+.hm-msnry-grd-item-ctlr{
+	position: relative;
+}
+.hm-msnry-grd-item-img{
+	min-height: 640px;
+	height: 100%;
+	background-repeat: no-repeat!important;
+	background-size: cover!important;
+	background-position: center center!important;
+}
+.hm-msnry-grd-item-des{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	padding-right: 20px;
+}
+.one .hm-msnry-grd-item-img,
+.three .hm-msnry-grd-item-img{
+	min-height: 490px;
+	height: 100%;
+}
+.four .hm-msnry-grd-item-img,
+.six .hm-msnry-grd-item-img{
+	min-height: 282px;
+	height: 100%;
+}
+.five .hm-msnry-grd-item-img{
+	min-height: 385px;
+	height: 100%;
 }
 
-.hm-msnr-title{
+
+
+.hm-msnry-title{
 	display: block;
 	font-size: 22px;
 	line-height: 1.2;
@@ -64,40 +88,37 @@
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
 }
-.hm-msnr-grd-items ul li:nth-child(4) .hm-msnr-title,
-.hm-msnr-grd-items ul li:nth-child(4) .hm-msnr-des a,
-.hm-msnr-grd-items ul li:nth-child(6) .hm-msnr-title,
-.hm-msnr-grd-items ul li:nth-child(6) .hm-msnr-des a{
+.four .hm-msnry-title,
+.four .hm-msnry-grd-item-des a,
+.six .hm-msnry-title,
+.six .hm-msnry-grd-item-des a{
 	color: #1D1D1B;
 }
-.hm-msnr-des a{
+.hm-msnry-grd-item-des a{
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 0.01em;
 	padding-right: 15px;
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-ms-transition: all 0.5s;
 	position: relative;
 }
-.hm-msnr-des a:hover,
-.hm-msnr-grd-items ul li:nth-child(4) .hm-msnr-des a:hover,
-.hm-msnr-grd-items ul li:nth-child(6) .hm-msnr-des a:hover{
+.hm-msnry-grd-item-des a:hover{
 	color: #FF674D;
 }
-.hm-msnr-des a:hover svg{
-	fill: #FF674D;
-}
 
-.hm-msnr-des a i{
+.hm-msnry-grd-item-des a i{
 	position: absolute;
 	top: 50%;
 	right: 0;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
+	font-size: 12px;
 }
-.hm-msnr-grd-items ul li:nth-child(5) .hm-msnr-des a{
+.five .hm-msnry-grd-item-des{
+	margin-left: 60px;
+	margin-bottom: 150px;
+}
+.five .hm-msnry-grd-item-des a{
 	width: 274px;
 	height: 48px;
 	display: flex;
@@ -107,109 +128,105 @@
 	letter-spacing: 0.1em;
 	background: #fff;
 	border: 2px solid #fff;
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-ms-transition: all 0.5s;
 }
-.hm-msnr-grd-items ul li:nth-child(5) .hm-msnr-des a:hover{
+.five .hm-msnry-grd-item-des a:hover{
 	background: #FF674D;
 	border: 2px solid #FF674D;
 	color: #fff;
 }
 
-
-.hm-watch-sec{
-	background: url('../images/hm-watch-sec-bg.jpg');
-	background-repeat: no-repeat!important;
-	background-position: left center!important;
-}
-
-
-.hm-watch-sec-inr{
-	padding: 375px 0;
-	max-width: 650px;
+.fea-watch-des{
+	max-width: 550px;
 	width: 100%;
 	margin-left: auto;
-}
-.hm-watch-des{
 	text-align: center;
+	position: relative;
+	z-index: 3;
 }
-.hm-watch-des img{
+.fea-watch-des img{
 	display: inline-block;
 	vertical-align: baseline;
 	margin-bottom: 30px;
 }
-.hm-watch-des p,
-.hm-juwellary-des p{
+.fea-watch-des p,
+.fea-juwellary-des p{
 	font-size: 16px;
 	color: #1D1D1B;
 	margin-bottom: 20px;
 }
-.hm-watch-des a,
-.hm-juwellary-des a{
-	width: 168px;
-	height: 48px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: #1D1D1B;
-	letter-spacing: 0.01em;
-	text-transform: uppercase;
+
+.fea-juwellary-sec .dg-btn,
+.fea-watch-sec .dg-btn{
 	border: 2px solid #1D1D1B;
+	color: #1D1D1B;
 	margin-left: auto;
 	margin-right: auto;
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-}
-.hm-watch-des a:hover,
-.hm-juwellary-des a:hover{
-	background: #1D1D1B;
-	color: #fff;
+	width: 168px;
+	height: 48px;
 }
 
 
-.hm-juwellary-sec{
-	background: url('../images/hm-jwlr-bg-color.png');
+.fea-juwellary-sec,
+.fea-watch-sec{
 	background-repeat: no-repeat!important;
-	background-position: left center!important;
+	background-position: right center!important;
 	min-height: 1012px;
 	display: flex;
 	align-items: center;
 	position: relative;
 }
-.hm-juwellary-sec-inr{
+.fea-juwellary-sec-inr,
+.fea-watch-sec-inr{
 	width: 100%;
 	height: 100%;
 	display: flex;
 	align-items: center;
 }
-.hm-juwellary-sec:after{
+.fea-juwellary-sec:after,
+.fea-watch-sec:after{
 	content: "";
 	display: table;
 	min-height: inherit;
 	font-size: 0;
 }
-.hm-juwellary-sec span{
+.fea-watch-sec{
+	background-position: left center!important;
+}
+.fea-juwellary-sec span{
 	position: absolute;
 	top: 0;
-	right: 0;
+	left: 0;
+	bottom: 0;
+	background-repeat: no-repeat!important;
+	background-position: center center!important;
+	background-size: cover!important;
+	width: 100%;
 }
-.hm-juwellary-des{
-	max-width: 660px;
+.fea-watch-sec span{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-repeat: no-repeat!important;
+	background-position: center center!important;
+	background-size: 100% 100%!important;
+	width: 100%;
+}
+.fea-juwellary-des{
+	max-width: 600px;
 	width: 100%;
 	position: relative;
 	z-index: 2;
 	text-align: center;
 }
 
-.hm-jwlr-title{
+.fea-jwlr-title{
 	display: block;
 	font-size: 60px;
 	line-height: 1;
 	margin-bottom: 15px;
-	font-weight: 700;
-	font-family: 'Cabin', sans-serif;
+	font-weight: 300;
+	font-family: 'CactusLight';
 	color: #1D1D1B;
 	text-transform: capitalize;
 	letter-spacing: 0.1em;

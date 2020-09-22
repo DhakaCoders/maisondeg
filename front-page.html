@@ -20,6 +20,8 @@
   <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/fonts/custom-fonts.css">
 
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -67,6 +69,11 @@
     <!-- End of Shoriful -->
 
 
+    <symbol id="close-gray-icon-svg" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8276 7.17182C13.023 7.36705 13.023 7.68363 12.8276 7.87896L7.87797 12.8286C7.68275 13.024 7.36616 13.024 7.17083 12.8286C6.97561 12.6333 6.97561 12.3168 7.17083 12.1215L12.1206 7.17172C12.3158 6.9766 12.6324 6.9766 12.8276 7.17182Z"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M7.17083 7.17132C7.36606 6.9761 7.68265 6.9761 7.87798 7.17132L12.8278 12.121C13.0231 12.3163 13.0231 12.6329 12.8278 12.8283C12.6324 13.0235 12.316 13.0235 12.1206 12.8283L7.17083 7.87847C6.97561 7.68324 6.97561 7.36665 7.17083 7.17132Z"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M10 19C14.9706 19 19 14.9707 19 10C19 5.02944 14.9707 0.999979 10 0.999979C5.02944 0.999979 0.999979 5.02944 0.999979 10C0.999979 14.9706 5.02944 19 10 19ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47711 15.5228 0 10 0C4.47711 0 0 4.47711 0 10C0 15.5228 4.47711 20 10 20Z"/>
+    </symbol>
 
     <!-- End of Rannojit -->
 
@@ -74,8 +81,9 @@
 
 </head>
 <body>
-<header class="header">
-  <div class="container">
+<header class="header bnr-hdr">
+  <div class="hdr-cntlr">
+    <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="header-inr clearfix">
@@ -87,8 +95,136 @@
             <div class="hdr-lft">
               <nav class="main-nav">
                 <ul class="clearfix reset-list">
-                  <li><a href="#">Jewellery</a></li>
-                  <li><a href="#">watches</a></li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Jewellery</a>
+                    <div class="sub-menu-cntlr">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="sub-menu-inr clearfix">
+                              <div class="clearfix sub-menu-grds">
+                                <div class="sub-menu-grd-col sub-menu-grd-col-01">
+                                  <strong>Featured Collections</strong>
+                                  <ul class="reset-list">
+                                    <li><a href="#">Featured Collections</a></li>
+                                    <li><a href="#">Featured Collections</a></li>
+                                    <li><a href="#">Featured Collections</a></li>
+                                    <li><a href="#">Featured Collections</a></li>
+                                    <li><a href="#">Featured Collections</a></li>
+                                    <li><a href="#">Featured Collections</a></li>
+                                    <li><a href="#">Featured Collections</a></li>
+                                    <li><a href="#">Featured Collections</a></li>
+                                  </ul>
+                                </div>
+                                <div class="sub-menu-grd-col sub-menu-grd-col-02">
+                                  <strong>Highlights</strong>
+                                  <ul class="reset-list">
+                                    <li><a href="#">Christmas</a></li>
+                                    <li><a href="#">Product</a></li>
+                                    <li><a href="#">Product</a></li>
+                                  </ul>
+                                </div>
+                                <div class="sub-menu-grd-col sub-menu-grd-col-03">
+                                  <strong>Metal & Gems</strong>
+                                  <ul class="reset-list">
+                                    <li><a href="#">Ceramic</a></li>
+                                    <li><a href="#">Gold</a></li>
+                                    <li><a href="#">Diamond</a></li>
+                                    <li><a href="#">Pearls</a></li>
+                                    <li><a href="#">Gemstones</a></li>
+                                  </ul>
+                                </div>
+                                <div class="sub-menu-grd-col sub-menu-grd-col-04">
+                                  <strong>Categories</strong>
+                                  <ul class="reset-list">
+                                    <li><a href="#">Bracelets</a></li>
+                                    <li><a href="#">Earrings</a></li>
+                                    <li><a href="#">Necklaces</a></li>
+                                    <li><a href="#">Rings</a></li>
+                                  </ul>
+                                </div>
+                                <div class="sub-menu-grd-col sub-menu-grd-col-fea">
+                                  <div>
+                                    <img src="assets/images/smgcf-img-01.jpg">
+                                  </div>
+                                  <h5>Jewellery Collection</h5>
+                                  <a href="#">Shop now</a>
+                                </div>
+                              </div>
+                              <div class="menu-more-link">
+                                <a href="#">Explore all collections</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">watches</a>
+                    <div class="sub-menu-cntlr">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="sub-menu-inr clearfix">
+                              <div class="clearfix sub-menu-grds">
+                                <div class="sub-menu-grd-col sub-menu-grd-col-01">
+                                  <strong>Featured Collections</strong>
+                                  <ul class="reset-list">
+                                    <li><a href="#">Featured Collections</a></li>
+                                    <li><a href="#">Featured Collections</a></li>
+                                    <li><a href="#">Featured Collections</a></li>
+                                    <li><a href="#">Featured Collections</a></li>
+                                    <li><a href="#">Featured Collections</a></li>
+                                    <li><a href="#">Featured Collections</a></li>
+                                    <li><a href="#">Featured Collections</a></li>
+                                    <li><a href="#">Featured Collections</a></li>
+                                  </ul>
+                                </div>
+                                <div class="sub-menu-grd-col sub-menu-grd-col-02">
+                                  <strong>Highlights</strong>
+                                  <ul class="reset-list">
+                                    <li><a href="#">Christmas</a></li>
+                                    <li><a href="#">Product</a></li>
+                                    <li><a href="#">Product</a></li>
+                                  </ul>
+                                </div>
+                                <div class="sub-menu-grd-col sub-menu-grd-col-03">
+                                  <strong>Metal & Gems</strong>
+                                  <ul class="reset-list">
+                                    <li><a href="#">Ceramic</a></li>
+                                    <li><a href="#">Gold</a></li>
+                                    <li><a href="#">Diamond</a></li>
+                                    <li><a href="#">Pearls</a></li>
+                                    <li><a href="#">Gemstones</a></li>
+                                  </ul>
+                                </div>
+                                <div class="sub-menu-grd-col sub-menu-grd-col-04">
+                                  <strong>Categories</strong>
+                                  <ul class="reset-list">
+                                    <li><a href="#">Featured</a></li>
+                                    <li><a href="#">Featured</a></li>
+                                    <li><a href="#">Featured</a></li>
+                                    <li><a href="#">Featured</a></li>
+                                  </ul>
+                                </div>
+                                <div class="sub-menu-grd-col sub-menu-grd-col-fea">
+                                  <div>
+                                    <img src="assets/images/smgcf-img-01.jpg">
+                                  </div>
+                                  <h5>watches Collection</h5>
+                                  <a href="#">Shop now</a>
+                                </div>
+                              </div>
+                              <div class="menu-more-link">
+                                <a href="#">Explore all collections</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -97,12 +233,72 @@
                 <div class="fl-lang-cntlr">
                   <ul class="reset-list hide-sm">
                     <li  class="lang-active"><a href="#">English</a></li>
-                    <li><a href="#">Nederlands</a></li>
+                    <li><a href="#">French</a></li>
+                    <li><a href="#">Dutch</a></li>
                   </ul>
                 </div>
               </div>
               <div class="hdr-wishlist-btn">
                 <strong>Wishlist (0)</strong>
+                <div class="wishlist-dropdown-cntlr clearfix">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="clearfix wd-pro-grd-cols">
+                          <ul class="reset-list clearfix">
+                            <li>
+                              <div class="wd-pro-grd-col">
+                                <i>
+                                  <svg class="close-gray-icon-svg" width="20" height="20" viewBox="0 0 20 20" fill="#AEAEAE">
+                                    <use xlink:href="#close-gray-icon-svg"></use>
+                                  </svg> 
+                                </i>
+                                <a href="#">
+                                  <img src="assets/images/pro-img-01.jpg">
+                                </a>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="wd-pro-grd-col">
+                                <i>
+                                  <svg class="close-gray-icon-svg" width="20" height="20" viewBox="0 0 20 20" fill="#AEAEAE">
+                                    <use xlink:href="#close-gray-icon-svg"></use>
+                                  </svg> 
+                                </i>
+                                <a href="#">
+                                  <img src="assets/images/pro-img-02.jpg">
+                                </a>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="wd-pro-grd-col">
+                                <i>
+                                  <svg class="close-gray-icon-svg" width="20" height="20" viewBox="0 0 20 20" fill="#AEAEAE">
+                                    <use xlink:href="#close-gray-icon-svg"></use>
+                                  </svg> 
+                                </i>
+                                <a href="#">
+                                  <img src="assets/images/pro-img-03.jpg">
+                                </a>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="wishlist-dropdown-ftr">
+                          <div>
+                            <p>Send us your wish list, and we will contact you as soon as possible.</p>
+                            <div class="wishlist-dropdown-ftr-btn">
+                              <a href="#">Clear</a>
+                              <div>
+                                <a href="#" class="dg-btn">Send my wish list!</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="hdr-search">
                 <input type="search" name="">
@@ -113,91 +309,99 @@
           </div>
         </div>
       </div>
+    </div>
   </div>
 </header>
 
-<section class="hm-msnr-sec">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="hm-msnr-sec-inr">
-          <div class="hm-msnr-grd-items">
-            <ul class="reset-list clearfix">
-              <li>
-                <div class="hm-msnr-grd-item">
-                  <div class="hm-msnr-des inline-bg" style="background: url('assets/images/hm-msnr-img-01.jpg');">
-                    <h3 class="hm-msnr-title">Integer facilisis condimentum turpis non ornare. (h3)</h3>
-                    <a href="#">
-                      <i>
-                        <svg class="hm-msnr-rgt-white-arrow-svg" width="4" height="6" viewBox="0 0 4 6" fill="#fff">
-                          <use xlink:href="#hm-msnr-rgt-white-arrow-svg"></use>
-                        </svg> 
-                      </i>
-                      Read more
-                    </a>
+<section class="home-banner-cntlr clearfix">
+  <ul class="reset-list">
+    <li>
+      <div class="hm-bnr-grd-col inline-bg" style="background: url(assets/images/hm-bnr-grd-col-fea-img-01.jpg);">
+        
+      </div>
+    </li>
+    <li>
+      <div class="hm-bnr-grd-col inline-bg" style="background: url(assets/images/hm-bnr-grd-col-fea-img-02.jpg);">
+        
+      </div>
+    </li>
+  </ul>
+</section>
+
+<section class="hm-msnry-sec">
+  <div class="hm-msnry-sec-inr">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="hm-msnry-sec-ctlr">
+            <div class="hm-msnry-grd-items">
+              <div class="hm-msnry-grd-item one">
+                <div class="hm-msnry-grd-item-ctlr">
+                  <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-01.jpg');">
+                    
+                  </div>
+                  <div class="hm-msnry-grd-item-des">
+                    <h3 class="hm-msnry-title">Integer facilisis condimentum turpis non ornare. (h3)</h3>
+                    <a href="#"><i class="fas fa-caret-right"></i>Read more</a>
                   </div>
                 </div>
-              </li>
-              <li>
-                <div class="hm-msnr-grd-item">
-                  <div class="hm-msnr-des inline-bg" style="background: url('assets/images/hm-msnr-img-02.jpg');">
+              </div>
+              <div class="hm-msnry-grd-item two">
+                <div class="hm-msnry-grd-item-ctlr">
+                  <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-02.jpg');">
+                    
+                  </div>
+                  <div class="hm-msnry-grd-item-des">
+                    
                     
                   </div>
                 </div>
-              </li>
-              <li>
-                <div class="hm-msnr-grd-item">
-                  <div class="hm-msnr-des inline-bg" style="background: url('assets/images/hm-msnr-img-03.jpg');">
-                    <h3 class="hm-msnr-title">In odio augue, laoreet eget velit sit amet varius. (h3)</h3>
-                    <a href="#">
-                      <i>
-                        <svg class="hm-msnr-rgt-white-arrow-svg" width="4" height="6" viewBox="0 0 4 6" fill="#fff">
-                          <use xlink:href="#hm-msnr-rgt-white-arrow-svg"></use>
-                        </svg> 
-                      </i>
-                      Read more
-                    </a>
+              </div>
+              <div class="hm-msnry-grd-item three">
+                <div class="hm-msnry-grd-item-ctlr">
+                  <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-03.jpg');">
+                    
+                  </div>
+                  <div class="hm-msnry-grd-item-des">
+                    <h3 class="hm-msnry-title">In odio augue, laoreet eget velit sit amet varius. (h3)</h3>
+                    <a href="#"><i class="fas fa-caret-right"></i>Read more</a>
                   </div>
                 </div>
-              </li>
-              <li>
-                <div class="hm-msnr-grd-item">
-                  <div class="hm-msnr-des inline-bg" style="background: url('assets/images/hm-msnr-img-04.jpg');">
-                    <h3 class="hm-msnr-title">Zenith</h3>
-                    <a href="#">
-                      <i>
-                        <svg class="hm-msnr-rgt-black-arrow-svg" width="4" height="6" viewBox="0 0 4 6" fill="#1D1D1B">
-                          <use xlink:href="#hm-msnr-rgt-black-arrow-svg"></use>
-                        </svg> 
-                      </i>
-                      Shop now
-                    </a>
+              </div>
+              <div class="hm-msnry-grd-item four">
+                <div class="hm-msnry-grd-item-ctlr">
+                  <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-04.jpg');">
+                    
+                  </div>
+                  <div class="hm-msnry-grd-item-des">
+                    <h3 class="hm-msnry-title">Zenith</h3>
+                    <a href="#"><i class="fas fa-caret-right"></i>Shop now</a>
                   </div>
                 </div>
-              </li>
-              <li>
-                <div class="hm-msnr-grd-item">
-                  <div class="hm-msnr-des inline-bg" style="background: url('assets/images/hm-msnr-img-05.jpg');">
+              </div>
+              <div class="hm-msnry-grd-item five">
+                <div class="hm-msnry-grd-item-ctlr">
+                  <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-05.jpg');">
+                    
+                  </div>
+                  <div class="hm-msnry-grd-item-des">
+                    
                     <a href="#">Make an appointment</a>
                   </div>
                 </div>
-              </li>
-              <li>
-                <div class="hm-msnr-grd-item">
-                  <div class="hm-msnr-des inline-bg" style="background: url('assets/images/hm-msnr-img-06.jpg');">
-                    <h3 class="hm-msnr-title">Jewellery Collection</h3>
-                    <a href="#">
-                      <i>
-                        <svg class="hm-msnr-rgt-black-arrow-svg" width="4" height="6" viewBox="0 0 4 6" fill="#1D1D1B">
-                          <use xlink:href="#hm-msnr-rgt-black-arrow-svg"></use>
-                        </svg> 
-                      </i>
-                      Shop now
-                    </a>
+              </div>
+              <div class="hm-msnry-grd-item six">
+                <div class="hm-msnry-grd-item-ctlr">
+                  <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-06.jpg');">
+                    
+                  </div>
+                  <div class="hm-msnry-grd-item-des">
+                    <h3 class="hm-msnry-title">Jewellery Collection</h3>
+                    <a href="#"><i class="fas fa-caret-right"></i>Shop now</a>
                   </div>
                 </div>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -212,13 +416,13 @@
         <div class="col-md-12">
           <div class="h-our-history-inr">
             <div class="h-our-history-img">
-              <a href="#">
+              <i>
                 <img src="assets/images/h-our-history-icon.svg" alt="">
-              </a>
+              </i>
             </div>
             <p>Maison De Greef is a jewellery creator and watchmaker curator situated in central Brussels, the<br> beating heart of Europe. Since 1848, it has assisted customers as they celebrate their most<br> significant life events.</p>
             <div class="h-our-history-btn">
-              <a class="btn" type="button" href="#">Our history</a>
+              <a class="dg-btn" type="button" href="#">Our history</a>
             </div>
           </div>
         </div>
@@ -235,46 +439,49 @@
           <ul class="reset-list">
             <li>
               <div class="about-grid-item mHc">
-                <a class="overlay-link" href="#"></a>
                 <div class="about-grid-item-img-cntlr">
                   <div class="about-grid-item-img inline-bg" style="background: url('assets/images/about-grid-item-img-001.jpg');"></div>
                 </div>
-                <h3 class="about-grid-item-title mHc1">Services  (h3)</h3>
-                <div class="about-grid-item-des mHc2">
-                  <p>At Maison De Greef, your needs are our priority. We always offer a personal welcome, accredited advisors, and tailored guidance. Our bespoke services will ensure your experience is unforgettable.</p>
-                </div>
-                <div class="about-grid-item-btn">
-                  <a href="#"> <i class="fas fa-caret-right"></i>Find out more</a>  
+                <div class="about-grid-item-desc">
+                  <h3 class="about-grid-item-title mHc1"><a href="#">Services  (h3)</a></h3>
+                  <div class="about-grid-item-des mHc2">
+                    <p>At Maison De Greef, your needs are our priority. We always offer a personal welcome, accredited advisors, and tailored guidance. Our bespoke services will ensure your experience is unforgettable.</p>
+                  </div>
+                  <div class="about-grid-item-btn">
+                    <a href="#"> <i class="fas fa-caret-right"></i>Find out more</a>  
+                  </div>
                 </div>
               </div>
             </li>
             <li>
               <div class="about-grid-item mHc">
-                <a class="overlay-link" href="#"></a>
                 <div class="about-grid-item-img-cntlr">
                   <div class="about-grid-item-img inline-bg" style="background: url('assets/images/about-grid-item-img-002.jpg');"></div>
                 </div>
-                <h3 class="about-grid-item-title mHc1">Services  (h3)</h3>
-                <div class="about-grid-item-des mHc2">
-                  <p>Since our family business was founded almost two centuries ago, it has seen six generations, six eras and six unique visions. From 1848 to the present, Maison De Greef has been continually renewed, enriched and expanded to cater to your ever-evolving needs.</p>
-                </div>
-                <div class="about-grid-item-btn">
-                  <a href="#"> <i class="fas fa-caret-right"></i>About us</a>  
+                <div class="about-grid-item-desc">
+                  <h3 class="about-grid-item-title mHc1"><a href="#">Services  (h3)</a></h3>
+                  <div class="about-grid-item-des mHc2">
+                    <p>Since our family business was founded almost two centuries ago, it has seen six generations, six eras and six unique visions. From 1848 to the present, Maison De Greef has been continually renewed, enriched and expanded to cater to your ever-evolving needs.</p>
+                  </div>
+                  <div class="about-grid-item-btn">
+                    <a href="#"> <i class="fas fa-caret-right"></i>About us</a>  
+                  </div>
                 </div>
               </div>
             </li>
             <li>
               <div class="about-grid-item mHc">
-                <a class="overlay-link" href="#"></a>
                 <div class="about-grid-item-img-cntlr">
                   <div class="about-grid-item-img inline-bg" style="background: url('assets/images/about-grid-item-img-003.jpg');"></div>
                 </div>
-                <h3 class="about-grid-item-title mHc1">know how  (h3)</h3>
-                <div class="about-grid-item-des mHc2">
-                  <p>Ut tempus scelerisque consectetur arcu orci, quisque. Tincidunt viverra eget diam eget posuere nulla. Viverra viverra vel arcu leo dictum ultrices enim.</p>
-                </div>
-                <div class="about-grid-item-btn">
-                  <a href="#"> <i class="fas fa-caret-right"></i>learn more</a>  
+                <div class="about-grid-item-desc">
+                  <h3 class="about-grid-item-title mHc1"><a href="#">know how  (h3)</a></h3>
+                  <div class="about-grid-item-des mHc2">
+                    <p>Ut tempus scelerisque consectetur arcu orci, quisque. Tincidunt viverra eget diam eget posuere nulla. Viverra viverra vel arcu leo dictum ultrices enim.</p>
+                  </div>
+                  <div class="about-grid-item-btn">
+                    <a href="#"> <i class="fas fa-caret-right"></i>learn more</a>  
+                  </div>
                 </div>
               </div>
             </li>
@@ -286,28 +493,28 @@
 </section>
 
 
-<section class="hm-watch-sec">
-  <!-- <span class="hm-watch-bg-color"></span> -->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="hm-watch-sec-inr">
-          <div class="hm-watch-des">
+<section class="fea-watch-sec" style="background: url('assets/images/hm-watch-sec-bg.jpg');">
+  <div class="fea-watch-sec-inr">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="fea-watch-des">
             <img src="assets/images/hm-watch-img-01.png">
-            <p>Discover our Patek Philippe selection, a perfect combination of <br> tradition and technology.</p>
-            <a href="#">Shop now</a>
+            <p>Discover our Patek Philippe selection, a perfect combination of tradition and technology.</p>
+            <a class="dg-btn" href="#">Shop now</a>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <span style="background: url('assets/images/fea-watch-bg-color.png');"></span>
 </section>
 
-<section class="image-text-grid">
+<section class="image-text-grids">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="image-text-grid-inr">
+          <div class="image-text-grid-cntlr">
             <div class="image-text-grid-fea-img-cntlr">
               <div class="image-text-grid-fea-img inline-bg" style="background: url('assets/images/image-text-grid-fea-img-001.jpg');">
                 
@@ -317,7 +524,7 @@
               <h4 class="image-text-grid-title">Any questions?  (h4)</h4>
               <p>Maison De Greef is at your disposal to answer any questions you may have. </p>
               <div class="image-text-grid-btn">
-                <a class="btn" type="button" href="#">Contact us</a>
+                <a class="dg-btn" type="button" href="#">Contact us</a>
               </div>
             </div>
           </div>
@@ -327,30 +534,30 @@
 </section>
 
 
-<section class="hm-juwellary-sec">
-  <div class="hm-juwellary-sec-inr">
+<section class="fea-juwellary-sec" style="background: url('assets/images/hm-juwellary-sec-bg.png');">
+  <div class="fea-juwellary-sec-inr">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="hm-juwellary-des">
-            <h2 class="hm-jwlr-title">Wedding (h2)</h2>
-            <p>Whether your style is classic or modern, choosing an engagement or <br> wedding ring demands our full attention. At your side, we take the <br> time to know your tastes and wishes in order to guide you in your <br> choice among our remarkable collections.</p>
-            <a href="#">Shop now</a>
+          <div class="fea-juwellary-des">
+            <h2 class="fea-jwlr-title">Wedding (h2)</h2>
+            <p>Whether your style is classic or modern, choosing an engagement or wedding ring demands our full attention. At your side, we take the time to know your tastes and wishes in order to guide you in your choice among our remarkable collections.</p>
+            <a class="dg-btn" href="#">Shop now</a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <span>
-    <img src="assets/images/hm-juwellary-sec-bg.jpg">
+  <span style="background: url(assets/images/hm-jwlr-bg-color.png);">
+    <!-- <img src="assets/images/hm-jwlr-bg-color.png"> -->
   </span>
 </section>
 
-<section class="image-text-grid">
+<section class="image-text-grids">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="image-text-grid-inr itg-odd">
+          <div class="image-text-grid-cntlr itg-odd">
             <div class="image-text-grid-fea-img-cntlr">
               <div class="image-text-grid-fea-img inline-bg" style="background: url('assets/images/image-text-grid-fea-img-002.jpg');">
 
@@ -360,7 +567,7 @@
               <h4 class="image-text-grid-title">Microscope  (h4)</h4>
               <p>As exceptional design lies in the details, we offer microscope demonstrations in-store.</p>
               <div class="image-text-grid-btn itg-odd-btn">
-                <a class="btn" type="button" href="#">Book a demonstration</a>
+                <a class="dg-btn" type="button" href="#">Book a demonstration</a>
               </div>
             </div>
           </div>
@@ -403,7 +610,7 @@
               <div class="ftr-col-tp-bdr clearfix">
                 <ul class="reset-list clearfix">
                   <li>
-                    <div class="ful-wth-slct"> 
+                    <div class="dg-select-field"> 
                       <div class="select-input">
                         <div class="select-dep">
                           <select class="selectpicker">
@@ -502,7 +709,7 @@
                       <div class="from-group">
                        <ul class="reset-list clearfix">
                          <li>
-                           <div class="ful-wth-slct"> 
+                           <div class="dg-select-field"> 
                              <div class="select-input">
                               <div class="select-dep">
                                 <select class="selectpicker">
@@ -520,7 +727,7 @@
                       <div class="from-group">
                        <ul class="reset-list clearfix">
                          <li>
-                           <div class="ful-wth-slct"> 
+                           <div class="dg-select-field"> 
                              <div class="select-input">
                               <div class="select-dep">
                                 <select class="selectpicker">

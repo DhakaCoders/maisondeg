@@ -19,7 +19,8 @@
 
 
 /*----- Start of Shoriful -----*/
-
+@import url('_jewellery-landing-page.css');
+@import url('_jewellery-collections-overview.css');
 
 
 
@@ -29,6 +30,7 @@
 @import url('_watch-brands-overview.css');
 @import url('_team.css');
 @import url('_blog-overview.css');
+@import url('_about.css');
 
 
 

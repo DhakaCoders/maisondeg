@@ -1,0 +1,158 @@
+.jco-sec{
+	padding: 115px 0 200px;
+	background: #E5E5E5;
+}
+.jco-entry-hdr{
+	text-align: center;
+}
+.jco-entry-hdr-title{
+	display: block;
+	font-size: 60px;
+	line-height: 1;
+	margin-bottom: 40px;
+	font-weight: 300;
+	text-transform: capitalize;
+	color: #1D1D1B;
+	letter-spacing: 0.1em;
+	font-family: 'CactusLight';
+}
+.jco-entry-hdr p{
+	font-size: 22px;
+	line-height: 1.4;
+	color: #1D1D1B;
+	font-weight: 200;
+	margin-bottom: 110px;
+}
+
+
+.jco-grd-items{
+	padding-top: 200px;
+	padding-bottom: 120px;
+}
+.first-item{
+	padding-top: 0;
+}
+.jco-grd-items ul{
+	margin-left: -12px;
+	margin-right: -12px;
+}
+.jco-grd-items ul li{
+	float: left;
+	width: 33.3333%;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 78px;
+}
+
+
+
+.jco-grd-item-ctlr{
+	position: relative;
+}
+.jco-grd-item-img{
+	min-height: 640px;
+	height: 100%;
+	background-size: 100% 100%!important;
+}
+.jco-grd-item-des{
+	position: absolute;
+	left: 35px;
+	bottom: 35px;
+}
+.jco-grd-item-title{
+	display: block;
+	font-size: 60px;
+	line-height: 1;
+	margin-bottom: 20px;
+	font-weight: 300;
+	color: #1D1D1B;
+	text-transform: capitalize;
+	letter-spacing: 0.1em;
+	font-family: 'CactusLight';
+}
+.jco-grd-item-des a{
+	color: #1D1D1B;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	padding-right: 15px;
+	position: relative;
+}
+.jco-grd-item-des a i{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+}
+
+.jco-wedding{
+	background-repeat: no-repeat!important;
+	background-position: center center!important;
+	background-size: 100% 100%!important;
+	min-height: 550px;
+	display: flex;
+	align-items: center;
+}
+.jco-wedding-ctlr{
+	max-width: 650px;
+	width: 100%;
+	text-align: center;
+	padding-left: 50px;
+}
+.jco-wedding-title{
+	display: block;
+	font-size: 60px;
+	line-height: 1;
+	margin-bottom: 20px;
+	font-weight: 300px;
+	color: #1D1D1B;
+	letter-spacing: 0.1em;
+	text-transform: capitalize;
+	font-family: 'CactusLight';
+}
+.jco-wedding-ctlr p{
+	font-size: 16px;
+	color: #1D1D1B;
+	margin-bottom: 20px;
+}
+.jco-wedding .dg-btn{
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #1D1D1B;
+	color: #1D1D1B;
+	width: 168px;
+	height: 48px;
+}
+
+.jco{
+	position: relative;
+}
+.scroll-btn{
+	position: absolute;
+	right: 45px;
+	bottom: 20%;
+}
+.scroll-btn a{
+	display: block;
+	width: 94px;
+	height: 94px;
+	border: 2px solid #1D1D1B;
+	background: transparent;
+	border-radius: 100%;
+	position: relative;
+	margin-bottom: 15px;
+}
+.scroll-btn a img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.scroll-btn span{
+	display: block;
+	font-size: 28px;
+	color: #1D1D1B;
+	letter-spacing: 0.1em;
+	text-transform: capitalize;
+	font-weight: 500;
+	font-family: 'CactusMedium';
+}

@@ -25,3 +25,39 @@
 	width: 16px;
 	height: 16px;
 }
+
+
+.gray-gradient-bg{
+	/*background: linear-gradient(180deg, #F2F2F2 0%, rgba(255, 255, 255, 0) 100%);*/
+}
+
+.fl-tab-content{
+	display: none;
+}
+.fl-tab-content.current{
+	display: block;
+}
+.tab-link{
+	width: 212px;
+	height: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 24px;
+	background: #F8F8F8;
+	cursor: pointer;
+	border: none;
+}
+.tab-link.current{
+	color: #FFFFFF;
+	background: #1D1D1B;
+}
+.fl-tabs{
+	display: flex;
+	justify-content: center;
+}
+.fl-tabs > div{
+	padding: 0 18px;
+}
