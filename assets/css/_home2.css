@@ -22,6 +22,11 @@
 	max-width: 820px;
 	margin: 0 auto;
 }
+.h-our-history-inr .dg-hb-btn:hover{
+	border-color: #fff;
+	color: #000;
+	background: #fff;
+}
 .h-our-history-inr p{
 	font-size: 16px;
 	margin-bottom: 38px;
@@ -35,9 +40,6 @@
 }
 .services-grids{
 	padding: 200px 0 110px 0;
-}
-.services-grids-cntlr{
-
 }
 .services-grids-cntlr > ul{
 	display: flex;
@@ -53,44 +55,44 @@
 .services-grids-cntlr > ul > li:nth-child(3n+1){
 	clear: left;
 }
-.services-grids-item{
+.service-grid-item{
 	
 }
-.services-grids-item:hover .services-grids-item-img{
+.service-grid-item:hover .service-grid-item-img{
 	transform: scale(1.1);
 }
-.services-grids-item-img-cntlr{
+.service-grid-item-img-cntlr{
 	overflow: hidden;
 	height: 320px;
 	position: relative;
 	margin-bottom: 38px;
 }
-.services-grids-item-img{
+.service-grid-item-img{
 	height: 100%;
 	width: 100%;
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
-.services-grids-item-title{
+.service-grid-item-title{
 	font-size: 36px;
 	font-family: 'CactusMedium';
 	margin-bottom: 27px;
 	line-height: 1;
 }
-.services-grids-item-title a{
+.service-grid-item-title a{
 	color: #1D1D1B;
 }
-.services-grids-item-title a:hover{
+.service-grid-item-title a:hover{
 	color: #FF674D;
 }
-.services-grids-item-des{
+.service-grid-item-des{
 	margin-bottom: 37px;
 }
-.services-grids-item-des > p{
+.service-grid-item-des > p{
 	margin-bottom: 0;
 }
-.services-grids-item-desc-cntlr > a{
+.service-grid-item-desc-cntlr > a{
 	display: inline-block;
 	position: relative;
 	padding-right: 15px;
@@ -102,7 +104,7 @@
 	-ms-transition: all 0.1s;
 	-webkit-transition: all 0.1s;
 }
-.services-grids-item-desc-cntlr > a i{
+.service-grid-item-desc-cntlr > a i{
 	position: absolute;
 	right: 0;
 	top: 50%;
@@ -111,10 +113,10 @@
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
-.services-grids-item-desc-cntlr > a:hover i{
+.service-grid-item-desc-cntlr > a:hover i{
 	right: -4px;
 }
-.services-grids-item-desc-cntlr > a:hover{
+.service-grid-item-desc-cntlr > a:hover{
 	color: #FF674D;
 }
 
@@ -175,6 +177,11 @@
 }
 
 /*responsive*/
+@media(max-width: 1199px){
+	.h-our-history{
+		min-height: 980px;
+	}
+}
 @media(max-width: 1199px){
 	.h-our-history{
 		min-height: 920px;

@@ -1,0 +1,211 @@
+
+.video-fencybox{
+	padding: 132px 0 32px 0;
+}
+.video-fencybox-inr{
+	text-align: center;
+}
+.vf-title{
+	font-size: 60px;
+	text-transform: capitalize;
+	color: #1D1D1B;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+.vf-sub-title{
+	margin-bottom: 65px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.video-fencybox-inr p{
+	margin-bottom: 80px;
+}
+.video-fencybox-cntlr{
+	overflow: hidden;
+	height: 770px;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+}
+.vf-video-play{
+	color: #000;
+	width: 88px;
+	height: 88px;
+	border: 2px solid #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	font-family: FontAwesome;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+.vf-video-play:hover{
+	color: #fff;
+	border-color: #fff;
+}
+.video-fencybox-cntlr:hover .vf-img{
+	transform: scale(1.08);
+}
+.vf-img{
+	height: 100%;
+	width: 100%;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.vf-video-play-cntlr{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 11;
+}
+.vf-cntlr-video-title{
+	font-size: 60px;
+}
+.vf-cntlr-video-title a{
+	display: inline-block;
+	color: #1D1D1B;
+}
+.vf-cntlr-video-title a:hover{
+	color: #fff;
+}
+
+.ring-products{
+
+}
+.ring-products-inr{
+
+}
+.ring-products-inr > ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+.ring-products-inr > ul > li{
+	padding: 0 14px;
+	position: relative;
+	margin-bottom: 28px;
+}
+.ring-products-inr > ul > li:after{
+	content: "";
+	position: absolute;
+	right: -3px;
+	top: 4px;
+	background: url('../images/collection-pg-menu-icon.png');
+	width: 7px;
+	height: 17px;
+}
+.ring-products-inr > ul > li:last-child:after{
+	content: none;
+}
+.ring-products-inr > ul > li > a{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #1D1D1B;
+}
+.ring-products-inr > ul > li > a:hover,
+.ring-products-inr > ul > li.current-item > a{
+	color: #FF674D;
+}
+.ring-products-cntlr{
+
+}
+.ring-products-cntlr > ul{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 -13px;
+}
+.ring-products-cntlr > ul > li{
+	padding: 0 13px;
+	width: 33.33%;
+	margin-bottom: 45px;
+}
+.ring-products-cntlr > ul > li:nth-child(3n+1){
+	clear: left;
+}
+.ring-product-item{
+	position: relative;
+	background: #fff;
+}
+.ring-product-item-img{
+	min-height: 440px;
+	z-index: 1;
+}
+.ring-product-item:hover .ring-product-item-hover{
+	transform: scale3d(1,1,1);
+}
+.ring-product-item:hover .ring-product-item-img{
+	opacity: 0;
+}
+.ring-product-item-hover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 25px;
+	border: 2px solid #FF674D;
+	transform: scale3d(1,0,1);
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	background: #fff;
+	z-index: 3;
+}
+.ring-product-item-hover-img-cntlr{
+	height: 320px;
+	position: relative;
+	margin-bottom: 60px;
+}
+.ring-product-item-hover-img{
+	height: 100%;
+	width: 100%;
+}
+.wished-card-icon{
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-family: FontAwesome;
+	color: #1D1D1B;
+	z-index: 22;
+}
+.wished-card-icon:hover,
+.active{
+	color: red;
+}
+.ring-product-item-hover-desc{
+	text-align: center;
+}
+.ring-product-item-hover-title{
+	font-size: 36px;
+	line-height: 1;
+	margin-bottom: 22px;
+}
+.ring-product-item-hover-desc a{
+	display: inline-block;
+	padding-right: 15px;
+	position: relative;
+	color: #1D1D1B;
+}
+.ring-product-item-hover-desc a i{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+	margin-top: 1px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.ring-product-item-hover-desc a:hover{
+	color: #FF674D;
+}
+.ring-product-item-hover-desc a:hover i{
+	margin-right: -5px;
+}
