@@ -322,19 +322,22 @@ form .dropdown-menu li a{
 
 
 /* buttons */
-.dg-btn{
-	display: flex;
-    align-items: center;
-    justify-content: center;
+.dg-btn,
+.dg-hb-btn{
+	display: inline-block;
     font-size: 14px;
     line-height: 1;
     font-weight: 400;
     border: 2px solid #fff;
     background: transparent;
     color: #fff;
-    width: 194px;
-    height: 52px;
+    min-width: 168px;
+    text-align: center;
     text-transform: uppercase;
+    padding: 16px 45px 14px 45px;
+}
+.dg-hb-btn{
+    padding: 18px 45px 16px 45px;
 }
 
 

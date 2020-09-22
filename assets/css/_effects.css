@@ -34,7 +34,9 @@ nav.main-nav ul li.current-menu-item a{
 
 /*button hover */
 
-.dg-btn:hover{
-	border-color: #FF674D;
-	color: #FF674D;
+.dg-btn:hover,
+.dg-hb-btn:hover{
+	border-color: #1D1D1B;
+	color: #fff;
+	background: #1D1D1B;
 }

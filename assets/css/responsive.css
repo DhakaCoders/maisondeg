@@ -39,6 +39,9 @@
 	.show-md{
 		display: block!important;
 	}
+	br{
+		display: none;
+	}
 	h1{
 		font-size: 60px;
 	}
@@ -51,7 +54,6 @@
 	h4{
 		font-size: 18px;
 	}
-
 }
 
 @media(max-width: 767px){
