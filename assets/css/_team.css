@@ -256,7 +256,7 @@ tm-post-grid-sec-wrp
     background-color: #fff !important;
     border: 0 !important;
     border-radius: 0 !important;
-    padding: 60px 30px 30px 30px;
+    padding: 60px 50px 30px 50px;
 }
 .tm-model-sec-wrp .modal-header {
     border: 0 !important;
@@ -301,7 +301,7 @@ tm-post-grid-sec-wrp
 	background-size: cover !important;
 }
 .tm-model-dsc-rgt{
-	padding-left: 20px;
+	padding-left: 30px;
 	width: 55%;
 	float: right;
 }
@@ -323,7 +323,7 @@ tm-post-grid-sec-wrp
 	letter-spacing: 0.04em;
 	color: #FF674D;
 	font-weight: 300;
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 }
 .tm-model-dsc p strong{
 	color: #1D1D1B;
