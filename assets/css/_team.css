@@ -8,6 +8,9 @@ team-member-sec-wrp
 	padding-top: 60px;
 	padding-bottom: 120px;
 }
+.team-member-sec-wrp .wb-gallery-head-title{
+	margin-bottom: 45px;
+}
 .tm-back-btn{
 	padding-bottom: 30px;
 }
@@ -47,6 +50,7 @@ team-member-sec-wrp
 }
 .team-member-sec-wrp .wb-gallery-head{
 	margin-bottom: 90px;
+	max-width: 880px;
 }
 .team-member-sec-wrp .wb-gallery-head p{
 	margin-bottom: 0;
@@ -144,8 +148,7 @@ team-member-sec-wrp
 	display: block;
 	font-size: 36px;
 	color: #1D1D1B;
-	font-weight: 600;
-	margin-bottom: 15px;
+	margin-bottom: 8px;
 	font-family: 'CactusMedium';
 }
 .team-member-grid-dsc span{
@@ -153,6 +156,7 @@ team-member-sec-wrp
 	vertical-align: baseline;
 	font-size: 14px;
 	color: #FF674D;
+	letter-spacing: 0;
 }
 
 /*

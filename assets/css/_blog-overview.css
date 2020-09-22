@@ -38,8 +38,8 @@ blg-tabs-sec-wrp
 	right: -3px;
 	top: 0;
 	bottom: 0;
-	font-size: 16px;
-	line-height: 18px;
+	font-size: 14px;
+	line-height: 16px;
 	color: #E8E8E8;
 	font-weight: 600;
 }
@@ -71,7 +71,7 @@ blg-tabs-sec-wrp
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	padding: 0 45px 45px 45px;
+	padding: 0 50px 55px;
 }
 .blg-tabs-gird-dsc-title{
 	display: block;

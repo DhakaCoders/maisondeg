@@ -79,9 +79,10 @@
 .ftr-col ul li{
     padding: 0;
     margin-bottom: 15px;
-    font-weight: 300;
     font-size: 14px;
     line-height: 24px;
+}
+.ftr-col-2 ul li{
     font-family: 'MontserratRegular';
 }
 .ftr-col-4 ul li span,
@@ -92,6 +93,7 @@
 .ftr-col ul li a {
     color: #7D7D7D;
 }
+.ftr-btm-col ul li a:hover,
 .ftr-social ul li a:hover,
 .ftr-col ul li a span:hover,
 .ftr-col ul li a:hover{
@@ -123,7 +125,6 @@
     font-size: 14px;
     line-height: 16px;
     color: #7D7D7D;
-    font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
 .ftr-top-newsletter .from-group input:focus{
@@ -149,7 +150,7 @@
 	background: url(../images/down-icon.png);
 	background-repeat: no-repeat;
 	right: 0;
-	top: 5px;
+	top: 6px;
 }
 .ftr-btm-col{
 	border-top: 4px solid#f8f8f8;
@@ -239,7 +240,7 @@
     margin-right: -10px;
 }
 .footer-top-dsc p{
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 .footer-top-dsc-title{
     display: block;
@@ -260,4 +261,8 @@
     text-transform: uppercase;
     border: 2px solid #1D1D1B;
     padding: 14px 45px;
+}
+.footer-top-dsc a:hover{
+    color: #FF674D;
+    border-color:#FF674D; 
 }
