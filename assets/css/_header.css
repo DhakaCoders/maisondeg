@@ -613,8 +613,11 @@ header.bnr-hdr{
 /*--page banner--*/
 .page-bnr-cntlr{
 	position: relative;
-	overflow: hidden;
 	text-align: center;
+}
+.page-bnr-cntlr-inr{
+   overflow: hidden;
+   position: relative;
 }
 .page-banner{
 	height: 1024px;
@@ -675,4 +678,14 @@ header.bnr-hdr{
 	bottom: 0;
 	background: rgba(0,0,0,.2);
 	z-index: 2;
+}
+
+.page-bnr-cnter-logo{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	bottom: -104px;
+	z-index: 5;
 }
