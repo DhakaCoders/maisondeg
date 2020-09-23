@@ -89,7 +89,7 @@ Desktop---->
 
 3. https://prnt.sc/umi8zf
 	ai item gulo te click korle modal ta ber hobe
-	2 ta grd a kore rakho , sob grd gulo te dite hobe na
+	2 ta grd a kore rakho , sob grd gulo te dite hobe na <baki ache>
 
 4. https://prnt.sc/umib7o
 	ai img ta upore bosao, overlay img ta badh daw
@@ -116,7 +116,7 @@ Desktop---->
 
 2. https://prnt.sc/umiity
 	ai 2 ta button a click korle , scroll kor nicher section a jabe
-	amader j scroll-to function ta ache , seta use korte hobe
+	amader j scroll-to function ta ache , seta use korte hobe<baki ache>
 
 3. https://prnt.sc/umijqb
 	hover korle bg black and text white daw

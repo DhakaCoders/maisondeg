@@ -75,9 +75,8 @@
 	font-size: 24px;
 	line-height: 26px;
 	color: #1D1D1B;
-	font-weight: 600;
+	font-weight: normal;
 	margin-bottom: 25px;
-    font-family: 'CactusMedium';
 }
 .ftr-col ul li span,
 .ftr-col ul li{
@@ -85,9 +84,10 @@
     margin-bottom: 15px;
     font-size: 14px;
     line-height: 24px;
+    letter-spacing: 0.06em;
 }
 .ftr-col-2 ul li{
-    font-family: 'MontserratRegular';
+    font-family: 'Montserrat', sans-serif;
 }
 .ftr-col-4 ul li span,
 .ftr-col-4 ul li{
@@ -130,12 +130,16 @@
     line-height: 16px;
     color: #7D7D7D;
     font-weight: 300;
+    letter-spacing: 0.06em;
 }
 .ftr-top-newsletter .from-group input:focus{
 	border-color: #000;
 }
-.from-group-sub button{
-    width: 100%;
+.ftr-top-newsletter .bootstrap-select .dropdown-menu li a span.text{
+    display: inline-block;
+    margin-bottom: 0 !important;
+}
+.from-group-sub button {
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
@@ -145,6 +149,9 @@
     background: transparent;
     padding-right: 15px;
     margin-top: 6px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    float: right;
 }
 .from-group-sub button:after{
 	content: "";
@@ -155,6 +162,12 @@
 	background-repeat: no-repeat;
 	right: 0;
 	top: 6px;
+}
+.from-group-sub button:hover:after{
+    background: url(../images/down-icon-hover.png);
+}
+.from-group-sub button:hover{
+    color: #FF674D;
 }
 .ftr-btm-col{
 	border-top: 4px solid#f8f8f8;
@@ -178,7 +191,7 @@
     color: #7D7D7D;
     display: inline-block;
     vertical-align: baseline;
-    font-family: 'MontserratRegular';
+     font-family: 'Montserrat', sans-serif;
 }
 .ftr-btm-col ul li a::after {
     content: "" !important;
@@ -187,10 +200,7 @@
     height: 1px;
     background: #7D7D7D;
     top: 50%;
-    right: -8px;
-}
-.ftr-btm-col ul li:last-of-type a::after{
-	content: none !important;
+    left: -8px;
 }
 .from-group ul li{
 	margin-bottom: 0 !important;
@@ -207,6 +217,7 @@
 	text-transform: capitalize;
 	color: #7D7D7D;
 	font-weight: 300;
+    letter-spacing: 0.1em;
 }
 .from-group .ful-wth-slct .bootstrap-select {
     text-transform: capitalize !important;
@@ -259,6 +270,10 @@
     text-transform: uppercase;
     border: 2px solid #1D1D1B;
     padding: 14px 45px;
+}
+.footer-top-dsc a:hover{
+    background:#000;
+    color: #fff;
 }
 
 

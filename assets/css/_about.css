@@ -6,6 +6,15 @@
 .about-image-text-grids{
 	padding-top: 280px;
 	padding-bottom: 200px;
+	position: relative;
+}
+.about-image-text-grids span{
+	position: absolute;
+	top: -75px;
+	left: 50%;
+	transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
 }
 .about-image-text-grids-prd .itg-odd .image-text-grid-desc{
 	padding-right: 60px;
@@ -56,8 +65,8 @@
 	height: 6px;
 }
 .about-text-grid-btn a:hover{
-	color: #FF674D;
-	border-color: #FF674D;
+	color: #fff;
+	background: #000;
 }
 .about-text-grid-btn a:hover:after{
 	background:url(../images/image-text-angle-hover.svg);
@@ -65,6 +74,7 @@
 .about-image-text-grids-prd{
 	padding-top: 180px;
 	padding-bottom: 190px;
+	background:#f8f8f8;
 }
 
 .about-fea-juwellary-sec .fea-juwellary-des {
@@ -91,8 +101,7 @@
 	padding-right: 80px;
 }
 .fea-juwellary-des a:hover{
-	color: #FF674D;
-	border-color: #FF674D;
+	color: #fff;
 }
 /*
 -------------------------
@@ -125,9 +134,6 @@ about-team-member-sec-wrp
 	margin-bottom: 50px;
 }
 .about-team-member-img{
-	background-repeat: no-repeat !important;
-	background-position: center center !important;
-	background-size: cover !important;
 	min-height: 680px !important;
 	margin-bottom: 60px;
 }
@@ -146,4 +152,7 @@ about-team-member-sec-wrp
 .about-team-member-btn a:hover{
 	color: #FF674D;
 }
-
+.about-image-text-grids-prd .image-text-grid-btn .dg-btn:hover{
+	border-color:#000;
+	color: #fff;
+}
