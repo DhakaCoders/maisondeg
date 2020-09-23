@@ -209,3 +209,75 @@
 .ring-product-item-hover-desc a:hover i{
 	margin-right: -5px;
 }
+
+.collention-pagination{
+
+}
+.pagination-cntlr{
+	padding-top: 70px;
+	padding-bottom: 95px;
+	border-bottom: 2px solid #F8F8F8;
+}
+.pagination-cntlr > ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.pagination-cntlr > ul > li{
+	padding: 0 27px;
+	margin-bottom: 20px;
+}
+.pagination-cntlr > ul > li > a,
+.pagination-cntlr > ul > li > span{
+	display: inline-block;
+	color: #1D1D1B;
+	padding: 0 5px;
+	padding-bottom: 10px;
+	line-height: 1;
+	border-bottom: 4px solid transparent;
+	font-weight: 600;
+
+}
+.pagination-cntlr > ul > li > a:hover,
+.pagination-cntlr > ul > li > span.current,
+.pagination-cntlr > ul > li > a.current{
+	color: #FF674D;
+	border-color: #FF674D;
+}
+
+.blockquote-sec{
+	padding: 115px 0;
+}
+.blockquote-cntlr{
+	max-width: 840px;
+	margin: auto;
+}
+.blockquote-cntlr blockquote{
+	text-align: center;
+}
+.blockquote-cntlr blockquote i{
+	display: inline-block;
+	margin-bottom: 35px;
+}
+.blockquote-cntlr blockquote strong{
+	font-family: 'CactusLight';
+	font-size: 60px;
+	line-height: 1;
+	color: #1D1D1B;
+	margin-bottom: 20px;
+	display: inline-block;
+	font-weight: 300;
+}
+.blockquote-cntlr blockquote p{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1;
+	margin-bottom: 0;
+	color: #1D1D1B;
+}
+
+.clsn-image-text-grids{
+	padding: 100px 0 0 0;
+	background: #f8f8f8;
+}
