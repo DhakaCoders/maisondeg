@@ -564,3 +564,45 @@ header.bnr-hdr{
 .hm-bnr-grd-col-btm-des > a:hover:after{
 	right: -2px;
 }
+
+
+/* banner slider */
+
+.pageBnrSlideItem{
+	height: 1024px;
+	position: relative;
+}
+.pageBnrSlideItemDes{
+	max-width: 600px;
+	width: 100%;
+}
+.pageBnrSlideItemInr{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 262px;
+	z-index: 20;
+}
+
+.pageBnrSlideItemDesTitle{
+	font-size: 60px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+} 
+.pageBnrSlideItemDes p{
+	font-size: 16px;
+	line-height: 1.3;
+	letter-spacing: 0.04em;
+	color: #1D1D1B;
+	margin-bottom: 40px;
+}
+
+.pageBnrSlideItemDes a{
+	color: #000;
+	border-color: #000;
+}
+
+.pageBnrSlider .slick-slider ul.slick-dots{
+	position: absolute;
+	left: 
+}
