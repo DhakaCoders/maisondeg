@@ -602,4 +602,7 @@ header.bnr-hdr{
 	border-color: #000;
 }
 
-.slick-slider ul.slick-dots
+.pageBnrSlider .slick-slider ul.slick-dots{
+	position: absolute;
+	left: 
+}
