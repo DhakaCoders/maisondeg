@@ -16,12 +16,14 @@
 	width: 73%;
 	float: right;
 }
-.ftr-logo a{
+.ftr-logo a {
     display: inline-block;
     vertical-align: baseline;
     text-decoration: none;
+    max-width: 230px;
+    width: 100%;
 }
-.ftr-logo a img:nth-child(1){
+.ftr-logo a:nth-child(1) img{
 	padding-bottom: 30px;
 	padding-left: 15px;
 }
@@ -57,10 +59,12 @@
 .ftr-col-2{
 	width: 22%;
 	float: left;
+    padding-right: 15px;
 }
 .ftr-col-4{
 	width: 25%;
 	float: left;
+    padding-right: 15px;
 }
 .ftr-col-5{
 	width: 31%;
@@ -245,10 +249,10 @@
 .footer-top-dsc-title{
     display: block;
     font-size: 60px;
-    line-height: 73px;
+    line-height: 1.2;
     letter-spacing: 0.1em;
     color: #1D1D1B;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 .footer-top-dsc a{
     display: inline-block;
@@ -265,4 +269,252 @@
 .footer-top-dsc a:hover{
     color: #FF674D;
     border-color:#FF674D; 
+}
+
+
+/*
+------------------
+ Responsive Css
+------------------
+*/
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+    .ftr-col-tp-lft {
+        width: 25%;
+        padding-right: 40px;
+    }
+    .ftr-col-tp-rgt {
+        width: 75%;
+    }
+    .ftr-col-3,
+    .ftr-col-2 {
+        width: 20%;
+    }
+    .ftr-col-4 {
+        width: 29%;
+    }
+    .ftr-top {
+        padding-top: 100px;
+    }
+    .footer-top-dsc-title {
+        font-size: 57px;
+    }
+
+}
+
+@media(max-width: 991px){
+    .hide-md{
+        display: none!important;
+    }
+    .show-md{
+        display: block!important;
+    }
+    .ftr-top {
+        padding-top: 100px;
+    }
+    .ftr-col-tp-lft {
+        width: 100%;
+        padding-right: 0;
+    }
+    .ftr-col-tp-rgt {
+        width: 100%;
+    }
+    .ftr-col-tp-bdr {
+        margin-top: 55px;
+    }
+    .ftr-col-tp-bdr ul {
+        position: absolute;
+        right: auto;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+    }
+    .ftr-col-4,
+    .ftr-col-3,
+    .ftr-col-2 {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .ftr-social{
+        text-align: center;
+    }
+    .ftr-social ul{
+        display: table;
+        margin: 0 auto;
+    }
+    .ftr-col-4 ul li br,
+    .ftr-col-4 ul li a br{
+        display: block !important;
+    }
+    .ftr-col-5 {
+        width: 100%;
+        float: none;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .ftr-title{
+        text-align: center;
+    }
+    .ftr-btm-col {
+        padding-top: 45px;
+        padding-bottom: 55px;
+    }
+    .ftr-col-tp-lft{
+        float: none;
+        text-align: center;
+    }
+    .ftr-logo a img:nth-child(1) {
+        padding-left: 0;
+    }
+    .ftr-logo a:nth-child(2){
+        max-width: 95px;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .ftr-logo a {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-top-dsc-title {
+        font-size: 54px;
+    }
+    .footer-top-dsc {
+        max-width: 550px;
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        margin: 0 auto;
+    }
+    .footer-top-sec-wrp {
+        height: 600px !important;
+        padding-top: 255px;
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width: 767px){
+    .ftr-col .ftr-top-newsletter,
+    .ftr-col > ul {
+          display: none;
+      }
+      .ftr-col.ftr-col-4 > ul,
+      .ftr-col.ftr-col-3 > ul,
+      .ftr-col.ftr-col-2 > ul{
+        display: block;
+      }
+    .ftr-title span {
+        display: inline-block;
+        vertical-align: baseline;
+        position: relative;
+    }
+    .ftr-col h6 span {
+        padding-right: 17px;
+    }
+   .ftr-col h6 span::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateX(-50%);
+        background:url(../images/down-tp-icon.png);
+        background-repeat: no-repeat;
+        background-size: 6px 4px;
+        width: 6px;
+        height: 4px;
+        -webkit-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        transition: all .5s ease;
+        font-weight: 400;
+    }
+    .ftr-col h6.active span::after {
+        content: "";
+        background:url(../images/down-tp-icon.png);
+        background:url(../images/down-up-icon.png);
+    } 
+    .ftr-btm-col ul:first-child{
+        padding-bottom: 6px;
+    }
+    .ftr-col-tp-bdr,
+    .ftr-btm-col {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .footer-top-dsc-title {
+        font-size: 47px;
+        margin-bottom: 15px;
+    }
+    .footer-top-dsc {
+        max-width: 380px;
+        width: 100%;
+    }
+    .footer-top-dsc p {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width: 575px){
+   .footer-top-dsc-title {
+        font-size: 44px;
+    } 
+    .footer-top-dsc {
+        max-width: 335px;
+        width: 100%;
+    }
+
+}
+@media(max-width: 479px){
+    .ftr-btm-col ul li {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .ftr-btm-col ul li a::after {
+        width: 10px;
+        height: 1px;
+        right: -5px;
+    }
+    .footer-top-sec-wrp{
+        position: relative;
+        background:transparent !important;
+        background-image: url(../images/footer-top-sec-bg-xs.jpg) !important;
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+        background-size: cover !important;
+    }
+    /*.footer-top-sec-wrp:after{
+        content: "";
+        background-image: url(../images/footer-top-sec-bg-xs.jpg) !important;
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }*/
+    
+
+}
+
+@media(max-width: 359px){
+    .footer-top-sec-wrp {
+        padding-top: 240px;
+    }
 }
