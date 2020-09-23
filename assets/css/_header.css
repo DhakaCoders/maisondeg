@@ -602,7 +602,60 @@ header.bnr-hdr{
 	border-color: #000;
 }
 
-.pageBnrSlider .slick-slider ul.slick-dots{
+.pageBnrSlider.slick-slider ul.slick-dots{
+	position: absolute!important;
+	left: 0;
+	right: 0;
+	bottom: 40px;
+}
+
+
+/*--page banner--*/
+.page-bnr-cntlr{
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.page-banner{
+	height: 1024px;
+}
+.page-banner-bg{
 	position: absolute;
-	left: 
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.page-banner-des-cntlr{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 2;
+}
+.page-banner-des{
+	max-width: 904px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	color: #1D1D1B;
+}
+
+.pageBnrTitle{
+	font-size: 60px;
+	line-height: 1;
+	font-weight: 300;
+}
+
+
+.page-banner-des p{
+	font-weight: 200;
+	font-size: 22px;
+	line-height: 30px;
+	letter-spacing: 0.04em;
+
 }
