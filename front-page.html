@@ -81,7 +81,7 @@
 
 </head>
 <body>
-<header class="header bnr-hdr">
+<header class="header bnr-hdr" style="display: none;">
   <div class="hdr-cntlr">
     <div class="container">
       <div class="row">
@@ -313,7 +313,7 @@
   </div>
 </header>
 
-<section class="home-banner-cntlr clearfix">
+<section class="home-banner-cntlr clearfix" style="display: none;">
   <ul class="reset-list">
     <li>
       <div class="hm-bnr-grd-col inline-bg" style="background: url(assets/images/hm-bnr-grd-col-fea-img-01.jpg);">
@@ -336,7 +336,7 @@
   </ul>
 </section>
 
-<section class="hm-msnry-sec">
+<section class="hm-msnry-sec" style="display: none;">
   <div class="hm-msnry-sec-inr">
     <div class="container">
       <div class="row">
@@ -417,7 +417,7 @@
   </div>
 </section>
 
-<section class="h-our-history inline-bg" style="background: url('assets/images/h-our-history-bg-img.png');">
+<section class="h-our-history inline-bg" style="background: url('assets/images/h-our-history-bg-img.png'); display: none;">
   <div class="h-our-history-cntlr">
     <div class="container">
       <div class="row">
@@ -437,7 +437,7 @@
   </div>
 </section>
 
-<section class="services-grids">
+<section class="services-grids" style="display: none;">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -496,7 +496,7 @@
 </section>
 
 
-<section class="fea-watch-sec" style="background: url('assets/images/hm-watch-sec-bg.jpg');">
+<section class="fea-watch-sec" style="background: url('assets/images/hm-watch-sec-bg.jpg'); display: none;">
   <div class="fea-watch-sec-inr">
     <div class="container">
       <div class="row">
@@ -513,7 +513,7 @@
   <span style="background: url('assets/images/fea-watch-bg-color.png');"></span>
 </section>
 
-<section class="image-text-grids">
+<section class="image-text-grids" style="display: none;">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -533,7 +533,7 @@
 </section>
 
 
-<section class="fea-juwellary-sec" style="background: url('assets/images/hm-juwellary-sec-bg.png');">
+<section class="fea-juwellary-sec" style="background: url('assets/images/hm-juwellary-sec-bg.png'); display: none;">
   <div class="fea-juwellary-sec-inr">
     <div class="container">
       <div class="row">
@@ -552,7 +552,7 @@
   </span>
 </section>
 
-<section class="image-text-grids">
+<section class="image-text-grids" style="display: none;">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -595,9 +595,14 @@
           <div class="ftr-col-main clearfix">
             <div class="ftr-col-tp-lft">
               <div class="ftr-logo">
-                <a href="#">
+                <a class="hide-md" href="#">
                   <img src="assets/images/ftr-logo-tp.png" alt="">
+                </a>
+                <a href="#">
                   <img src="assets/images/ftr-logo.png" alt="">
+                </a>
+                <a class="show-md" href="#">
+                  <img src="assets/images/ftr-logo-tp.png" alt="">
                 </a>
               </div>
             </div>
@@ -651,7 +656,7 @@
                   <li>
                     <a href="tel:(+32) 2 511 95 98">
                       (+32) 2 511 95 98
-                    </a>
+                    </a><br>
                     <a href="mailto:info@degreef1848.be">info@degreef1848.be</a>
                   </li>
                   <li>
@@ -690,7 +695,7 @@
                   </ul>
                 </div>              
               </div>
-              <div class="ftr-col-5">
+              <div class="ftr-col ftr-col-5">
                 <h6 class="ftr-title"><span>Sign up to our newsletter</span></h6> 
                 <div class="ftr-top-newsletter"> 
                   <form action="">
@@ -755,10 +760,20 @@
       <div class="row">
         <div class="col-12">
           <div class="ftr-btm-innr clearfix">
-            <div class="ftr-btm-col">
+            <div class="ftr-btm-col hide-sm">
               <ul class="reset-list clearfix">
                 <li><a href="#">&copy; 2020</a></li>
                 <li><a href="#">Maison De Greef</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="ftr-btm-col show-sm">
+              <ul class="reset-list clearfix">
+                <li><a href="#">&copy; 2020</a></li>
+                <li><a href="#">Maison De Greef</a></li>
+              </ul>
+              <ul class="reset-list clearfix">
                 <li><a href="#">Terms & Conditions</a></li>
                 <li><a href="#">Privacy Policy</a></li>
               </ul>
