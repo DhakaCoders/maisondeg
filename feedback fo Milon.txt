@@ -1,0 +1,21 @@
+Footer
+----------------------
+Desktop---->
+
+1. https://prnt.sc/umehsc
+	ai button a common class ta dite hobe, then baki kono fix lagle parent dhore korte hobe
+
+2. https://prnt.sc/umem2g
+	i) min-height daw
+	ii) flex use kore des center a thakbe
+	iii) 
+
+
+3. https://prnt.sc/umfivz
+	joto heading a custom font-size use korecho , sob gulor line-height point a daw
+	tahole responsive a r line height komate hobena, just font size komate hobe,
+
+	B.N:-  ata always mone rakhte hobe
+
+
+4. 
