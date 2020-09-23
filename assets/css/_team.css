@@ -217,6 +217,8 @@ tm-post-grid-sec-wrp
 }
 .tm-post-grid-dsc-btn{
 	padding-top: 30px;
+	position: relative;
+	z-index: 15;
 }
 .tm-post-grid-dsc-btn > a{
 	display: inline-block;
