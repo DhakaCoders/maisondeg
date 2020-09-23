@@ -181,6 +181,16 @@ $('.ftr-col h6').on('click', function(){
   $(this).parent().siblings().find('ul').slideUp(300);
 });
 
+// body animate
+$(".about-btn-scroll").click(function(e) {
+    e.preventDefault();
+    var goto = $(this).attr('href');
+    $('html, body').animate({
+        scrollTop: $(goto).offset().top - 0
+    }, 800);
+});
+
+
 
  
 

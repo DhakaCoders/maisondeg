@@ -88,7 +88,7 @@
 
 </head>
 <body>
-<header class="header bnr-hdr">
+<header class="header">
   <div class="hdr-cntlr">
     <div class="container">
       <div class="row">
@@ -323,27 +323,22 @@
 
 
 <section class="page-bnr-cntlr white-text">
-  <div class="page-bnr-cntlr-inr">
-    <div class="overlay-bg"></div>
-    <div class="page-banner">
-      <div class="inline-bg page-banner-bg" style="background: url(assets/images/page-bnr-img-01.jpg);">
-      </div>
-      <div class="page-banner-des-cntlr">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="page-banner-des">
-                  <h2 class="pageBnrTitle">A company evolving over<br> 
-                  the generations, where the<br> customer is king!</h2>
-                </div>
+  <div class="overlay-bg"></div>
+  <div class="page-banner">
+    <div class="inline-bg page-banner-bg" style="background: url(assets/images/page-bnr-img-01.jpg);">
+    </div>
+    <div class="page-banner-des-cntlr">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="page-banner-des">
+                <h2 class="pageBnrTitle">A company evolving over<br> 
+                the generations, where the<br> customer is king!</h2>
               </div>
             </div>
           </div>
         </div>
-    </div>
-  </div>
-  <div class="page-bnr-cnter-logo">
-    <img src="assets/images/DG_monogramme.svg">
+      </div>
   </div>
 </section>
 
@@ -361,8 +356,8 @@
               <p>Maison De Greef will immerse you in mesmerising sights, such as the purity of a rare diamond, the splendour of gem settings, or the exclusivity of a grand complication watch.</p>
               <p>Beyond its commercial activities, Maison De Greef symbolises family values, heritage and history. It also represents years of advice and expertise provided to exacting local and international customers who yearn to find rare pieces and whose loyalty is a sign of trust and careful consideration.</p>
               <div class="about-text-grid-btn">
-                <a type="button" href="#">Services</a>
-                <a type="button" href="#">History</a>
+                <a type="button" class="about-btn-scroll" href="#about-fea-juwellary-sec">Services</a>
+                <a type="button" class="about-btn-scroll" href="#about-fea-juwellary-btm-sec">History</a>
               </div>
             </div>
           </div>
@@ -372,7 +367,7 @@
 </section>
 
 
-<section class="fea-juwellary-sec about-fea-juwellary-sec" style="background: url('assets/images/about-service-sec-bg.jpg');">
+<section class="fea-juwellary-sec about-fea-juwellary-sec" id="about-fea-juwellary-sec" style="background: url('assets/images/about-service-sec-bg.jpg');">
   <div class="fea-juwellary-sec-inr">
     <div class="container">
       <div class="row">
@@ -411,7 +406,7 @@
 </section>
 
 
-<section class="fea-juwellary-sec about-fea-juwellary-sec" style="background: url('assets/images/about-fea-juwellary-sec-bg.jpg');">
+<section class="fea-juwellary-sec about-fea-juwellary-sec" id="about-fea-juwellary-btm-sec" style="background: url('assets/images/about-fea-juwellary-sec-bg.jpg');">
   <div class="fea-juwellary-sec-inr">
     <div class="container">
       <div class="row">
@@ -436,7 +431,7 @@
             <h2 class="about-team-member-head-title">Our Team</h2>
             <p>Ut tempus scelerisque consectetur arcu orci, quisque. Tincidunt viverra eget diam eget posuere nulla. Viverra viverra vel arcu leo dictum ultrices enim.</p>
           </div>
-          <div class="about-team-member-img" style="background:url(assets/images/about-team-member-img.jpg);"></div>
+          <div class="about-team-member-img inline-bg" style="background:url(assets/images/about-team-member-img.jpg);"></div>
           <div class="about-team-member-btn text-center">
             <a href="#">meet Our Team</a>
           </div>
@@ -446,7 +441,7 @@
   </div>
 </section>
 
-<section class="footer-top-sec-wrp" style="background:url(assets/images/footer-top-sec-bg.jpg);">
+<section class="footer-top-sec-wrp inline-bg" style="background:url(assets/images/footer-top-sec-bg.jpg);">
   <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -454,7 +449,7 @@
             <div class="footer-top-dsc">
               <h2 class="footer-top-dsc-title">Arrange your visit  (h2)</h2>
               <p>Watches and jewellery need to be worn to truly shine. Arrange your <br> visit ahead of time to make your experience a timeless moment of <br> sensory delight.</p>
-              <a href="#">Make an appointment</a>
+              <a class="dg-btn" href="#">Make an appointment</a>
             </div>
           </div>
         </div>
@@ -470,9 +465,14 @@
           <div class="ftr-col-main clearfix">
             <div class="ftr-col-tp-lft">
               <div class="ftr-logo">
+                <a class="hide-md" href="#">
+                  <img src="assets/images/ftr-logo-tp.jpg" alt="">
+                </a>
                 <a href="#">
-                  <img src="assets/images/ftr-logo-tp.png" alt="">
-                  <img src="assets/images/ftr-logo.png" alt="">
+                  <img src="assets/images/ftr-logo.jpg" alt="">
+                </a>
+                <a class="show-md" href="#">
+                  <img src="assets/images/ftr-logo-tp.jpg" alt="">
                 </a>
               </div>
             </div>
@@ -485,9 +485,8 @@
                         <div class="select-dep">
                           <select class="selectpicker">
                             <option value="1">English</option>
-                            <option value="2">English 2</option>
-                            <option value="3">English 3</option>
-                            <option value="3">English 4</option>
+                            <option value="2">French</option>
+                            <option value="3">Dutch</option>
                           </select>
                         </div>
                       </div>
@@ -526,7 +525,7 @@
                   <li>
                     <a href="tel:(+32) 2 511 95 98">
                       (+32) 2 511 95 98
-                    </a>
+                    </a><br>
                     <a href="mailto:info@degreef1848.be">info@degreef1848.be</a>
                   </li>
                   <li>
@@ -565,13 +564,13 @@
                   </ul>
                 </div>              
               </div>
-              <div class="ftr-col-5">
+              <div class="ftr-col ftr-col-5">
                 <h6 class="ftr-title"><span>Sign up to our newsletter</span></h6> 
                 <div class="ftr-top-newsletter"> 
                   <form action="">
                     <div class="from-group-wrp clearfix"> 
                       <div class="from-group">
-                        <input placeholder="E-mail address" type="text">
+                        <input placeholder="E-mail address" type="email">
                       </div>
                       <div class="from-group">
                         <input placeholder="Name" type="email"> 
@@ -630,10 +629,20 @@
       <div class="row">
         <div class="col-12">
           <div class="ftr-btm-innr clearfix">
-            <div class="ftr-btm-col">
+            <div class="ftr-btm-col hide-sm">
+              <ul class="reset-list clearfix">
+                <li>&copy; 2020</li>
+                <li><a href="#">Maison De Greef</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="ftr-btm-col show-sm">
               <ul class="reset-list clearfix">
                 <li><a href="#">&copy; 2020</a></li>
                 <li><a href="#">Maison De Greef</a></li>
+              </ul>
+              <ul class="reset-list clearfix">
                 <li><a href="#">Terms & Conditions</a></li>
                 <li><a href="#">Privacy Policy</a></li>
               </ul>
