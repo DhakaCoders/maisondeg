@@ -4,18 +4,29 @@ Desktop---->
 
 1. https://prnt.sc/umehsc
 	ai button a common class ta dite hobe, then baki kono fix lagle parent dhore korte hobe
+	hover ta uporer section ar button ar moto hobe
 
 2. https://prnt.sc/umem2g
 	i) min-height daw
 	ii) flex use kore des center a thakbe
-	iii) 
+	iii) padding-top and bottom 30px ar moto dite hobe, jate des bere gele lege na jay
+		besi padding dear dorkar nei
 
 
 3. https://prnt.sc/umfivz
 	joto heading a custom font-size use korecho , sob gulor line-height point a daw
 	tahole responsive a r line height komate hobena, just font size komate hobe,
 
-	B.N:-  ata always mone rakhte hobe
+	N.B:-  ata always mone rakhte hobe
 
 
-4. 
+4. https://prnt.sc/umfqap
+	ai class ta add koro , ata common class img bg ar jonno
+	joto jaygay ai code gulo korecho tule diye ai class ta daw
+
+5. https://prnt.sc/umfuuk
+	section tate white bg ache amader , so .jpg formate use korte pari. 
+	png img a size besi hoy ata mone rakhte hobe amader.
+
+
+6. 
