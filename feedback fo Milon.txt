@@ -169,3 +169,7 @@ Desktop---->
 
 2. https://prnt.sc/umiye2
 	property gulo tule dile 'inline-bg' class ta use korte hobe
+
+
+
+N.B.----fix hoye gele , browser check dite hobe
