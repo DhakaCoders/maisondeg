@@ -29,4 +29,96 @@ Desktop---->
 	png img a size besi hoy ata mone rakhte hobe amader.
 
 
-6. 
+6. https://prnt.sc/umg0r9
+	ai 3 ta lang a daw -> https://prnt.sc/umg15e
+
+7. https://prnt.sc/umg5jd
+	text ar look ta design ar sathe mileni 
+
+	custom font-family use korechi, 
+	tahole font-weight ta ki kaje lagteche aikhane ?
+	font-weight: normal hobe
+
+
+8. https://prnt.sc/umg7uc
+	i) google font-family use hobe.
+	common.css a paba family ta body te
+	ii) https://prnt.sc/umg8ng
+		ai folder ta delete kore daw
+
+9. https://prnt.sc/umgd1a
+	letter-spacing gulo mileni
+
+	ami baki text a letter-spacing check kortechina , tumi sob page aktu valo kore check kore update kore felio
+
+10. https://prnt.sc/umhn17
+	i) cursor pointer lagbe 
+	ii) hover color lagbe
+
+
+11. https://prnt.sc/umhox2
+	text ta upore uthe geche, center a hobe
+
+12. https://prnt.sc/umhrxd
+	i) ata link hobena
+	ii) ul li ar bahire hobe ata 
+
+13. https://prnt.sc/umhu2o
+	type email hobe
+
+
+14. https://prnt.sc/umhv8f
+	button ta full hoye geche
+
+
+15. https://prnt.sc/umhxeb
+	besi bold mone hosche
+
+
+
+Team - and Team Popup
+----------------------
+Desktop---->
+
+
+1. https://prnt.sc/umi2is
+	ai section a bg ta lagbena. header thake j shadow ta asteche ota diye hoye jabe
+
+2. https://prnt.sc/umi771
+	hover korle arrow ta left a 2/3px sore jabe joto px valo lage dite hobe
+
+3. https://prnt.sc/umi8zf
+	ai item gulo te click korle modal ta ber hobe
+	2 ta grd a kore rakho , sob grd gulo te dite hobe na
+
+4. https://prnt.sc/umib7o
+	ai img ta upore bosao, overlay img ta badh daw
+
+5. https://prnt.sc/umicjc
+		mHc and mHc1 use koro
+
+6. https://prnt.sc/umies3
+		ai grd gulo home page gulo pest kore fix korte hobe,
+		bcoz home page ta check / update hoye geche desktop
+
+7. modal ar design check korte baki ache
+
+
+
+About
+----------------------
+Desktop---->
+
+1. https://prnt.sc/umih73
+	aikhane jehetu banner ache, r banner ami kore dite cheyechi
+	but atao bolechi j , home page ar header and banner ta bosay baki design ta check kore nite
+
+
+2. https://prnt.sc/umiity
+	ai 2 ta button a click korle , scroll kor nicher section a jabe
+	amader j scroll-to function ta ache , seta use korte hobe
+
+3. https://prnt.sc/umijqb
+	hover korle bg black and text white daw
+
+4. 
