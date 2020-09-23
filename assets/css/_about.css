@@ -10,8 +10,21 @@
 .about-image-text-grids-prd .itg-odd .image-text-grid-desc{
 	padding-right: 60px;
 }
-.about-image-text-grids .image-text-grid-fea-img {
+.about-image-text-grids-prd .image-text-grid-cntlr,
+.about-image-text-grids .image-text-grid-cntlr{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+.about-image-text-grids .image-text-grid-fea-img{
     min-height: 720px;
+    order: 1;
+}
+.about-image-text-grids .itg-odd .image-text-grid-desc {
+    order: 2;
+    padding-left: 100px;
+    padding-right: 0;
 }
 .about-text-grid-btn a{
     font-size: 14px;
