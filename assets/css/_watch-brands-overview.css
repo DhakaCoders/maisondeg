@@ -70,6 +70,13 @@ wb-gallery-sec-wrp
 	position: relative;
 	padding-right: 15px;
 }
+.wb-gallery-two-grid-dsc a:hover{
+	color: #FF674D;
+}
+
+.wb-gallery-two-grid-dsc a:hover:after{
+	background:url(../images/down-icon-hover.png);
+}
 .wb-gallery-two-grid-dsc a:after{
 	content: "";
 	position: absolute;

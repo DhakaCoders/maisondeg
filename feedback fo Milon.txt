@@ -1,0 +1,175 @@
+Footer
+----------------------
+Desktop---->
+
+1. https://prnt.sc/umehsc
+	ai button a common class ta dite hobe, then baki kono fix lagle parent dhore korte hobe
+	hover ta uporer section ar button ar moto hobe
+
+2. https://prnt.sc/umem2g
+	i) min-height daw
+	ii) flex use kore des center a thakbe
+	iii) padding-top and bottom 30px ar moto dite hobe, jate des bere gele lege na jay
+		besi padding dear dorkar nei
+
+
+3. https://prnt.sc/umfivz
+	joto heading a custom font-size use korecho , sob gulor line-height point a daw
+	tahole responsive a r line height komate hobena, just font size komate hobe,
+
+	N.B:-  ata always mone rakhte hobe
+
+
+4. https://prnt.sc/umfqap
+	ai class ta add koro , ata common class img bg ar jonno
+	joto jaygay ai code gulo korecho tule diye ai class ta daw
+
+5. https://prnt.sc/umfuuk
+	section tate white bg ache amader , so .jpg formate use korte pari. 
+	png img a size besi hoy ata mone rakhte hobe amader.
+
+
+6. https://prnt.sc/umg0r9
+	ai 3 ta lang a daw -> https://prnt.sc/umg15e
+
+7. https://prnt.sc/umg5jd
+	text ar look ta design ar sathe mileni 
+
+	custom font-family use korechi, 
+	tahole font-weight ta ki kaje lagteche aikhane ?
+	font-weight: normal hobe
+
+
+8. https://prnt.sc/umg7uc
+	i) google font-family use hobe.
+	common.css a paba family ta body te
+	ii) https://prnt.sc/umg8ng
+		ai folder ta delete kore daw
+
+9. https://prnt.sc/umgd1a
+	letter-spacing gulo mileni
+
+	ami baki text a letter-spacing check kortechina , tumi sob page aktu valo kore check kore update kore felio
+
+10. https://prnt.sc/umhn17
+	i) cursor pointer lagbe 
+	ii) hover color lagbe
+
+
+11. https://prnt.sc/umhox2
+	text ta upore uthe geche, center a hobe
+
+12. https://prnt.sc/umhrxd
+	i) ata link hobena
+	ii) ul li ar bahire hobe ata 
+
+13. https://prnt.sc/umhu2o
+	type email hobe
+
+
+14. https://prnt.sc/umhv8f
+	button ta full hoye geche
+
+
+15. https://prnt.sc/umhxeb
+	besi bold mone hosche
+
+
+
+Team - and Team Popup
+----------------------
+Desktop---->
+
+
+1. https://prnt.sc/umi2is
+	ai section a bg ta lagbena. header thake j shadow ta asteche ota diye hoye jabe
+
+2. https://prnt.sc/umi771
+	hover korle arrow ta left a 2/3px sore jabe joto px valo lage dite hobe
+
+3. https://prnt.sc/umi8zf
+	ai item gulo te click korle modal ta ber hobe
+	2 ta grd a kore rakho , sob grd gulo te dite hobe na
+
+4. https://prnt.sc/umib7o
+	ai img ta upore bosao, overlay img ta badh daw
+
+5. https://prnt.sc/umicjc
+		mHc and mHc1 use koro
+
+6. https://prnt.sc/umies3
+		ai grd gulo home page gulo pest kore fix korte hobe,
+		bcoz home page ta check / update hoye geche desktop
+
+7. modal ar design check korte baki ache
+
+
+
+About
+----------------------
+Desktop---->
+
+1. https://prnt.sc/umih73
+	aikhane jehetu banner ache, r banner ami kore dite cheyechi
+	but atao bolechi j , home page ar header and banner ta bosay baki design ta check kore nite
+
+
+2. https://prnt.sc/umiity
+	ai 2 ta button a click korle , scroll kor nicher section a jabe
+	amader j scroll-to function ta ache , seta use korte hobe
+
+3. https://prnt.sc/umijqb
+	hover korle bg black and text white daw
+
+4. https://prnt.sc/umilde
+	hover korle bg black and text white daw
+
+
+5. https://prnt.sc/umimti
+	ai bg color ta missing
+
+
+
+Blog Overview
+----------------------
+Desktop---->
+
+1. https://prnt.sc/uminqu
+	just active item tai bold rakho
+	baki gulo hover korle jsut color change hobe
+
+2. https://prnt.sc/umip84
+	tab lagbena, normal ul li a rakho
+
+3. https://prnt.sc/umiq7h
+	hover korle arrow ta right a sore jabe, amon joto jaygay ache change korte hobe
+
+
+4. https://prnt.sc/umirlc
+	box a hover korle heading ar color change hobena
+	jokhon heading a jabe hover korte tokhon change hobe
+
+
+5. https://prnt.sc/umiu1x
+	jsut active a border and color rakho
+	baki gulo te hover korle only color change hobe
+
+6. https://prnt.sc/umiuxi
+	clear left lagbe, item barte pare, item barle nicher gap sob thik kore design kore rakhte hobe
+
+
+
+
+Watch Brands overview
+----------------------
+Desktop---->
+
+1. https://prnt.sc/umiwl6
+	title ao link diye daw
+
+2. https://prnt.sc/umiye2
+	property gulo tule dile 'inline-bg' class ta use korte hobe
+
+
+
+N.B.----fix hoye gele , browser check dite hobe
