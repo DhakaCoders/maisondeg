@@ -3,8 +3,13 @@
 }
 
 
-.hm-msnry-sec-ctlr{
+/*.hm-msnry-sec-ctlr{
 	min-height: 1055px;
+	position: relative;
+}*/
+.hm-msnry-grd-items{
+	min-height: 1055px;
+	height: 100%;
 	position: relative;
 }
 .hm-msnry-grd-item{
@@ -12,35 +17,37 @@
 	top: 0;
 	left: 0;
 }
-.one{
+.hmgi1{
 	top: 60px;
-	left: 45px;
-	width:  29.4871%;
+	left: 0;
+	width: 33.3333%;
+	padding-left: 30px;
 }
-.two{
+.hmgi2{
 	top: 0;
 	left: 415px;
-	width:  37.6068%;
+	width:  33.3333%;
 }
-.three{
+.hmgi3{
 	top: 190px;
-	left: 880px;
-	width:  29.9145%;
+	left: 830px;
+	width:  33.3333%;
+	padding-right: 30px;
 }
-.four{
+.hmgi4{
 	top: 585px;
 	left: 0;
-	width: 33.1966%;
+	width: 33.3333%;
 }
-.five{
+.hmgi5{
 	top: 670px;
 	left: 415px;
-	width:  37.6068%;
+	width:  33.3333%;
 }
-.six{
+.hmgi6{
 	top: 705px;
-	left: 880px;
-	width: 31.1966%;
+	left: 830px;
+	width: 33.3333%;
 }
 
 
@@ -56,21 +63,22 @@
 }
 .hm-msnry-grd-item-des{
 	position: absolute;
-	bottom: 20px;
-	left: 20px;
-	padding-right: 20px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0 20px 25px 20px;
 }
-.one .hm-msnry-grd-item-img,
-.three .hm-msnry-grd-item-img{
+.hmgi1 .hm-msnry-grd-item-img,
+.hmgi3 .hm-msnry-grd-item-img{
 	min-height: 490px;
 	height: 100%;
 }
-.four .hm-msnry-grd-item-img,
-.six .hm-msnry-grd-item-img{
+.hmgi4 .hm-msnry-grd-item-img,
+.hmgi6 .hm-msnry-grd-item-img{
 	min-height: 282px;
 	height: 100%;
 }
-.five .hm-msnry-grd-item-img{
+.hmgi5 .hm-msnry-grd-item-img{
 	min-height: 385px;
 	height: 100%;
 }
@@ -80,7 +88,7 @@
 .hm-msnry-title{
 	display: block;
 	font-size: 22px;
-	line-height: 1.2;
+	line-height: 1.3;
 	margin-bottom: 10px;
 	font-weight: 500;
 	letter-spacing: 0.03em;
@@ -88,16 +96,16 @@
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
 }
-.four .hm-msnry-title,
-.four .hm-msnry-grd-item-des a,
-.six .hm-msnry-title,
-.six .hm-msnry-grd-item-des a{
+.hmgi4 .hm-msnry-title,
+.hmgi4 .hm-msnry-grd-item-des a,
+.hmgi6 .hm-msnry-title,
+.hmgi6 .hm-msnry-grd-item-des a{
 	color: #1D1D1B;
 }
 .hm-msnry-grd-item-des a{
 	color: #fff;
 	text-transform: uppercase;
-	letter-spacing: 0.01em;
+	letter-spacing: 0.1em;
 	padding-right: 15px;
 	position: relative;
 }
@@ -107,18 +115,17 @@
 
 .hm-msnry-grd-item-des a i{
 	position: absolute;
-	top: 50%;
+	top: 55%;
 	right: 0;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	font-size: 12px;
 }
-.five .hm-msnry-grd-item-des{
-	margin-left: 60px;
+.hmgi5 .hm-msnry-grd-item-des{
 	margin-bottom: 150px;
 }
-.five .hm-msnry-grd-item-des a{
+.hmgi5 .hm-msnry-grd-item-des a{
 	width: 274px;
 	height: 48px;
 	display: flex;
@@ -128,8 +135,10 @@
 	letter-spacing: 0.1em;
 	background: #fff;
 	border: 2px solid #fff;
+	margin-left: auto;
+	margin-right: auto;
 }
-.five .hm-msnry-grd-item-des a:hover{
+.hmgi5 .hm-msnry-grd-item-des a:hover{
 	background: #FF674D;
 	border: 2px solid #FF674D;
 	color: #fff;
@@ -153,9 +162,10 @@
 	font-size: 16px;
 	color: #1D1D1B;
 	margin-bottom: 20px;
+	letter-spacing: 0.04em;
 }
 
-.fea-juwellary-sec .dg-btn,
+/*.fea-juwellary-sec .dg-btn,
 .fea-watch-sec .dg-btn{
 	border: 2px solid #1D1D1B;
 	color: #1D1D1B;
@@ -163,7 +173,7 @@
 	margin-right: auto;
 	width: 168px;
 	height: 48px;
-}
+}*/
 
 
 .fea-juwellary-sec,
