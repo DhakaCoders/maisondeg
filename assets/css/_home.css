@@ -20,34 +20,36 @@
 .hmgi1{
 	top: 60px;
 	left: 0;
-	width: 33.3333%;
+	width: 32%;
 	padding-left: 30px;
 }
 .hmgi2{
 	top: 0;
-	left: 415px;
-	width:  33.3333%;
+	left: 398px;
+	width:  32%;
 }
 .hmgi3{
 	top: 190px;
 	right: 0;
-	width:  33.3333%;
+	width:  32%;
 	padding-right: 30px;
+	left: initial;
 }
 .hmgi4{
 	top: 585px;
 	left: 0;
-	width: 33.3333%;
+	width: 32%;
 }
 .hmgi5{
 	top: 670px;
-	left: 415px;
-	width:  33.3333%;
+	left: 398px;
+	width:  32%;
 }
 .hmgi6{
 	top: 705px;
 	right: 0;
-	width: 33.3333%;
+	width: 32%;
+	left: initial;
 }
 
 
