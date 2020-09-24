@@ -85,6 +85,7 @@
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	padding-right: 15px;
+	font-weight: 400;
 	position: relative;
 }
 .fea-jlpi-grd-item-des a i{
@@ -105,6 +106,7 @@
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	text-decoration-line: underline;
+	font-weight: 400;
 }
 
 .fea-jlpi-grd-item-title a:hover,
