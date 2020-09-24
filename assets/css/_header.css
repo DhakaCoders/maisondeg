@@ -694,3 +694,68 @@ header.bnr-hdr{
 	bottom: -104px;
 	z-index: 5;
 }
+.bnr-lft-rgt-btns{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 90px;
+	text-align: left;
+}
+.bnr-lft-rgt-btns a{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #1D1D1B;
+	padding-left: 15px;
+	margin-right: auto;
+	position: relative;
+}
+
+.bnr-lft-rgt-btns a:after {
+    content: "\f0d9";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    text-decoration: inherit;
+    color: #1d1d1b;
+    font-size: 12px;
+    padding-right: 0;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    line-height: 15px;
+    z-index: 21;
+	transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+}
+.bnr-lft-rgt-btns-inr{
+	display: flex;
+	align-items: center;
+}
+.bnr-lft-rgt-btns a.blr-btn-2{
+	margin-left: auto;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+.bnr-lft-rgt-btns a.blr-btn-2:after{
+	content: "\f0da";
+	left: auto;
+	right: 0;
+}
+
+.bnr-lft-rgt-btns a:hover,
+.bnr-lft-rgt-btns a:hover:after{
+	color: #FF674D;
+}
+
+.bnr-lft-rgt-btns a:hover:after{
+	left: -2px;
+}
+.bnr-lft-rgt-btns a.blr-btn-2:hover:after{
+	right: -2px;
+	left: auto;
+}
