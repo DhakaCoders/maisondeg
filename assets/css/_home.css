@@ -112,6 +112,9 @@
 .hm-msnry-grd-item-des a:hover{
 	color: #FF674D;
 }
+.hm-msnry-grd-item-des a:hover i{
+	right: -5px;
+}
 
 .hm-msnry-grd-item-des a i{
 	position: absolute;
@@ -121,6 +124,9 @@
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	font-size: 12px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-ms-transition: all 0.3s;
 }
 .hmgi5 .hm-msnry-grd-item-des{
 	margin-bottom: 150px;
