@@ -173,13 +173,7 @@ $('.about-btn-scroll').click(function(e) {
     }, 800);
 });
 
-function openForm() {
-  document.getElementById("exampleModal").style.display = "block";
-}
 
-function closeForm() {
-  document.getElementById("exampleModal").style.display = "none";
-}
 
 if( $('.blg-tabs-slider').length ){
     $('.blg-tabs-slider').slick({
