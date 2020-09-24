@@ -156,3 +156,214 @@ about-team-member-sec-wrp
 	border-color:#000;
 	color: #fff;
 }
+
+/*
+------------------
+ Responsive css
+------------------
+*/
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.about-image-text-grids {
+	    padding-top: 230px;
+	    padding-bottom: 170px;
+	}	
+	.about-image-text-grids .itg-odd .image-text-grid-desc {
+	    padding-left: 70px;
+	}
+	.about-text-grid-btn a {
+	    width: 190px;
+	    height: 48px;
+	    padding: 15px 60px 15px 40px;
+	}
+	.about-text-grid-btn a:after{
+		right: 50px;
+	}
+	.about-image-text-grids .image-text-grid-fea-img {
+	    min-height: 670px;
+	}
+	.about-image-text-grids-prd {
+	    padding-top: 150px;
+	    padding-bottom: 160px;
+	}
+	.about-fea-juwellary-sec{
+	    min-height: 950px;
+	}
+	.fea-jwlr-title {
+	    font-size: 55px;
+	}
+	.about-team-member-sec-wrp {
+	    padding-top: 150px;
+	    padding-bottom: 170px;
+	}
+	.about-team-member-head-title {
+	    font-size: 55px;
+	}
+	.about-team-member-img {
+	    min-height: 650px !important;
+	}
+}
+
+@media(max-width: 991px){
+	.about-image-text-grids {
+	    padding-top: 200px;
+	    padding-bottom: 140px;
+	}
+	.about-image-text-grids .itg-odd .image-text-grid-desc {
+	    padding-left: 40px;
+	}
+	.about-text-grid-btn a {
+	    width: 150px;
+	    padding: 15px 40px 15px 20px;
+	}
+	.about-text-grid-btn a:after {
+	    right: 30px;
+	}
+	.about-image-text-grids .image-text-grid-fea-img {
+	    min-height: 640px;
+	}
+	.about-image-text-grids .image-text-grid-desc p {
+	    font-size: 16px;
+	    margin-bottom: 25px;
+	}
+	.about-image-text-grids-prd .itg-odd .image-text-grid-desc {
+	    padding-right: 35px;
+	}
+	.about-image-text-grids-prd {
+	    padding-top: 120px;
+	    padding-bottom: 140px;
+	}
+	.about-fea-juwellary-sec{
+	    min-height: 890px;
+	}
+	.about-fea-juwellary-sec .fea-juwellary-des {
+	    max-width: 600px;
+	    padding-left: 0;
+	    margin: 0 auto;
+	}
+	.about-fea-juwellary-des-rgt {
+	    float: none;
+	    padding-left: 0 !important;
+	    padding-right: 0;
+	}
+	.fea-jwlr-title {
+	    font-size: 50px;
+	}
+	.about-team-member-sec-wrp {
+	    padding-top: 130px;
+	    padding-bottom: 140px;
+	}
+	.about-team-member-head-title {
+	    font-size: 50px;
+	}
+	.about-team-member-img {
+	    min-height: 620px !important;
+	}
+}
+
+@media(max-width: 767px){
+	.about-image-text-grids {
+	    padding-top: 170px;
+	    padding-bottom: 100px;
+	}
+	.about-image-text-grids .itg-odd .image-text-grid-desc {
+	    padding-left: 0;
+	}
+	.about-image-text-grids .image-text-grid-fea-img {
+	    min-height: 580px;
+	}
+	.about-image-text-grids-prd .itg-odd .image-text-grid-desc {
+	    padding-right: 0;
+	}
+	.about-image-text-grids-prd {
+	    padding-top: 90px;
+	    padding-bottom: 120px;
+	}
+	.about-fea-juwellary-sec{
+	    min-height: 830px;
+	}
+	.about-fea-juwellary-sec .fea-juwellary-des {
+	    max-width: 420px;
+	    padding-left: 0;
+	    margin: 0 auto;
+	}
+	.fea-jwlr-title {
+	    font-size: 47px;
+	}
+	.about-team-member-sec-wrp {
+	    padding-top: 100px;
+	    padding-bottom: 110px;
+	}
+	.about-team-member-head-title {
+	    font-size: 47px;
+	    margin-bottom: 40px;
+	}
+	.about-team-member-img {
+	    min-height: 580px !important;
+	}
+}
+
+@media(max-width: 575px){
+	.about-image-text-grids .image-text-grid-fea-img {
+	    min-height: 500px;
+	}
+	.about-image-text-grids {
+	    padding-top: 160px;
+	    padding-bottom: 80px;
+	}
+	.about-image-text-grids-prd {
+	    padding-top: 80px;
+	    padding-bottom: 100px;
+	}
+	.about-fea-juwellary-sec{
+	    min-height: 750px;
+	}
+	.fea-jwlr-title {
+	    font-size: 44px;
+	}
+	.about-team-member-sec-wrp {
+	    padding-top: 80px;
+	    padding-bottom: 100px;
+	}
+	.about-team-member-head-title {
+	    font-size: 44px;
+	    margin-bottom: 30px;
+	}
+	.about-team-member-img {
+	    min-height: 540px !important;
+	}
+
+}
+
+@media(max-width: 479px){
+	.about-image-text-grids .image-text-grid-fea-img {
+	    min-height: 450px;
+	}
+	.about-text-grid-btn a {
+	    display: block;
+	    margin-left: auto !important;
+	    margin-right: auto !important;
+	}
+	.about-text-grid-btn a:last-child {
+	    margin-top: 20px;
+	}
+	.about-team-member-img {
+	    min-height: 500px !important;
+	}
+
+}
+
+@media(max-width: 359px){
+
+}

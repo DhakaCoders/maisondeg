@@ -154,23 +154,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 /*----- End of Milon -----*/
-/*
-----------------------
- Tabs Js
-----------------------
-*/
-if( $('.blg-tabs').length ){
-  $('.blg-tabs:first').show();
-  $('.tabs-menu li:first').addClass('active');
-
-  $('.tabs-menu li').on('click',function(){
-    index = $(this).index();
-    $('.tabs-menu li').removeClass('active');
-    $(this).addClass('active');
-    $('.blg-tabs').hide();
-    $('.blg-tabs').eq(index).show();
-  });
-}
 
 // footer slide menu
 
@@ -189,6 +172,48 @@ $(".about-btn-scroll").click(function(e) {
         scrollTop: $(goto).offset().top - 0
     }, 800);
 });
+
+if( $('.blg-tabs-slider').length ){
+    $('.blg-tabs-slider').slick({
+      dots: false,
+      arrows: false,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+}
 
 
 

@@ -143,3 +143,148 @@ wb-gallery-sec-wrp
 	color: #FF674D;
 	border-color:#FF674D; 
 }
+
+/*
+------------------
+ Responsive css
+------------------
+*/
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.wb-gallery-head-title {
+	    font-size: 55px;
+	    margin-bottom: 35px;
+	}
+	.wb-gallery-sec-wrp {
+	    padding-top: 100px;
+	    padding-bottom: 120px;
+	}
+	.wb-gallery-wrp {
+	    padding-top: 70px;
+	}
+	.wb-gallery-head {
+	    max-width: 800px;
+	    width: 100%;
+	}
+	.wb-gallery-full-grid-dsc-title,
+	.wb-gallery-two-grid-dsc-title {
+	    font-size: 55px;
+	}
+	.wb-gallery-two-grid-inr {
+	    height: 660px !important;
+	}
+}
+
+@media(max-width: 991px){
+	.wb-gallery-head-title {
+	    font-size: 50px;
+	    margin-bottom: 25px;
+	}
+	.wb-gallery-sec-wrp {
+	    padding-top: 80px;
+	    padding-bottom: 100px;
+	}
+	.wb-gallery-wrp {
+	    padding-top: 60px;
+	}
+	.wb-gallery-full-grid-dsc-title,
+	.wb-gallery-two-grid-dsc-title {
+	    font-size: 50px;
+	}
+	.wb-gallery-two-grid-inr {
+	    height: 600px !important;
+	}
+	.wb-gallery-two-grid-dsc {
+	    left: 30px;
+	}
+	.wb-gallery-head {
+	    max-width: 675px;
+	    width: 100%;
+	}
+	.wb-gallery-full-grid{
+		margin-top: 40px;
+	}
+}
+
+@media(max-width: 767px){
+	.wb-gallery-head-title {
+	    font-size: 47px;
+	    margin-bottom: 20px;
+	}
+	.wb-gallery-sec-wrp {
+	    padding-top: 60px;
+	    padding-bottom: 60px;
+	}
+	.wb-gallery-wrp {
+	    padding-top: 40px;
+	}
+	.wb-gallery-head {
+	    max-width: 500px;
+	    width: 100%;
+	}
+	.wb-gallery-full-grid-dsc-title,
+	.wb-gallery-two-grid-dsc-title {
+	    font-size: 47px;
+	}
+	.wb-gallery-two-grid-inr {
+	    height: 560px !important;
+	}
+	.wb-gallery-two-grid-wrp ul li {
+	    width: 100%;
+	}
+	.wb-gallery-two-grid-dsc {
+	    left: 20px;
+	}
+	.wb-gallery-full-grid-dsc {
+	    float: none;
+	    margin: 0 auto;
+	}
+	.wb-gallery-full-grid {
+	    height: 480px !important;
+	    padding: 30px 30px 30px;
+	    margin-top: 65px;
+	    margin-bottom: 70px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+	.wb-gallery-full-grid{
+		margin-top: 25px;
+	}
+}
+
+@media(max-width: 575px){
+	.wb-gallery-head-title {
+	    font-size: 44px;
+	}
+	.wb-gallery-full-grid-dsc-title,
+	.wb-gallery-two-grid-dsc-title {
+	    font-size: 44px;
+	}
+	.wb-gallery-two-grid-inr {
+	    height: 510px !important;
+	}
+
+}
+
+@media(max-width: 479px){
+	.wb-gallery-two-grid-inr {
+	    height: 400px !important;
+	}
+
+}
+
+@media(max-width: 359px){
+
+}
