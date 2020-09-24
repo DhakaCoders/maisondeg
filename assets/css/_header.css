@@ -759,3 +759,23 @@ header.bnr-hdr{
 	right: -2px;
 	left: auto;
 }
+
+.fl-text-white nav.main-nav ul li a,
+.fl-text-white nav.main-nav > ul > li.menu-item-has-children > a:after,
+.fl-text-white .fl-lang ul li a,
+.fl-text-white .fl-lang-cntlr:after,
+.fl-text-white .hdr-wishlist-btn strong{
+	color: #fff;
+}
+
+.fl-text-white .fl-lang .fl-lang-cntlr:hover ul li a{
+	color: #FF674D!important;
+}
+
+.fl-text-white .fl-lang .fl-lang-cntlr:hover:after{
+	color: #FF674D!important;
+}
+
+.fl-text-white .pageBnrTitle{
+	color: #fff;
+}
