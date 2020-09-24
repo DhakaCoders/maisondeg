@@ -45,37 +45,37 @@
 }
 .product-detals-title{
 	font-family: 'Poppins', sans-serif;
-	font-size: 36px;
+	font-size: 31px;
 	font-weight: 300;
-	line-height: 1.1;
-	margin-bottom: 35px;
+	line-height: 1.3;
+	margin-bottom: 32px;
 }
 .prdct-dtls-code{
 	display: inline-block;
-	font-size: 18px;
-	margin-bottom: 50px;
+	font-size: 16px;
+	margin-bottom: 45px;
 }
 .prdct-dtls-name{
-	font-size: 30px;
+	font-size: 26px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
-	margin-bottom: 50px;
+	margin-bottom: 45px;
 }
 .prdct-dtls-prize{
 
 }
 .prdct-dtls-prize > p{
 	font-family: 'CactusMedium';
-	font-size: 20px;
+	font-size: 18px;
 }
 .prdct-dtls-prize span{
-	font-size: 30px;
+	font-size: 26px;
 	display: inline-block;
-	margin-bottom: 50px;
+	margin-bottom: 45px;
 }
 .product-detals > p{
 	margin-bottom: 36px;
-	font-size: 16px;
+	font-size: 14px;
 	color: #1D1D1B;
 }
 .prdct-dtls-option{
@@ -124,4 +124,8 @@
 .prdct-dwnld a:hover{
 	color: #fe674c;
 	text-decoration: none;
+}
+
+.jd-slide-nav-cntlr{
+	/*padding: 0 150px;*/
 }
