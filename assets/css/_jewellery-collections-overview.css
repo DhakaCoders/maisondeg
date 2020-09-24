@@ -80,6 +80,7 @@
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	padding-right: 15px;
+	font-weight: 400;
 	position: relative;
 }
 .jco-grd-item-des a i{

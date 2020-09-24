@@ -1,12 +1,6 @@
 .hm-msnry-sec{
-	padding: 195px 0;
+	padding: 200px 0;
 }
-
-
-/*.hm-msnry-sec-ctlr{
-	min-height: 1055px;
-	position: relative;
-}*/
 .hm-msnry-grd-items{
 	min-height: 1055px;
 	height: 100%;
@@ -84,9 +78,6 @@
 	min-height: 385px;
 	height: 100%;
 }
-
-
-
 .hm-msnry-title{
 	display: block;
 	font-size: 22px;
@@ -109,6 +100,7 @@
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	padding-right: 15px;
+	font-weight: 400;
 	position: relative;
 }
 .hm-msnry-grd-item-des a:hover{
@@ -143,6 +135,7 @@
 	letter-spacing: 0.1em;
 	background: #fff;
 	border: 2px solid #fff;
+	font-weight: 400;
 	margin-left: auto;
 	margin-right: auto;
 }
