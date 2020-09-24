@@ -1,0 +1,131 @@
+.product-slider{
+	padding-top: 83px;
+  	padding-top: 250px;
+  	background: #f8f8f8;
+}
+.product-slider-inr{
+	
+}
+.back-link{
+	padding-bottom: 130px;
+}
+.back-link a{
+	display: inline-block;
+	position: relative;
+	color: #1D1D1B;
+	padding-left: 15px;
+	text-transform: uppercase;
+}
+.back-link a:hover{
+	color: #fe674c;
+}
+.back-link a i{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.back-link a:hover .back-link a i{
+	margin-left: -5px;
+}
+.product-slider-wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+.slider-cntlr{
+	width: 50%;
+
+}
+.product-detals{
+	width: 50%;
+	padding-left: 90px;
+}
+.product-detals-title{
+	font-family: 'Poppins', sans-serif;
+	font-size: 31px;
+	font-weight: 300;
+	line-height: 1.3;
+	margin-bottom: 32px;
+}
+.prdct-dtls-code{
+	display: inline-block;
+	font-size: 16px;
+	margin-bottom: 45px;
+}
+.prdct-dtls-name{
+	font-size: 26px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	margin-bottom: 45px;
+}
+.prdct-dtls-prize{
+
+}
+.prdct-dtls-prize > p{
+	font-family: 'CactusMedium';
+	font-size: 18px;
+}
+.prdct-dtls-prize span{
+	font-size: 26px;
+	display: inline-block;
+	margin-bottom: 45px;
+}
+.product-detals > p{
+	margin-bottom: 36px;
+	font-size: 14px;
+	color: #1D1D1B;
+}
+.prdct-dtls-option{
+	display: flex;
+	align-items: center;
+}
+.prdct-add-to{
+	margin-right: 38px;
+}
+.prdct-add-to a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 400;
+    border: 2px solid #1D1D1B;
+    background: transparent;
+    color: #1D1D1B;
+    width: 240px;
+    height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 30px;
+    position: relative;
+}
+.prdct-add-to a:hover{
+	background: #000;
+	color: #fe674c;
+}
+.prdct-add-to a i{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 35px;
+	font-size: 20px;
+	margin-top: 1px;
+}
+.prdct-dwnld a{
+	display: inline-block;
+    color: #1D1D1B;
+	font-weight: 400;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.prdct-dwnld a:hover{
+	color: #fe674c;
+	text-decoration: none;
+}
+
+.jd-slide-nav-cntlr{
+	/*padding: 0 150px;*/
+}
