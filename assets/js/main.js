@@ -220,7 +220,22 @@ if( $('.blg-tabs-slider').length ){
  
 
 
-
+     $('.slider-single').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slider-nav'
+    });
+    $('.slider-nav').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      asNavFor: '.slider-single',
+      dots: false,
+      arrows: true,
+      centerMode: true,
+      focusOnSelect: true
+    });
 
 /*----- End of Noyon -----*/
 
