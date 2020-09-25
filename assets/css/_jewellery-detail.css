@@ -182,3 +182,45 @@
 	color: #FF674D;
 	text-transform: uppercase;
 }
+
+
+
+/*new*/
+
+.full-width-sec-grds{
+	padding: 0 0 100px 0;
+}
+.only-title-sec-hdr{
+	text-align: center;
+}
+
+.otsh-title{
+	font-size: 60px;
+	line-height: 1;
+}
+
+.dgProductSlideItem{
+	padding: 0 12px;
+}
+.dg-product-slider-cntlr{
+	padding-bottom: 0;
+}
+
+.dgProductSlider .slick-list{
+	padding-bottom: 150px;
+}
+
+.product-grds-slider-sec{
+	position: relative;
+	z-index: 5;
+}
+.full-width-sec-grds{
+	margin-top: -55px;
+	position: relative;z-index: 2;
+}
+
+.product-grds-slider-sec .slick-prev,
+.product-grds-slider-sec .slick-next{
+	transform: initial;
+	top: 200px;
+}

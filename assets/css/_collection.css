@@ -154,7 +154,7 @@
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	background: #fff;
+	background: rgba(255,255,255,.8);
 	z-index: 3;
 }
 .ring-product-item-hover-img-cntlr{
