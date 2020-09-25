@@ -283,17 +283,6 @@
  Responsive Css
 ------------------
 */
-@media(max-width: 1499px){
-
-}
-
-@media(max-width: 1399px){
-
-}
-
-@media(max-width: 1299px){
-
-}
 
 @media(max-width: 1199px){
     .ftr-col-tp-lft {
@@ -414,14 +403,19 @@
 }
 
 @media(max-width: 767px){
-    .ftr-col .ftr-top-newsletter,
-    .ftr-col > ul {
-          display: none;
+      .ftr-top {
+        padding-bottom: 40px;
+        padding-top: 75px;
+      }
+      .ftr-col > ul {
+        display: none;
       }
       .ftr-col.ftr-col-4 > ul,
-      .ftr-col.ftr-col-3 > ul,
       .ftr-col.ftr-col-2 > ul{
         display: block;
+      }
+      .ftr-col-3{
+        display: none ;
       }
     .ftr-title span {
         display: inline-block;
@@ -470,6 +464,9 @@
     }
     .footer-top-dsc p {
         margin-bottom: 20px;
+    }
+    .ftr-btm-col ul:last-of-type li:nth-child(1) a::after{
+        content: none !important;
     }
 
 }

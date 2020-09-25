@@ -256,17 +256,6 @@ tm-post-grid-sec-wrp
  Responsive css
 ------------------
 */
-@media(max-width: 1499px){
-
-}
-
-@media(max-width: 1399px){
-
-}
-
-@media(max-width: 1299px){
-
-}
 
 @media(max-width: 1199px){	
 	.wb-gallery-head p {
@@ -277,6 +266,9 @@ tm-post-grid-sec-wrp
 	}
 	.team-member-grid-img {
 	    height: 400px !important;
+	}
+	.tm-services-grids {
+	    padding: 150px 0 100px 0;
 	}
 }
 
@@ -302,6 +294,9 @@ tm-post-grid-sec-wrp
 	}
 	.team-member-grid-img {
 	    height: 370px !important;
+	}
+	.tm-services-grids {
+	    padding: 120px 0 70px 0;
 	}
 }
 
@@ -331,6 +326,12 @@ tm-post-grid-sec-wrp
 	.team-member-grid-img {
 	    height: 320px !important;
 	}
+	.tm-services-grids {
+	    padding: 80px 0 15px 0;
+	}
+	.tm-services-grids .service-grid-item-img-cntlr {
+	    margin-bottom: 30px;
+	}
 }
 
 @media(max-width: 575px){
@@ -345,6 +346,9 @@ tm-post-grid-sec-wrp
 	}
 	.team-member-grid-wrp ul li:nth-child(2n+1) {
 	    clear: none;
+	}
+	.team-member-sec-wrp .wb-gallery-head {
+	    padding: 0 15px;
 	}
 
 }
