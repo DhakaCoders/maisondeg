@@ -75,8 +75,9 @@
 	font-size: 24px;
 	line-height: 26px;
 	color: #1D1D1B;
-	font-weight: normal;
+	font-style: normal;
 	margin-bottom: 25px;
+    font-family: 'CactusMedium';
 }
 .ftr-col ul li span,
 .ftr-col ul li{
@@ -162,9 +163,16 @@
 	background-repeat: no-repeat;
 	right: 0;
 	top: 6px;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
 .from-group-sub button:hover:after{
     background: url(../images/down-icon-hover.png);
+    right: -3px;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
 .from-group-sub button:hover{
     color: #FF674D;
