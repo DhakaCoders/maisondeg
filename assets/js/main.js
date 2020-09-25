@@ -196,7 +196,7 @@ if( $('.blg-tabs-slider').length ){
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 639,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1

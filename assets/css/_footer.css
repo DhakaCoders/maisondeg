@@ -194,12 +194,13 @@
     position: relative;
     font-size: 14px;
     line-height: 16px;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
 }
 .ftr-btm-col ul li a {
     color: #7D7D7D;
     display: inline-block;
     vertical-align: baseline;
-     font-family: 'Montserrat', sans-serif;
 }
 .ftr-btm-col ul li a::after {
     content: "" !important;

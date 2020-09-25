@@ -162,17 +162,6 @@ about-team-member-sec-wrp
  Responsive css
 ------------------
 */
-@media(max-width: 1499px){
-
-}
-
-@media(max-width: 1399px){
-
-}
-
-@media(max-width: 1299px){
-
-}
 
 @media(max-width: 1199px){
 	.about-image-text-grids {
@@ -311,6 +300,10 @@ about-team-member-sec-wrp
 	}
 	.about-team-member-img {
 	    min-height: 580px !important;
+	}
+	.about-team-member-head{
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
 
