@@ -261,7 +261,7 @@ if( $('#googlemap').length ){
 
       var marker= new google.maps.Marker({
         position:myCenter,
-        icon:''
+        icon:'assets/images/map-marker.png'
         });
       marker.setMap(map);
     }
