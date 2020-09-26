@@ -21,6 +21,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/fonts/custom-fonts.css">
+  <link rel="stylesheet" type="text/css" href="assets/toolbar/jquery.toolbar.css">
 
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
@@ -340,7 +341,8 @@
                 <div class="history-grd-col-2 history-grd-col">
                   <div class="history-grd-des">
                     <h3 class="hgd-title">1848-1880 </h3>
-                    <p>François-Prosper De Greef founded the eponymous house in 1848 at 28 <a href="#">Rue au Beurre*,</a> just a stone's throw from Brussels' Grand Place. He soon laid the foundations for enduring success by becoming an accredited clockmaker for the Belgian National Railway Company and subsequently an official supplier of pocket watches to the Belgian Navy, the Postal Administration, and the Telegraph and Telephone Administration.</p>
+                    <p>François-Prosper De Greef founded the eponymous house in 1848 at 28 <a class="tooltipButton"href="#">Rue au Beurre*,</a> just a stone's throw from Brussels' Grand Place. He soon laid the foundations for enduring success by becoming an accredited clockmaker for the Belgian National Railway Company and subsequently an official supplier of pocket watches to the Belgian Navy, the Postal Administration, and the Telegraph and Telephone Administration.</p>
+                    
                   </div>
                 </div>
               </div>
@@ -365,12 +367,15 @@
             <li>
               <div class="history-grd-row clearfix">
                 <div class="history-grd-col-1 history-grd-col">
-                  <div class="history-fancy-module" >
-                    <div class="hf-img inline-bg" style="background-image: url(assets/images/history-fancy-img-01.jpg);"></div>
-                      <a class="overlay-link" data-fancybox="gallery" href="https://www.youtube.com/watch?v=jG8PY8-qCII"></a>
-                      <span class="ms-video-play-cntlr">
-                        <i class="fas fa-play"></i>
-                      </span>
+                  <div class="history-slider-module">
+                    <div class="history-slider-module-cntlr hsmSlider">
+                      <div class="hsmSlideItem" style="background: url(assets/images/history-slider-img-01.jpg);">
+                      </div>
+                      <div class="hsmSlideItem" style="background: url(assets/images/history-slider-img-01.jpg);">
+                      </div>
+                      <div class="hsmSlideItem" style="background: url(assets/images/history-slider-img-01.jpg);">
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="history-grd-col-2 history-grd-col">
@@ -391,7 +396,7 @@
                 <div class="history-grd-col-2 history-grd-col">
                   <div class="history-grd-des">
                     <h3 class="hgd-title">1903-1959  </h3>
-                    <p>In 1953, Augusta, assisted by her eldest son Jean, decided to have the façades of numbers 24 and 26 revamped by modernist architect Jacques Dupuis. His plans proved visionary, with a single flattened cement façade painted in white with jet-black window frames. The smallest grand boutique in Brussels now boasted an elegant, pure, timeless and incredibly avant-garde look.</p> 
+                    <p>In 1953, Augusta, assisted by her eldest son Jean, decided to have the façades of numbers 24 and 26 revamped by modernist architect Jacques Dupuis. His plans proved visionary, with a single flattened cement façade painted in white with jet-black window frames. The smallest grand boutique in <a href="#">Brussels now boasted an elegant, pure,</a> timeless and incredibly avant-garde look.</p> 
 
                     <p>Inside, the spaces were arranged fluidly and organically. Mirrors drew the eye towards the space's more confidential areas, while the public portion opened into an expansive empty space adorned with a large Murano glass chandelier. </p>
 
@@ -633,6 +638,7 @@
 <script src="assets/js/jquery.matchHeight-min.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/wow.min.js"></script>
+<script src="assets/toolbar/jquery.toolbar.min.js"></script>
 <script src="assets/js/main.js"></script>
 
 </body>

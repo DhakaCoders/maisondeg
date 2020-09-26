@@ -374,7 +374,24 @@ if( $('.pageBnrSlider').length ){
       slidesToScroll: 1
     });
 }
+if( $('.hsmSlider').length ){
+    $('.hsmSlider').slick({
+      dots: true,
+      arrows: true,
+      infinite: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+}
 
+/*if( $('.tooltipButton').length ){
+  $('.tooltipButton').toolbar({
+    content: '#toolbar-options',
+  });
+}*/
 /*----- End of Rannojit -----*/
 
 
