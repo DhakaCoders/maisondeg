@@ -58,7 +58,7 @@ contact-form-sec-wrp
 	font-size: 22px;
 	line-height: 24px;
 	font-family: 'CactusMedium';
-	margin-bottom: 17px;
+	margin-bottom: 18px;
 }
 .contact-fields-msg textarea,
 .contact-d2-field input[type="email"],
@@ -92,6 +92,7 @@ contact-form-sec-wrp
     color: #FF674D;
     margin-bottom: 0;
     text-transform: lowercase;
+    font-family: 'Poppins', sans-serif;
 }
 .contact-fields-msg{
 	margin-bottom: 55px;
@@ -283,19 +284,20 @@ ap-form-sec-wrp
 .ap-field-radio-type ul{
 	display: table;
 	margin: 0 auto;
+	padding-bottom: 0 !important;
 }
 .ap-field-radio-type ul li {
     position: relative;
     float: left;
     padding: 0 10px;
-    margin-bottom: 10px;
 }
-.ap-field-radio-type ul li label{
+.ap-field-radio-type ul li label {
     margin: 0;
     cursor: pointer;
     width: 140px;
     height: 120px;
     position: relative;
+    padding: 10px 10px 10px 10px;
 }
 .ap-date{
 	position: absolute;
@@ -305,7 +307,7 @@ ap-form-sec-wrp
 	-ms-transform: translate(-50%,-50%);
 	-webkit-transform: translate(-50%,-50%);
 	text-align: center;
-	padding-top: 8px;
+	padding-top: 5px;
 }
 .ap-date p {
     font-size: 16px;
@@ -324,9 +326,8 @@ ap-form-sec-wrp
 	line-height: 1;
 	font-family: 'CactusLight';
 }
-/* Hide the browser's default checkbox */
+
 .ap-radio-type-middel ul li label input[type="radio"],
-.ap-radio-type-middel ul li label input[type="checkbox"],
 .ap-field-radio-type ul li label input[type="radio"]{
   position: absolute;
   opacity: 0;
@@ -335,7 +336,6 @@ ap-form-sec-wrp
   width: 0;
 }
 
-/* Create a custom checkbox */
 .ap-field-radio-type ul li label span.checkmark{
     position: absolute;
     border:2px solid#f8f8f8;
@@ -345,11 +345,14 @@ ap-form-sec-wrp
     bottom: 0;
     right: 0;
 }
-
-
 .ap-field-radio-type ul li label input:checked ~ .checkmark{
     border-color: #fe674c;
 }
+
+
+
+
+
 .ap-radio-type-middel{
 	padding-top: 50px;
 }
@@ -361,13 +364,11 @@ ap-form-sec-wrp
     float: left;
     padding: 0 27px;
 }
-.ap-radio-type-middel ul li label{
-	border-bottom:2px solid#fff;
-}
+
 .ap-radio-type-middel ul li label{
 	margin: 0;
 	font-size: 16px;
-	line-height: 13px;
+	line-height: 16px;
 	letter-spacing: 0.1em;
 	color: #1D1D1B;
 	text-transform: uppercase;
@@ -375,9 +376,22 @@ ap-form-sec-wrp
 	position: relative;
 	cursor: pointer;
 }
-.ap-radio-type-middel ul li label.active{
-	border-color:#ababa9;
+
+.ap-radio-type-middel span.checkmark{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border:1px solid#fff;
 }
+
+.ap-radio-type-middel input:checked ~ .checkmark{
+    display: block;
+    border-color: #ababa9;
+}
+
+
+
 
 .ap-form-radio-wrp{
 	padding-top: 130px;
@@ -403,7 +417,6 @@ ap-form-sec-wrp
     color: #1D1D1B;
     margin-bottom: 0;
 }
-.ap-form-radio-wrp input[type="checkbox"],
 .ap-form-radio-wrp input[type="radio"]{
 	position: absolute;
 	opacity: 0;
@@ -464,6 +477,150 @@ ap-form-sec-wrp
 	line-height: 1.2;
 	color: #1D1D1B;
 	font-family: 'CactusLight';
+	text-transform: capitalize;
+}
+.ap-form-sec-wrp .contact-field-submit button{
+	width: 220px;
+}
+
+
+/*
+------------------
+ Responsive Css
+------------------
+*/
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.contact-form-head-title {
+	    font-size: 55px;
+	    margin-bottom: 35px;
+	}
+	.contact-form-sec-wrp {
+	    padding-top: 100px;
+	    padding-bottom: 105px;
+	}
+	.contact-info-inr{
+		right: 15px;
+	}
+
+}
+
+@media(max-width: 991px){
+	.contact-form-head-title {
+	    font-size: 50px;
+	    margin-bottom: 25px;
+	}
+	.contact-form-head {
+	    padding-bottom: 60px;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+	.contact-form-head p{
+	    font-size: 20px;
+	}
+	.contact-form-sec-wrp {
+	    padding-top: 90px;
+	    padding-bottom: 95px;
+	}
+	.contact-info ul li a br{
+		display: block !important;
+	}
+}
+
+@media(max-width: 767px){
+	.contact-form-head-title {
+	    font-size: 47px;
+	    margin-bottom: 20px;
+	}
+	.contact-form-sec-wrp {
+	    padding-top: 80px;
+	    padding-bottom: 80px;
+	}
+	.contact-map-wrp {
+	    padding: 0 15px;
+	    z-index: 1;
+	}
+	.contact-info-inr {
+	    float: none;
+	    bottom: 0;
+	    right: 0;
+	    top: auto;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	    -webkit-transform: translateX(-50%);
+		box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.04);
+	}
+	.contact-map-sec-wrp{
+		height: 1350px;
+	}
+}
+
+@media(max-width: 575px){
+	.contact-form-head-title {
+	    font-size: 44px;
+	}
+	.contact-form-head p{
+	    font-size: 18px;
+	}
+	.contact-d2-fields {
+	    margin: 0;
+	}
+	.contact-d2-field {
+	    width: 100%;
+	    padding: 0;
+	    margin-bottom: 30px;
+	}
+	.contact-d2-fields-select {
+	    margin-bottom: 30px;
+	}
+	.contact-fields-msg {
+	    margin-bottom: 35px;
+	}
+	.map-accordion-title{
+		padding: 30px 0;
+	}
+	.contact-info-inr {
+	    padding: 30px 15px 0;
+	}
+	.contact-form-head {
+	    padding-bottom: 40px;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	}
+	.contact-info ul li{
+		width: 100%;
+	}
+
+}
+
+@media(max-width: 479px){
+	.contact-info-inr {
+	    max-width: 340px;
+	    width: 100%;
+	    padding: 20px 15px 0;
+	}
+
+}
+
+@media(max-width: 359px){
+	.map-accordion-title {
+	    padding: 30px 15px 30px 0;
+	}
+	.contact-info-inr {
+	    max-width: 300px;
+	}
 }
 
 

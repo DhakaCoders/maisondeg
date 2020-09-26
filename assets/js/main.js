@@ -274,17 +274,17 @@ if( $('#googlemap').length ){
  
 
 
-     $('.jd-slider-single').slick({
+     $('.slider-single').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
       fade: true,
-      asNavFor: '.jd-slider-nav'
+      asNavFor: '.slider-nav'
     });
-    $('.jd-slider-nav').slick({
+    $('.slider-nav').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
-      asNavFor: '.jd-slider-single',
+      asNavFor: '.slider-single',
       dots: false,
       arrows: true,
       centerMode: true,
