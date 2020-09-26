@@ -165,6 +165,7 @@ googlemap
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 0;
 }
 
 .contact-info-inr {
@@ -245,6 +246,224 @@ googlemap
 }
 .map-accordion-des p{
 	margin-bottom: 0;
+}
+
+/*
+---------------------
+ap-form-sec-wrp
+---------------------
+*/
+.ap-form-sec-wrp .contact-form-head {
+    padding-bottom: 75px;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+.contact-form-wrp{
+	max-width: 910px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.ap-field-radio-type-wrp{
+	padding-top: 100px;
+	padding-bottom: 110px;
+	border-top: 2px solid #F8F8F8;
+	border-bottom: 2px solid #F8F8F8;
+}
+.ap-field-radio-type-title{
+	display: block;
+	font-size: 36px;
+	line-height: 1;
+	color: #1D1D1B;
+	text-align: center;
+	margin-bottom: 50px;
+	font-family: 'CactusMedium';
+}
+.ap-field-radio-type ul{
+	display: table;
+	margin: 0 auto;
+}
+.ap-field-radio-type ul li {
+    position: relative;
+    float: left;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.ap-field-radio-type ul li label{
+    margin: 0;
+    cursor: pointer;
+    width: 140px;
+    height: 120px;
+    position: relative;
+}
+.ap-date{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	text-align: center;
+	padding-top: 8px;
+}
+.ap-date p {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #1D1D1B;
+    margin-bottom: 6px;
+}
+.ap-date strong{
+	display: inline-block;
+	vertical-align: baseline;
+	letter-spacing: 0.1em;
+	text-transform: capitalize;
+	color: #1D1D1B;
+	font-size: 30px;
+	line-height: 1;
+	font-family: 'CactusLight';
+}
+/* Hide the browser's default checkbox */
+.ap-radio-type-middel ul li label input[type="radio"],
+.ap-radio-type-middel ul li label input[type="checkbox"],
+.ap-field-radio-type ul li label input[type="radio"]{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.ap-field-radio-type ul li label span.checkmark{
+    position: absolute;
+    border:2px solid#f8f8f8;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+.ap-field-radio-type ul li label input:checked ~ .checkmark{
+    border-color: #fe674c;
+}
+.ap-radio-type-middel{
+	padding-top: 50px;
+}
+.ap-radio-type-middel ul{
+	display: table;
+	margin: 0 auto;
+}
+.ap-radio-type-middel ul li{
+    float: left;
+    padding: 0 27px;
+}
+.ap-radio-type-middel ul li label{
+	border-bottom:2px solid#fff;
+}
+.ap-radio-type-middel ul li label{
+	margin: 0;
+	font-size: 16px;
+	line-height: 13px;
+	letter-spacing: 0.1em;
+	color: #1D1D1B;
+	text-transform: uppercase;
+	font-weight: 400;
+	position: relative;
+	cursor: pointer;
+}
+.ap-radio-type-middel ul li label.active{
+	border-color:#ababa9;
+}
+
+.ap-form-radio-wrp{
+	padding-top: 130px;
+	padding-bottom: 55px;
+}
+.ap-form-radio-title{
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: 0.1em;
+	text-transform: capitalize;
+	color: #1D1D1B;
+	font-family: 'CactusMedium';
+}
+.ap-form-radio-wrp ul li{
+	padding-left: 35px;
+	float: left;
+	padding-right: 50px;
+}
+.ap-form-radio-wrp ul li label{
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #1D1D1B;
+    margin-bottom: 0;
+}
+.ap-form-radio-wrp input[type="checkbox"],
+.ap-form-radio-wrp input[type="radio"]{
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	left: 0;
+	z-index: 1;
+}
+.ap-form-radio-wrp span.checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: #fff;
+    border: 1px solid #E1E1E1;
+    border-radius: 50px;
+}
+.checkmark:after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.ap-form-radio-wrp input:checked ~ .checkmark:after{
+    display: block;
+}
+
+.ap-form-radio-wrp .checkmark::after{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    width: 16px;
+    height: 16px;
+    background:#FF674D;
+    border-radius: 50px;
+    
+}
+
+.ap-msg-dsc-wrp{
+	padding-bottom: 35px;
+	border-bottom: 2px solid #F8F8F8;
+	text-align: center;
+	margin-bottom: 35px;
+}
+.ap-msg-dsc-wrp span{
+	display: block;
+	font-size: 16px;
+	line-height: 18px;
+	color: #1D1D1B;
+	padding-bottom: 25px;
+}
+.ap-msg-dsc-wrp strong{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 36px;
+	line-height: 1.2;
+	color: #1D1D1B;
+	font-family: 'CactusLight';
 }
 
 
