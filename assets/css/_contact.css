@@ -484,6 +484,146 @@ ap-form-sec-wrp
 }
 
 
+/*
+------------------
+ Responsive Css
+------------------
+*/
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.contact-form-head-title {
+	    font-size: 55px;
+	    margin-bottom: 35px;
+	}
+	.contact-form-sec-wrp {
+	    padding-top: 100px;
+	    padding-bottom: 105px;
+	}
+	.contact-info-inr{
+		right: 15px;
+	}
+
+}
+
+@media(max-width: 991px){
+	.contact-form-head-title {
+	    font-size: 50px;
+	    margin-bottom: 25px;
+	}
+	.contact-form-head {
+	    padding-bottom: 60px;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+	.contact-form-head p{
+	    font-size: 20px;
+	}
+	.contact-form-sec-wrp {
+	    padding-top: 90px;
+	    padding-bottom: 95px;
+	}
+	.contact-info ul li a br{
+		display: block !important;
+	}
+}
+
+@media(max-width: 767px){
+	.contact-form-head-title {
+	    font-size: 47px;
+	    margin-bottom: 20px;
+	}
+	.contact-form-sec-wrp {
+	    padding-top: 80px;
+	    padding-bottom: 80px;
+	}
+	.contact-map-wrp {
+	    padding: 0 15px;
+	    z-index: 1;
+	}
+	.contact-info-inr {
+	    float: none;
+	    bottom: 0;
+	    right: 0;
+	    top: auto;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	    -webkit-transform: translateX(-50%);
+		box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.04);
+	}
+	.contact-map-sec-wrp{
+		height: 1350px;
+	}
+}
+
+@media(max-width: 575px){
+	.contact-form-head-title {
+	    font-size: 44px;
+	}
+	.contact-form-head p{
+	    font-size: 18px;
+	}
+	.contact-d2-fields {
+	    margin: 0;
+	}
+	.contact-d2-field {
+	    width: 100%;
+	    padding: 0;
+	    margin-bottom: 30px;
+	}
+	.contact-d2-fields-select {
+	    margin-bottom: 30px;
+	}
+	.contact-fields-msg {
+	    margin-bottom: 35px;
+	}
+	.map-accordion-title{
+		padding: 30px 0;
+	}
+	.contact-info-inr {
+	    padding: 30px 15px 0;
+	}
+	.contact-form-head {
+	    padding-bottom: 40px;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	}
+	.contact-info ul li{
+		width: 100%;
+	}
+
+}
+
+@media(max-width: 479px){
+	.contact-info-inr {
+	    max-width: 340px;
+	    width: 100%;
+	    padding: 20px 15px 0;
+	}
+
+}
+
+@media(max-width: 359px){
+	.map-accordion-title {
+	    padding: 30px 15px 30px 0;
+	}
+	.contact-info-inr {
+	    max-width: 300px;
+	}
+}
+
+
 
 
 
