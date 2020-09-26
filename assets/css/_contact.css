@@ -326,7 +326,7 @@ ap-form-sec-wrp
 	line-height: 1;
 	font-family: 'CactusLight';
 }
-/* Hide the browser's default checkbox */
+
 .ap-radio-type-middel ul li label input[type="radio"],
 .ap-field-radio-type ul li label input[type="radio"]{
   position: absolute;
@@ -336,7 +336,6 @@ ap-form-sec-wrp
   width: 0;
 }
 
-/* Create a custom checkbox */
 .ap-field-radio-type ul li label span.checkmark{
     position: absolute;
     border:2px solid#f8f8f8;
@@ -349,6 +348,8 @@ ap-form-sec-wrp
 .ap-field-radio-type ul li label input:checked ~ .checkmark{
     border-color: #fe674c;
 }
+
+
 
 
 
