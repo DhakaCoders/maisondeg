@@ -129,39 +129,39 @@
 
 
 
-.slider-cntlr .jd-slider-single .slide-item-img{
+.slider-cntlr .slider-single .slide-item-img{
 	height: 470px;
 	text-align: center;
 }
-.slider-cntlr .jd-slider-single .slide-item-img img{
+.slider-cntlr .slider-single .slide-item-img img{
 	max-height: 400px;
 	display: inline;
 }
-.jd-slide-nav-cntlr{
+.slide-nav-cntlr{
 	/*padding: 0 150px;*/
 }
-.jd-slide-nav-cntlr .jd-slider-nav .slide-for-item-img{
+.slide-nav-cntlr .slider-nav .slide-for-item-img{
 	height: 90px;
 	text-align: center;
 	padding: 0 15px;
 }
-.jd-slide-nav-cntlr .jd-slider-nav .slide-for-item-img .slick-active{
+.slide-nav-cntlr .slider-nav .slide-for-item-img .slick-active{
 	background: #f8f8f8!important;
 	filter: drop-shadow(0px 12px 25px rgba(0, 0, 0, 0.04));
 }
-.jd-slide-nav-cntlr .jd-slider-nav .slide-for-item-img img{
+.slide-nav-cntlr .slider-nav .slide-for-item-img img{
 	max-height: 90px;
 	display: inline;
 	padding-top: 7px;
 }
 
 
-.jd-conversation-cntlr{
+.conversation-cntlr{
 	position: absolute;
 	bottom: -110px;
 	right: 20px;
 }
-.jd-conversation-icon{
+.conversation-icon{
 	width: 94px;
 	height: 94px;
 	background: #FF674D;
@@ -173,7 +173,7 @@
     margin-right: auto;
     margin-bottom: 20px;
 }
-.jd-conversation-icon i{
+.conversation-icon i{
 	max-height: 48px;
 }
 .conversation-title{
@@ -182,9 +182,105 @@
 	color: #FF674D;
 	text-transform: uppercase;
 }
+.conversation{
+	
+	position: absolute;
+	right: 20px;
+	background: #fff;
+	bottom: 174px;
+	width: 472px;
+	box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.04);
+}
+.conversation-inr{
+	padding: 35px;
+	position: relative;
+}
+.conversation-inr:after{
+	position: absolute;
+    content: "";
+    right: 29px;
+    bottom: -21px;
+    width: 20px;
+    height: 20px;
+    border-top: 15px solid #FF674D;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+.advisor-profile{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-bottom: 38px;
+	border-bottom: 1px solid #ececec;
+	margin-bottom: 30px;
+}
+.advisor-profile-img{
+	width: 73px;
+	height: 73px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-right: 19px;
+}
+.advisor-profile-desc{
 
+}
+.advisor-profile-name{
+	font-family: CactusMedium;
+	font-size: 36px;
+	line-height: 1;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+.advisor-profile-desc span{
+	color: #FF674D;
+	line-height: 1;
+	letter-spacing: 0.04em;
+}
+.conversation form{
 
-
+}
+.conversation form .input-fields{
+	margin-bottom: 19px;
+}
+.conversation form .input-fields label{
+	margin-bottom: 14px;
+	text-transform: uppercase;
+	color: #1D1D1B;
+	font-weight: 400;
+}
+.conversation form .input-fields input[type="text"]{
+	width: 100%;
+	padding: 20px 24px;
+	border: 1px solid #E1E1E1;
+	background: #fff;
+}
+.conversation form .input-fields input[type="text"]:focus{
+	border-color: #1D1D1B;
+}
+.conversation form .input-fields input::placeholder,
+.conversation form .input-fields input::placeholder,
+.conversation form .input-fields input:-ms-input-placeholder,
+.conversation form .input-fields input:-ms-input-placeholder,
+.conversation form .input-fields input::-ms-input-placeholder,
+.conversation form .input-fields input::-ms-input-placeholder,
+.conversation form .input-fields input::-webkit-input-placeholder,
+.conversation form .input-fields input::-webkit-input-placeholder{
+  color: #1D1D1B;
+  opacity: 1;
+}
+.conversation form .input-fields input[type="submit"]{
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	background: #000;
+	padding: 20px 66px;
+	border: 2px solid transparent;
+}
+.conversation form .input-fields input[type="submit"]:hover{
+	color: #FF674D;
+	border-color: #FF674D;
+	background: transparent;
+}
 /*new*/
 
 .full-width-sec-grds{
@@ -197,6 +293,7 @@
 .otsh-title{
 	font-size: 60px;
 	line-height: 1;
+	margin-bottom: 59px;
 }
 
 .dgProductSlideItem{
@@ -213,6 +310,7 @@
 .product-grds-slider-sec{
 	position: relative;
 	z-index: 5;
+	padding-top: 157px;
 }
 .full-width-sec-grds{
 	margin-top: -55px;
@@ -223,4 +321,22 @@
 .product-grds-slider-sec .slick-next{
 	transform: initial;
 	top: 200px;
+}
+.jd-h-item1:hover .ring-product-item-img{
+	opacity:1!important;
+}
+.jd-none-pb .dgProductSlider .slick-list{
+	padding-bottom: 0;
+}
+
+.jd-fea-watch-des{
+
+}
+.jd-fea-watch-title{
+	font-size: 60px;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	line-height: 1;
+	color: #1D1D1B;
+
 }
