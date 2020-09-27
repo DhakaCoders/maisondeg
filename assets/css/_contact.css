@@ -563,7 +563,7 @@ ap-form-sec-wrp
 		box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.04);
 	}
 	.contact-map-sec-wrp{
-		height: 1350px;
+		height: 1250px;
 	}
 }
 
@@ -601,6 +601,12 @@ ap-form-sec-wrp
 	}
 	.contact-info ul li{
 		width: 100%;
+	}
+	.contact-info-inr{
+		max-width: 400px;
+	}
+	.contact-map-sec-wrp {
+	    height: 1180px;
 	}
 
 }
