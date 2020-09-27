@@ -1,0 +1,41 @@
+
+.wishlist-entry-hdr span{
+	display: inline-block;
+	vertical-align: baseline;
+	width: 216px;
+	height: 216px;
+	background: transparent;
+	border: 7px solid #1D1D1B;
+	border-radius: 100%;
+	margin-bottom: 20px;
+	position: relative;
+}
+.wishlist-entry-hdr span:after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 82px;
+	width: 120px;
+	background: url('../images/wishlist-sucess-icon-2.png');
+	background-repeat: no-repeat!important;
+	background-size: 100% 100%!important;
+}
+
+
+.wishlist-thanks-msg{
+	padding-top: 55px;
+	text-align: center;
+}
+.wishlist-thanks-msg p{
+	font-size: 16px;
+	color: #1D1D1B;
+	margin-bottom: 60px;
+}
+.wishlist-thanks-msg strong{
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #1D1D1B;
+}
