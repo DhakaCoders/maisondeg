@@ -336,6 +336,38 @@ if( $('.dgProductSlider').length ){
 
 /*----- End of Noyon -----*/
 
+if (windowWidth <= 1200){
+  if( $('.hmgiTopSlide').length ){
+    $('.hmgiTopSlide').slick({
+      dots: true,
+      arrows: false,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: false,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  };
+}
+
+if (windowWidth <= 1200){
+  if( $('.hmgiBottomSlide').length ){
+    $('.hmgiBottomSlide').slick({
+      dots: true,
+      arrows: false,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: false,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  };
+}
+
+
+
 
 
 
@@ -374,7 +406,24 @@ if( $('.pageBnrSlider').length ){
       slidesToScroll: 1
     });
 }
+if( $('.hsmSlider').length ){
+    $('.hsmSlider').slick({
+      dots: true,
+      arrows: true,
+      infinite: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+}
 
+/*if( $('.tooltipButton').length ){
+  $('.tooltipButton').toolbar({
+    content: '#toolbar-options',
+  });
+}*/
 /*----- End of Rannojit -----*/
 
 
