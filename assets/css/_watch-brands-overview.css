@@ -149,17 +149,6 @@ wb-gallery-sec-wrp
  Responsive css
 ------------------
 */
-@media(max-width: 1499px){
-
-}
-
-@media(max-width: 1399px){
-
-}
-
-@media(max-width: 1299px){
-
-}
 
 @media(max-width: 1199px){
 	.wb-gallery-head-title {
@@ -232,6 +221,8 @@ wb-gallery-sec-wrp
 	.wb-gallery-head {
 	    max-width: 500px;
 	    width: 100%;
+	    padding-left: 15px;
+	    padding-right: 15px;
 	}
 	.wb-gallery-full-grid-dsc-title,
 	.wb-gallery-two-grid-dsc-title {

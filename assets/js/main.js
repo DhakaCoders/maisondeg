@@ -165,13 +165,29 @@ $('.ftr-col h6').on('click', function(){
 });
 
 // body animate
-$(".about-btn-scroll").click(function(e) {
+$('.about-btn-scroll').click(function(e) {
     e.preventDefault();
     var goto = $(this).attr('href');
     $('html, body').animate({
         scrollTop: $(goto).offset().top - 0
     }, 800);
 });
+
+var allPanels = $('.map-accordion-des').hide();
+$('.map-accordion-tab-row').removeClass('remove-border');
+  $('.map-accordion-title').click(function() {
+        allPanels.slideUp();
+        $('.map-accordion-title').removeClass('map-accordion-active');
+        $('.map-accordion-tab-row').removeClass('remove-border');
+        $(this).next().slideDown();
+        $(this).addClass('map-accordion-active');
+        $(this).parent().next().addClass('remove-border');
+        return false;
+});
+
+
+
+
 
 if( $('.blg-tabs-slider').length ){
     $('.blg-tabs-slider').slick({
@@ -194,7 +210,7 @@ if( $('.blg-tabs-slider').length ){
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 639,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1
@@ -213,6 +229,44 @@ if( $('.blg-tabs-slider').length ){
         // instead of a settings object
       ]
     });
+}
+
+/*
+-----------------------
+Start Contact Google Map ->> 
+-----------------------
+*/
+if( $('#googlemap').length ){
+    var latitude = $('#googlemap').data('latitude');
+    var longitude = $('#googlemap').data('longitude');
+
+    var myCenter= new google.maps.LatLng(latitude,  longitude);
+    var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+    function initialize(){
+        var mapProp = {
+          center:myCenter,
+
+          mapTypeControl:false,
+          scrollwheel: false,
+
+          zoomControl: false,
+          disableDefaultUI: true,
+          zoom:17,
+          streetViewControl: false,
+          rotateControl: false,
+          mapTypeId:google.maps.MapTypeId.ROADMAP,
+          styles : CustomMapStyles
+      };
+      var map= new google.maps.Map(document.getElementById('googlemap'),mapProp);
+
+      var marker= new google.maps.Marker({
+        position:myCenter,
+        icon:'assets/images/map-marker.png'
+        });
+      marker.setMap(map);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
 }
 
 
@@ -236,6 +290,49 @@ if( $('.blg-tabs-slider').length ){
       centerMode: true,
       focusOnSelect: true
     });
+
+
+if( $('.dgProductSlider').length ){
+    $('.dgProductSlider').slick({
+      dots: false,
+      arrows: true,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 639,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+}
 
 /*----- End of Noyon -----*/
 
@@ -268,6 +365,8 @@ if (windowWidth <= 1200){
     });
   };
 }
+
+
 
 
 
@@ -307,7 +406,24 @@ if( $('.pageBnrSlider').length ){
       slidesToScroll: 1
     });
 }
+if( $('.hsmSlider').length ){
+    $('.hsmSlider').slick({
+      dots: true,
+      arrows: true,
+      infinite: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+}
 
+/*if( $('.tooltipButton').length ){
+  $('.tooltipButton').toolbar({
+    content: '#toolbar-options',
+  });
+}*/
 /*----- End of Rannojit -----*/
 
 
