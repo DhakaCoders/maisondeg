@@ -165,18 +165,6 @@
 	margin-bottom: 20px;
 	letter-spacing: 0.04em;
 }
-
-/*.fea-juwellary-sec .dg-btn,
-.fea-watch-sec .dg-btn{
-	border: 2px solid #1D1D1B;
-	color: #1D1D1B;
-	margin-left: auto;
-	margin-right: auto;
-	width: 168px;
-	height: 48px;
-}*/
-
-
 .fea-juwellary-sec,
 .fea-watch-sec{
 	background-repeat: no-repeat!important;
@@ -241,4 +229,82 @@
 	color: #1D1D1B;
 	text-transform: capitalize;
 	letter-spacing: 0.1em;
+}
+
+
+
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.hide-lg{
+		display: none!important;
+	}
+	.show-lg{
+		display: block!important;
+	}
+	.hmgi1{
+		width: 100%;
+	}
+	.hm-msnry-grd-item-ctlr{
+		max-width: 300px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.hm-msnry-grd-item{
+		position: initial;
+	}
+	
+
+}
+
+@media(max-width: 991px){
+	.hide-md{
+		display: none!important;
+	}
+	.show-md{
+		display: block!important;
+	}
+	
+}
+
+@media(max-width: 767px){
+	.hide-sm{
+		display: none!important;
+	}
+	.show-sm{
+		display: block!important;
+	}
+	
+	
+}
+
+@media(max-width: 575px){
+	.hide-xs{
+		display: none!important;
+	}
+	.show-xs{
+		display: block!important;
+	}
+	
+
+}
+
+@media(max-width: 479px){
+	
+
+}
+
+@media(max-width: 359px){
+
 }
