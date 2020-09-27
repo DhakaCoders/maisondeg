@@ -231,6 +231,48 @@ if( $('.blg-tabs-slider').length ){
     });
 }
 
+/*if( $('#ApFieldRadioTypeSlider').length ){
+    $('#ApFieldRadioTypeSlider').slick({
+      dots: false,
+      arrows: false,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1199,
+          settings: {
+            slidesToShow: 7,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 639,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+}*/
+
 /*
 -----------------------
 Start Contact Google Map ->> 
