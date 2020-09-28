@@ -20,18 +20,24 @@
     font-weight: 600;
     text-decoration: inherit;
     color: #1d1d1b;
-    font-size: 12px;
+    font-size: 11px;
     padding-right: 0;
     position: absolute;
-    top: 3px;
+    top: 3.5px;
     left: 0;
     line-height: 15px;
     z-index: 21;
-    transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -webkit-transition: all 0.2s;
+    transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
 }
-
+.back-btn a:hover:after{
+    left: -3px;
+}
+.back-btn a:hover,
+.back-btn a:hover:after{
+    color: #FF674D;
+}
 
 .history-page-con-entry-hdr{
     text-align: center;
