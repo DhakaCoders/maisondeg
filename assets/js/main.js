@@ -334,6 +334,7 @@ if( $('.dgProductSlider').length ){
     });
 }
 
+
 /*----- End of Noyon -----*/
 
 

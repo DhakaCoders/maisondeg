@@ -86,7 +86,7 @@
 .prdct-add-to{
 	margin-right: 38px;
 }
-.prdct-add-to a{
+.prdct-add-to button{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -100,18 +100,17 @@
     height: 48px;
     text-align: center;
     text-transform: uppercase;
-    padding-left: 30px;
     position: relative;
 }
-.prdct-add-to a:hover{
+.prdct-add-to button:hover{
 	background: #000;
 	color: #fe674c;
 }
-.prdct-add-to a i{
+.prdct-add-to button i{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	left: 35px;
+	left: 32px;
 	font-size: 20px;
 	margin-top: 1px;
 }
@@ -322,7 +321,7 @@
 	transform: initial;
 	top: 200px;
 }
-.jd-h-item1:hover .ring-product-item-img{
+.jd-h-item1:hover .msd-product-item-img{
 	opacity:1!important;
 }
 .jd-none-pb .dgProductSlider .slick-list{
