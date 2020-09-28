@@ -27,7 +27,7 @@
 	right: 0;
 	width:  32%;
 	padding-right: 30px;
-	left: initial;
+	left: inherit;
 }
 .hmgi4{
 	top: 585px;
@@ -43,7 +43,7 @@
 	top: 705px;
 	right: 0;
 	width: 32%;
-	left: initial;
+	left: inherit;
 }
 
 
