@@ -201,6 +201,16 @@
     background: url(../images/next-btn-white.svg)!important;
     right: 0; 
 }
+.hsmSlider .slick-prev:hover{
+    background: url('../images/prev-btn-white-hover.svg')!important;
+    left: 0; 
+    background-size: 100% auto!important;
+}
+.hsmSlider .slick-next:hover{
+    background: url('../images/next-btn-white-hover.svg')!important;
+    right: 0; 
+    background-size: 100% auto!important;
+}
 .hsmSlider ul.slick-dots{
     bottom: 0;
 }
