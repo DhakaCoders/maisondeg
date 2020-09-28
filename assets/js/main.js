@@ -469,6 +469,22 @@ if( $('.hsmSlider').length ){
     content: '#toolbar-options',
   });
 }*/
+
+
+/*$('.msd-tooltip').jBox('Tooltip', {
+  adjustPosition: true,
+  adjustTracker: true
+});*/
+/*new jBox('Modal', {
+  width: 300,
+  height: 100,
+  attach: '#myModal',
+});*/
+ 
+ $('#myModal').jBox('Modal', {
+  adjustPosition: true,
+  adjustTracker: true
+});
 /*----- End of Rannojit -----*/
 
 
