@@ -65,6 +65,10 @@
     border: 1px solid #E1E1E1;
 }
 
+.inputField input[type=text]:focus,
+.inputField textarea:focus{
+    border: 1px solid #1D1D1B;
+}
 
 .inputField input[type=text]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #7D7D7D;
@@ -223,5 +227,9 @@
     font-weight: 400;
     letter-spacing: 0.1em;
     cursor: pointer;
+}
+.cnt-btn input[type=submit]:hover{
+    background: transparent;
+    color: #1D1D1B;
 }
 
