@@ -212,6 +212,16 @@ Desktop---->
 
 
 
+New-->
+1. https://prnt.sc/upgxp0
+	arrow gulo ie te center a nai, sob button ar arrow check kore fix korte hobe
+
+2. https://prnt.sc/upgykh
+	https://prnt.sc/upgyul
+	title gulo te link diye daw
+
+
+
 
 Watch Brands overview
 ----------------------
@@ -222,6 +232,9 @@ Desktop---->
 
 2. https://prnt.sc/umiye2
 	property gulo tule dile 'inline-bg' class ta use korte hobe
+
+
+	
 
 
 
