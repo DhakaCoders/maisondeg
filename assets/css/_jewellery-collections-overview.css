@@ -40,7 +40,7 @@
 	width: 33.3333%;
 	padding-left: 12px;
 	padding-right: 12px;
-	padding-bottom: 78px;
+	padding-bottom: 80px;
 }
 .jco-grd-items ul li:nth-child(2){
 	margin-top: 135px;
@@ -58,8 +58,10 @@
 }
 .jco-grd-item-des{
 	position: absolute;
-	left: 35px;
-	bottom: 35px;
+	left: 0;
+	bottom: 0;
+	padding-left: 35px;
+	padding-bottom: 40px;
 }
 .jco-grd-item-title{
 	display: block;
@@ -117,7 +119,7 @@
 	font-size: 60px;
 	line-height: 1;
 	margin-bottom: 20px;
-	font-weight: 300px;
+	font-weight: 300;
 	color: #1D1D1B;
 	letter-spacing: 0.1em;
 	text-transform: capitalize;
