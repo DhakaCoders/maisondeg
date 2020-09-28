@@ -154,24 +154,32 @@ About
 ----------------------
 Desktop---->
 
-1. https://prnt.sc/umih73
+1. https://prnt.sc/umih73 --done
 	aikhane jehetu banner ache, r banner ami kore dite cheyechi
 	but atao bolechi j , home page ar header and banner ta bosay baki design ta check kore nite
 
 
-2. https://prnt.sc/umiity
+2. https://prnt.sc/umiity - done
 	ai 2 ta button a click korle , scroll kor nicher section a jabe
 	amader j scroll-to function ta ache , seta use korte hobe<baki ache>
 
-3. https://prnt.sc/umijqb
+3. https://prnt.sc/umijqb ---done
 	hover korle bg black and text white daw
 
-4. https://prnt.sc/umilde
+4. https://prnt.sc/umilde---- done
 	hover korle bg black and text white daw
 
 
-5. https://prnt.sc/umimti
+5. https://prnt.sc/umimti  -done
 	ai bg color ta missing
+
+
+
+New---> 
+
+1. https://prnt.sc/upgggs
+	ie te upore uthe geche
+
 
 
 
@@ -179,27 +187,27 @@ Blog Overview
 ----------------------
 Desktop---->
 
-1. https://prnt.sc/uminqu
+1. https://prnt.sc/uminqu  -done
 	just active item tai bold rakho
 	baki gulo hover korle jsut color change hobe
 
-2. https://prnt.sc/umip84
+2. https://prnt.sc/umip84 -done
 	tab lagbena, normal ul li a rakho
 
-3. https://prnt.sc/umiq7h
+3. https://prnt.sc/umiq7h -done
 	hover korle arrow ta right a sore jabe, amon joto jaygay ache change korte hobe
 
 
-4. https://prnt.sc/umirlc
+4. https://prnt.sc/umirlc --done
 	box a hover korle heading ar color change hobena
 	jokhon heading a jabe hover korte tokhon change hobe
 
 
-5. https://prnt.sc/umiu1x
+5. https://prnt.sc/umiu1x -done
 	jsut active a border and color rakho
 	baki gulo te hover korle only color change hobe
 
-6. https://prnt.sc/umiuxi
+6. https://prnt.sc/umiuxi -done
 	clear left lagbe, item barte pare, item barle nicher gap sob thik kore design kore rakhte hobe
 
 
