@@ -168,7 +168,6 @@ googlemap
     right: 0;
     z-index: 0;
 }
-
 .contact-info-inr {
     max-width: 440px;
     width: 100%;
@@ -209,7 +208,6 @@ googlemap
 	font-size: 12px;
 	line-height: 14px;
 }
-
 .map-accordion-title{
 	font-size: 14px;
 	line-height: 1;
@@ -281,12 +279,12 @@ ap-form-sec-wrp
 	margin-bottom: 50px;
 	font-family: 'CactusMedium';
 }
-.ap-field-radio-type ul{
+/*.ap-field-radio-type ul{
 	display: table;
 	margin: 0 auto;
 	padding-bottom: 0 !important;
 }
-.ap-field-radio-type ul li {
+.ap-field-radio-type ul li{
     position: relative;
     float: left;
     padding: 0 10px;
@@ -346,6 +344,75 @@ ap-form-sec-wrp
     right: 0;
 }
 .ap-field-radio-type ul li label input:checked ~ .checkmark{
+    border-color: #fe674c;
+}*/
+
+
+.ApFieldRadioTypeSlider{
+	display: table;
+	margin: 0 auto;
+	padding-bottom: 0 !important;
+}
+.ApFieldRadioTypeSlideItem{
+    position: relative;
+    float: left;
+    padding: 0 10px;
+}
+.ApFieldRadioTypeSlideItem label {
+    margin: 0;
+    cursor: pointer;
+    width: 140px;
+    height: 120px;
+    position: relative;
+    padding: 10px 10px 10px 10px;
+}
+.ap-date{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	text-align: center;
+	padding-top: 5px;
+}
+.ap-date p {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #1D1D1B;
+    margin-bottom: 6px;
+}
+.ap-date strong{
+	display: inline-block;
+	vertical-align: baseline;
+	letter-spacing: 0.1em;
+	text-transform: capitalize;
+	color: #1D1D1B;
+	font-size: 30px;
+	line-height: 1;
+	font-family: 'CactusLight';
+}
+
+.ap-radio-type-middel ul li label input[type="radio"],
+.ApFieldRadioTypeSlideItem label input[type="radio"]{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.ApFieldRadioTypeSlideItem label span.checkmark{
+    position: absolute;
+    border:2px solid#f8f8f8;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.ApFieldRadioTypeSlideItem label input:checked ~ .checkmark{
     border-color: #fe674c;
 }
 
@@ -489,17 +556,6 @@ ap-form-sec-wrp
  Responsive Css
 ------------------
 */
-@media(max-width: 1499px){
-
-}
-
-@media(max-width: 1399px){
-
-}
-
-@media(max-width: 1299px){
-
-}
 
 @media(max-width: 1199px){
 	.contact-form-head-title {
