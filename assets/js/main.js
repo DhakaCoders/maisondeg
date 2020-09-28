@@ -378,6 +378,7 @@ if( $('.dgProductSlider').length ){
     });
 }
 
+
 /*----- End of Noyon -----*/
 
 if (windowWidth <= 1200){
