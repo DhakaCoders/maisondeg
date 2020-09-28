@@ -1,0 +1,35 @@
+.wlp-ctlr .hmgi4 .hm-msnry-title,
+.wlp-ctlr .hmgi6 .hm-msnry-title,
+.wlp-ctlr  .fea-jlpi-grd-item-title,
+.wlp-ctlr .hmgi4 .hm-msnry-grd-item-des a,
+.wlp-ctlr .hmgi6 .hm-msnry-grd-item-des a,
+.wlp-ctlr  .fea-jlpi-grd-item-title a,
+.wlp-ctlr .fea-jlpi-grd-item-des > a,
+.wlp-ctlr .fea-watch-des p{
+	color: #fff;
+}
+.wlp-title{
+	display: block;
+	font-size: 60px;
+	line-height: 1;
+	margin-bottom: 28px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 0.01em;
+	font-family: 'CactusLight';
+}
+.wlp-ctlr .dg-btn{
+	border: 2px solid #fff;
+	color: #fff;
+}
+.wlp-ctlr .hmgi4 .hm-msnry-grd-item-des a:hover,
+.wlp-ctlr .hmgi6 .hm-msnry-grd-item-des a:hover,
+.wlp-ctlr .fea-jlpi-grd-item-title a:hover,
+.wlp-ctlr .fea-jlpi-grd-item-des > a:hover{
+	color: #FF674D;
+}
+.wlp-ctlr .dg-btn:hover{
+	border: 2px solid #FF674D;
+	background: #FF674D;
+}

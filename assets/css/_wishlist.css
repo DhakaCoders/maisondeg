@@ -158,6 +158,13 @@
 	color: #1D1D1B;
 	text-decoration: underline;
 }
+.wishlist-nxt-des p a:hover,
+.wishlist-nxt-link a:hover{
+	color: #FF674D;
+}
+.wishlist-nxt-link a.dg-btn:hover{
+	color: #fff;
+}
 
 .wishlist-nxt-link a{
 	margin-left: 40px;

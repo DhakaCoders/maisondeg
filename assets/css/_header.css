@@ -59,7 +59,6 @@ header.header{
 .fl-lang-cntlr{
 	position: relative;
 	min-height: 24px;
-	overflow: hidden;
 	margin-right: -10px;
 	padding-left: 5px;
 	min-width: 120px;
@@ -117,7 +116,7 @@ header.header{
 	padding: 10px 10px 5px 5px;	
 }
 .fl-lang-cntlr:hover ul{
-	background: rgb(255,255,255);
+	background-color: rgb(255,255,255);
 	-webkit-box-shadow: 0px 0px 14px -2px rgba(240,240,240,1);
 	-moz-box-shadow: 0px 0px 14px -2px rgba(240,240,240,1);
 	box-shadow: 0px 0px 14px -2px rgba(240,240,240,1);
@@ -672,8 +671,15 @@ header.bnr-hdr{
 	color: #fff;
 }
 
-.white-text .page-banner-des .pageBnrTitle{
+.white-text .page-banner-des .pageBnrTitle,
+.fl-text-white .pageBnrSlideItemDesTitle,
+.fl-text-white .pageBnrSlideItemDes,
+.fl-text-white .pageBnrSlideItemDes p,
+.fl-text-white .pageBnrSlideItemDes a{
 	color: #fff;
+}
+.fl-text-white .pageBnrSlideItemDes a{
+	border-color: #fff;
 }
 .overlay-bg{
 	position: absolute;
@@ -681,7 +687,7 @@ header.bnr-hdr{
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background: rgba(0,0,0,.2);
+	background: rgba(0,0,0,.3);
 	z-index: 2;
 }
 
