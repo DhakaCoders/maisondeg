@@ -2,37 +2,37 @@ Footer
 ----------------------
 Desktop---->
 
-1. https://prnt.sc/umehsc
+1. https://prnt.sc/umehsc --done
 	ai button a common class ta dite hobe, then baki kono fix lagle parent dhore korte hobe
 	hover ta uporer section ar button ar moto hobe
 
-2. https://prnt.sc/umem2g
+2. https://prnt.sc/umem2g --done
 	i) min-height daw
 	ii) flex use kore des center a thakbe
 	iii) padding-top and bottom 30px ar moto dite hobe, jate des bere gele lege na jay
 		besi padding dear dorkar nei
 
 
-3. https://prnt.sc/umfivz
+3. https://prnt.sc/umfivz -done
 	joto heading a custom font-size use korecho , sob gulor line-height point a daw
 	tahole responsive a r line height komate hobena, just font size komate hobe,
 
 	N.B:-  ata always mone rakhte hobe
 
 
-4. https://prnt.sc/umfqap
+4. https://prnt.sc/umfqap -done
 	ai class ta add koro , ata common class img bg ar jonno
 	joto jaygay ai code gulo korecho tule diye ai class ta daw
 
-5. https://prnt.sc/umfuuk
+5. https://prnt.sc/umfuuk -done
 	section tate white bg ache amader , so .jpg formate use korte pari. 
 	png img a size besi hoy ata mone rakhte hobe amader.
 
 
-6. https://prnt.sc/umg0r9
+6. https://prnt.sc/umg0r9 --done
 	ai 3 ta lang a daw -> https://prnt.sc/umg15e
 
-7. https://prnt.sc/umg5jd
+7. https://prnt.sc/umg5jd --done
 	text ar look ta design ar sathe mileni 
 
 	custom font-family use korechi, 
@@ -40,39 +40,53 @@ Desktop---->
 	font-weight: normal hobe
 
 
-8. https://prnt.sc/umg7uc
+8. https://prnt.sc/umg7uc -done
 	i) google font-family use hobe.
 	common.css a paba family ta body te
 	ii) https://prnt.sc/umg8ng
 		ai folder ta delete kore daw
 
-9. https://prnt.sc/umgd1a
+9. https://prnt.sc/umgd1a --done
 	letter-spacing gulo mileni
 
 	ami baki text a letter-spacing check kortechina , tumi sob page aktu valo kore check kore update kore felio
 
-10. https://prnt.sc/umhn17
+10. https://prnt.sc/umhn17 -done
 	i) cursor pointer lagbe 
 	ii) hover color lagbe
 
 
-11. https://prnt.sc/umhox2
+11. https://prnt.sc/umhox2 -done
 	text ta upore uthe geche, center a hobe
 
-12. https://prnt.sc/umhrxd
+12. https://prnt.sc/umhrxd  -done
 	i) ata link hobena
 	ii) ul li ar bahire hobe ata 
 
-13. https://prnt.sc/umhu2o
+13. https://prnt.sc/umhu2o -done
 	type email hobe
 
 
-14. https://prnt.sc/umhv8f
+14. https://prnt.sc/umhv8f -- done
 	button ta full hoye geche
 
 
-15. https://prnt.sc/umhxeb
+15. https://prnt.sc/umhxeb --done
 	besi bold mone hosche
+
+
+New---->
+
+1. https://prnt.sc/up8g4x
+	ie te upore uthe geche, ai problem ta solve korar jonno ---> https://prnt.sc/up8h4z
+	home page ar ai section ta follow koro
+
+2. https://prnt.sc/upexbu
+	ber hole ai caret ta down thake up hobe
+
+3. https://prnt.sc/upf1oe
+	form a validation form ta kaj korate hobe
+
 
 
 
@@ -82,26 +96,57 @@ Desktop---->
 
 
 1. https://prnt.sc/umi2is
-	ai section a bg ta lagbena. header thake j shadow ta asteche ota diye hoye jabe
+	ai section a bg ta lagbena. header thake j shadow ta asteche ota diye hoye jabe --done
 
 2. https://prnt.sc/umi771
-	hover korle arrow ta left a 2/3px sore jabe joto px valo lage dite hobe
+	hover korle arrow ta left a 2/3px sore jabe joto px valo lage dite hobe --done
 
-3. https://prnt.sc/umi8zf
+3. https://prnt.sc/umi8zf 
 	ai item gulo te click korle modal ta ber hobe
 	2 ta grd a kore rakho , sob grd gulo te dite hobe na <baki ache>
 
-4. https://prnt.sc/umib7o
+4. https://prnt.sc/umib7o  --done
 	ai img ta upore bosao, overlay img ta badh daw
 
-5. https://prnt.sc/umicjc
+5. https://prnt.sc/umicjc --done
 		mHc and mHc1 use koro
 
-6. https://prnt.sc/umies3
+6. https://prnt.sc/umies3 -done
 		ai grd gulo home page gulo pest kore fix korte hobe,
 		bcoz home page ta check / update hoye geche desktop
 
-7. modal ar design check korte baki ache
+7. modal ar design check korte baki ache --done
+
+
+New--->
+
+1. https://prnt.sc/up6byx
+	hover korle arrow ta smothly kaj kortechena,
+	history.html page a korechi ami , oita pest koro aikhane
+
+
+2. https://prnt.sc/up6l1i
+	ai hover effect ta ar aktu valo korte hobe
+
+	hover korle jokhon 2 line hosche nicher dike dhakka dische
+	solving idea:-
+	i) https://prnt.sc/up6m2u
+		mHc class use kore flex kore text gulo center korte hobe, top and bottom padding equal dite hobe 
+		10px 10px dite pari
+	ii) hover korle just img ar ar hight ta choto hobe text gulo auto center a bose thakbe
+	iii) https://prnt.sc/up6qys --> ai gulo te mHc lagbena maybe. text koma bara kore dekhio, kemon  
+	     dekhay, na lagle tule dio
+
+3. ager 3 no fix 
+	i) sob gulote modal call korte hobena, only 2 ta tate kore rakho
+
+	ii) https://prnt.sc/up6tw8 --> amon 2 ta pest koro r id airokom daw
+
+	iii) https://prnt.sc/up6uxo --> ai page ta delete kore daw
+
+	iv) https://prnt.sc/up6w5i
+		modal ta center a nai. right a padding ache , left ao padding lagbe
+
 
 
 
@@ -169,6 +214,67 @@ Desktop---->
 
 2. https://prnt.sc/umiye2
 	property gulo tule dile 'inline-bg' class ta use korte hobe
+
+
+
+
+Contact
+----------------------
+Desktop---->
+
+1. https://prnt.sc/up3doh
+	last name hobe
+
+2. https://prnt.sc/up3epr
+	same border color hoye geche.
+	focus gray ar deep or black use korte pari , jemonta valo lage
+
+3. https://prnt.sc/up3jml
+	age thake show hoye thakbena, submit button a click korle show hobe
+	amra zeepling or figma te age kichu project korechilam , only design.
+	se project gulo te ache validation plugin ta, seta dekhe dekhe update kore felte hobe
+
+
+4. https://prnt.sc/up3ldq
+	target hobe
+
+5. https://prnt.sc/up3nb1
+	aikhane d2 rakha jabena, jehetu ar vitore aktai field ache. select
+	d2 ta tule daw
+
+6. https://prnt.sc/up3qja
+	display block lagbe, wrap korena
+
+7. https://prnt.sc/up3rig
+	cursor pointer hobe
+
+8. https://prnt.sc/up3sh3
+	last ar ta ber hole niche lege geche, gap hobe
+
+
+9. https://prnt.sc/up3tw3
+	div ta full widh houate map a drag kora jayna,
+	so amader k form ta jquery diye calculate kore always right bosay rakhte hobe
+
+
+Appointment
+----------------------
+Desktop---->
+
+1. contact page thake ja ja fix match kore , korte hobe
+
+2. https://prnt.sc/up3w5f
+	header koi
+
+3. https://prnt.sc/up3x0j
+	font-weight mileni, contact page ar entry header ao same problem
+
+4. https://prnt.sc/up3xvy
+	https://prnt.sc/up3zli
+	input type radio and checkbox 2 ta diyei design kore rakhte hobe, jkono use korle jeno same design pay
+
+
+
 
 
 

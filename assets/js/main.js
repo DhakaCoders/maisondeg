@@ -231,6 +231,50 @@ if( $('.blg-tabs-slider').length ){
     });
 }
 
+if( $('.ApFieldRadioTypeSlider').length ){
+    $('.ApFieldRadioTypeSlider').slick({
+      dots: false,
+      arrows: false,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 7,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1199,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 639,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            centerMode: true,
+            focusOnSelect: true,
+            slidesToShow: 3,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+}
+
+
 /*
 -----------------------
 Start Contact Google Map ->> 
@@ -337,6 +381,38 @@ if( $('.dgProductSlider').length ){
 
 /*----- End of Noyon -----*/
 
+if (windowWidth <= 1200){
+  if( $('.hmgiTopSlide').length ){
+    $('.hmgiTopSlide').slick({
+      dots: true,
+      arrows: false,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: false,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  };
+}
+
+if (windowWidth <= 1200){
+  if( $('.hmgiBottomSlide').length ){
+    $('.hmgiBottomSlide').slick({
+      dots: true,
+      arrows: false,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: false,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  };
+}
+
+
+
 
 
 
@@ -375,7 +451,24 @@ if( $('.pageBnrSlider').length ){
       slidesToScroll: 1
     });
 }
+if( $('.hsmSlider').length ){
+    $('.hsmSlider').slick({
+      dots: true,
+      arrows: true,
+      infinite: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+}
 
+/*if( $('.tooltipButton').length ){
+  $('.tooltipButton').toolbar({
+    content: '#toolbar-options',
+  });
+}*/
 /*----- End of Rannojit -----*/
 
 

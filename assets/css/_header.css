@@ -672,8 +672,15 @@ header.bnr-hdr{
 	color: #fff;
 }
 
-.white-text .page-banner-des .pageBnrTitle{
+.white-text .page-banner-des .pageBnrTitle,
+.fl-text-white .pageBnrSlideItemDesTitle,
+.fl-text-white .pageBnrSlideItemDes,
+.fl-text-white .pageBnrSlideItemDes p,
+.fl-text-white .pageBnrSlideItemDes a{
 	color: #fff;
+}
+.fl-text-white .pageBnrSlideItemDes a{
+	border-color: #fff;
 }
 .overlay-bg{
 	position: absolute;
