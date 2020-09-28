@@ -183,6 +183,7 @@
 
 .history-grd-des a{
     color: #FF674D;
+    display: inline;
 }
 
 .hsmSlider  ul.slick-dots{
@@ -190,4 +191,30 @@
     left: 0;
     right: 0;
     bottom: 20px;
+}
+
+.hsmSlider .slick-prev{
+    background: url(../images/prev-btn-white.svg)!important;
+    left: 0; 
+}
+.hsmSlider .slick-next{
+    background: url(../images/next-btn-white.svg)!important;
+    right: 0; 
+}
+.hsmSlider ul.slick-dots{
+    bottom: 0;
+}
+.hsmSlider .slick-prev,
+.hsmSlider .slick-next{
+    width: 36px;
+    height: 36px;
+    background-size: 100% auto!important;
+    z-index: 20;
+    opacity: 1!important;
+}
+
+.hsmSlider.slick-slider .slick-dots li{
+    padding: 0;
+    width: 59px!important;
+    height: 4px!important;
 }
