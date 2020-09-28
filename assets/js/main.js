@@ -231,21 +231,21 @@ if( $('.blg-tabs-slider').length ){
     });
 }
 
-/*if( $('#ApFieldRadioTypeSlider').length ){
-    $('#ApFieldRadioTypeSlider').slick({
+if( $('.ApFieldRadioTypeSlider').length ){
+    $('.ApFieldRadioTypeSlider').slick({
       dots: false,
       arrows: false,
       infinite: false,
       autoplay: false,
       autoplaySpeed: 2000,
       speed: 300,
-      slidesToShow: 3,
+      slidesToShow: 7,
       slidesToScroll: 1,
       responsive: [
         {
           breakpoint: 1199,
           settings: {
-            slidesToShow: 7,
+            slidesToShow: 5,
             slidesToScroll: 1,
             infinite: true,
             dots: false
@@ -254,16 +254,17 @@ if( $('.blg-tabs-slider').length ){
         {
           breakpoint: 639,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1
           }
         },
         {
           breakpoint: 575,
           settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: true
+            centerMode: true,
+            focusOnSelect: true,
+            slidesToShow: 3,
+            slidesToScroll: 1
           }
         }
         // You can unslick at a given breakpoint now by adding:
@@ -271,7 +272,8 @@ if( $('.blg-tabs-slider').length ){
         // instead of a settings object
       ]
     });
-}*/
+}
+
 
 /*
 -----------------------
