@@ -172,4 +172,65 @@ Desktop---->
 
 
 
+
+Contact
+----------------------
+Desktop---->
+
+1. https://prnt.sc/up3doh
+	last name hobe
+
+2. https://prnt.sc/up3epr
+	same border color hoye geche.
+	focus gray ar deep or black use korte pari , jemonta valo lage
+
+3. https://prnt.sc/up3jml
+	age thake show hoye thakbena, submit button a click korle show hobe
+	amra zeepling or figma te age kichu project korechilam , only design.
+	se project gulo te ache validation plugin ta, seta dekhe dekhe update kore felte hobe
+
+
+4. https://prnt.sc/up3ldq
+	target hobe
+
+5. https://prnt.sc/up3nb1
+	aikhane d2 rakha jabena, jehetu ar vitore aktai field ache. select
+	d2 ta tule daw
+
+6. https://prnt.sc/up3qja
+	display block lagbe, wrap korena
+
+7. https://prnt.sc/up3rig
+	cursor pointer hobe
+
+8. https://prnt.sc/up3sh3
+	last ar ta ber hole niche lege geche, gap hobe
+
+
+9. https://prnt.sc/up3tw3
+	div ta full widh houate map a drag kora jayna,
+	so amader k form ta jquery diye calculate kore always right bosay rakhte hobe
+
+
+Appointment
+----------------------
+Desktop---->
+
+1. contact page thake ja ja fix match kore , korte hobe
+
+2. https://prnt.sc/up3w5f
+	header koi
+
+3. https://prnt.sc/up3x0j
+	font-weight mileni, contact page ar entry header ao same problem
+
+4. https://prnt.sc/up3xvy
+	https://prnt.sc/up3zli
+	input type radio and checkbox 2 ta diyei design kore rakhte hobe, jkono use korle jeno same design pay
+
+
+
+
+
+
 N.B.----fix hoye gele , browser check dite hobe
