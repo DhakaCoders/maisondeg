@@ -6,33 +6,33 @@ Desktop---->
 	ai button a common class ta dite hobe, then baki kono fix lagle parent dhore korte hobe
 	hover ta uporer section ar button ar moto hobe
 
-2. https://prnt.sc/umem2g
+2. https://prnt.sc/umem2g --done
 	i) min-height daw
 	ii) flex use kore des center a thakbe
 	iii) padding-top and bottom 30px ar moto dite hobe, jate des bere gele lege na jay
 		besi padding dear dorkar nei
 
 
-3. https://prnt.sc/umfivz
+3. https://prnt.sc/umfivz -done
 	joto heading a custom font-size use korecho , sob gulor line-height point a daw
 	tahole responsive a r line height komate hobena, just font size komate hobe,
 
 	N.B:-  ata always mone rakhte hobe
 
 
-4. https://prnt.sc/umfqap
+4. https://prnt.sc/umfqap -done
 	ai class ta add koro , ata common class img bg ar jonno
 	joto jaygay ai code gulo korecho tule diye ai class ta daw
 
-5. https://prnt.sc/umfuuk
+5. https://prnt.sc/umfuuk -done
 	section tate white bg ache amader , so .jpg formate use korte pari. 
 	png img a size besi hoy ata mone rakhte hobe amader.
 
 
-6. https://prnt.sc/umg0r9
+6. https://prnt.sc/umg0r9 --done
 	ai 3 ta lang a daw -> https://prnt.sc/umg15e
 
-7. https://prnt.sc/umg5jd
+7. https://prnt.sc/umg5jd --done
 	text ar look ta design ar sathe mileni 
 
 	custom font-family use korechi, 
@@ -40,38 +40,38 @@ Desktop---->
 	font-weight: normal hobe
 
 
-8. https://prnt.sc/umg7uc
+8. https://prnt.sc/umg7uc -done
 	i) google font-family use hobe.
 	common.css a paba family ta body te
 	ii) https://prnt.sc/umg8ng
 		ai folder ta delete kore daw
 
-9. https://prnt.sc/umgd1a
+9. https://prnt.sc/umgd1a --done
 	letter-spacing gulo mileni
 
 	ami baki text a letter-spacing check kortechina , tumi sob page aktu valo kore check kore update kore felio
 
-10. https://prnt.sc/umhn17
+10. https://prnt.sc/umhn17 -done
 	i) cursor pointer lagbe 
 	ii) hover color lagbe
 
 
-11. https://prnt.sc/umhox2
+11. https://prnt.sc/umhox2 -done
 	text ta upore uthe geche, center a hobe
 
-12. https://prnt.sc/umhrxd
+12. https://prnt.sc/umhrxd  -done
 	i) ata link hobena
 	ii) ul li ar bahire hobe ata 
 
-13. https://prnt.sc/umhu2o
+13. https://prnt.sc/umhu2o -done
 	type email hobe
 
 
-14. https://prnt.sc/umhv8f
+14. https://prnt.sc/umhv8f -- done
 	button ta full hoye geche
 
 
-15. https://prnt.sc/umhxeb
+15. https://prnt.sc/umhxeb --done
 	besi bold mone hosche
 
 
@@ -81,8 +81,11 @@ New---->
 	ie te upore uthe geche, ai problem ta solve korar jonno ---> https://prnt.sc/up8h4z
 	home page ar ai section ta follow koro
 
-2. 
+2. https://prnt.sc/upexbu
+	ber hole ai caret ta down thake up hobe
 
+3. https://prnt.sc/upf1oe
+	form a validation form ta kaj korate hobe
 
 
 
