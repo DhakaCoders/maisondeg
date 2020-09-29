@@ -464,6 +464,17 @@ if( $('.hsmSlider').length ){
     });
 }
 
+if($('.hdr-search').length){
+    $('.hdr-search').on('click', function(){
+      $('body').addClass('hdr-search-popup-active');
+    });
+}
+if($('.cross').length){
+    $('.cross').on('click', function(){
+      $('body').removeClass('hdr-search-popup-active');
+    });
+}
+
 /*if( $('.tooltipButton').length ){
   $('.tooltipButton').toolbar({
     content: '#toolbar-options',
@@ -485,6 +496,9 @@ if( $('.hsmSlider').length ){
   adjustPosition: true,
   adjustTracker: true
 });
+
+
+
 /*----- End of Rannojit -----*/
 
 
