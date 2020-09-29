@@ -19,7 +19,7 @@
 	letter-spacing: 0.01em;
 	font-family: 'CactusLight';
 }
-.wlp-ctlr .dg-btn{
+.wlp-ctlr .fea-watch-des a.dg-btn{
 	border: 2px solid #fff;
 	color: #fff;
 }
@@ -29,7 +29,11 @@
 .wlp-ctlr .fea-jlpi-grd-item-des > a:hover{
 	color: #FF674D;
 }
-.wlp-ctlr .dg-btn:hover{
+.wlp-ctlr .fea-watch-des a.dg-btn:hover{
 	border: 2px solid #FF674D;
 	background: #FF674D;
+}
+
+.wlp-ctlr .hm-msnry-sec{
+	padding-bottom: 0;
 }

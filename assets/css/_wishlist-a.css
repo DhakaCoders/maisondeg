@@ -1,0 +1,22 @@
+.wishlist-tab-con{
+	display: none;
+}
+.wishlist-tab-con.current{
+	display: block;
+}
+
+.wishlist-process ul li a{
+	display: inline-block;
+	vertical-align: baseline;
+}
+.wishlist-process ul li a span,
+.wishlist-process ul li a strong{
+	cursor: pointer;
+}
+.wishlist-process ul li a.active span{
+	color: #FF674D;
+	border: 1px solid #FF674D;
+}
+.wishlist-process ul li a.active strong{
+	color: #FF674D;
+}
