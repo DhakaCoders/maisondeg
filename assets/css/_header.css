@@ -1002,6 +1002,12 @@ body.hdr-search-popup-active{
 	display: none;
 }
 
+
+
+.xs-menu-cntlr{
+	display: none;
+}
+
 @media(max-width: 1499px){
 
 }
@@ -1094,6 +1100,10 @@ body.hdr-search-popup-active{
 	  -ms-transform: rotate(-45deg);
 	  -webkit-transform: rotate(-45deg);
 	  width: 100%;
+	}
+
+	.xs-menu-cntlr{
+		display: block;
 	}
 }
 

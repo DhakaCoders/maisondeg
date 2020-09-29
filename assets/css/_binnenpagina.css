@@ -103,7 +103,7 @@ ol li::before {
 	display: block;
 	text-transform: capitalize;
 	font-family: 'CactusLight';
-	color: #1D1D1B
+	color: #1D1D1B;
 	margin-bottom: 40px;
 }
 
@@ -454,7 +454,20 @@ Gallery design
 	width: 50%!important;
 }
 
-
+.dft-fea-watch-module .fea-watch-sec{
+	min-height: 550px;
+}
+.dft-fea-watch-module .fea-watch-des p{
+	color: #fff;
+}
+.dft-fea-watch-module a.dg-btn{
+	color: #fff;
+	border-color: #fff;
+}
+.dft-fea-watch-module{
+	margin-left: -220px;
+	margin-right: -220px;
+}
 
 
 @media(max-width: 1199px){
