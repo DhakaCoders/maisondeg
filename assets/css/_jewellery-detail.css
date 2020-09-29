@@ -144,7 +144,7 @@
 	text-align: center;
 	padding: 0 15px;
 }
-.slide-nav-cntlr .slider-nav .slide-for-item-img .slick-active{
+.slide-nav-cntlr .slider-nav .slide-for-item-img.slick-current{
 	background: #f8f8f8!important;
 	filter: drop-shadow(0px 12px 25px rgba(0, 0, 0, 0.04));
 }
