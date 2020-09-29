@@ -99,3 +99,16 @@
 .fl-tabs > div{
 	padding: 0 18px;
 }
+
+
+
+.sitemap{
+	padding: 50px 0 70px;
+}
+
+.sitemap ol li a{
+	color: #FF674D;
+}
+.sitemap ol li{
+	padding-left: 25px;
+}
