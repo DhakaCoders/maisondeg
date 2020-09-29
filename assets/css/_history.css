@@ -20,10 +20,10 @@
     font-weight: 600;
     text-decoration: inherit;
     color: #1d1d1b;
-    font-size: 11px;
+    font-size: 10px;
     padding-right: 0;
     position: absolute;
-    top: 3.5px;
+    top: 3px;
     left: 0;
     line-height: 15px;
     z-index: 21;
@@ -183,6 +183,7 @@
 
 .history-grd-des a{
     color: #FF674D;
+    display: inline;
 }
 
 .hsmSlider  ul.slick-dots{
@@ -190,4 +191,40 @@
     left: 0;
     right: 0;
     bottom: 20px;
+}
+
+.hsmSlider .slick-prev{
+    background: url(../images/prev-btn-white.svg)!important;
+    left: 0; 
+}
+.hsmSlider .slick-next{
+    background: url(../images/next-btn-white.svg)!important;
+    right: 0; 
+}
+.hsmSlider .slick-prev:hover{
+    background: url('../images/prev-btn-white-hover.svg')!important;
+    left: 0; 
+    background-size: 100% auto!important;
+}
+.hsmSlider .slick-next:hover{
+    background: url('../images/next-btn-white-hover.svg')!important;
+    right: 0; 
+    background-size: 100% auto!important;
+}
+.hsmSlider ul.slick-dots{
+    bottom: 0;
+}
+.hsmSlider .slick-prev,
+.hsmSlider .slick-next{
+    width: 36px;
+    height: 36px;
+    background-size: 100% auto!important;
+    z-index: 20;
+    opacity: 1!important;
+}
+
+.hsmSlider.slick-slider .slick-dots li{
+    padding: 0;
+    width: 59px!important;
+    height: 4px!important;
 }

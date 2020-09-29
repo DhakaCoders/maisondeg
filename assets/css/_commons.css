@@ -387,6 +387,11 @@ form .dropdown-menu li a{
     background-size: 6px 4px;
 }
 
+.ftr-col-tp-bdr .dg-select-field .bootstrap-select.show .dropdown-toggle::before{
+    content: ""!important;
+    background-image: url(../images/down-tp-icon.png) !important;
+}
+
 .dg-select-field .open > .dropdown-toggle.btn-default:hover,
 .dg-select-field .btn-default.active, 
 .btn-default:active, 

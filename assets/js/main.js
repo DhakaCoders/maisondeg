@@ -236,6 +236,71 @@ if( $('.ApFieldRadioTypeSlider').length ){
       dots: false,
       arrows: false,
       infinite: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 7,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1199,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            focusOnSelect: true,
+            dots: false
+          }
+
+        },
+        {
+          breakpoint: 479,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            slidesToScroll: 1,
+            dots: false
+          }
+
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+}
+
+/*if( $('.ApFieldRadioTypeSlider').length ){
+    $('.ApFieldRadioTypeSlider').slick({
+      dots: false,
+      arrows: false,
+      infinite: false,
       autoplay: false,
       autoplaySpeed: 2000,
       speed: 300,
@@ -272,7 +337,7 @@ if( $('.ApFieldRadioTypeSlider').length ){
         // instead of a settings object
       ]
     });
-}
+}*/
 
 
 /*
@@ -473,11 +538,41 @@ if( $('.hsmSlider').length ){
     });
 }
 
+if($('.hdr-search').length){
+    $('.hdr-search').on('click', function(){
+      $('body').addClass('hdr-search-popup-active');
+    });
+}
+if($('.cross').length){
+    $('.cross').on('click', function(){
+      $('body').removeClass('hdr-search-popup-active');
+    });
+}
+
 /*if( $('.tooltipButton').length ){
   $('.tooltipButton').toolbar({
     content: '#toolbar-options',
   });
 }*/
+
+
+/*$('.msd-tooltip').jBox('Tooltip', {
+  adjustPosition: true,
+  adjustTracker: true
+});*/
+/*new jBox('Modal', {
+  width: 300,
+  height: 100,
+  attach: '#myModal',
+});*/
+ 
+ $('#myModal').jBox('Modal', {
+  adjustPosition: true,
+  adjustTracker: true
+});
+
+
+
 /*----- End of Rannojit -----*/
 
 
