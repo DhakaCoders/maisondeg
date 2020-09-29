@@ -446,7 +446,7 @@ if( $('.dgProductSlider').length ){
 
 /*----- End of Noyon -----*/
 
-if (windowWidth <= 1200){
+if (windowWidth <= 1199){
   if( $('.hmgiTopSlide').length ){
     $('.hmgiTopSlide').slick({
       dots: true,
@@ -461,7 +461,7 @@ if (windowWidth <= 1200){
   };
 }
 
-if (windowWidth <= 1200){
+if (windowWidth <= 1199){
   if( $('.hmgiBottomSlide').length ){
     $('.hmgiBottomSlide').slick({
       dots: true,
@@ -476,6 +476,15 @@ if (windowWidth <= 1200){
   };
 }
 
+
+$(".wishlist-process ul li a").click(function(){
+  var tagid = $(this).data('tag');
+  $(".wishlist-process ul li a").removeClass('current');
+  $(".wishlist-tab-con").removeClass('current');
+  $(this).addClass('current');
+  $("#"+tagid).addClass('current');
+
+});
 
 
 
