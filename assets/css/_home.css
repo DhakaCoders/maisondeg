@@ -264,6 +264,39 @@
 	.hm-msnry-grd-item{
 		position: initial;
 	}
+	.hm-msnry-sec .hmgiTopSlide.slick-slider ul.slick-dots,
+	.hm-msnry-sec .hmgiBottomSlide.slick-slider ul.slick-dots{
+		position: absolute;
+		bottom: -35px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.hm-msnry-sec .hmgiTopSlide.slick-slider .slick-dots li,
+	.hm-msnry-sec .hmgiBottomSlide.slick-slider .slick-dots li{
+		background: #EAE9E9!important;
+	}
+	.hm-msnry-sec .hmgiTopSlide.slick-slider .slick-dots li.slick-active, 
+	.hm-msnry-sec .hmgiTopSlide.slick-slider .slick-dots li:hover,
+	.hm-msnry-sec .hmgiBottomSlide.slick-slider .slick-dots li.slick-active, 
+	.hm-msnry-sec .hmgiBottomSlide.slick-slider .slick-dots li:hover {
+	    background: #FF674D!important;
+	}
+	.hmgiAppointment .hmgi2{
+		display: none;
+	}
+	.hmgiAppointment .hmgi5{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 80px;
+		margin-bottom: 80px;
+	}
+	.hm-msnry-sec {
+	    padding: 180px 0;
+	}
+	.hm-msnry-grd-item .hmgi5.hm-msnry-grd-item-ctlr{
+		max-width: 400px!important;
+		width: 100%;
+	}
 	
 
 }
@@ -275,6 +308,9 @@
 	.show-md{
 		display: block!important;
 	}
+	.hm-msnry-sec {
+	    padding: 150px 0;
+	}
 	
 }
 
@@ -284,6 +320,9 @@
 	}
 	.show-sm{
 		display: block!important;
+	}
+	.hm-msnry-sec {
+	    padding: 120px 0;
 	}
 	
 	
@@ -296,12 +335,17 @@
 	.show-xs{
 		display: block!important;
 	}
+	.hm-msnry-sec {
+	    padding: 100px 0;
+	}
 	
 
 }
 
 @media(max-width: 479px){
-	
+	.hm-msnry-sec {
+	    padding: 80px 0;
+	}
 
 }
 
