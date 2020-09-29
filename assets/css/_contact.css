@@ -232,7 +232,7 @@ googlemap
 	border-top: 1px solid #F8F8F8;
 	cursor: pointer;
 }
-.map-accordion-title:after{
+/*.map-accordion-title:after{
 	content: "";
 	position: absolute;
 	right: 0;
@@ -245,12 +245,38 @@ googlemap
 	background:url(../images/down-up-icon.png);
 	background-repeat: no-repeat;
 	background-size: 6px 4px;
+}*/
+.map-accordion-title:after{
+    content: "\f0d7";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    text-decoration: inherit;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+    color: #1d1d1b;
+    font-size: 11px;
+    padding-right: 0;
+    position: absolute;
+    line-height: 15px;
+    z-index: 21;
+    transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
 }
 .map-accordion-title.map-accordion-active:after{
-	background:url(../images/down-tp-icon.png);
+	content: "\f0d8";
 }
 .remove-border .map-accordion-title{
 	padding-top: 0;
+	border-top: 0;
+}
+.remove-border .map-accordion-title:after{
+	transform: none;
+	top: 5px;
 }
 .map-accordion-des{
 	margin-bottom: 40px !important;
