@@ -405,16 +405,17 @@ if( $('#googlemap').length ){
         {
           breakpoint: 992,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1
           }
         },
         {
           breakpoint: 575,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 3,
             slidesToScroll: 1,
-            dots: true
+            arrows: false,
+            dots: false
           }
         }
       ]
@@ -460,7 +461,10 @@ if( $('.dgProductSlider').length ){
     });
 }
 
-
+$('.conversation-icon').click(function(){
+  $(this).next().toggleClass('conversation-title-show');
+  $(this).parent().next().toggleClass('conversation_show');
+});
 /*----- End of Noyon -----*/
 
 if (windowWidth <= 1199){
