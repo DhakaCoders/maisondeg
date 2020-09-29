@@ -170,7 +170,7 @@
 .fea-juwellary-sec,
 .fea-watch-sec{
 	background-repeat: no-repeat!important;
-	background-position: right center!important;
+	background-position: center center!important;
 	min-height: 1012px;
 	display: flex;
 	align-items: center;
@@ -191,16 +191,14 @@
 	min-height: inherit;
 	font-size: 0;
 }
-.fea-juwellary-sec{
-	background-position: left center!important;
-}
+
 .fea-juwellary-sec span{
 	position: absolute;
 	top: 0;
 	left: 0;
 	bottom: 0;
 	background-repeat: no-repeat!important;
-	background-position: center center!important;
+	background-position: right center!important;
 	background-size: cover!important;
 	width: 100%;
 }
@@ -209,10 +207,10 @@
 	left: 0;
 	top: 0;
 	bottom: 0;
+	right: 0;
 	background-repeat: no-repeat!important;
-	background-position: center center!important;
-	background-size: 100% 100%!important;
-	width: 100%;
+	background-position: left center!important;
+	background-size: cover!important;
 	z-index: 2;
 }
 .fea-juwellary-des{
@@ -258,18 +256,19 @@
 		display: block!important;
 	}
 	.hmgi2 {
-	    left: 330px;
+	    left: 33.3333%;
 	}
 	.hmgi5 {
-	    left: 330px;
+	    left: 33.3333%;
 	}
 	.hm-msnry-sec {
-	    padding: 180px 0;
+	    padding: 150px 0;
 	}
 	
 	
 
 }
+
 
 @media(max-width: 991px){
 	.hide-md{
