@@ -396,8 +396,25 @@ if( $('#googlemap').length ){
       asNavFor: '.slider-single',
       dots: false,
       arrows: true,
-      centerMode: true,
-      focusOnSelect: true
+      //centerMode: true,
+      focusOnSelect: true,
+      responsive: [
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true
+          }
+        }
+      ]
     });
 
 
@@ -436,9 +453,6 @@ if( $('.dgProductSlider').length ){
             dots: true
           }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
       ]
     });
 }
