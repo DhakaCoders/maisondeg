@@ -285,17 +285,11 @@
 		display: none;
 	}
 	.hmgiAppointment .hmgi5{
-		margin-left: auto;
-		margin-right: auto;
 		margin-top: 80px;
 		margin-bottom: 80px;
 	}
 	.hm-msnry-sec {
 	    padding: 180px 0;
-	}
-	.hm-msnry-grd-item .hmgi5.hm-msnry-grd-item-ctlr{
-		max-width: 400px!important;
-		width: 100%;
 	}
 	
 
