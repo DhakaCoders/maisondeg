@@ -157,12 +157,15 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 // footer slide menu
 
-$('.ftr-col h6').on('click', function(){
-  $(this).toggleClass('active');
-  $(this).parent().siblings().find('h6').removeClass('active');
-  $(this).parent().find('ul').slideToggle(300);
-  $(this).parent().siblings().find('ul').slideUp(300);
-});
+if (windowWidth <= 767) {
+  $('.ftr-col h6').on('click', function(){
+    $(this).toggleClass('active');
+    $(this).parent().siblings().find('h6').removeClass('active');
+    $(this).parent().find('ul').slideToggle(300);
+    $(this).parent().siblings().find('ul').slideUp(300);
+  });
+
+}
 
 // body animate
 $('.about-btn-scroll').click(function(e) {
@@ -396,8 +399,25 @@ if( $('#googlemap').length ){
       asNavFor: '.slider-single',
       dots: false,
       arrows: true,
-      centerMode: true,
-      focusOnSelect: true
+      //centerMode: true,
+      focusOnSelect: true,
+      responsive: [
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true
+          }
+        }
+      ]
     });
 
 
@@ -436,9 +456,6 @@ if( $('.dgProductSlider').length ){
             dots: true
           }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
       ]
     });
 }
