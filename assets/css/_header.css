@@ -811,16 +811,18 @@ header.bnr-hdr{
     bottom: 12px;
     width: 26px;
     height: 27px;
+    cursor: pointer;
 }
 .results-search-form input[type="submit"] {
     position: relative;
     background: transparent;
     width: 100%;
     position: relative;
-    z-index: 3;
-    height: 27px;
+    z-index: 5;
+    height: 100%;
     padding: 0;
     border: none;
+    cursor: pointer;
 }
 
 .search-popup-wrap {
@@ -928,15 +930,16 @@ body.hdr-search-popup-active{
 }
 
 .popup-search-form .results-search-form input[type="search"] {
-	border-bottom: 1px solid #fff;
-	font-size: 19px;
-	line-height: 25px;
-	color: #fff;
-	letter-spacing: 0.9px;
-	padding-bottom: 12px;
-	padding-right: 35px;
-	padding-left: 10px;
-	letter-spacing: 1px;
+    border-bottom: 1px solid #fff;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    letter-spacing: 0.9px;
+    padding-bottom: 12px;
+    padding-right: 35px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    font-weight: 300;
 }
 .popup-search-form .results-search-form input[type="search"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #fff;
@@ -953,4 +956,27 @@ body.hdr-search-popup-active{
 .popup-search-form .rss-btn::after {
 	color: #fff;
 	font-size: 26px;
+}
+
+.rss-btn:after {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #000;
+    font-size: 26px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popup-search-form .rss-btn::after {
+    color: #fff;
+    font-size: 26px;
 }
