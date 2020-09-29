@@ -5,44 +5,46 @@
 	min-height: 1055px;
 	height: 100%;
 	position: relative;
+	margin: 0 -12px;
 }
 .hm-msnry-grd-item{
 	position: absolute;
 	top: 0;
 	left: 0;
+	width: 33.3333%;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.hmgi1 .hm-msnry-grd-item-ctlr{
+	margin-left: 30px;
+}
+.hmgi3 .hm-msnry-grd-item-ctlr{
+	margin-right: 30px;
 }
 .hmgi1{
 	top: 60px;
 	left: 0;
-	width: 32%;
-	padding-left: 30px;
 }
 .hmgi2{
 	top: 0;
 	left: 398px;
-	width:  32%;
 }
 .hmgi3{
 	top: 190px;
 	right: 0;
-	width:  32%;
-	padding-right: 30px;
 	left: inherit;
 }
 .hmgi4{
 	top: 585px;
 	left: 0;
-	width: 32%;
 }
 .hmgi5{
 	top: 670px;
 	left: 398px;
-	width:  32%;
 }
 .hmgi6{
 	top: 705px;
 	right: 0;
-	width: 32%;
 	left: inherit;
 }
 
@@ -173,6 +175,7 @@
 	display: flex;
 	align-items: center;
 	position: relative;
+	z-index: 1;
 }
 .fea-juwellary-sec-inr,
 .fea-watch-sec-inr{
@@ -188,7 +191,7 @@
 	min-height: inherit;
 	font-size: 0;
 }
-.fea-watch-sec{
+.fea-juwellary-sec{
 	background-position: left center!important;
 }
 .fea-juwellary-sec span{
@@ -203,19 +206,20 @@
 }
 .fea-watch-sec span{
 	position: absolute;
-	right: 0;
+	left: 0;
 	top: 0;
 	bottom: 0;
 	background-repeat: no-repeat!important;
 	background-position: center center!important;
 	background-size: 100% 100%!important;
 	width: 100%;
+	z-index: 2;
 }
 .fea-juwellary-des{
 	max-width: 600px;
 	width: 100%;
 	position: relative;
-	z-index: 2;
+	z-index: 3;
 	text-align: center;
 }
 
@@ -253,50 +257,16 @@
 	.show-lg{
 		display: block!important;
 	}
-	.hmgi1{
-		width: 100%;
+	.hmgi2 {
+	    left: 330px;
 	}
-	.hm-msnry-grd-item-ctlr{
-		max-width: 300px;
-		width: 100%;
-		margin: 0 auto;
-	}
-	.hm-msnry-grd-item{
-		position: initial;
-	}
-	.hm-msnry-sec .hmgiTopSlide.slick-slider ul.slick-dots,
-	.hm-msnry-sec .hmgiBottomSlide.slick-slider ul.slick-dots{
-		position: absolute;
-		bottom: -35px;
-		left: 50%;
-		transform: translateX(-50%);
-	}
-	.hm-msnry-sec .hmgiTopSlide.slick-slider .slick-dots li,
-	.hm-msnry-sec .hmgiBottomSlide.slick-slider .slick-dots li{
-		background: #EAE9E9!important;
-	}
-	.hm-msnry-sec .hmgiTopSlide.slick-slider .slick-dots li.slick-active, 
-	.hm-msnry-sec .hmgiTopSlide.slick-slider .slick-dots li:hover,
-	.hm-msnry-sec .hmgiBottomSlide.slick-slider .slick-dots li.slick-active, 
-	.hm-msnry-sec .hmgiBottomSlide.slick-slider .slick-dots li:hover {
-	    background: #FF674D!important;
-	}
-	.hmgiAppointment .hmgi2{
-		display: none;
-	}
-	.hmgiAppointment .hmgi5{
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 80px;
-		margin-bottom: 80px;
+	.hmgi5 {
+	    left: 330px;
 	}
 	.hm-msnry-sec {
 	    padding: 180px 0;
 	}
-	.hm-msnry-grd-item .hmgi5.hm-msnry-grd-item-ctlr{
-		max-width: 400px!important;
-		width: 100%;
-	}
+	
 	
 
 }
@@ -308,9 +278,6 @@
 	.show-md{
 		display: block!important;
 	}
-	.hm-msnry-sec {
-	    padding: 150px 0;
-	}
 	
 }
 
@@ -320,9 +287,6 @@
 	}
 	.show-sm{
 		display: block!important;
-	}
-	.hm-msnry-sec {
-	    padding: 120px 0;
 	}
 	
 	
@@ -335,17 +299,11 @@
 	.show-xs{
 		display: block!important;
 	}
-	.hm-msnry-sec {
-	    padding: 100px 0;
-	}
 	
 
 }
 
 @media(max-width: 479px){
-	.hm-msnry-sec {
-	    padding: 80px 0;
-	}
 
 }
 

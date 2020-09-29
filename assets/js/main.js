@@ -467,7 +467,7 @@ $('.conversation-icon').click(function(){
 });
 /*----- End of Noyon -----*/
 
-if (windowWidth <= 1199){
+/*if (windowWidth <= 1199){
   if( $('.hmgiTopSlide').length ){
     $('.hmgiTopSlide').slick({
       dots: true,
@@ -480,9 +480,9 @@ if (windowWidth <= 1199){
       slidesToScroll: 1
     });
   };
-}
+}*/
 
-if (windowWidth <= 1199){
+/*if (windowWidth <= 1199){
   if( $('.hmgiBottomSlide').length ){
     $('.hmgiBottomSlide').slick({
       dots: true,
@@ -495,7 +495,7 @@ if (windowWidth <= 1199){
       slidesToScroll: 1
     });
   };
-}
+}*/
 
 
 $(".wishlist-process ul li a").click(function(){
