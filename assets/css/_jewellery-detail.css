@@ -412,7 +412,10 @@
 		display: none;
 	}
 	.conversation-cntlr-mblr{
-		display: block;
+		/*display: block;*/
+		display: flex;
+		justify-content: flex-end;
+		position: relative;
 	}
 }
 @media (max-width: 767px){
