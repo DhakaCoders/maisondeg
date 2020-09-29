@@ -566,10 +566,10 @@ if($('.cross').length){
   attach: '#myModal',
 });*/
  
- $('#myModal').jBox('Modal', {
+/* $('#myModal').jBox('Modal', {
   adjustPosition: true,
   adjustTracker: true
-});
+});*/
 
 
 
