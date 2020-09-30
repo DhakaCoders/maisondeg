@@ -10,35 +10,13 @@
 .back-link{
 	padding-bottom: 130px;
 }
-.back-link a{
-	display: inline-block;
-	position: relative;
-	color: #1D1D1B;
-	padding-left: 15px;
-	text-transform: uppercase;
-}
-.back-link a:hover{
-	color: #fe674c;
-}
-.back-link a i{
-	position: absolute;
-	left: 0;
-	top: 50%;
-	transform: translateY(-50%);
-	transition: all 0.1s;
-	-ms-transition: all 0.1s;
-	-webkit-transition: all 0.1s;
-}
-.back-link a:hover .back-link a i{
-	left: -2px;
-}
 .product-slider-wrap{
 	display: flex;
 	flex-wrap: wrap;
 }
 .slider-cntlr{
 	width: 50%;
-
+	padding: 0 20px;
 }
 .product-detals{
 	width: 50%;
@@ -101,6 +79,7 @@
     text-align: center;
     text-transform: uppercase;
     position: relative;
+    cursor: pointer;
 }
 .prdct-add-to button:hover{
 	background: #000;
@@ -156,12 +135,14 @@
 
 .conversation-cntlr-mblr{
 	display: none;
+	z-index: 23;
+
 }
 .conversation-cntlr{
 	position: absolute;
 	bottom: -110px;
 	right: 20px;
-	z-index: 11;
+	z-index: 23;
 }
 .conversation-icon{
 	width: 94px;
@@ -427,8 +408,15 @@
 		display: none;
 	}
 	.conversation{
-		top: 132px;
+		top: 124px;
 		bottom: 0;
+		right: 6px;
+	}
+	.conversation-inr{
+		background: #fff;
+	}
+	.conversation-icon{
+		margin-bottom: 0;
 	}
 	.conversation-inr:after{
 		bottom: initial;
@@ -472,11 +460,48 @@
 	.back-link{
 		padding-bottom: 50px;
 	}
+	.slider-cntlr{
+		padding: 0;
+	}
 	.slider-cntlr .slider-single .slide-item-img{
 		height: 270px;
 	}
 	.slider-cntlr .slider-single .slide-item-img img{
 		max-height: 250px;
+	}
+	.conversation{
+		max-width: 472px;
+		width: 100%;
+	}
+	.conversation-inr{
+		padding: 20px;
+	}
+
+	.advisor-profile{
+		justify-content: center;
+		padding-bottom: 16px;
+		margin-bottom: 16px;
+	}
+	.advisor-profile-img{
+		margin-bottom: 10px;
+	}
+	.advisor-profile-desc{
+		text-align: center;
+	}
+	.advisor-profile-name{
+		font-size: 28px;
+	}
+	.conversation form .input-fields{
+		margin-bottom: 10px;
+	}
+	.conversation form .input-fields label{
+		margin-bottom: 8px;
+	}
+	.conversation form .input-fields input[type="text"]{
+		padding: 12px 15px;
+	}
+	.conversation form .input-fields input[type="submit"]{
+		padding: 12px 50px;
 	}
 	.product-detals{
 		text-align: center;
