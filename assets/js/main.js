@@ -445,13 +445,6 @@ if( $('.dgProductSlider').length ){
         {
           breakpoint: 639,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 576,
-          settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
             dots: true,
@@ -507,6 +500,21 @@ $(".wishlist-process ul li a").click(function(){
   $("#"+tagid).addClass('current');
 
 });
+
+if (windowWidth <= 767){
+  if( $('.xs-jlp-slider').length ){
+    $('.xs-jlp-slider').slick({
+      dots: true,
+      arrows: false,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: false,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  };
+}
 
 
 

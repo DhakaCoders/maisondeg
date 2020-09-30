@@ -118,3 +118,141 @@
 .fea-jlpi-grd-item-des > a:hover i{
 	right: -5px;
 }
+
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.hide-lg{
+		display: none!important;
+	}
+	.show-lg{
+		display: block!important;
+	}
+	.fea-jlp-insprtn-sec {
+	    padding: 120px 0;
+	}
+	.fea-jlpi-title{
+		font-size: 55px;
+	}
+	.fea-jlpi-grd-item:nth-child(2) {
+	    padding-top: 90px;
+	}
+	.fea-jlpi-grd-item-title{
+		font-size: 55px;
+	}
+
+}
+
+@media(max-width: 991px){
+	.hide-md{
+		display: none!important;
+	}
+	.show-md{
+		display: block!important;
+	}
+	.fea-jlp-insprtn-sec {
+	    padding: 100px 0;
+	}
+	.fea-jlpi-title {
+	    font-size: 50px;
+	}
+	.fea-jlp-entry-hdr p{
+		margin-bottom: 50px;
+	}
+	.fea-jlpi-grd-item{
+		width: 50%;
+	}
+	.fea-jlpi-grd-item:nth-child(2) {
+	    padding-top: 0;
+	}
+	.fea-jlpi-grd-item-title{
+		font-size: 50px;
+	}
+	
+}
+
+@media(max-width: 767px){
+	.hide-sm{
+		display: none!important;
+	}
+	.show-sm{
+		display: block!important;
+	}
+	.fea-jlp-insprtn-sec {
+	    padding: 80px 0;
+	}
+	.fea-jlpi-title {
+	    font-size: 45px;
+	}
+	.fea-jlp-entry-hdr p {
+	    margin-bottom: 35px;
+	}
+	.fea-jlp-insrtn-grd-items {
+	    margin-left: 0;
+	    margin-right: 0;
+	    padding-bottom: 0;
+	}
+	.fea-jlpi-grd-item {
+	    width: 100%;
+	    padding-left: 0;
+    	padding-right: 0;
+	}
+	.fea-jlpi-grd-item-ctlr{
+		max-width: 300px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.fea-jlpi-grd-item-title {
+	    font-size: 45px;
+	    margin-bottom: 15px;
+	}
+	.fea-jlpi-btn{
+		display: none;
+	}
+	.fea-jlp-insprtn-sec .slick-slider .slick-dots li{
+		width: 67px!important;
+    	height: 4px!important;
+    	background: #EAE9E9!important;
+	}
+	.fea-jlp-insprtn-sec .slick-slider .slick-dots li.slick-active, 
+	.fea-jlp-insprtn-sec .slick-slider .slick-dots li:hover{
+		background: #FF674D!important;
+	}
+	
+}
+
+@media(max-width: 575px){
+	.hide-xs{
+		display: none!important;
+	}
+	.show-xs{
+		display: block!important;
+	}
+	.fea-jlpi-title {
+	    font-size: 42px;
+	}
+	.fea-jlp-entry-hdr p{
+		font-size: 14px;
+	}
+
+}
+
+@media(max-width: 479px){
+	
+
+}
+
+@media(max-width: 359px){
+
+}
