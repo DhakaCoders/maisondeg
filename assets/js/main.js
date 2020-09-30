@@ -508,6 +508,21 @@ $(".wishlist-process ul li a").click(function(){
 
 });
 
+if (windowWidth <= 767){
+  if( $('.xs-jlp-slider').length ){
+    $('.xs-jlp-slider').slick({
+      dots: true,
+      arrows: false,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: false,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  };
+}
+
 
 
 
