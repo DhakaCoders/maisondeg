@@ -543,6 +543,30 @@ if( $('.grid').length ){
 }
 
 
+if( $('.dftGallerySlider').length ){
+    $('.dftGallerySlider').slick({
+      dots: false,
+      arrows: false,
+      infinite: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 640,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false
+          }
+        }
+      ]
+    });
+}
+
 if( $('.pageBnrSlider').length ){
     $('.pageBnrSlider').slick({
       dots: true,
