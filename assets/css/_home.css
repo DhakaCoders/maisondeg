@@ -277,6 +277,41 @@
 	.show-md{
 		display: block!important;
 	}
+	.hm-msnry-sec {
+	    padding: 100px 0;
+	}
+	.hmgi3 {
+	    top: inherit;
+	    right: inherit;
+	    left: 0;
+	    bottom: 8px;
+	}
+	.hmgi6 {
+	    top: inherit;
+	    right: inherit;
+	    left: 50%;
+	    bottom: 28px;
+	}
+	.hm-msnry-grd-item{
+		width: 50%;
+	}
+	.hmgi2 {
+	    left: 50%;
+	}
+	.hmgi5 {
+	    left: 50%;
+	}
+	.hmgi3 .hm-msnry-grd-item-ctlr {
+	    margin-right: 0;
+	    margin-left: 30px;
+	}
+	.hm-msnry-grd-items{
+		min-height: 1400px;
+		height: 100%;
+	}
+	.hm-msnry-title{
+		font-size: 20px;
+	}
 	
 }
 
@@ -286,6 +321,36 @@
 	}
 	.show-sm{
 		display: block!important;
+	}
+	.hm-msnry-title{
+		font-size: 18px;
+	}
+	.hm-msnry-sec .hm-msnry-grd-item{
+		position: initial;
+		width: 100%!important;
+	}
+	.hmgi1 .hm-msnry-grd-item-ctlr {
+	    margin-left: 0;
+	}
+	.hmgiTopSlide .hm-msnry-grd-item-ctlr,
+	.hmgiBottomSlide .hm-msnry-grd-item-ctlr{
+		max-width: 300px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.hmgiAppointment .hm-msnry-grd-item.hmgi2{
+		display: none;
+	}
+	.hm-msnry-grd-items{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.hm-msnry-grd-item{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.hmgi3 .hm-msnry-grd-item-ctlr{
+		margin-left: 0;
 	}
 	
 	

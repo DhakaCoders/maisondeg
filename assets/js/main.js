@@ -461,7 +461,7 @@ $('.conversation-icon').click(function(){
 });
 /*----- End of Noyon -----*/
 
-/*if (windowWidth <= 1199){
+if (windowWidth <= 767){
   if( $('.hmgiTopSlide').length ){
     $('.hmgiTopSlide').slick({
       dots: true,
@@ -474,9 +474,9 @@ $('.conversation-icon').click(function(){
       slidesToScroll: 1
     });
   };
-}*/
+}
 
-/*if (windowWidth <= 1199){
+if (windowWidth <= 767){
   if( $('.hmgiBottomSlide').length ){
     $('.hmgiBottomSlide').slick({
       dots: true,
@@ -489,7 +489,7 @@ $('.conversation-icon').click(function(){
       slidesToScroll: 1
     });
   };
-}*/
+}
 
 
 $(".wishlist-process ul li a").click(function(){
@@ -543,6 +543,30 @@ if( $('.grid').length ){
 }
 
 
+if( $('.dftGallerySlider').length ){
+    $('.dftGallerySlider').slick({
+      dots: false,
+      arrows: false,
+      infinite: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 640,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false
+          }
+        }
+      ]
+    });
+}
+
 if( $('.pageBnrSlider').length ){
     $('.pageBnrSlider').slick({
       dots: true,
@@ -579,6 +603,13 @@ if($('.cross').length){
     });
 }
 
+
+if($('.xs-tab-btn').length){
+    $('.xs-tab-btn').on('click', function(){
+      $(this).toggleClass('xs-tab-btn-expend');
+      $(this).parent().parent().find('.xs-tab-content').slideToggle();
+    });
+}
 /*if( $('.tooltipButton').length ){
   $('.tooltipButton').toolbar({
     content: '#toolbar-options',
