@@ -603,6 +603,13 @@ if($('.cross').length){
     });
 }
 
+
+if($('.xs-tab-btn').length){
+    $('.xs-tab-btn').on('click', function(){
+      $(this).toggleClass('xs-tab-btn-expend');
+      $(this).parent().parent().find('.xs-tab-content').slideToggle();
+    });
+}
 /*if( $('.tooltipButton').length ){
   $('.tooltipButton').toolbar({
     content: '#toolbar-options',
