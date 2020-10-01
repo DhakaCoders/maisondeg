@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'ProximaNova-Semibold';
+    src: url('ProximaNova-Semibold/ProximaNova-Semibold.eot');
+    src: url('ProximaNova-Semibold/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNova-Semibold/ProximaNova-Semibold.woff2') format('woff2'),
+        url('ProximaNova-Semibold/ProximaNova-Semibold.woff') format('woff'),
+        url('ProximaNova-Semibold/ProximaNova-Semibold.ttf') format('truetype'),
+        url('ProximaNova-Semibold/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
