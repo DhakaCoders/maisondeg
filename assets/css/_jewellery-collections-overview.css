@@ -215,6 +215,9 @@
 	.jco-grd-items ul li:nth-child(2) {
 	    margin-top: 100px;
 	}
+	.jco-wedding-title{
+		font-size: 55px;
+	}
 
 }
 
@@ -245,6 +248,10 @@
 	.jco-grd-item-title {
 	    font-size: 50px;
 	}
+	.jco-wedding-title{
+		font-size: 50px;
+	}
+
 	
 }
 
@@ -286,6 +293,20 @@
 	}
 	.jco-grd-item-title {
 	    font-size: 45px;
+	}
+	.jco-wedding-title{
+		font-size: 45px;
+	}
+	.jco-wedding {
+	    background-size: cover!important;
+	    min-height: inherit;
+	    display: inherit;
+	}
+	.jco-wedding-ctlr {
+	    padding-top: 300px;
+	    padding-bottom: 70px;
+	    padding-left: 20px;
+	    padding-right: 20px;
 	}
 	
 }

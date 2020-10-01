@@ -264,7 +264,10 @@
 	.hm-msnry-sec {
 	    padding: 150px 0;
 	}
-	
+	.fea-juwellary-sec, .fea-watch-sec{
+		min-height: 700px;
+		height: 100%;
+	}
 	
 
 }
@@ -312,6 +315,10 @@
 	.hm-msnry-title{
 		font-size: 20px;
 	}
+	.fea-watch-des{
+		max-width: 300px;
+		width: 100%;
+	}
 	
 }
 
@@ -327,13 +334,9 @@
 	}
 	.hm-msnry-sec .hm-msnry-grd-item{
 		position: initial;
-		width: 100%!important;
 	}
-	.hmgi1 .hm-msnry-grd-item-ctlr {
-	    margin-left: 0;
-	}
-	.hmgiTopSlide .hm-msnry-grd-item-ctlr,
-	.hmgiBottomSlide .hm-msnry-grd-item-ctlr{
+	.hmgiTopSlider .hm-msnry-grd-item-ctlr,
+	.hmgiBottomSlider .hm-msnry-grd-item-ctlr{
 		max-width: 300px;
 		width: 100%;
 		margin: 0 auto;
@@ -349,10 +352,52 @@
 		padding-left: 0;
 		padding-right: 0;
 	}
-	.hmgi3 .hm-msnry-grd-item-ctlr{
-		margin-left: 0;
+	.hmgiAppointment .hm-msnry-grd-item.hmgi5{
+		width: 100%;
 	}
-	
+	.hmgiAppointment{
+		margin-bottom: 80px;
+		padding-top: 80px;
+	}
+	.hmgiTopSlider.slick-slider ul.slick-dots,
+	.hmgiBottomSlider.slick-slider ul.slick-dots{
+		position: absolute;
+		bottom: -35px;
+	}
+	.hmgiTopSlider.slick-slider .slick-dots li,
+	.hmgiBottomSlider.slick-slider .slick-dots li{
+		background: #EAE9E9!important;
+		width: 90px!important;
+		height: 4px!important;
+	}
+	.hmgiTopSlider.slick-slider .slick-dots li.slick-active, 
+	.hmgiTopSlider.slick-slider .slick-dots li:hover,
+	.hmgiBottomSlider.slick-slider .slick-dots li.slick-active, 
+	.hmgiBottomSlider.slick-slider .slick-dots li:hover {
+	    background: #FF674D!important;
+	}
+	.fea-juwellary-sec, 
+	.fea-watch-sec {
+	    min-height: initial;
+	}
+	.fea-watch-des {
+	    margin-left: auto;
+	    margin-right: auto;
+	    padding-top: 400px;
+	    padding-bottom: 70px;
+	}
+	.fea-watch-sec span{
+		bottom: initial;
+		height: 400px;
+	}
+	.fea-juwellary-sec span{
+		bottom: initial;
+		height: 300px;
+	}
+	.fea-juwellary-des{
+		padding-top: 300px;
+		padding-bottom: 70px;
+	}
 	
 }
 
