@@ -30,8 +30,9 @@
 	color: #FF674D;
 }
 .wlp-ctlr .fea-watch-des a.dg-btn:hover{
-	border: 2px solid #FF674D;
-	background: #FF674D;
+	border: 2px solid #fff;
+	background: #fff;
+	color: #1D1D1B;
 }
 
 .wlp-ctlr .hm-msnry-sec{

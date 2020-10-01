@@ -214,6 +214,9 @@
 	padding-right: 10px;
 }
 
+.cnt-btn{
+    margin-top: 35px;
+}
 .cnt-btn input[type=submit]{
     width: 168px;
     height: 48px;
@@ -231,5 +234,96 @@
 .cnt-btn input[type=submit]:hover{
     background: transparent;
     color: #1D1D1B;
+}
+
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+    .hide-lg{
+        display: none!important;
+    }
+    .show-lg{
+        display: block!important;
+    }
+    
+
+}
+
+@media(max-width: 991px){
+    .hide-md{
+        display: none!important;
+    }
+    .show-md{
+        display: block!important;
+    }
+    .wishlist-form {
+        padding-top: 90px;
+    }
+    
+}
+
+@media(max-width: 767px){
+    .hide-sm{
+        display: none!important;
+    }
+    .show-sm{
+        display: block!important;
+    }
+    .wishlist-form {
+        padding-top: 80px;
+    }
+    .diveder2.inputFields-row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .diveder2 .inputField {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .inputFields-row ul li {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+    
+  
+}
+
+@media(max-width: 575px){
+    .hide-xs{
+        display: none!important;
+    }
+    .show-xs{
+        display: block!important;
+    }
+    .wishlist-form ul li:first-child{
+        padding-bottom: 30px;
+    }
+    .cnt-btn input[type=submit]{
+        width: 274px;
+    }
+    
+
+}
+
+@media(max-width: 479px){
+    
+
+}
+
+@media(max-width: 359px){
+
 }
 
