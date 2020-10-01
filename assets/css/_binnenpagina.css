@@ -209,7 +209,7 @@ ol li::before {
 	font-style: normal;
 	font-weight: 300;
 	font-size: 60px;
-	line-height: 1;
+	line-height: 1.2;
 	letter-spacing: 0.1em;
 	color: #1D1D1B;
 }
@@ -465,6 +465,13 @@ Gallery design
 	}
 	.dft-blockquote blockquote{
 		font-size: 45px;
+	}
+	.hide-767{
+		display: none;
+	}
+	.dft-blockquote{
+		padding-bottom: 110px;
+		padding-top: 30px;
 	}
 }
 
