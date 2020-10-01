@@ -13,10 +13,10 @@
 .wishlist-process ul li a strong{
 	cursor: pointer;
 }
-.wishlist-process ul li a.active span{
+.wishlist-process ul li a.current span{
 	color: #FF674D;
 	border: 1px solid #FF674D;
 }
-.wishlist-process ul li a.active strong{
+.wishlist-process ul li a.current strong{
 	color: #FF674D;
 }

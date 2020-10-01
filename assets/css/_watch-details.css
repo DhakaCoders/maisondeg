@@ -50,3 +50,31 @@
 .wtch-dtls-fea-juwellary-des{
 	margin-left: auto;
 }
+/*responsive*/
+@media (max-width: 1199px){
+
+}
+@media (max-width: 991px){
+	.wtch-dtls-image-text-grids{
+		margin-top: -150px;
+	}
+}
+@media (max-width: 767px){
+	.wtch-dtls-image-text-grids{
+		margin-top: -100px;
+	}
+}
+@media (max-width: 639px){
+	.wtch-dtls-image-text-grids{
+		margin-top: -50px;
+	}
+}
+@media (max-width: 575px){
+	
+}
+@media (max-width: 479px){
+	
+}
+
+
+
