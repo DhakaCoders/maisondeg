@@ -392,6 +392,9 @@
 	.vf-title{
 		font-size: 55px;
 	}
+	.vf-desc{
+		margin-bottom: 75px;
+	}
 	.vf-desc p{
 		font-size: 18px;
 	}
@@ -423,6 +426,9 @@
 @media(max-width: 767px){
 	.video-fencybox{
 		padding-top: 94px;
+	}
+	.vf-desc{
+		margin-bottom: 70px;
 	}
 	.vf-title{
 		font-size: 49px;
@@ -520,17 +526,18 @@
 	.video-fencybox{
 		padding-top: 74px;
 	}
+	.vf-desc{
+		margin-bottom: 65px;
+	}
 	.vf-title{
 		font-size: 44px;
 	}
 	.vf-sub-title{
 		font-size: 16px;
 	}
+
 	.vf-desc p{
 		font-size: 14px;
-	}
-	.video-fencybox-inr p{
-		margin-top: 75px;
 	}
 	.video-fencybox-cntlr{
 		height: 480px;
