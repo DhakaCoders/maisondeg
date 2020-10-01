@@ -1,0 +1,52 @@
+.technical-details{
+	margin-bottom: 35px;
+
+}
+.technical-details span{
+	letter-spacing: 0.04em;
+	font-family: CactusMedium;
+	font-size: 18px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.technical-details > ul{
+
+}
+.technical-details > ul > li{
+	letter-spacing: 0.04em;
+	font-size: 16px;
+	color: #1D1D1B;
+	padding: 10px 0;
+	line-height: 1;
+}
+.prdct-dtls-prize strong{
+	color: #1D1D1B;
+	display: inline-block;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+.wdtls--prize{
+	margin-bottom: 45px;
+}
+.wtch-dtls-item-hvr-cntlr{
+	margin-bottom: 45px;
+}
+.wtch-dtls-item-hover-desc{
+
+}
+.wtch-dtls-item-hvr-sub-title{
+	letter-spacing: 0.04em;
+	color: #1D1D1B;
+	font-size: 16px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	font-family: Poppins;
+	font-weight: 300;
+}
+.wtch-dtls-image-text-grids{
+	margin-top: -200px;
+}
+
+.wtch-dtls-fea-juwellary-des{
+	margin-left: auto;
+}
