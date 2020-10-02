@@ -155,7 +155,8 @@
 	padding-right: 75px;
 	line-height: 1;
 	margin-bottom: 0;
-
+	z-index: 25;
+	position: relative;
 }
 .mobile-clsn-menu-cntlr strong:after {
     content: "\f0d7";
@@ -182,12 +183,18 @@
     left: -15px;
     right: 0;
     width: 170px;
-    top: 20px;
-    z-index: 20;
-    padding: 20px 10px 5px 0;
+    top: -4px;
+    padding: 31px 10px 5px 0;
     opacity: 0;
     transform: scale3d(1,0,1);
+    -ms-transform: scale3d(1,0,1);
+    -webkit-transform: scale3d(1,0,1);
+    transition: all .5s;
+    -ms-transition: all .5s;
+    -webkit-transition: all .5s;
     transform-origin: top;
+    -ms-transform-origin: top;
+    -webkit-transform-origin: top;
     padding-left: 15px;
     background: #fff;
     box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.04);
