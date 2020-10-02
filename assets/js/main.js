@@ -459,6 +459,10 @@ $('.conversation-icon').click(function(){
   $(this).next().toggleClass('conversation-title-show');
   $(this).parent().next().toggleClass('conversation_show');
 });
+$('.mobile-clsn-menu-cntlr strong').click(function(){
+  $(this).next().toggleClass('mbl-clsn-actv-menu');
+  $(this).toggleClass('mobile-clsn-menu-btn');
+});
 /*----- End of Noyon -----*/
 
 if (windowWidth <= 767){
