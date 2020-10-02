@@ -53,3 +53,6 @@ section.fea-watch-sec:after {
     background: linear-gradient(271.04deg, #0C0C16 56.82%, #0C0C16 56.82%, rgba(6, 7, 12, 0) 94.23%);
     z-index: 7;
 }
+.wlp-ctlr .fea-watch-sec span{
+	right: 30%;
+}
