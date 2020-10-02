@@ -213,9 +213,6 @@
 
 .social-icons ul li a:hover svg{
     fill: #FF674D;
-<<<<<<< HEAD
-}
-=======
 }
 
 
@@ -245,7 +242,14 @@
 	.share-sidebar{
 		display: none;
 	}
-
+	#blog-details-page-cnltr .back-btn {
+	    margin-bottom: 80px;
+	}
+	#blog-details-page-cnltr .dfp-plate-one-img-bx, 
+	#blog-details-page-cnltr .dft-gallery-img-slider-cntlr {
+	    margin-left: 0;
+	    margin-right: 0;
+	}
 }
 
 @media(max-width: 991px){
@@ -257,7 +261,49 @@
 }
 
 @media(max-width: 575px){
-
+	.avatar-info{
+		display: block;
+		text-align: center;
+	}
+	.avatar-info i{
+		display: inline-block;
+		vertical-align: baseline;
+		margin-bottom: 16px;
+	}
+	.avatar-info > div strong{
+		display: block;
+		padding-left: 0;
+		padding-bottom: 15px;
+	}
+	.avatar-info > div strong span{
+		display: block;
+		font-size: 12px;
+	}
+	.avatar-info > div p{
+		max-width: 350px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.bdp-category{
+		border-bottom: none;
+		position: relative;
+	}
+	.bdp-category:after{
+		content: "";
+		position: absolute;
+		left: -20px;
+		right: -20px;
+		height: 2px;
+		background: #F8F8F8;
+		top: 100%;
+	}
+	.xs-20{
+	    margin-left: -20px;
+	    margin-right: -20px;
+	}
 
 }
 
@@ -270,4 +316,4 @@
 
 }
 
->>>>>>> c7d90e052583ed87b85749b83af67b1a64b0a6e5
+
