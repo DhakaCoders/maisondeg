@@ -15,7 +15,18 @@ Text Domain: clipfresh
 /*
 .tm-model-sec-wrp{
 	margin-bottom: 10px;
-}*/   
+}*/
+
+
+
+.h-our-history a.dg-hb-btn{
+	color: #fff;
+	border-color: #fff;
+}
+.h-our-history a.dg-hb-btn:hover{
+	background: #fff;
+	color: #000;
+}   
   
 .fea-watch-sec span{
 	right: 40%;
@@ -33,6 +44,4 @@ section.fea-watch-sec:after {
 .fea-juwellary-sec-inr, .fea-watch-sec-inr{
 	z-index: 11;
 }
-
-
 
