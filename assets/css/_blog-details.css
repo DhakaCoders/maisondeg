@@ -214,3 +214,56 @@
 .social-icons ul li a:hover svg{
     fill: #FF674D;
 }
+
+
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+	.share-sidebar strong {
+	    padding-bottom: 15px;
+	    font-size: 20px;
+	    line-height: 24px;
+	}
+	.share-sidebar {
+	    top: 384px;
+	    max-width: 100px;
+	    width: 1000%;
+	}
+}
+
+@media(max-width: 1199px){
+	.share-sidebar{
+		display: none;
+	}
+
+}
+
+@media(max-width: 991px){
+
+}
+
+@media(max-width: 767px){
+
+}
+
+@media(max-width: 575px){
+
+
+}
+
+@media(max-width: 479px){
+	
+
+}
+
+@media(max-width: 359px){
+
+}
+
