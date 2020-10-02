@@ -44,3 +44,7 @@ section.fea-watch-sec:after {
 .fea-juwellary-sec-inr, .fea-watch-sec-inr{
 	z-index: 11;
 }
+
+header{
+	display: none;
+}
