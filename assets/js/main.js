@@ -459,6 +459,10 @@ $('.conversation-icon').click(function(){
   $(this).next().toggleClass('conversation-title-show');
   $(this).parent().next().toggleClass('conversation_show');
 });
+$('.mobile-clsn-menu-cntlr strong').click(function(){
+  $(this).next().toggleClass('mbl-clsn-actv-menu');
+  $(this).toggleClass('mobile-clsn-menu-btn');
+});
 /*----- End of Noyon -----*/
 
 if (windowWidth <= 767){
@@ -515,6 +519,22 @@ if (windowWidth <= 767){
     });
   };
 }
+
+
+var offset = 250;
+var duration = 500;
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > offset){
+    $('.scroll-btn').fadeIn(duration);
+  }else{
+    $('.scroll-btn').fadeOut(duration);
+  }
+});
+
+$('scroll-btn').click(function(){
+  $('body').animate({scrollTop: 0}, duration)
+});
 
 
 
