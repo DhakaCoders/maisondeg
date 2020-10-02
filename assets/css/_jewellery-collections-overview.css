@@ -108,7 +108,7 @@
 	background-position: center center!important;
 	background-size: 100% 100%!important;
 	min-height: 550px;
-	display: flex;
+	display: flex!important;
 	align-items: center;
 }
 .jco-wedding-inr{
@@ -150,7 +150,8 @@
 	position: relative;
 }
 .scroll-btn{
-	position: absolute;
+	display: none;
+	position: fixed;
 	right: 45px;
 	bottom: 20%;
 }
@@ -163,6 +164,8 @@
 	border-radius: 100%;
 	position: relative;
 	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .scroll-btn a img{
 	position: absolute;
@@ -190,7 +193,16 @@
 }
 
 @media(max-width: 1299px){
-
+	.scroll-btn{
+		right: 0px;
+	}
+	.scroll-btn a{
+		width: 60px;
+		height: 60px;
+	}
+	.scroll-btn span{
+		font-size: 25px;
+	}
 }
 
 @media(max-width: 1199px){
@@ -217,6 +229,10 @@
 	}
 	.jco-wedding-title{
 		font-size: 55px;
+	}
+	.jco-grd-items {
+		padding-top: 160px;
+	    padding-bottom: 100px;
 	}
 
 }
@@ -250,6 +266,10 @@
 	}
 	.jco-wedding-title{
 		font-size: 50px;
+	}
+	.jco-grd-items {
+		padding-top: 120px;
+	    padding-bottom: 80px;
 	}
 
 	
@@ -308,6 +328,17 @@
 	    padding-left: 20px;
 	    padding-right: 20px;
 	}
+	.jco-grd-items {
+		padding-top: 80px;
+	    padding-bottom: 40px;
+	}
+	.jco-grd-items.first-item{
+		padding-top: 0;
+	}
+	.xs-link{
+		text-align: center;
+	}
+
 	
 }
 

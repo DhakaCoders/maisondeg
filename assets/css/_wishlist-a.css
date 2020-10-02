@@ -140,11 +140,19 @@
 	align-items: center;
 	position: relative;
 }
+.wishlist-grd-item-ctlr:hover .wishlist-grd-item-img{
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+}
 
 .wishlist-grd-item-img{
 	width: 50%;
 	min-height: 324px;
 	height: 100%;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
 }
 .wishlist-grd-item-des{
 	width: 50%;
@@ -632,6 +640,9 @@
         padding-left: 0;
         padding-right: 0;
         padding-bottom: 20px;
+    }
+    .wishlist-process ul li i{
+    	top: 45%;
     }
 	
 }

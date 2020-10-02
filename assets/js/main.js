@@ -517,6 +517,22 @@ if (windowWidth <= 767){
 }
 
 
+var offset = 250;
+var duration = 500;
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > offset){
+    $('.scroll-btn').fadeIn(duration);
+  }else{
+    $('.scroll-btn').fadeOut(duration);
+  }
+});
+
+$('scroll-btn').click(function(){
+  $('body').animate({scrollTop: 0}, duration)
+});
+
+
 
 
 
