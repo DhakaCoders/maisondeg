@@ -33,20 +33,6 @@ section.fea-watch-sec:after {
 .fea-juwellary-sec-inr, .fea-watch-sec-inr{
 	z-index: 11;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 9b118b8e3782ace4eabed8c2faf032787086a58d
-.wlp-ctlr section.fea-watch-sec:after {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 52.5%;
-    right: 0;
-    background: linear-gradient(271.04deg, #0C0C16 56.82%, #0C0C16 56.82%, rgba(6, 7, 12, 0) 94.23%);
-    z-index: 7;
-}
-.wlp-ctlr .fea-watch-sec span{
-	right: 30%;
-}
+
 
