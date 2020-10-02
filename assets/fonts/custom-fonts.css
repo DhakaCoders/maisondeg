@@ -12,8 +12,12 @@
 }
 @font-face {
     font-family: 'CactusMedium';
-    src:url('CactusMedium/CactusMedium.woff2') format('woff2'),
-        url('CactusMedium/CactusMedium.woff') format('woff');
+    src: url('CactusMedium.eot');
+    src: url('CactusMedium.eot?#iefix') format('embedded-opentype'),
+        url('CactusMedium.woff2') format('woff2'),
+        url('CactusMedium.woff') format('woff'),
+        url('CactusMedium.ttf') format('truetype'),
+        url('CactusMedium.svg#CactusMedium') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
