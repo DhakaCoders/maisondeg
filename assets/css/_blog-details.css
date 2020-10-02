@@ -170,3 +170,14 @@
 	text-align: center;
 	margin-bottom: 55px;
 }
+
+.share-sidebar{
+	position: absolute;
+	left: 0;
+	top: 324px;
+	max-width: 120px;
+	width: 1000%;
+}
+.social-icons{
+
+}
