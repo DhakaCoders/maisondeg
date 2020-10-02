@@ -17,8 +17,6 @@ Text Domain: clipfresh
 	margin-bottom: 10px;
 }*/
 
-
-
 .h-our-history a.dg-hb-btn{
 	color: #fff;
 	border-color: #fff;
@@ -44,9 +42,6 @@ section.fea-watch-sec:after {
 .fea-juwellary-sec-inr, .fea-watch-sec-inr{
 	z-index: 11;
 }
-<<<<<<< HEAD
-
-=======
 .wlp-ctlr section.fea-watch-sec:after {
     position: absolute;
     content: "";
@@ -59,4 +54,4 @@ section.fea-watch-sec:after {
 .wlp-ctlr .fea-watch-sec span{
 	right: 30%;
 }
->>>>>>> 7c476b7c64cd57df832b8391bc5c6132277f4d6d
+
