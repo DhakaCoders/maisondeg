@@ -15,7 +15,18 @@ Text Domain: clipfresh
 /*
 .tm-model-sec-wrp{
 	margin-bottom: 10px;
-}*/   
+}*/
+
+
+
+.h-our-history a.dg-hb-btn{
+	color: #fff;
+	border-color: #fff;
+}
+.h-our-history a.dg-hb-btn:hover{
+	background: #fff;
+	color: #000;
+}   
   
 .fea-watch-sec span{
 	right: 40%;
@@ -33,16 +44,3 @@ section.fea-watch-sec:after {
 .fea-juwellary-sec-inr, .fea-watch-sec-inr{
 	z-index: 11;
 }
-.wlp-ctlr section.fea-watch-sec:after {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 52.5%;
-    right: 0;
-    background: linear-gradient(271.04deg, #0C0C16 56.82%, #0C0C16 56.82%, rgba(6, 7, 12, 0) 94.23%);
-    z-index: 7;
-}
-.wlp-ctlr .fea-watch-sec span{
-	right: 30%;
-}
-
