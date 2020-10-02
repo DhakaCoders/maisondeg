@@ -575,9 +575,9 @@ if( $('.relatedArticlesSlider').length ){
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 640,
+          breakpoint: 992,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
             dots: true,
             arrows: false
