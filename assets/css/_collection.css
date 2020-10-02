@@ -325,7 +325,6 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	width: 100%;
 	height: 2px;
 	background: #F8F8F8;
 }
@@ -550,6 +549,10 @@
 	}
 	.pagination-cntlr > ul > li{
 		padding: 0 18px;
+	}
+	.pagination-cntlr:after{
+		left: -20px;
+		right: -20px;
 	}
 	.blockquote-cntlr blockquote span{
 		font-size: 40px;
