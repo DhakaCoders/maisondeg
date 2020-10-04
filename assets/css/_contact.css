@@ -85,7 +85,8 @@ contact-form-sec-wrp
 .contact-fields-select .dg-select-field .bootstrap-select button{
 	border:2px solid#ededed;
 }
-.contact-d2-field label.contact-error{
+.contact-d2-field label.contact-error,
+.contact-error{
     position: absolute;
     top: 6px;
     right: 13px;
@@ -97,6 +98,12 @@ contact-form-sec-wrp
     margin-bottom: 0;
     text-transform: lowercase;
     font-family: 'Poppins', sans-serif;
+}
+.contact-d2-field{
+	position: relative;
+}
+.from-group{
+	position: relative;
 }
 .contact-fields-msg{
 	margin-bottom: 55px;

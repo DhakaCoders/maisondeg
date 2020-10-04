@@ -316,29 +316,29 @@
             <p>At Maison De Greef, your satisfaction is our utmost priority. We therefore welcome any comments that might help to continue to improve our services.</p>
           </div>
           <div class="contact-form-wrp">
-            <form>
+            <form class="needs-validation" novalidate>
               <div class="contact-d2-fields clearfix">
-                <div class="contact-d2-field">
+                <div class="contact-d2-field from-group">
                   <label>First Name</label>
-                  <input type="text" name="name" placeholder="First Name" required>
+                  <input type="text" name="name" placeholder="First Name">
                 </div>
-                <div class="contact-d2-field">
+                <div class="contact-d2-field from-group">
                   <label>Last Name</label>
                   <input type="text" name="name" placeholder="Last Name">
                 </div>
               </div>
               <div class="contact-d2-fields clearfix">
-                <div class="contact-d2-field">
+                <div class="contact-d2-field from-group">
                   <label>Phone</label>
                   <input type="text" name="name" placeholder="Phone">
                 </div>
-                <div class="contact-d2-field contact-has-error">
+                <div class="contact-d2-field from-group">
                   <label>Email</label>
-                  <input type="email" name="email" placeholder="mathias2gmail.com">
+                  <input type="email" name="email" placeholder="mathias2gmail.com" class="form-control" required>
                   <label class="contact-error">incorrect e-mail.</label>
                 </div>
               </div>
-              <div class="contact-fields-select clearfix">
+              <div class="contact-fields-select clearfix from-group">
                 <label>Subject</label>
                 <ul class="clearfix reset-list">
                   <li>
@@ -357,7 +357,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="contact-fields-msg clearfix">
+              <div class="contact-fields-msg clearfix from-group">
                 <label>Message</label>
                 <textarea placeholder="Message"></textarea>
               </div>

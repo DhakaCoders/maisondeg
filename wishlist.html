@@ -394,29 +394,30 @@
             </div>
             <div class="wishlist-tab-con" id="contactinfo">
               <div class="wishlist-form">
-                <form class="form">
+                <form class="form" class="needs-validation" novalidate>
                   <div class="inputFields-row diveder2 clearfix">
-                    <div class="inputField">
+                    <div class="inputField from-group">
                       <label>First Name</label>
                       <input type="text" name="fname" placeholder="First Name">
                     </div>
-                    <div class="inputField">
+                    <div class="inputField from-group">
                       <label>Last Name</label>
                       <input type="text" name="lname" placeholder="Last Name">
                     </div>
                   </div>
                   <div class="inputFields-row diveder2 clearfix">
-                    <div class="inputField">
+                    <div class="inputField from-group">
                       <label>E-mail</label>
-                      <input type="text" name="email" placeholder="E-mail">
+                      <input type="text" name="email" placeholder="E-mail" class="form-control" required>
+                      <label class="contact-error">incorrect e-mail.</label>
                     </div>
-                    <div class="inputField">
+                    <div class="inputField from-group">
                       <label>Phone</label>
                       <input type="text" name="number" placeholder="Phone">
                     </div>
                   </div>
                   <div class="inputFields-row">
-                    <div class="inputField">
+                    <div class="inputField from-group">
                       <label>Message</label>
                       <textarea placeholder="Message"></textarea>
                     </div>
@@ -425,14 +426,14 @@
                       <li>
                         <label class="active">
                           At the store experience 
-                          <input type="radio" checked="checked">
+                          <input type="radio" checked="checked" name="anyone">
                           <span class="checkmark"></span>
                         </label>
                       </li>
                       <li>
                         <label>
                           Video conference  
-                          <input type="radio">
+                          <input type="radio" name="anyone">
                           <span class="checkmark"></span>
                         </label>
                       </li>
@@ -441,7 +442,7 @@
                       <div class="dg-checkmark">
                         <label>
                           Subscribe me to the newsletter:
-                          <input type="radio">
+                          <input type="checkbox">
                           <span class="checkmark"></span>
                         </label>
                       </div>
@@ -708,7 +709,7 @@
 <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 <script src="assets/fancybox3/dist/jquery.fancybox.min.js"></script>
 <script src="assets/slick.slider/slick.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBo2-QJ7RdCkLw3NFZEu71mEKJ_8LczG-c"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaRQsAJCZyyD6MbCg0jB_0sdLGEOxt97Y"></script>
 <script src="assets/js/jquery.matchHeight-min.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/wow.min.js"></script>

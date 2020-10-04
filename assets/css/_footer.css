@@ -190,6 +190,28 @@
     border-color: red;
 }
 
+.form-control:focus{
+    box-shadow: none!important;
+}
+.contact-error{
+    opacity: 0;
+}
+.was-validated .contact-error{
+    opacity: 1;
+}
+.custom-select.is-invalid,
+ .form-control.is-invalid, 
+ .was-validated .custom-select:invalid, 
+ .was-validated .form-control:invalid {
+    border-color: #FF674D;
+    border-width: 1px;
+}
+
+
+
+
+
+
 
 .ftr-btm-col{
 	border-top: 4px solid#f8f8f8;
