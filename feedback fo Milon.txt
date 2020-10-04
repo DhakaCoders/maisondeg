@@ -81,11 +81,11 @@ New---->
 	ie te upore uthe geche, ai problem ta solve korar jonno ---> https://prnt.sc/up8h4z
 	home page ar ai section ta follow koro
 
-2. https://prnt.sc/upexbu
+2. https://prnt.sc/upexbu<----done--->
 	ber hole ai caret ta down thake up hobe
 
 3. https://prnt.sc/upf1oe
-	form a validation form ta kaj korate hobe
+	form a validation form ta kaj korate hobe<---baki ache--->
 
 
 
@@ -103,7 +103,7 @@ Desktop---->
 
 3. https://prnt.sc/umi8zf 
 	ai item gulo te click korle modal ta ber hobe
-	2 ta grd a kore rakho , sob grd gulo te dite hobe na <baki ache>
+	2 ta grd a kore rakho , sob grd gulo te dite hobe na <---done--->
 
 4. https://prnt.sc/umib7o  --done
 	ai img ta upore bosao, overlay img ta badh daw
@@ -120,12 +120,12 @@ Desktop---->
 
 New--->
 
-1. https://prnt.sc/up6byx
+1. https://prnt.sc/up6byx<---done--->
 	hover korle arrow ta smothly kaj kortechena,
-	history.html page a korechi ami , oita pest koro aikhane
+	history.html page a korechi ami , oita pest koro aikhane<---done--->
 
 
-2. https://prnt.sc/up6l1i
+2. https://prnt.sc/up6l1i<---baki ache--->
 	ai hover effect ta ar aktu valo korte hobe
 
 	hover korle jokhon 2 line hosche nicher dike dhakka dische
@@ -137,7 +137,7 @@ New--->
 	iii) https://prnt.sc/up6qys --> ai gulo te mHc lagbena maybe. text koma bara kore dekhio, kemon  
 	     dekhay, na lagle tule dio
 
-3. ager 3 no fix 
+3. ager 3 no fix <---done--->
 	i) sob gulote modal call korte hobena, only 2 ta tate kore rakho
 
 	ii) https://prnt.sc/up6tw8 --> amon 2 ta pest koro r id airokom daw
@@ -213,10 +213,10 @@ Desktop---->
 
 
 New-->
-1. https://prnt.sc/upgxp0
+1. https://prnt.sc/upgxp0<---done--->
 	arrow gulo ie te center a nai, sob button ar arrow check kore fix korte hobe
 
-2. https://prnt.sc/upgykh
+2. https://prnt.sc/upgykh<----done---->
 	https://prnt.sc/upgyul
 	title gulo te link diye daw
 
@@ -227,10 +227,10 @@ Watch Brands overview
 ----------------------
 Desktop---->
 
-1. https://prnt.sc/umiwl6
+1. https://prnt.sc/umiwl6<---done--->
 	title ao link diye daw
 
-2. https://prnt.sc/umiye2
+2. https://prnt.sc/umiye2<----done---->
 	property gulo tule dile 'inline-bg' class ta use korte hobe
 
 
@@ -243,37 +243,37 @@ Contact
 ----------------------
 Desktop---->
 
-1. https://prnt.sc/up3doh
+1. https://prnt.sc/up3doh<---done--->
 	last name hobe
 
-2. https://prnt.sc/up3epr
+2. https://prnt.sc/up3epr<---done--->
 	same border color hoye geche.
 	focus gray ar deep or black use korte pari , jemonta valo lage
 
-3. https://prnt.sc/up3jml
+3. https://prnt.sc/up3jml<----baki ache--->
 	age thake show hoye thakbena, submit button a click korle show hobe
 	amra zeepling or figma te age kichu project korechilam , only design.
 	se project gulo te ache validation plugin ta, seta dekhe dekhe update kore felte hobe
 
 
-4. https://prnt.sc/up3ldq
+4. https://prnt.sc/up3ldq<---done--->
 	target hobe
 
-5. https://prnt.sc/up3nb1
+5. https://prnt.sc/up3nb1<---done--->
 	aikhane d2 rakha jabena, jehetu ar vitore aktai field ache. select
 	d2 ta tule daw
 
-6. https://prnt.sc/up3qja
+6. https://prnt.sc/up3qja<---done--->
 	display block lagbe, wrap korena
 
-7. https://prnt.sc/up3rig
+7. https://prnt.sc/up3rig<---done--->
 	cursor pointer hobe
 
-8. https://prnt.sc/up3sh3
+8. https://prnt.sc/up3sh3<---done--->
 	last ar ta ber hole niche lege geche, gap hobe
 
 
-9. https://prnt.sc/up3tw3
+9. https://prnt.sc/up3tw3<-----baki ache--->
 	div ta full widh houate map a drag kora jayna,
 	so amader k form ta jquery diye calculate kore always right bosay rakhte hobe
 
@@ -284,13 +284,13 @@ Desktop---->
 
 1. contact page thake ja ja fix match kore , korte hobe
 
-2. https://prnt.sc/up3w5f
+2. https://prnt.sc/up3w5f<---done---->
 	header koi
 
-3. https://prnt.sc/up3x0j
+3. https://prnt.sc/up3x0j<----done--->
 	font-weight mileni, contact page ar entry header ao same problem
 
-4. https://prnt.sc/up3xvy
+4. https://prnt.sc/up3xvy<----done---->
 	https://prnt.sc/up3zli
 	input type radio and checkbox 2 ta diyei design kore rakhte hobe, jkono use korle jeno same design pay
 
