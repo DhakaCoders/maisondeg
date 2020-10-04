@@ -434,23 +434,24 @@ if( $('.dgProductSlider').length ){
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 991,
+          breakpoint: 992,
           settings: {
             slidesToShow: 2,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: false
+            slidesToScroll: 1
           }
         },
         {
           breakpoint: 640,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
+            arrows: false,
             dots: true,
-            arrows: false
           }
         }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
       ]
     });
 }

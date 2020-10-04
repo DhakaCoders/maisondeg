@@ -94,17 +94,19 @@ team-member-sec-wrp
 	transition: 0.5s;
     -ms-transition: 0.5s;
     -webkit-transition: 0.5s;
+    height: 610px;
+    position: relative;
 }
 .team-member-grid-cntlr:hover .team-member-grid-inr{
 	border: 2px solid #FF674D;
-	padding: 22px 22px;
+	padding: 22px 22px 0;
 	transition: 0.5s;
     -ms-transition: 0.5s;
     -webkit-transition: 0.5s;
     cursor: pointer;
 }
 .team-member-grid-cntlr:hover .team-member-grid-img{
-	height: 390px !important;
+	height: 410px !important;
 	transition: 0.5s;
     -ms-transition: 0.5s;
     -webkit-transition: 0.5s;
@@ -142,17 +144,22 @@ team-member-sec-wrp
 }
 .team-member-grid-dsc{
 	text-align: center;
-	padding: 10px 0 10px;
-	height: 170px;
+	padding: 35px 0 35px;
+	height: 195px;
 	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-flow: column;
 	z-index: 1;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 170px;
 }
 .team-member-grid-cntlr:hover .team-member-grid-dsc{
-	height: 170px;
+	margin-top: 0;
 }
 .team-member-grid-dsc-title{
 	display: block;
@@ -279,6 +286,16 @@ tm-post-grid-sec-wrp
 	.tm-services-grids {
 	    padding: 150px 0 100px 0;
 	}
+	.team-member-grid-cntlr:hover .team-member-grid-img {
+	    height: 360px !important;
+	}
+	.team-member-grid-inr{
+		height: 570px;
+	}
+	.team-member-grid-dsc{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 }
 
 @media(max-width: 991px){
@@ -314,6 +331,12 @@ tm-post-grid-sec-wrp
 	    width: 100%;
 	    height: 500px;
 	}
+	.team-member-grid-cntlr:hover .team-member-grid-img {
+	    height: 330px !important;
+	}
+	.team-member-grid-inr {
+	    height: 530px;
+	}
 }
 
 @media(max-width: 767px){
@@ -325,11 +348,12 @@ tm-post-grid-sec-wrp
 	    padding-bottom: 0;
 	}
 	.tm-back-btn {
-	    padding-bottom: 30px;
+	    padding-bottom: 70px;
 	    text-align: center;
 	}
 	.wb-gallery-head p {
 	    font-size: 16px;
+	    line-height: 30px;
 	    margin-bottom: 20px;
 	}
 	.team-member-sec-wrp .wb-gallery-head {
@@ -345,9 +369,14 @@ tm-post-grid-sec-wrp
 	.tm-services-grids .service-grid-item-img-cntlr {
 	    margin-bottom: 30px;
 	}
+	.team-member-grid-cntlr:hover .team-member-grid-img {
+	    height: 280px !important;
+	}
+	.team-member-grid-inr {
+	    height: 490px;
+	}
 }
-
-@media(max-width: 575px){
+@media(max-width: 639px){
 	.team-member-grid-img {
 	    height: 270px !important;
 	}
@@ -363,6 +392,42 @@ tm-post-grid-sec-wrp
 	.team-member-sec-wrp .wb-gallery-head {
 	    padding: 0 15px;
 	}
+	.team-member-grid-dsc{
+		position: static;
+		padding: 35px 20px 0;
+		height: auto;
+	}
+	.team-member-grid-inr {
+	    height: auto;
+	    border: none;
+	}
+	.team-member-grid-cntlr:hover .team-member-grid-inr {
+	    border: none;
+	    padding: 0;
+	    cursor: pointer;
+	}
+	.team-member-grid-cntlr:hover .team-member-grid-img,
+	.team-member-grid-img {
+	    height: 280px !important;
+	}
+	.team-member-grid-wrp ul{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.team-member-grid-wrp ul li{
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom: 35px;
+	}
+	.team-member-grid-cntlr{
+		max-width: 450px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media(max-width: 575px){
+	
 
 }
 
