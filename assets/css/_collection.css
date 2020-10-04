@@ -239,6 +239,9 @@
 .msd-product-item-img{
 	min-height: 440px;
 	z-index: 1;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
 }
 .msd-product-item:hover .msd-product-item-hover{
 	opacity: 1;

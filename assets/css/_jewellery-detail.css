@@ -83,7 +83,8 @@
 }
 .prdct-add-to button:hover{
 	background: #000;
-	color: #fe674c;
+	/*color: #fe674c;*/
+	color: #fff;
 }
 .prdct-add-to button i{
 	position: absolute;
@@ -101,7 +102,8 @@
 	text-transform: uppercase;
 }
 .prdct-dwnld a:hover{
-	color: #fe674c;
+	/*color: #fe674c;*/
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -278,6 +280,7 @@
 	background: #000;
 	padding: 20px 66px;
 	border: 2px solid transparent;
+	cursor: pointer;
 }
 .conversation form .input-fields input[type="submit"]:hover{
 	color: #FF674D;
@@ -316,7 +319,8 @@
 }
 .full-width-sec-grds{
 	margin-top: -55px;
-	position: relative;z-index: 2;
+	position: relative;
+	z-index: 2;
 }
 
 .product-grds-slider-sec .slick-prev,
@@ -326,6 +330,13 @@
 }
 .jd-h-item1:hover .msd-product-item-img{
 	opacity:1!important;
+}
+.jd-h-item1 .msd-product-item{
+	overflow: hidden;
+}
+.jd-h-item1 .msd-product-item:hover .msd-product-item-img{
+	transform: scale(1.1);
+
 }
 .jd-h-item1:hover .msd-product-item-hover{
 	opacity: 0; 
@@ -364,6 +375,9 @@
 	.back-link{
 		padding-bottom: 110px;
 	}
+	.product-detals{
+		padding-left: 60px;
+	}
 	.product-grds-slider-sec{
 		padding-top: 140px;
 	}
@@ -384,6 +398,16 @@
 	.slider-cntlr{
 		width: 100%;
 		margin-bottom: 60px;
+	}
+	.slider-cntlr .slider{
+		max-width: 600px;
+		width: 100%;
+		margin: auto;
+	}
+	.slider-cntlr .slide-nav-cntlr-an{
+		max-width: 600px;
+		width: 100%;
+		margin: auto;
 	}
 	.product-detals{
 		width: 100%;

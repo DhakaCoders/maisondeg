@@ -443,7 +443,7 @@ if( $('.dgProductSlider').length ){
           }
         },
         {
-          breakpoint: 639,
+          breakpoint: 640,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
