@@ -10,7 +10,7 @@
 }
 
 .fl-dft-overflow-controller {
-	overflow: hidden;
+	overflow: initial;
 }
 .innerpage-con-wrap h1,
 .dfp-promo-module-title,
@@ -428,8 +428,10 @@ Gallery design
 	.fl-dft-lftimg-rgtdes-rgt {
 	    width: 100%;
 	}
-	.fl-dft-lftimg-rgtdes-lft {
-	    height: 300px;
+	.fl-dft-lftimg-rgtdes-lft,
+	.fl-dft-lftimg-rgtdes-lft-img-inr {
+	    min-height: 340px;
+	    height: 100%;
 	}
 	.fl-dft-lftimg-rgtdes-rgt{
 		padding-left: 0;
@@ -575,6 +577,7 @@ Gallery design
 	.dft-blockquote blockquote{
 		font-size: 40px;
 	}
+	
 }
 
 
@@ -594,8 +597,9 @@ Gallery design
 	ol,ul{
 		padding-left: 0;
 	}
-	.fl-dft-lftimg-rgtdes-lft {
-	    height: 240px;
+	.fl-dft-lftimg-rgtdes-lft,
+	.fl-dft-lftimg-rgtdes-lft-img-inr {
+	    min-height: 340px;
 	}
 	.dft-2grd-img-con-item-des h4{
 		margin-bottom: 15px;

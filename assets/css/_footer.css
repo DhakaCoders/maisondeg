@@ -202,14 +202,17 @@
     display: inline-block;
     vertical-align: baseline;
 }
-.ftr-btm-col ul li a::after {
-    content: "" !important;
+.ftr-btm-col ul li::after {
+    content: ""!important;
     position: absolute;
     width: 14px;
     height: 1px;
     background: #7D7D7D;
     top: 50%;
     left: -8px;
+}
+.ftr-btm-col ul li:first-child:after{
+    content: none!important;
 }
 .from-group ul li{
 	margin-bottom: 0 !important;

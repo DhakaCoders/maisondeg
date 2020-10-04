@@ -1,8 +1,3 @@
-/*
-----------------------
-search-result-sec-wrp
-----------------------
-*/
 .search-result-sec-wrp{
 	padding-top: 115px;
 	padding-bottom: 100px;
@@ -52,6 +47,7 @@ search-result-sec-wrp
 .search-result-product-wrp .image-text-grid-fea-img{
 	width: 36%;
 	min-height: 324px;
+	position: relative;
 }
 .search-result-product-wrp .image-text-grid-desc {
     padding-left: 25px;
@@ -157,13 +153,15 @@ search-result-sec-wrp
 	    width: 100%;
 	}
 	.search-result-product-wrp .image-text-grid-cntlr {
-	    margin-bottom: 40px;
+	    margin-bottom: 55px;
 	}
 	.search-result-product-btn {
 	    padding-top: 10px;
 	    padding-right: 0;
 	}
-
+	.search-result-product-wrp .image-text-grid-desc span{
+		padding-bottom: 15px;
+	}
 }
 
 @media(max-width: 575px){
