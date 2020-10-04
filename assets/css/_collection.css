@@ -127,9 +127,8 @@
 	color: #FF674D;
 }
 .mobile-clsn-menu{
-	width: 270px;
-	margin: auto;
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	padding-bottom: 40px;
 	display: none;
@@ -152,7 +151,7 @@
 	font-weight: 600;
 	font-size: 14px;
 	color: #FF674D;
-	padding-right: 75px;
+	padding-right: 32px;
 	line-height: 1;
 	margin-bottom: 0;
 	z-index: 25;
@@ -223,6 +222,9 @@
 	justify-content: center;
 	flex-wrap: wrap;
 	margin: 0 -13px;
+}
+.msd-product-list-pb{
+	padding-bottom: 45px!important;
 }
 .msd-products-cntlr > ul > li{
 	padding: 0 13px;
@@ -567,6 +569,9 @@
 	.blockquote-cntlr blockquote span{
 		font-size: 40px;
 		margin-bottom: 27px;
+	}
+	.msd-product-list-pb{
+		padding-bottom: 0!important;
 	}
 }
 @media(max-width: 575px){
