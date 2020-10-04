@@ -140,7 +140,7 @@
     display: inline-block;
     margin-bottom: 0 !important;
 }
-.from-group-sub button {
+.from-group-sub input[type="submit"] {
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
@@ -154,7 +154,15 @@
     cursor: pointer;
     float: right;
 }
-.from-group-sub button:after{
+.from-group-sub span{
+    position: relative;
+    display: inline-block;
+    margin: 0!important;
+}
+.from-group-sub{
+    text-align: right;
+}
+.from-group-sub span:after{
 	content: "";
 	position: absolute;
 	width: 4px;
@@ -162,21 +170,27 @@
 	background: url(../images/down-icon.png);
 	background-repeat: no-repeat;
 	right: 0;
-	top: 6px;
+	top: 12px;
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
-.from-group-sub button:hover:after{
+.from-group-sub span:hover:after{
     background: url(../images/down-icon-hover.png);
     right: -3px;
     transition: all 0.5s;
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
-.from-group-sub button:hover{
+.from-group-sub input[type="submit"]:hover{
     color: #FF674D;
 }
+
+.form-group.has-error input {
+    border-color: red;
+}
+
+
 .ftr-btm-col{
 	border-top: 4px solid#f8f8f8;
 	padding-top: 60px;
@@ -202,14 +216,17 @@
     display: inline-block;
     vertical-align: baseline;
 }
-.ftr-btm-col ul li a::after {
-    content: "" !important;
+.ftr-btm-col ul li::after {
+    content: ""!important;
     position: absolute;
     width: 14px;
     height: 1px;
     background: #7D7D7D;
     top: 50%;
     left: -8px;
+}
+.ftr-btm-col ul li:first-child:after{
+    content: none!important;
 }
 .from-group ul li{
 	margin-bottom: 0 !important;

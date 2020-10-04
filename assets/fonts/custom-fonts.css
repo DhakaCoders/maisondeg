@@ -12,8 +12,12 @@
 }
 @font-face {
     font-family: 'CactusMedium';
-    src:url('CactusMedium/CactusMedium.woff2') format('woff2'),
-        url('CactusMedium/CactusMedium.woff') format('woff');
+    src: url('CactusMedium/CactusMedium.eot');
+    src: url('CactusMedium/CactusMedium.eot?#iefix') format('embedded-opentype'),
+        url('CactusMedium/CactusMedium.woff2') format('woff2'),
+        url('CactusMedium/CactusMedium.woff') format('woff'),
+        url('CactusMedium/CactusMedium.ttf') format('truetype'),
+        url('CactusMedium/CactusMedium.svg#CactusMedium') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -41,4 +45,17 @@
 
 
 
+
+@font-face {
+    font-family: 'ProximaNova-Semibold';
+    src: url('ProximaNova-Semibold/ProximaNova-Semibold.eot');
+    src: url('ProximaNova-Semibold/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNova-Semibold/ProximaNova-Semibold.woff2') format('woff2'),
+        url('ProximaNova-Semibold/ProximaNova-Semibold.woff') format('woff'),
+        url('ProximaNova-Semibold/ProximaNova-Semibold.ttf') format('truetype'),
+        url('ProximaNova-Semibold/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
 

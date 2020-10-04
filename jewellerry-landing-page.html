@@ -89,18 +89,45 @@
 
 </head>
 <body>
+<div class="search-popup-wrap clearfix">
+  <div class="search-popup-inr">
+    <div class="cross">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div> 
+    <span class="search-popup-rgt-icon"></span>
+    <div class="search-popup-vcenter-con">
+      <div class="popup-search-form">
+        <div class="results-search-form">
+          <form>
+            <input type="search" name="" placeholder="Search for your new product">
+            <div class="rss-btn">
+              <input type="submit" name="" value="">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
 <header class="header bnr-hdr">
   <div class="hdr-cntlr">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="header-inr clearfix">
+            <div class="hdr-search hdr-search-show-md">
+              <button><i class="fas fa-search"></i></button>
+            </div>
+
             <div class="hdr-mid">
               <div class="logo">
                 <a href="#"><img src="assets/images/logo.png"></a>
               </div>
             </div>
-            <div class="hdr-lft">
+            <div class="hdr-lft hide-content-md">
               <nav class="main-nav">
                 <ul class="clearfix reset-list">
                   <li class="menu-item-has-children">
@@ -236,7 +263,7 @@
                 </ul>
               </nav>
             </div>
-            <div class="hdr-rgt">
+            <div class="hdr-rgt hide-content-md">
               <div class="fl-lang reset-slect">
                 <div class="fl-lang-cntlr">
                   <ul class="reset-list hide-sm">
@@ -261,9 +288,9 @@
                                     <use xlink:href="#close-gray-icon-svg"></use>
                                   </svg> 
                                 </i>
-                                <a href="#">
-                                  <img src="assets/images/pro-img-01.jpg">
-                                </a>
+                                <div class="wd-pro-grd-col-fea-img inline-bg" style="background: url(assets/images/pro-img-01.jpg);">
+                                  <a class="overlay-link" href="#"></a>
+                                </div>
                               </div>
                             </li>
                             <li>
@@ -273,9 +300,9 @@
                                     <use xlink:href="#close-gray-icon-svg"></use>
                                   </svg> 
                                 </i>
-                                <a href="#">
-                                  <img src="assets/images/pro-img-02.jpg">
-                                </a>
+                                <div class="wd-pro-grd-col-fea-img inline-bg" style="background: url(assets/images/pro-img-02.jpg);">
+                                  <a class="overlay-link" href="#"></a>
+                                </div>
                               </div>
                             </li>
                             <li>
@@ -285,9 +312,9 @@
                                     <use xlink:href="#close-gray-icon-svg"></use>
                                   </svg> 
                                 </i>
-                                <a href="#">
-                                  <img src="assets/images/pro-img-03.jpg">
-                                </a>
+                                <div class="wd-pro-grd-col-fea-img inline-bg" style="background: url(assets/images/pro-img-03.jpg);">
+                                  <a class="overlay-link" href="#"></a>
+                                </div>
                               </div>
                             </li>
                           </ul>
@@ -309,8 +336,14 @@
                 </div>
               </div>
               <div class="hdr-search">
-                <input type="search" name="">
                 <button><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            <div class="show-md nav-opener">
+              <div class="nav-opener-btn">
+                <span></span>
+                <span></span>
+                <span></span>
               </div>
             </div>
             
@@ -319,6 +352,144 @@
       </div>
     </div>
   </div>
+
+  <div class="xs-menu-cntlr" style="display: none;">
+    <nav class="main-nav">
+      <ul class="clearfix reset-list">
+        <li class="menu-item-has-children">
+          <a href="#">Jewellery</a>
+          <div class="sub-menu-cntlr">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="sub-menu-inr clearfix">
+                    <div class="clearfix sub-menu-grds">
+                      <div class="sub-menu-grd-col sub-menu-grd-col-01">
+                        <strong>Featured Collections</strong>
+                        <ul class="reset-list">
+                          <li><a href="#">Featured Collections</a></li>
+                          <li><a href="#">Featured Collections</a></li>
+                          <li><a href="#">Featured Collections</a></li>
+                          <li><a href="#">Featured Collections</a></li>
+                          <li><a href="#">Featured Collections</a></li>
+                          <li><a href="#">Featured Collections</a></li>
+                          <li><a href="#">Featured Collections</a></li>
+                          <li><a href="#">Featured Collections</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-grd-col sub-menu-grd-col-02">
+                        <strong>Highlights</strong>
+                        <ul class="reset-list">
+                          <li><a href="#">Christmas</a></li>
+                          <li><a href="#">Product</a></li>
+                          <li><a href="#">Product</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-grd-col sub-menu-grd-col-03">
+                        <strong>Metal & Gems</strong>
+                        <ul class="reset-list">
+                          <li><a href="#">Ceramic</a></li>
+                          <li><a href="#">Gold</a></li>
+                          <li><a href="#">Diamond</a></li>
+                          <li><a href="#">Pearls</a></li>
+                          <li><a href="#">Gemstones</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-grd-col sub-menu-grd-col-04">
+                        <strong>Categories</strong>
+                        <ul class="reset-list">
+                          <li><a href="#">Bracelets</a></li>
+                          <li><a href="#">Earrings</a></li>
+                          <li><a href="#">Necklaces</a></li>
+                          <li><a href="#">Rings</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-grd-col sub-menu-grd-col-fea">
+                        <div>
+                          <img src="assets/images/smgcf-img-01.jpg">
+                        </div>
+                        <h5>Jewellery Collection</h5>
+                        <a href="#">Shop now</a>
+                      </div>
+                    </div>
+                    <div class="menu-more-link">
+                      <a href="#">Explore all collections</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item-has-children">
+          <a href="#">watches</a>
+          <div class="sub-menu-cntlr">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="sub-menu-inr clearfix">
+                    <div class="clearfix sub-menu-grds">
+                      <div class="sub-menu-grd-col sub-menu-grd-col-01">
+                        <strong>Featured Collections</strong>
+                        <ul class="reset-list">
+                          <li><a href="#">Featured Collections</a></li>
+                          <li><a href="#">Featured Collections</a></li>
+                          <li><a href="#">Featured Collections</a></li>
+                          <li><a href="#">Featured Collections</a></li>
+                          <li><a href="#">Featured Collections</a></li>
+                          <li><a href="#">Featured Collections</a></li>
+                          <li><a href="#">Featured Collections</a></li>
+                          <li><a href="#">Featured Collections</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-grd-col sub-menu-grd-col-02">
+                        <strong>Highlights</strong>
+                        <ul class="reset-list">
+                          <li><a href="#">Christmas</a></li>
+                          <li><a href="#">Product</a></li>
+                          <li><a href="#">Product</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-grd-col sub-menu-grd-col-03">
+                        <strong>Metal & Gems</strong>
+                        <ul class="reset-list">
+                          <li><a href="#">Ceramic</a></li>
+                          <li><a href="#">Gold</a></li>
+                          <li><a href="#">Diamond</a></li>
+                          <li><a href="#">Pearls</a></li>
+                          <li><a href="#">Gemstones</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-grd-col sub-menu-grd-col-04">
+                        <strong>Categories</strong>
+                        <ul class="reset-list">
+                          <li><a href="#">Featured</a></li>
+                          <li><a href="#">Featured</a></li>
+                          <li><a href="#">Featured</a></li>
+                          <li><a href="#">Featured</a></li>
+                        </ul>
+                      </div>
+                      <div class="sub-menu-grd-col sub-menu-grd-col-fea">
+                        <div>
+                          <img src="assets/images/smgcf-img-01.jpg">
+                        </div>
+                        <h5>watches Collection</h5>
+                        <a href="#">Shop now</a>
+                      </div>
+                    </div>
+                    <div class="menu-more-link">
+                      <a href="#">Explore all collections</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
 </header>
 
 
@@ -356,6 +527,22 @@
         </div>
       </div>
     </div>
+    <div class="pageBnrSlideItem inline-bg" style="background: url(assets/images/page-bnr-slide-img-01.jpg);">
+      <div class="pageBnrSlideItemInr">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="pageBnrSlideItemDes">
+                <h2 class="pageBnrSlideItemDesTitle">A company evolving over 
+                the generations, where the customer is king!</h2>
+                <p>At Maison De Greef, you will find jewellery to fit your unique style.</p>
+                <a class="dg-hb-btn" href="#">View collections</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -369,69 +556,75 @@
           <div class="col-md-12">
             <div class="hm-msnry-sec-ctlr">
               <div class="hm-msnry-grd-items">
-                <div class="hm-msnry-grd-item hmgi1">
-                  <div class="hm-msnry-grd-item-ctlr">
-                    <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-01.jpg');">
-                      
+                <div class="hmgiTopSlider">
+                  <div class="hm-msnry-grd-item hmgi1">
+                    <div class="hm-msnry-grd-item-ctlr">
+                      <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-01.jpg');">
+                        
+                      </div>
+                      <div class="hm-msnry-grd-item-des">
+                        <h3 class="hm-msnry-title">Integer facilisis condimentum turpis non ornare. (h3)</h3>
+                        <a href="#"><i class="fas fa-caret-right"></i>Read more</a>
+                      </div>
                     </div>
-                    <div class="hm-msnry-grd-item-des">
-                      <h3 class="hm-msnry-title">Integer facilisis condimentum turpis non ornare. (h3)</h3>
-                      <a href="#"><i class="fas fa-caret-right"></i>Read more</a>
+                  </div>
+                  <div class="hm-msnry-grd-item hmgi3">
+                    <div class="hm-msnry-grd-item-ctlr">
+                      <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-03.jpg');">
+                        
+                      </div>
+                      <div class="hm-msnry-grd-item-des">
+                        <h3 class="hm-msnry-title">In odio augue, laoreet eget velit sit amet varius. (h3)</h3>
+                        <a href="#"><i class="fas fa-caret-right"></i>Read more</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="hm-msnry-grd-item hmgi2">
-                  <div class="hm-msnry-grd-item-ctlr">
-                    <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-02.jpg');">
-                      
+                <div class="hmgiAppointment">
+                  <div class="hm-msnry-grd-item hmgi2">
+                    <div class="hm-msnry-grd-item-ctlr">
+                      <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-02.jpg');">
+                        
+                      </div>
+                      <div class="hm-msnry-grd-item-des">
+                        
+                        
+                      </div>
                     </div>
-                    <div class="hm-msnry-grd-item-des">
-                      
-                      
+                  </div>
+                  <div class="hm-msnry-grd-item hmgi5">
+                    <div class="hm-msnry-grd-item-ctlr">
+                      <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-05.jpg');">
+                        
+                      </div>
+                      <div class="hm-msnry-grd-item-des">
+                        
+                        <a href="#">Make an appointment</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="hm-msnry-grd-item hmgi3">
-                  <div class="hm-msnry-grd-item-ctlr">
-                    <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-03.jpg');">
-                      
-                    </div>
-                    <div class="hm-msnry-grd-item-des">
-                      <h3 class="hm-msnry-title">In odio augue, laoreet eget velit sit amet varius. (h3)</h3>
-                      <a href="#"><i class="fas fa-caret-right"></i>Read more</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="hm-msnry-grd-item hmgi4">
-                  <div class="hm-msnry-grd-item-ctlr">
-                    <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-04.jpg');">
-                      
-                    </div>
-                    <div class="hm-msnry-grd-item-des">
-                      <h3 class="hm-msnry-title">Zenith</h3>
-                      <a href="#"><i class="fas fa-caret-right"></i>Shop now</a>
+                <div class="hmgiBottomSlider">
+                  <div class="hm-msnry-grd-item hmgi4">
+                    <div class="hm-msnry-grd-item-ctlr">
+                      <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-04.jpg');">
+                        
+                      </div>
+                      <div class="hm-msnry-grd-item-des">
+                        <h3 class="hm-msnry-title">Zenith</h3>
+                        <a href="#"><i class="fas fa-caret-right"></i>Shop now</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="hm-msnry-grd-item hmgi5">
-                  <div class="hm-msnry-grd-item-ctlr">
-                    <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-05.jpg');">
-                      
-                    </div>
-                    <div class="hm-msnry-grd-item-des">
-                      
-                      <a href="#">Make an appointment</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="hm-msnry-grd-item hmgi6">
-                  <div class="hm-msnry-grd-item-ctlr">
-                    <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-06.jpg');">
-                      
-                    </div>
-                    <div class="hm-msnry-grd-item-des">
-                      <h3 class="hm-msnry-title">Jewellery Collection</h3>
-                      <a href="#"><i class="fas fa-caret-right"></i>Shop now</a>
+                  <div class="hm-msnry-grd-item hmgi6">
+                    <div class="hm-msnry-grd-item-ctlr">
+                      <div class="hm-msnry-grd-item-img" style="background: url('assets/images/hm-msnr-img-06.jpg');">
+                        
+                      </div>
+                      <div class="hm-msnry-grd-item-des">
+                        <h3 class="hm-msnry-title">Jewellery Collection</h3>
+                        <a href="#"><i class="fas fa-caret-right"></i>Shop now</a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -499,7 +692,7 @@
       </div>
     </div>
   </section>
-  <section class="fea-juwellary-sec" style="background: url('assets/images/hm-juwellary-sec-bg.png');">
+  <section class="fea-juwellary-sec" style="background: url('assets/images/hm-jwlr-bg-color.png');">
     <div class="fea-juwellary-sec-inr">
       <div class="container">
         <div class="row">
@@ -513,7 +706,7 @@
         </div>
       </div>
     </div>
-    <span style="background: url(assets/images/hm-jwlr-bg-color.png);">
+    <span style="background: url('assets/images/hm-juwellary-sec-bg.png');">
       <!-- <img src="assets/images/hm-jwlr-bg-color.png"> -->
     </span>
   </section>
@@ -527,7 +720,7 @@
               <p>Ut tempus scelerisque consectetur arcu orci, quisque. Tincidunt viverra eget diam eget posuere nulla. <br> Viverra viverra vel arcu leo dictum ultrices enim.</p>
             </div>
             <div class="fea-jlp-insprtn-ctlr">
-              <div class="fea-jlp-insrtn-grd-items clearfix">
+              <div class="fea-jlp-insrtn-grd-items xs-jlp-slider clearfix">
                 <div class="fea-jlpi-grd-item">
                   <div class="fea-jlpi-grd-item-ctlr">
                     <div class="fea-jlpi-grd-item-img inline-bg" style="background: url('assets/images/fea-jlpi-img-01.jpg');">
@@ -802,7 +995,7 @@
             <div class="ftr-btm-col hide-sm">
               <ul class="reset-list clearfix">
                 <li>&copy; 2020</li>
-                <li><a href="#">Maison De Greef</a></li>
+                <li>Maison De Greef</li>
                 <li><a href="#">Terms & Conditions</a></li>
                 <li><a href="#">Privacy Policy</a></li>
               </ul>
@@ -810,7 +1003,7 @@
             <div class="ftr-btm-col show-sm">
               <ul class="reset-list clearfix">
                 <li>&copy; 2020</li>
-                <li><a href="#">Maison De Greef</a></li>
+                <li>Maison De Greef</li>
               </ul>
               <ul class="reset-list clearfix">
                 <li><a href="#">Terms & Conditions</a></li>

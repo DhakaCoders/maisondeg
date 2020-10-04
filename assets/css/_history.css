@@ -1,5 +1,5 @@
 .history-page-con{
-    padding: 50px 0 200px;
+    padding: 50px 0 80px;
 }
 
 .back-btn a{
@@ -227,4 +227,122 @@
     padding: 0;
     width: 59px!important;
     height: 4px!important;
+}
+
+
+
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+    .history-grd-des {
+        padding: 45px 35px 25px 40px;
+        margin-top: 45px;
+    }
+    .ms-video-play-cntlr{
+        width: 65px;
+        height: 65px;
+    }
+    .hpceh-title{
+        font-size: 55px;
+    }
+    .history-page-con-entry-hdr p{
+        font-size: 19px;
+    }
+}
+
+@media(max-width: 991px){
+    .hpceh-title{
+        font-size: 50px;
+    }
+    .history-page-con-entry-hdr p{
+        font-size: 18px;
+    }
+    .history-page-con{
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width: 767px){
+    .back-btn{
+        text-align: center;
+    }
+    .hpceh-title{
+        font-size: 44px;
+    }
+    .history-page-con-entry-hdr p{
+        font-size: 16px;
+    }
+    .history-grd-row{
+        display: block;
+    }
+    .history-grd-col-1,
+    .history-grd-col-2{
+        width: 100%;
+    }
+    .history-fancy-module,
+    .history-slider-module{
+        max-width: 100%;
+    }
+    .history-grd-des{
+        margin-top: -70px;
+        margin-left: -10px;
+        margin-right: -10px;
+        padding-top: 120px;
+    }
+    .history-grd-col-1{
+        position: relative;
+        z-index: 2;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .history-img-module img{
+        width: 100%;
+    }
+    .history-grd-row{
+        margin-bottom: 90px;
+    }
+    .history-grd-des:before {
+        left: auto;
+        bottom: -114px;
+        height: 144px;
+        right: 20px;
+    }
+    .history-grds-cntlr ul li:nth-child(2n+2) .history-grd-col-2 .history-grd-des:before {
+        right: auto;
+        left: 20px;
+    }
+    .history-page-con{
+        padding-bottom: 0;
+    }
+    
+}
+@media(max-width: 639px){
+    .history-services-grids-cntlr{
+        background: transparent!important;
+        padding-top: 0!important;
+    }
+}
+@media(max-width: 575px){
+    
+
+}
+
+@media(max-width: 479px){
+    
+
+}
+
+@media(max-width: 359px){
+
 }

@@ -1,0 +1,262 @@
+.w-video-fencybox{
+	padding-top: 122px;
+}
+.w-video-fencybox-inr{
+
+}
+.w-video-fencybox-ligo{
+	margin-bottom: 111px;
+}
+.w-video-fencybox-inr .vf-desc{
+	max-width: 904px;
+}
+.w-video-fencybox-inr .vf-desc p{
+	margin-bottom: 70px;
+	
+}
+.w-video-fencybox-inr .vf-desc a{
+	display: inline-block;
+	color: #1D1D1B;
+	font-size: 20px;
+	text-decoration: underline;
+}
+.w-video-fencybox-inr .vf-desc a:hover{
+	text-decoration: none;
+	color: #FF674D;
+}
+.w-vf-video-play-cntlr h2{
+	margin-bottom: 42px;
+}
+.w-vf-video-play-cntlr i{
+	margin-bottom: 0;
+}
+
+.msd-products-desc{
+	max-width: 904px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 65px;
+	padding-top: 90px;
+}
+.msd-products-desc p{
+	font-size: 22px;
+	letter-spacing: 0.04em;
+	line-height: 30px;
+	color: #1D1D1B;
+	margin-bottom: 65px;
+}
+.msd-products-desc a{
+	display: inline-block;
+	color: #1D1D1B;
+	text-decoration: underline;
+}
+.msd-products-desc a:hover{
+	text-decoration: none;
+	color: #FF674D;
+}
+.msd-products-desc-title{
+	font-size: 60px;
+	margin-bottom: 42px;
+	line-height: 1;
+	text-transform: capitalize;
+}
+
+.w-msd-product-item-hover-desc{
+
+}
+.msd-w-product-code{
+	letter-spacing: 0.04em;
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1;
+	margin-bottom: 25px;
+}
+.w-msd-product-item-hover-desc p{
+	color: #1D1D1B;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	line-height: 24px;
+	margin-bottom: 27px;
+}
+.wc-fea-watch-sec{
+	min-height: 650px;
+}
+.wc-fea-watch-desc{
+	max-width: 593px;
+}
+.wc-fea-watch-desc p{
+	color: #fff;
+}
+
+.wd-blg-watch-sec-wrp{
+	padding: 185px 0!important;
+}
+.blg-watch-desc{
+	max-width: 850px;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 60px;
+}
+.blg-watch-title{
+	
+	font-size: 60px;
+	line-height: 1.2;
+	margin-bottom: 40px;
+}
+.blg-watch-desc p{
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	color: #1D1D1B;
+}
+.wd-services-grids{
+	background: #f8f8f8;
+}
+
+/*responsive*/
+@media(max-width: 1199px){
+	.w-video-fencybox-ligo{
+		margin-bottom: 100px;
+	}
+	.w-video-fencybox-inr .vf-desc p{
+		margin-bottom: 62px;
+	}
+	.msd-products-desc{
+		padding-top: 80px;
+		padding-bottom: 55px;
+	}
+	.msd-products-desc-title{
+		font-size: 56px;
+		margin-bottom: 40px;
+	}
+	.msd-products-desc p{
+		margin-bottom: 58px;
+	}
+	.wd-blg-watch-sec-wrp{
+		padding: 150px 0!important;
+	}
+	.blg-watch-title{
+		font-size: 56px;
+	}
+	.blg-watch-desc{
+		margin-bottom: 50px;
+	}
+}
+@media(max-width: 991px){
+	.w-video-fencybox-ligo{
+		margin-bottom: 90px;
+	}
+	.w-video-fencybox-inr .vf-desc p{
+		margin-bottom: 55px;
+	}
+	.msd-products-desc{
+		padding-top: 65px;
+		padding-bottom: 45px;
+	}
+	.msd-products-desc-title{
+		font-size: 52px;
+		margin-bottom: 35px;
+	}
+	.msd-products-desc p{
+		font-size: 20px;
+		margin-bottom: 50px;
+	}
+	.wd-blg-watch-sec-wrp{
+		padding: 120px 0!important;
+	}
+	.blg-watch-title{
+		font-size: 52px;
+		margin-bottom: 35px;
+	}
+	.blg-watch-desc{
+		margin-bottom: 45px;
+	}
+}
+@media(max-width: 767px){
+	.w-video-fencybox-ligo{
+		margin-bottom: 75px;
+	}
+	.w-video-fencybox-inr .vf-desc p{
+		margin-bottom: 45px;
+	}
+	.msd-products-desc{
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+	.msd-products-desc-title{
+		font-size: 48px;
+		margin-bottom: 30px;
+	}
+	.msd-products-desc p{
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+	.msd-w-product-code{
+		margin-bottom: 20px;
+	}
+	.w-msd-product-item-hover-desc p{
+		margin-bottom: 20px;
+		font-size: 15px;
+	}
+	.wd-blg-watch-sec-wrp{
+		padding: 90px 0!important;
+	}
+	.blg-watch-title{
+		font-size: 48px;
+		margin-bottom: 30px;
+	}
+	.blg-watch-desc{
+		margin-bottom: 40px;
+	}
+}
+@media(max-width: 639px){
+
+}
+@media(max-width: 575px){
+	.w-video-fencybox-ligo{
+		margin-bottom: 60px;
+	}
+	.w-video-fencybox-inr .vf-desc p{
+		margin-bottom: 35px;
+	}
+	.msd-products-desc{
+		padding-top: 40px;
+		padding-bottom: 10px;
+	}
+	.msd-products-desc-title{
+		font-size: 44px;
+		margin-bottom: 25px;
+	}
+	.msd-products-desc p{
+		font-size: 16px;
+		margin-bottom: 30px;
+	}
+	.msd-w-product-code{
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	.w-msd-product-item-hover-desc p{
+		margin-bottom: 14px;
+		font-size: 14px;
+	}
+	.wd-blg-watch-sec-wrp{
+		padding: 70px 0!important;
+	}
+	.blg-watch-title{
+		font-size: 44px;
+		margin-bottom: 25px;
+	}
+	.blg-watch-desc{
+		margin-bottom: 35px;
+	}
+	.blg-watch-desc p{
+		font-size: 14px;
+	}
+}
+@media(max-width: 479px){
+
+}
+@media(max-width: 359px){
+
+}

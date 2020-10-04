@@ -5,50 +5,53 @@
 	min-height: 1055px;
 	height: 100%;
 	position: relative;
+	margin: 0 -12px;
 }
 .hm-msnry-grd-item{
 	position: absolute;
 	top: 0;
 	left: 0;
+	width: 33.3333%;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.hmgi1 .hm-msnry-grd-item-ctlr{
+	margin-left: 30px;
+}
+.hmgi3 .hm-msnry-grd-item-ctlr{
+	margin-right: 30px;
 }
 .hmgi1{
 	top: 60px;
 	left: 0;
-	width: 32%;
-	padding-left: 30px;
 }
 .hmgi2{
 	top: 0;
 	left: 398px;
-	width:  32%;
 }
 .hmgi3{
 	top: 190px;
 	right: 0;
-	width:  32%;
-	padding-right: 30px;
 	left: inherit;
 }
 .hmgi4{
 	top: 585px;
 	left: 0;
-	width: 32%;
 }
 .hmgi5{
 	top: 670px;
 	left: 398px;
-	width:  32%;
 }
 .hmgi6{
 	top: 705px;
 	right: 0;
-	width: 32%;
 	left: inherit;
 }
 
 
 .hm-msnry-grd-item-ctlr{
 	position: relative;
+	overflow: hidden;
 }
 .hm-msnry-grd-item-img{
 	min-height: 640px;
@@ -56,6 +59,7 @@
 	background-repeat: no-repeat!important;
 	background-size: cover!important;
 	background-position: center center!important;
+	transition: all 0.5s;
 }
 .hm-msnry-grd-item-des{
 	position: absolute;
@@ -144,6 +148,9 @@
 	border: 2px solid #FF674D;
 	color: #fff;
 }
+.hm-msnry-grd-item-ctlr:hover .hm-msnry-grd-item-img{
+	transform: scale(1.05);
+}
 
 .fea-watch-des{
 	max-width: 550px;
@@ -168,11 +175,12 @@
 .fea-juwellary-sec,
 .fea-watch-sec{
 	background-repeat: no-repeat!important;
-	background-position: right center!important;
-	min-height: 1012px;
+	background-position: center center!important;
+	min-height: 1010px;
 	display: flex;
 	align-items: center;
 	position: relative;
+	z-index: 1;
 }
 .fea-juwellary-sec-inr,
 .fea-watch-sec-inr{
@@ -188,34 +196,33 @@
 	min-height: inherit;
 	font-size: 0;
 }
-.fea-watch-sec{
-	background-position: left center!important;
-}
-.fea-juwellary-sec span{
+
+/*.fea-juwellary-sec span{
 	position: absolute;
 	top: 0;
 	left: 0;
 	bottom: 0;
 	background-repeat: no-repeat!important;
-	background-position: center center!important;
+	background-position: right center!important;
 	background-size: cover!important;
 	width: 100%;
-}
-.fea-watch-sec span{
+}*/
+/*.fea-watch-sec span{
 	position: absolute;
-	right: 0;
+	left: 0;
 	top: 0;
 	bottom: 0;
+	right: 0;
 	background-repeat: no-repeat!important;
-	background-position: center center!important;
-	background-size: 100% 100%!important;
-	width: 100%;
-}
+	background-position: left center!important;
+	background-size: cover!important;
+	z-index: 2;
+}*/
 .fea-juwellary-des{
 	max-width: 600px;
 	width: 100%;
 	position: relative;
-	z-index: 2;
+	z-index: 3;
 	text-align: center;
 }
 
@@ -243,7 +250,12 @@
 }
 
 @media(max-width: 1299px){
-
+	.fea-watch-sec{
+		background-position: left center!important;
+	}
+	.fea-juwellary-sec{
+		background-position: right center!important;
+	}
 }
 
 @media(max-width: 1199px){
@@ -253,20 +265,23 @@
 	.show-lg{
 		display: block!important;
 	}
-	.hmgi1{
-		width: 100%;
+	.hmgi2 {
+	    left: 33.3333%;
 	}
-	.hm-msnry-grd-item-ctlr{
-		max-width: 300px;
-		width: 100%;
-		margin: 0 auto;
+	.hmgi5 {
+	    left: 33.3333%;
 	}
-	.hm-msnry-grd-item{
-		position: initial;
+	.hm-msnry-sec {
+	    padding: 150px 0;
+	}
+	.fea-juwellary-sec, .fea-watch-sec{
+		min-height: 700px;
+		height: 100%;
 	}
 	
 
 }
+
 
 @media(max-width: 991px){
 	.hide-md{
@@ -274,6 +289,45 @@
 	}
 	.show-md{
 		display: block!important;
+	}
+	.hm-msnry-sec {
+	    padding: 100px 0;
+	}
+	.hmgi3 {
+	    top: inherit;
+	    right: inherit;
+	    left: 0;
+	    bottom: 8px;
+	}
+	.hmgi6 {
+	    top: inherit;
+	    right: inherit;
+	    left: 50%;
+	    bottom: 28px;
+	}
+	.hm-msnry-grd-item{
+		width: 50%;
+	}
+	.hmgi2 {
+	    left: 50%;
+	}
+	.hmgi5 {
+	    left: 50%;
+	}
+	.hmgi3 .hm-msnry-grd-item-ctlr {
+	    margin-right: 0;
+	    margin-left: 30px;
+	}
+	.hm-msnry-grd-items{
+		min-height: 1400px;
+		height: 100%;
+	}
+	.hm-msnry-title{
+		font-size: 20px;
+	}
+	.fea-watch-des{
+		max-width: 300px;
+		width: 100%;
 	}
 	
 }
@@ -285,7 +339,75 @@
 	.show-sm{
 		display: block!important;
 	}
-	
+	.hm-msnry-title{
+		font-size: 18px;
+	}
+	.hm-msnry-sec .hm-msnry-grd-item{
+		position: initial;
+	}
+	.hmgiTopSlider .hm-msnry-grd-item-ctlr,
+	.hmgiBottomSlider .hm-msnry-grd-item-ctlr{
+		max-width: 300px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.hmgiAppointment .hm-msnry-grd-item.hmgi2{
+		display: none;
+	}
+	.hm-msnry-grd-items{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.hm-msnry-grd-item{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.hmgiAppointment .hm-msnry-grd-item.hmgi5{
+		width: 100%;
+	}
+	.hmgiAppointment{
+		margin-bottom: 80px;
+		padding-top: 80px;
+	}
+	.hmgiTopSlider.slick-slider ul.slick-dots,
+	.hmgiBottomSlider.slick-slider ul.slick-dots{
+		position: absolute;
+		bottom: -35px;
+	}
+	.hmgiTopSlider.slick-slider .slick-dots li,
+	.hmgiBottomSlider.slick-slider .slick-dots li{
+		background: #EAE9E9!important;
+		width: 90px!important;
+		height: 4px!important;
+	}
+	.hmgiTopSlider.slick-slider .slick-dots li.slick-active, 
+	.hmgiTopSlider.slick-slider .slick-dots li:hover,
+	.hmgiBottomSlider.slick-slider .slick-dots li.slick-active, 
+	.hmgiBottomSlider.slick-slider .slick-dots li:hover {
+	    background: #FF674D!important;
+	}
+	.fea-juwellary-sec, 
+	.fea-watch-sec {
+	    min-height: initial;
+	}
+	.fea-watch-des {
+	    margin-left: auto;
+	    margin-right: auto;
+	    padding-top: 400px;
+	    padding-bottom: 70px;
+	}
+	.fea-watch-sec span{
+		bottom: initial;
+		height: 400px;
+	}
+	.fea-juwellary-sec span{
+		bottom: initial;
+		height: 300px;
+	}
+	.fea-juwellary-des{
+		padding-top: 300px;
+		padding-bottom: 70px;
+	}
 	
 }
 
@@ -301,7 +423,6 @@
 }
 
 @media(max-width: 479px){
-	
 
 }
 

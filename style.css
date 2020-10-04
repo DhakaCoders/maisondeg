@@ -19,3 +19,29 @@ Text Domain: clipfresh
 
 
 
+.h-our-history a.dg-hb-btn{
+	color: #fff;
+	border-color: #fff;
+}
+.h-our-history a.dg-hb-btn:hover{
+	background: #fff;
+	color: #000;
+}   
+  
+.fea-watch-sec span{
+	right: 40%;
+	background-size: auto 100%!important;
+}
+section.fea-watch-sec:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 61%;
+    right: 0;
+    background: linear-gradient(269.67deg, #F5F5F5 69.01%, rgba(255, 255, 255, 0) 98.72%);
+    z-index: 7;
+}
+.fea-juwellary-sec-inr, .fea-watch-sec-inr{
+	z-index: 11;
+}
+

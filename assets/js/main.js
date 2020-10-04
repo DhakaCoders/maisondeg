@@ -80,7 +80,7 @@ if( $('.responsive-slider').length ){
     $('.responsive-slider').slick({
       dots: true,
       infinite: false,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 2000,
       speed: 300,
       slidesToShow: 4,
@@ -157,12 +157,15 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 // footer slide menu
 
-$('.ftr-col h6').on('click', function(){
-  $(this).toggleClass('active');
-  $(this).parent().siblings().find('h6').removeClass('active');
-  $(this).parent().find('ul').slideToggle(300);
-  $(this).parent().siblings().find('ul').slideUp(300);
-});
+if (windowWidth <= 767) {
+  $('.ftr-col h6').on('click', function(){
+    $(this).toggleClass('active');
+    $(this).parent().siblings().find('h6').removeClass('active');
+    $(this).parent().find('ul').slideToggle(300);
+    $(this).parent().siblings().find('ul').slideUp(300);
+  });
+
+}
 
 // body animate
 $('.about-btn-scroll').click(function(e) {
@@ -236,7 +239,7 @@ if( $('.ApFieldRadioTypeSlider').length ){
       dots: false,
       arrows: false,
       infinite: false,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 2000,
       speed: 300,
       slidesToShow: 7,
@@ -396,8 +399,26 @@ if( $('#googlemap').length ){
       asNavFor: '.slider-single',
       dots: false,
       arrows: true,
-      centerMode: true,
-      focusOnSelect: true
+      //centerMode: true,
+      focusOnSelect: true,
+      responsive: [
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: false
+          }
+        }
+      ]
     });
 
 
@@ -424,31 +445,29 @@ if( $('.dgProductSlider').length ){
         {
           breakpoint: 639,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 575,
-          settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            dots: true
+            dots: true,
+            arrows: false
           }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
       ]
     });
 }
 
-
+$('.conversation-icon').click(function(){
+  $(this).next().toggleClass('conversation-title-show');
+  $(this).parent().next().toggleClass('conversation_show');
+});
+$('.mobile-clsn-menu-cntlr strong').click(function(){
+  $(this).next().toggleClass('mbl-clsn-actv-menu');
+  $(this).toggleClass('mobile-clsn-menu-btn');
+});
 /*----- End of Noyon -----*/
 
-if (windowWidth <= 1199){
-  if( $('.hmgiTopSlide').length ){
-    $('.hmgiTopSlide').slick({
+if (windowWidth <= 767){
+  if( $('.hmgiTopSlider').length ){
+    $('.hmgiTopSlider').slick({
       dots: true,
       arrows: false,
       infinite: false,
@@ -461,9 +480,9 @@ if (windowWidth <= 1199){
   };
 }
 
-if (windowWidth <= 1199){
-  if( $('.hmgiBottomSlide').length ){
-    $('.hmgiBottomSlide').slick({
+if (windowWidth <= 767){
+  if( $('.hmgiBottomSlider').length ){
+    $('.hmgiBottomSlider').slick({
       dots: true,
       arrows: false,
       infinite: false,
@@ -484,6 +503,37 @@ $(".wishlist-process ul li a").click(function(){
   $(this).addClass('current');
   $("#"+tagid).addClass('current');
 
+});
+
+if (windowWidth <= 767){
+  if( $('.xs-jlp-slider').length ){
+    $('.xs-jlp-slider').slick({
+      dots: true,
+      arrows: false,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: false,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  };
+}
+
+
+var offset = 250;
+var duration = 500;
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > offset){
+    $('.scroll-btn').fadeIn(duration);
+  }else{
+    $('.scroll-btn').fadeOut(duration);
+  }
+});
+
+$('scroll-btn').click(function(){
+  $('body').animate({scrollTop: 0}, duration)
 });
 
 
@@ -513,12 +563,60 @@ if( $('.grid').length ){
 }
 
 
+if( $('.relatedArticlesSlider').length ){
+    $('.relatedArticlesSlider').slick({
+      dots: false,
+      arrows: false,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false
+          }
+        }
+      ]
+    });
+}
+
+if( $('.dftGallerySlider').length ){
+    $('.dftGallerySlider').slick({
+      dots: false,
+      arrows: false,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 640,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false
+          }
+        }
+      ]
+    });
+}
+
 if( $('.pageBnrSlider').length ){
     $('.pageBnrSlider').slick({
       dots: true,
       arrows: false,
       infinite: false,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 2000,
       speed: 300,
       slidesToShow: 1,
@@ -530,7 +628,7 @@ if( $('.hsmSlider').length ){
       dots: true,
       arrows: true,
       infinite: false,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 2000,
       speed: 300,
       slidesToShow: 1,
@@ -549,6 +647,13 @@ if($('.cross').length){
     });
 }
 
+
+if($('.xs-tab-btn').length){
+    $('.xs-tab-btn').on('click', function(){
+      $(this).toggleClass('xs-tab-btn-expend');
+      $(this).parent().parent().find('.xs-tab-content').slideToggle();
+    });
+}
 /*if( $('.tooltipButton').length ){
   $('.tooltipButton').toolbar({
     content: '#toolbar-options',
@@ -566,10 +671,10 @@ if($('.cross').length){
   attach: '#myModal',
 });*/
  
- $('#myModal').jBox('Modal', {
+/* $('#myModal').jBox('Modal', {
   adjustPosition: true,
   adjustTracker: true
-});
+});*/
 
 
 

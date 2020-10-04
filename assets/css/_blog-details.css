@@ -1,0 +1,355 @@
+#blog-details-page-cnltr {
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+
+#blog-details-page-cnltr .back-btn{
+	margin-bottom: 40px;
+}
+
+.bdp-date{
+	display: block;
+	padding-bottom: 20px;
+	color: #7D7D7D;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.1;
+	letter-spacing: 0.04em;
+}
+
+.bdp-category{
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #1D1D1B;
+	padding-bottom: 45px;
+	margin-bottom: 40px;
+	border-bottom: 2px solid #F8F8F8;
+	font-weight: 400;
+}
+.bdp-category label{
+	margin: 0;
+}
+.bdp-category strong{
+	color: #FF674D;
+	padding-left: 12px;
+	font-weight: 600;
+}
+.avatar-info{
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.avatar-info i{
+	width: 80px;
+	height: 80px;
+}
+.avatar-info > div{
+	padding-left: 20px;
+}
+.avatar-info > div strong{
+	display: block;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 26px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'ProximaNova-Semibold';
+	color: #000000;
+}
+.avatar-info > div p{
+	margin-bottom: 0;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.1;
+	letter-spacing: 0.04em;
+	color: #7D7D7D;
+}
+.dfp-plate-one-img-bx-des{
+	padding-top: 30px;
+	padding-bottom: 40px;
+	border-bottom: 2px solid #F8F8F8;
+}
+
+.dfp-plate-one-img-bx-des p{
+	margin-bottom: 0;
+	font-size: 16px;
+	color: #1D1D1B;
+}
+
+#blog-details-page-cnltr .dfp-plate-one-img-bx,
+#blog-details-page-cnltr .dft-gallery-img-slider-cntlr{
+	margin-left: -100px;
+	margin-right: -100px;
+}
+
+#blog-details-page-cnltr .fl-dft-lftimg-rgtdes-lft p{
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	color: #1D1D1B;
+	margin-bottom: 0;
+	padding-bottom: 30px;
+	padding-top: 35px;
+	border-bottom: 2px solid #F8F8F8;
+}
+
+#blog-details-page-cnltr .fl-dft-lftimg-rgtdes-lft-img-scale{
+	overflow: initial;
+}
+
+#blog-details-page-cnltr .fl-dft-overflow-controller{
+	margin-bottom: 70px;
+}
+
+#blog-details-page-cnltr .dft-fea-watch-module.full{
+	max-width: 100%;
+}
+
+.dftGallerySlideItemDes{
+	padding-top: 35px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #F8F8F8;
+}
+
+.dftGallerySlideItemDes p{
+	margin-bottom: 0;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	color: #1D1D1B;
+}
+
+.share-article-btm-con{
+	text-align: center;
+}
+
+.share-article-btm-con strong{
+	display: block;
+	font-family: 'CactusMedium';
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0.1em;
+	text-transform: capitalize;
+	color: #1D1D1B;
+	padding-bottom: 17px;
+}
+
+.share-article-btm-con .ftr-social ul{
+	margin: 0!important;
+	padding: 0!important;
+	text-align: center!important;
+	display: block!important;
+}
+.share-article-btm-con .ftr-social ul li{
+	padding: 0 4px;
+	margin: 0;
+	float: none!important;
+	display: inline-block!important;
+}
+
+.related-articles-section{
+	background: #F8F8F8;
+	padding: 190px 0 200px;
+}
+.related-articles-sec-cntlr{
+	overflow: hidden;
+}
+.relatedArticlesSlider{
+	margin: 0 -11px;
+}
+.relatedArticlesSlider .blg-tabs-gird-item{
+	width: 100%;
+}
+
+.ras-title{
+	font-size: 60px;
+	line-height: 1;
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+.share-sidebar{
+	position: absolute;
+	left: 0;
+	top: 330px;
+	max-width: 120px;
+	width: 1000%;
+}
+.share-sidebar strong{
+	padding-bottom: 25px;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: capitalize;
+	color: #1D1D1B;
+	position: relative;
+	display: block;
+	font-family: 'CactusMedium';
+}
+.share-sidebar strong:after{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100%;
+	background: #000;
+	height: 1px;
+
+}
+.social-icons ul{
+	text-align: center;
+	padding-top: 24px;
+}
+.social-icons ul li{
+	display: inline-block;
+	vertical-align: baseline;
+	padding: 0 4px;
+}
+
+
+.social-icons ul li a:hover svg{
+    fill: #FF674D;
+}
+
+
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+	.related-articles-section{
+		padding-top: 150px;
+		padding-bottom: 160px;
+	}
+}
+
+@media(max-width: 1299px){
+	.share-sidebar strong {
+	    padding-bottom: 15px;
+	    font-size: 20px;
+	    line-height: 24px;
+	}
+	.share-sidebar {
+	    top: 384px;
+	    max-width: 100px;
+	    width: 1000%;
+	}
+}
+
+@media(max-width: 1199px){
+	.share-sidebar{
+		display: none;
+	}
+	#blog-details-page-cnltr .back-btn {
+	    margin-bottom: 80px;
+	}
+	#blog-details-page-cnltr .dfp-plate-one-img-bx, 
+	#blog-details-page-cnltr .dft-gallery-img-slider-cntlr {
+	    margin-left: 0;
+	    margin-right: 0;
+	}
+	.related-articles-section {
+	    padding-top: 100px;
+	    padding-bottom: 110px;
+	}
+}
+
+@media(max-width: 991px){
+	.ras-title{
+		font-size: 55px;
+	}
+	.relatedArticlesSlider.slick-slider ul.slick-dots{
+		margin-top: 20px;
+	}
+}
+
+@media(max-width: 767px){
+	#blog-details-page-cnltr .fl-dft-overflow-controller {
+	    margin-bottom: 0;
+	}
+	.dft-fea-watch-module .wlp-title {
+	    color: #fff;
+	}
+	#blog-details-page-cnltr{
+		padding-bottom: 80px;
+	}
+	.ras-title{
+		font-size: 44px;
+	}
+}
+@media(max-width: 639px){
+	.dftGallerySlideItemDes{
+		border-bottom: none;
+	}
+}
+
+
+@media(max-width: 575px){
+	.avatar-info{
+		display: block;
+		text-align: center;
+	}
+	.avatar-info i{
+		display: inline-block;
+		vertical-align: baseline;
+		margin-bottom: 16px;
+	}
+	.avatar-info > div strong{
+		display: block;
+		padding-left: 0;
+		padding-bottom: 15px;
+	}
+	.avatar-info > div strong span{
+		display: block;
+		font-size: 12px;
+	}
+	.avatar-info > div p{
+		max-width: 350px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.bdp-category{
+		border-bottom: none;
+		position: relative;
+	}
+	.bdp-category:after{
+		content: "";
+		position: absolute;
+		left: -20px;
+		right: -20px;
+		height: 2px;
+		background: #F8F8F8;
+		top: 100%;
+	}
+	.xs-20{
+	    margin-left: -20px;
+	    margin-right: -20px;
+	}
+	.dft-heading-txt-module{
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+
+}
+
+@media(max-width: 479px){
+	
+
+}
+
+@media(max-width: 359px){
+
+}
+
+
