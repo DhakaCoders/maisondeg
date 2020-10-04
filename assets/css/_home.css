@@ -242,7 +242,12 @@
 
 
 @media(max-width: 1499px){
-
+	.fea-watch-sec{
+		background-position: left center!important;
+	}
+	.fea-juwellary-sec{
+		background-position: right center!important;
+	}
 }
 
 @media(max-width: 1399px){
@@ -250,12 +255,7 @@
 }
 
 @media(max-width: 1299px){
-	.fea-watch-sec{
-		background-position: left center!important;
-	}
-	.fea-juwellary-sec{
-		background-position: right center!important;
-	}
+	
 }
 
 @media(max-width: 1199px){
@@ -328,6 +328,10 @@
 	.fea-watch-des{
 		max-width: 300px;
 		width: 100%;
+	}
+	.fea-watch-sec,
+	.fea-juwellary-sec{
+		background-size: cover!important;
 	}
 	
 }
