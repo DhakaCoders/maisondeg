@@ -614,13 +614,13 @@
                 <ul class="clearfix reset-list">
                   <li>
                     <div class="ftr-top-newsletter"> 
-                    <form action="">
+                    <form class="needs-validation" novalidate>
                       <div class="from-group-wrp clearfix"> 
                         <div class="from-group">
-                          <input placeholder="E-mail address" type="email">
+                          <input placeholder="E-mail address" type="email" class="form-control" required>
                         </div>
                         <div class="from-group">
-                          <input placeholder="Name" type="email"> 
+                          <input placeholder="Name" type="name" class="form-control" required> 
                         </div>
                         <div class="from-group">
                          <ul class="reset-list clearfix">
@@ -659,7 +659,7 @@
                          </ul>
                         </div>
                         <div class="from-group-sub">
-                          <button>Subscribe</button> 
+                          <span><input type="submit" name="" value="Subscribe"></span>
                         </div>
                       </div>
                     </form>
@@ -714,7 +714,9 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaRQsAJCZyyD6MbCg0jB_0sdLGEOxt97Y"></script>
 <script src="assets/js/jquery.matchHeight-min.js"></script>
 <script src="assets/js/app.js"></script>
+<script src="assets/js/masonry.pkgd.min.js"></script>
 <script src="assets/js/wow.min.js"></script>
+
 <script src="assets/js/main.js"></script>
 
 </body>

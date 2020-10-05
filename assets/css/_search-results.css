@@ -46,8 +46,13 @@
 }
 .search-result-product-wrp .image-text-grid-fea-img{
 	width: 36%;
-	min-height: 324px;
+	height: 324px;
 	position: relative;
+	overflow: hidden;
+}
+.search-result-product-wrp .image-text-grid-fea-img div{
+	width: 100%;
+	height: 100%;
 }
 .search-result-product-wrp .image-text-grid-desc {
     padding-left: 25px;
