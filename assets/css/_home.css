@@ -239,7 +239,9 @@
 }
 
 
-
+.fea-juwellary-sec.hm-juwellary-sec-bg-lft-hand{
+	background-position: left center!important;
+}
 
 @media(max-width: 1499px){
 	.fea-watch-sec{
