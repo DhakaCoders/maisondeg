@@ -476,3 +476,26 @@ form .dropdown-menu li a{
     color: #333;
     white-space: nowrap;
 }
+
+
+
+/*slider break fix*/
+.hsmSlider .hsmSlideItem,
+.relatedArticlesSlider .relatedArticlesSlideItem,
+.blg-tabs-slider .blg-tabs-gird-item,
+.dftGallerySlider .dftGallerySlideItem{
+    display: none;
+}
+.hsmSlider .hsmSlideItem:first-child,
+.relatedArticlesSlider .relatedArticlesSlideItem:first-child,
+.blg-tabs-slider .blg-tabs-gird-item:first-child,
+.dftGallerySlider .dftGallerySlideItem:first-child{
+    display: block;
+}
+
+.hsmSlider.slick-initialized .hsmSlideItem,
+.relatedArticlesSlider .relatedArticlesSlideItem,
+.blg-tabs-slider .blg-tabs-gird-item,
+.dftGallerySlider .dftGallerySlideItem{
+    display: block;
+}

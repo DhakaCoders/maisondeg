@@ -422,15 +422,43 @@ blg-watch-sec-wrp
 	.blg-post-grid-sec-wrp .service-grid-item-img-cntlr {
 	    height: 340px;
 	}
+	.blg-post-grid-sec-btm-wrp .service-grid-item-title, .blg-post-grid-sec-wrp .service-grid-item-title {
+	    font-size: 20px;
+	}
+	.blg-post-grid-sec-wrp .services-grids-cntlr{
+		border-top: none;
+		position: relative;
+	}
+	.blg-post-grid-sec-wrp .services-grids-cntlr:before{
+		content: "";
+		position: absolute;
+		left: -20px;
+		right: -20px;
+		top: 0;
+		height: 2px;
+		background: #F8F8F8;
+	}
+	.blg-watch-sec-wrp-xs-cntlr .blg-watch-wrp{
+		margin-left: -20px;
+		margin-right: -20px;
+	}
 }
 
 @media(max-width: 479px){
 	.blg-tabs-menu-wrp ul li {
-	    padding: 0 20px;
+	    padding: 0 15px;
+	}
+	.blg-two-grid-sec-wrp .wb-gallery-two-grid-inr{
+		height: 400px!important;
+	}
+	.blg-two-grid-sec-wrp .wb-gallery-two-grid-dsc-title{
+		font-size: 20px;
 	}
 
 }
 
 @media(max-width: 359px){
-
+	.blg-two-grid-sec-wrp .wb-gallery-two-grid-inr{
+		height: 250px!important;
+	}
 }
