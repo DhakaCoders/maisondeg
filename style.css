@@ -1,24 +1,4 @@
-/*
-Theme Name: JCKruns
-Theme URI: N/A
-Author: Md. Foridul Islam
-Author URI: N/A
-Description: A custom wordpress theme for JCKruns.
-Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: Html5, Css3, PHP5, Custom post type, Blog, Wpml
-Text Domain: clipfresh
-*/
-
 @import url('assets/css/main.css');
-/*
-.tm-model-sec-wrp{
-	margin-bottom: 10px;
-}*/
-
-
-
 .h-our-history a.dg-hb-btn{
 	color: #fff;
 	border-color: #fff;
@@ -32,15 +12,6 @@ Text Domain: clipfresh
 	right: 40%;
 	background-size: auto 100%!important;
 }
-/*section.fea-watch-sec:after {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 61%;
-    right: 0;
-    background: linear-gradient(269.67deg, #F5F5F5 69.01%, rgba(255, 255, 255, 0) 98.72%);
-    z-index: 7;
-}*/
 .fea-juwellary-sec-inr, .fea-watch-sec-inr{
 	z-index: 11;
 }
