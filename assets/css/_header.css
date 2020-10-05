@@ -24,9 +24,18 @@ header.header{
 	-ms-transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 }
-.logo a{
+.logo a.logo-black{
 	display: inline-block;
 	vertical-align: baseline;
+}
+.logo a.logo-white{
+	display: none;
+}
+.fl-text-white .logo a.logo-black{
+	display: none;
+}
+.fl-text-white .logo a.logo-white{
+	display: inline-block;
 }
 .hdr-lft{
 	

@@ -226,7 +226,7 @@ googlemap
 }
 .map-accordion-title{
 	font-size: 14px;
-	line-height: 1;
+	line-height: 1.2;
 	font-weight: 400;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
@@ -713,7 +713,31 @@ ap-form-sec-wrp
 	    padding-top: 80px;
 	    padding-bottom: 55px;
 	}
-
+	.ap-field-radio-type-wrp{
+		border-top: none;
+		border-bottom: none;
+		position: relative;
+	}
+	.ap-field-radio-type-wrp:before,
+	.ap-field-radio-type-wrp:after{
+		content: "";
+		top: 0;
+		left: -20px;
+		right: -20px;
+		height: 2px;
+		background: #F8F8F8;
+		position: absolute;
+	}
+	.ap-field-radio-type-wrp:after{
+		bottom: 0;
+		top: auto;
+	}
+	.ap-radio-type-middel ul li label{
+		color: #C4C4C4;
+	}
+	.ap-radio-type-middel ul li label.active {
+	    color: #1D1D1B;
+	}
 }
 
 @media(max-width: 479px){
