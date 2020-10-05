@@ -476,3 +476,35 @@ form .dropdown-menu li a{
     color: #333;
     white-space: nowrap;
 }
+
+
+
+/*slider break fix*/
+.hsmSlider .hsmSlideItem,
+.relatedArticlesSlider .relatedArticlesSlideItem,
+.blg-tabs-slider .blg-tabs-gird-item,
+.dftGallerySlider .dftGallerySlideItem,
+.dgProductSlider .dgProductSlideItem,
+.slider-nav .slide-for-item-img,
+.slider-single .slide-item-img{
+    display: none;
+}
+.hsmSlider .hsmSlideItem:first-child,
+.relatedArticlesSlider .relatedArticlesSlideItem:first-child,
+.blg-tabs-slider .blg-tabs-gird-item:first-child,
+.dftGallerySlider .dftGallerySlideItem:first-child,
+.dgProductSlider .dgProductSlideItem:first-child,
+.slider-nav .slide-for-item-img:first-child,
+.slider-single .slide-item-img:first-child{
+    display: block;
+}
+
+.hsmSlider.slick-initialized .hsmSlideItem,
+.relatedArticlesSlider.slick-initialized .relatedArticlesSlideItem,
+.blg-tabs-slider.slick-initialized .blg-tabs-gird-item,
+.dftGallerySlider.slick-initialized .dftGallerySlideItem,
+.dgProductSlider.slick-initialized .dgProductSlideItem,
+.slider-nav.slick-initialized .slide-for-item-img,
+.slider-single.slick-initialized .slide-item-img{
+    display: block;
+}

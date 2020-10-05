@@ -38,7 +38,8 @@
           <div class="header-inr clearfix">
             <div class="hdr-mid">
               <div class="logo">
-                <a href="#"><img src="assets/images/logo.png"></a>
+                <a class="logo-black" href="#"><img src="assets/images/logo.png"></a>
+                <a class="logo-white" href="#"><img src="assets/images/logo-white.png"></a>
               </div>
             </div>
             <div class="hdr-lft">
@@ -279,19 +280,19 @@
                 <li><a href="jewellery-detail.html" target="_blank"> Jewellery detail</a></li>
                 <li><a href="watch-landing.html" target="_blank"> Watch Landing Page </a></li>
                 <li><a href="watch-brands-overview.html" target="_blank"> Watch Brands overview</a></li>
-               <!--  <li><a href="#" target="_blank"> Watch Collection</a></li>
-                <li><a href="#" target="_blank">Watch detail</a></li> -->
-                <!-- <li><a href="wishlist-a.html" target="_blank"> Wishlist</a></li> -->
-                <!-- <li><a href="innerpage.html" target="_blank"> Innerpage</a></li> -->
-                <li><a href="blog-overview.html" target="_blank"> Blog Overview</a></li>
-               <!--  <li><a href="#" target="_blank">Blog Details</a></li>
-                <li><a href="#" target="_blank">Blog Overview Variant</a></li> -->
-                <li><a href="about.html" target="_blank"> About</a></li>
-                <!-- <li><a href="history.html" target="_blank"> History</a></li> -->
-                <li><a href="team.html" target="_blank"> Team</a></li>
-                <li><a href="contact.html" target="_blank"> Contact</a></li>
-                <!-- <li><a href="appointment.html" target="_blank"> Appointment</a></li> -->
-                <li><a href="search-results.html" target="_blank"> Search Results</a></li>
+                <li><a href="#" target="_blank"> Watch Collection</a></li>
+                <li><a href="#" target="_blank">Watch detail</a></li>
+                <li><a href="wishlist-a.html" target="_blank"> Wishlist</a></li><!-- done -->
+                <li><a href="innerpage.html" target="_blank"> Innerpage</a></li><!-- done -->
+                <li><a href="blog-overview.html" target="_blank"> Blog Overview</a></li><!-- done -->
+                <li><a href="#" target="_blank">Blog Details</a></li><!-- done -->
+                <li><a href="blog-overview-variant.html" target="_blank">Blog Overview Variant</a></li><!-- done -->
+                <li><a href="about.html" target="_blank"> About</a></li><!-- done -->
+                <li><a href="history.html" target="_blank"> History</a></li><!-- done -->
+                <li><a href="team.html" target="_blank"> Team</a></li><!-- done -->
+                <li><a href="contact.html" target="_blank"> Contact</a></li><!-- done -->
+                <li><a href="appointment.html" target="_blank"> Appointment</a></li><!-- done -->
+                <li><a href="search-results.html" target="_blank"> Search Results</a></li><!-- done -->
               </ol>
             </nav>
           </div>
@@ -431,13 +432,13 @@
                 <ul class="clearfix reset-list">
                   <li>
                     <div class="ftr-top-newsletter"> 
-                    <form action="">
+                    <form class="needs-validation" novalidate>
                       <div class="from-group-wrp clearfix"> 
                         <div class="from-group">
-                          <input placeholder="E-mail address" type="email">
+                          <input placeholder="E-mail address" type="email" class="form-control" required>
                         </div>
                         <div class="from-group">
-                          <input placeholder="Name" type="email"> 
+                          <input placeholder="Name" type="name" class="form-control" required> 
                         </div>
                         <div class="from-group">
                          <ul class="reset-list clearfix">
@@ -476,7 +477,7 @@
                          </ul>
                         </div>
                         <div class="from-group-sub">
-                          <button>Subscribe</button> 
+                          <span><input type="submit" name="" value="Subscribe"></span>
                         </div>
                       </div>
                     </form>
@@ -533,6 +534,7 @@
 <script src="assets/js/app.js"></script>
 <script src="assets/js/masonry.pkgd.min.js"></script>
 <script src="assets/js/wow.min.js"></script>
+
 <script src="assets/js/main.js"></script>
 
 </body>

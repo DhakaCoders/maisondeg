@@ -517,7 +517,9 @@ Gallery design
 	.xs-tab-content .dft-heading-txt-module{
 		margin-bottom: 20px;
 	}
-
+	.dft-fea-watch-module .fea-watch-des{
+		padding-right: 0;
+	}
 }
 
 

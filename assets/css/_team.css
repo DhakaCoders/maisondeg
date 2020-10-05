@@ -270,11 +270,24 @@ tm-post-grid-sec-wrp
 	margin-bottom: 22px;
 }
 
+.modal.tm-model-sec-wrp {
+    padding-left: 17px !important;
+}
+
 /*
 ------------------
  Responsive css
 ------------------
 */
+
+@media(max-width: 1299px){	
+	.modal.tm-model-sec-wrp {
+	    padding-left: 30px!important;
+	    padding-right: 30px!important;
+	}
+
+}
+
 
 @media(max-width: 1199px){	
 	.wb-gallery-head p {
@@ -337,6 +350,12 @@ tm-post-grid-sec-wrp
 	.team-member-grid-inr {
 	    height: 530px;
 	}
+	.tm-model-sec-wrp .modal-dialog {
+	    max-width: 700px;
+	}
+	.tm-model-dsc-wrp{
+		padding: 40px 40px 30px 40px;
+	}
 }
 
 @media(max-width: 767px){
@@ -374,6 +393,9 @@ tm-post-grid-sec-wrp
 	}
 	.team-member-grid-inr {
 	    height: 490px;
+	}
+	.tm-model-dsc-title{
+		font-size: 55px;
 	}
 }
 @media(max-width: 639px){
@@ -425,14 +447,36 @@ tm-post-grid-sec-wrp
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.tm-model-dsc-title{
+		font-size: 50px;
+	}
+	.tm-model-dsc span{
+		font-size: 17px;
+	}
 }
 @media(max-width: 575px){
-	
+	.tm-model-sec-wrp button {
+	    right: -15px;
+	    top: -15px;
+	    width: 40px;
+	    height: 40px;
+	}
+	.tm-model-dsc-title{
+		font-size: 45px;
+	}
+	.tm-model-dsc span{
+		font-size: 16px;
+	}
+	.tm-model-dsc p {
+	    margin-bottom: 19px;
+	}
 
 }
 
 @media(max-width: 479px){
-	
+	.tm-model-dsc p {
+	    margin-bottom: 18px;
+	}
 
 }
 

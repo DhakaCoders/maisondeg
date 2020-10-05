@@ -24,9 +24,18 @@ header.header{
 	-ms-transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 }
-.logo a{
+.logo a.logo-black{
 	display: inline-block;
 	vertical-align: baseline;
+}
+.logo a.logo-white{
+	display: none;
+}
+.fl-text-white .logo a.logo-black{
+	display: none;
+}
+.fl-text-white .logo a.logo-white{
+	display: inline-block;
 }
 .hdr-lft{
 	
@@ -649,6 +658,11 @@ header.bnr-hdr{
 	font-size: 60px;
 	line-height: 1;
 	font-weight: 300;
+	margin-bottom: 0;
+}
+.page-banner-des p{
+	padding-top: 30px;
+	margin-bottom: 0;
 }
 
 
@@ -668,7 +682,8 @@ header.bnr-hdr{
 .fl-text-white .pageBnrSlideItemDesTitle,
 .fl-text-white .pageBnrSlideItemDes,
 .fl-text-white .pageBnrSlideItemDes p,
-.fl-text-white .pageBnrSlideItemDes a{
+.fl-text-white .pageBnrSlideItemDes a,
+.fl-text-white .page-banner-des p{
 	color: #fff;
 }
 
@@ -1168,6 +1183,12 @@ body.hdr-search-popup-active{
 	.pageBnrTitle {
 	    font-size: 45px;
 	}
+	.page-banner-des{
+		padding-top: 30px;
+	}
+	.page-banner-des p{
+		font-size: 21px;
+	}
 }
 
 @media(max-width: 575px){
@@ -1210,6 +1231,9 @@ body.hdr-search-popup-active{
 	.nav-opener-btn{
 		width: 25px;
 	}
+	.page-banner-des p{
+		font-size: 19px;
+	}
 }
 
 @media(max-width: 479px){
@@ -1222,6 +1246,9 @@ body.hdr-search-popup-active{
 	.hbgcbd-title,
 	.pageBnrTitle {
 	    font-size: 40px;
+	}
+	.page-banner-des p{
+		font-size: 18px;
 	}
 }
 

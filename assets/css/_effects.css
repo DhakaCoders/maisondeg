@@ -2,13 +2,14 @@
 All Transitions
 */
 .tm-post-grid-innr:hover .tm-post-grid-img,
-a,input,img,textarea,button,svg,.hdr-wishlist-btn strong,.hf-img{
+a,input,img,textarea,button,svg,.hdr-wishlist-btn strong,.hf-img,
+.search-result-product-wrp .image-text-grid-fea-img div{
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
 .tm-post-grid-innr:hover .tm-post-grid-img,
-.scale{
+.scale,.search-result-product-wrp .image-text-grid-fea-img:hover div{
 	transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
@@ -39,4 +40,9 @@ nav.main-nav ul li.current-menu-item a{
 	border-color: #1D1D1B;
 	color: #fff;
 	background: #1D1D1B;
+}
+
+.dft-fea-watch-module a.dg-btn:hover{
+	background: #fff;
+	color: #1D1D1B;
 }
