@@ -658,6 +658,11 @@ header.bnr-hdr{
 	font-size: 60px;
 	line-height: 1;
 	font-weight: 300;
+	margin-bottom: 0;
+}
+.page-banner-des p{
+	padding-top: 30px;
+	margin-bottom: 0;
 }
 
 
@@ -677,7 +682,8 @@ header.bnr-hdr{
 .fl-text-white .pageBnrSlideItemDesTitle,
 .fl-text-white .pageBnrSlideItemDes,
 .fl-text-white .pageBnrSlideItemDes p,
-.fl-text-white .pageBnrSlideItemDes a{
+.fl-text-white .pageBnrSlideItemDes a,
+.fl-text-white .page-banner-des p{
 	color: #fff;
 }
 
