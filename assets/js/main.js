@@ -150,11 +150,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
 }
 
 
-
-
-
-/*----- End of Milon -----*/
-
 // footer slide menu
 
 if (windowWidth <= 767) {
@@ -299,50 +294,6 @@ if( $('.ApFieldRadioTypeSlider').length ){
     });
 }
 
-/*if( $('.ApFieldRadioTypeSlider').length ){
-    $('.ApFieldRadioTypeSlider').slick({
-      dots: false,
-      arrows: false,
-      infinite: false,
-      autoplay: false,
-      autoplaySpeed: 2000,
-      speed: 300,
-      slidesToShow: 7,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1199,
-          settings: {
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: false
-          }
-        },
-        {
-          breakpoint: 639,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 575,
-          settings: {
-            centerMode: true,
-            focusOnSelect: true,
-            slidesToShow: 3,
-            slidesToScroll: 1
-          }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
-}*/
-
-
 /*
 -----------------------
 Start Contact Google Map ->> 
@@ -386,40 +337,40 @@ if( $('#googlemap').length ){
  
 
 
-     $('.slider-single').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      fade: true,
-      asNavFor: '.slider-nav'
-    });
-    $('.slider-nav').slick({
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      asNavFor: '.slider-single',
-      dots: false,
-      arrows: true,
-      //centerMode: true,
-      focusOnSelect: true,
-      responsive: [
-        {
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 575,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            arrows: false,
-            dots: false
-          }
-        }
-      ]
-    });
+ $('.slider-single').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-single',
+  dots: false,
+  arrows: true,
+  //centerMode: true,
+  focusOnSelect: true,
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 575,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false
+      }
+    }
+  ]
+});
 
 
 if( $('.dgProductSlider').length ){
@@ -473,7 +424,9 @@ $('.mobile-clsn-menu-cntlr strong').click(function(){
   $(this).next().toggleClass('mbl-clsn-actv-menu');
   $(this).toggleClass('mobile-clsn-menu-btn');
 });
-/*----- End of Noyon -----*/
+
+
+
 
 if (windowWidth <= 767){
   if( $('.hmgiTopSlider').length ){
@@ -562,10 +515,6 @@ $(".back-to-top-btn").click(function (e) {
     e.preventDefault();
    $("html, body").animate({scrollTop: 0}, 1000);
 });
-
-
-
-/*----- End of Shoriful -----*/
 
 
 
@@ -698,27 +647,7 @@ if($('.xs-tab-btn').length){
       $(this).parent().parent().find('.xs-tab-content').slideToggle();
     });
 }
-/*if( $('.tooltipButton').length ){
-  $('.tooltipButton').toolbar({
-    content: '#toolbar-options',
-  });
-}*/
 
-
-/*$('.msd-tooltip').jBox('Tooltip', {
-  adjustPosition: true,
-  adjustTracker: true
-});*/
-/*new jBox('Modal', {
-  width: 300,
-  height: 100,
-  attach: '#myModal',
-});*/
- 
-/* $('#myModal').jBox('Modal', {
-  adjustPosition: true,
-  adjustTracker: true
-});*/
 
 
 
@@ -740,7 +669,7 @@ if($('.xs-tab-btn').length){
     });
   }, false);
 })();
-/*----- End of Rannojit -----*/
+
 
 
 
