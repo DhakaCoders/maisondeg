@@ -42,7 +42,9 @@ nav.main-nav ul li.current-menu-item a{
 	background: #1D1D1B;
 }
 
-.dft-fea-watch-module a.dg-btn:hover{
-	background: #fff;
-	color: #1D1D1B;
+.dft-fea-watch-module a.dg-btn:hover,
+.wb-gallery-full-grid-dsc a:hover{
+	background: #fff!important;
+	color: #1D1D1B!important;
+	border-color: #fff!important;
 }

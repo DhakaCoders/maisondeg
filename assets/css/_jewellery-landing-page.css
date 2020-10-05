@@ -229,7 +229,9 @@
 	.fea-jlp-insprtn-sec .slick-slider .slick-dots li:hover{
 		background: #FF674D!important;
 	}
-	
+	.fea-jlpi-grd-item-img{
+		min-height: 500px;
+	}
 }
 
 @media(max-width: 575px){
@@ -244,6 +246,12 @@
 	}
 	.fea-jlp-entry-hdr p{
 		font-size: 14px;
+	}
+	.fea-jlpi-grd-item-img{
+		min-height: 400px;
+	}
+	.jlp-ctlr .image-text-grids {
+	    padding: 100px 0 100px;
 	}
 
 }

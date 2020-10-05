@@ -448,6 +448,15 @@ if( $('.dgProductSlider').length ){
             arrows: false,
             dots: true,
           }
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true,
+          }
         }
         // You can unslick at a given breakpoint now by adding:
         // settings: "unslick"
@@ -539,6 +548,20 @@ $('scroll-btn').click(function(){
 
 
 
+$(window).scroll(function() {
+    if ($(window).scrollTop() > 200) {
+        $('.back-to-top-btn').fadeIn();
+    }
+    else {
+        $('.back-to-top-btn').fadeOut();
+    }
+});
+
+
+$(".back-to-top-btn").click(function (e) {
+    e.preventDefault();
+   $("html, body").animate({scrollTop: 0}, 1000);
+});
 
 
 

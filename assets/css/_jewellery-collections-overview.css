@@ -149,13 +149,13 @@
 .jco{
 	position: relative;
 }
-.scroll-btn{
+.back-to-top-btn{
 	display: none;
 	position: fixed;
 	right: 45px;
 	bottom: 20%;
 }
-.scroll-btn a{
+.back-to-top-btn a{
 	display: block;
 	width: 94px;
 	height: 94px;
@@ -167,13 +167,13 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-.scroll-btn a img{
+.back-to-top-btn a img{
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
-.scroll-btn span{
+.back-to-top-btn span{
 	display: block;
 	font-size: 28px;
 	color: #1D1D1B;
@@ -184,8 +184,20 @@
 }
 
 
-@media(max-width: 1499px){
-
+@media(max-width: 1599px){
+	.back-to-top-btn {
+	    right: 10px;
+	}
+	.back-to-top-btn a{
+		width: 50px;
+		height: 50px;
+	}
+	.back-to-top-btn span{
+		font-size: 22px;
+	}
+	.back-to-top-btn a img{
+		max-width: 18px;
+	}
 }
 
 @media(max-width: 1399px){
@@ -193,14 +205,14 @@
 }
 
 @media(max-width: 1299px){
-	.scroll-btn{
+	.back-to-top-btn{
 		right: 0px;
 	}
-	.scroll-btn a{
+	.back-to-top-btn a{
 		width: 60px;
 		height: 60px;
 	}
-	.scroll-btn span{
+	.back-to-top-btn span{
 		font-size: 25px;
 	}
 }
@@ -231,7 +243,7 @@
 		font-size: 55px;
 	}
 	.jco-grd-items {
-		padding-top: 160px;
+		padding-top: 70px;
 	    padding-bottom: 100px;
 	}
 
@@ -338,18 +350,19 @@
 	.xs-link{
 		text-align: center;
 	}
+	.jco-grd-item-img{
+		min-height: 400px;
+	}
 
 	
 }
 
 @media(max-width: 575px){
-	.hide-xs{
-		display: none!important;
+
+	.jco-entry-hdr p{
+		font-size: 18px;
+		line-height: 30px;
 	}
-	.show-xs{
-		display: block!important;
-	}
-	
 
 }
 

@@ -325,7 +325,7 @@
 		height: 100%;
 	}
 	.hm-msnry-title{
-		font-size: 20px;
+		font-size: 22px;
 	}
 	.fea-watch-des{
 		max-width: 300px;
@@ -344,9 +344,6 @@
 	}
 	.show-sm{
 		display: block!important;
-	}
-	.hm-msnry-title{
-		font-size: 18px;
 	}
 	.hm-msnry-sec .hm-msnry-grd-item{
 		position: initial;
@@ -414,6 +411,23 @@
 		padding-top: 300px;
 		padding-bottom: 70px;
 	}
+	.fea-watch-sec{
+		position: relative;
+	}
+	.fea-watch-sec:after{
+		content: "";
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background: rgba(255,255,255,.4);
+		z-index: 2;
+	}
+	.fea-watch-des{
+		position: relative;
+		z-index: 5;
+	}
 	
 }
 
@@ -429,7 +443,12 @@
 }
 
 @media(max-width: 479px){
-
+	.hmgi5 .hm-msnry-grd-item-des a{
+		width: 230px;
+		padding-left: 5px;
+		padding-right: 5px;
+		text-align: center;
+	}
 }
 
 @media(max-width: 359px){
