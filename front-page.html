@@ -123,20 +123,50 @@
                           <div class="col-md-12">
                             <div class="sub-menu-inr clearfix">
                               <div class="clearfix sub-menu-grds">
-                                <div class="sub-menu-grd-col sub-menu-grd-col-01">
+                                <div class="sub-menu-grd-col grid-links sub-menu-grd-col-01">
                                   <strong>Featured Collections</strong>
                                   <ul class="reset-list">
-                                    <li><a href="#">Featured Collections</a></li>
-                                    <li><a href="#">Featured Collections</a></li>
-                                    <li><a href="#">Featured Collections</a></li>
-                                    <li><a href="#">Featured Collections</a></li>
-                                    <li><a href="#">Featured Collections</a></li>
-                                    <li><a href="#">Featured Collections</a></li>
+                                    <li class="has-data" 
+                                    data-title="Featured Collections 1"
+                                    data-img="assets/images/service-grid-item-img-001.jpg"
+                                    >
+                                    	<a href="#">Featured Collections</a>
+                                    </li>
+                                    <li class="has-data" 
+                                    data-title="Featured Collections 2"
+                                    data-img="assets/images/service-grid-item-img-002.jpg"
+                                    >
+                                    	<a href="#">Featured Collections</a>
+                                    </li>
+                                    <li class="has-data" 
+                                    data-title="Featured Collections 3"
+                                    data-img="assets/images/service-grid-item-img-003.jpg"
+                                    >
+                                    	<a href="#">Featured Collections</a>
+                                    </li>
+                                    <li class="has-data" 
+                                    data-title="Featured Collections 4"
+                                    data-img="assets/images/service-grid-item-img-001.jpg"
+                                    >
+                                    	<a href="#">Featured Collections</a>
+                                    </li>
+                                    <li class="has-data" 
+                                    data-title="Featured Collections 5"
+                                    data-img="assets/images/service-grid-item-img-002.jpg"
+                                    >
+                                    	<a href="#">Featured Collections</a>
+                                    </li>
+                                    <li class="has-data" 
+                                    data-title="Featured Collections 6"
+                                    data-img="assets/images/service-grid-item-img-003.jpg"
+                                    >
+                                    	<a href="#">Featured Collections</a>
+                                    </li>
                                     <li><a href="#">Featured Collections</a></li>
                                     <li><a href="#">Featured Collections</a></li>
                                   </ul>
                                 </div>
-                                <div class="sub-menu-grd-col sub-menu-grd-col-02">
+                                <div class="sub-menu-grd-col grid-links sub-menu-grd-col-02">
                                   <strong>Highlights</strong>
                                   <ul class="reset-list">
                                     <li><a href="#">Christmas</a></li>
@@ -144,7 +174,7 @@
                                     <li><a href="#">Product</a></li>
                                   </ul>
                                 </div>
-                                <div class="sub-menu-grd-col sub-menu-grd-col-03">
+                                <div class="sub-menu-grd-col grid-links sub-menu-grd-col-03">
                                   <strong>Metal & Gems</strong>
                                   <ul class="reset-list">
                                     <li><a href="#">Ceramic</a></li>
@@ -154,7 +184,7 @@
                                     <li><a href="#">Gemstones</a></li>
                                   </ul>
                                 </div>
-                                <div class="sub-menu-grd-col sub-menu-grd-col-04">
+                                <div class="sub-menu-grd-col grid-links sub-menu-grd-col-04">
                                   <strong>Categories</strong>
                                   <ul class="reset-list">
                                     <li><a href="#">Bracelets</a></li>
@@ -868,25 +898,25 @@
                 <ul class="clearfix reset-list">
                   <li>
                     <div class="ftr-top-newsletter"> 
-                    <form class="needs-validation" novalidate>
+                    <form class="footer-newsletter">
                       <div class="from-group-wrp clearfix"> 
-                        <div class="from-group">
-                          <input placeholder="E-mail address" type="email" class="form-control" required>
+                        <div class="from-group ns-email">
+                          <input placeholder="E-mail address" type="email" class="form-control">
                         </div>
-                        <div class="from-group">
-                          <input placeholder="Name" type="name" class="form-control" required> 
+                        <div class="from-group ns-name">
+                          <input placeholder="Name" type="name" class="form-control"> 
                         </div>
-                        <div class="from-group">
+                        <div class="from-group ns-lang">
                          <ul class="reset-list clearfix">
                            <li>
                              <div class="dg-select-field"> 
                                <div class="select-input">
                                 <div class="select-dep">
-                                  <select class="selectpicker">
-                                    <option value="1">Language</option>
-                                    <option value="2">Language 2</option>
-                                    <option value="3">Language 3</option>
-                                    <option value="3">Language 4</option>
+                                  <select class="selectpicker" id="ns-lang">
+                                    <option value="0">Language</option>
+                                    <option value="english">English</option>
+                                    <option value="french">French</option>
+                                    <option value="dutch">Dutch</option>
                                   </select>
                                 </div>
                               </div>
@@ -894,14 +924,14 @@
                            </li>
                          </ul>
                         </div>
-                        <div class="from-group">
+                        <div class="from-group ns-interest">
                          <ul class="reset-list clearfix">
                            <li>
                              <div class="dg-select-field"> 
                                <div class="select-input">
                                 <div class="select-dep">
-                                  <select class="selectpicker">
-                                    <option value="1">Interest</option>
+                                  <select class="selectpicker" id="ns-interest">
+                                    <option value="0">Interest</option>
                                     <option value="2">Interest 2</option>
                                     <option value="3">Interest 3</option>
                                     <option value="3">Interest 4</option>

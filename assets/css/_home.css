@@ -242,7 +242,12 @@
 .fea-juwellary-sec.hm-juwellary-sec-bg-lft-hand{
 	background-position: left center!important;
 }
-
+.footer-newsletter .ns-lang,
+.footer-newsletter .ns-name,
+.footer-newsletter .ns-interest,
+.footer-newsletter .from-group-sub{
+	display: none;
+}
 @media(max-width: 1499px){
 	.fea-watch-sec{
 		background-position: left center!important;

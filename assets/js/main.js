@@ -670,9 +670,74 @@ if($('.xs-tab-btn').length){
   }, false);
 })();
 
+$(".ns-email input").keyup(function(){
+  var data = $(this).val();
+  if( IsEmail(data) ){
+    $(this).removeClass('invalid');
+    $(this).parents('.from-group').next().show();
+  }else{
+    $(this).addClass('invalid');
+    $(this).parents('.from-group').nextAll().hide();
+  }
+});
 
+$(".ns-name input").keyup(function(){
+  var data = $(this).val();
+  if( data != '' ){
+    $(this).removeClass('invalid');
+    $(this).parents('.from-group').next().show();
+  }else{
+    $(this).addClass('invalid');
+    $(this).parents('.from-group').nextAll().hide();
+  }
+});
 
+$( ".ns-lang select" ).change(function() {
+  var data = $( "#ns-lang option:selected" ).val();
+  if( data != '0' ){
+    $(this).parents('.select-dep').removeClass('invalid');
+    $(this).parents('.from-group').next().show();
+  }else{
+    $(this).parents('.select-dep').addClass('invalid');
+    $(this).parents('.from-group').nextAll().hide();
+  }
+});
+$( ".ns-interest select" ).change(function() {
+  var data = $( "#ns-interest option:selected" ).val();
+  if( data != '0' ){
+    $(this).parents('.select-dep').removeClass('invalid');
+    $(this).parents('.from-group').next().show();
+  }else{
+    $(this).parents('.select-dep').addClass('invalid');
+    $(this).parents('.from-group').nextAll().hide();
+  }
+});
 
-    new WOW().init();
+/**
+Mega menu image changes
+*/
+$('.grid-links li.has-data a').hover(function(){
+  var title = $(this).parent('li').attr('data-title');
+  var imgf = $(this).parents('.sub-menu-grd-col').siblings('.sub-menu-grd-col-fea').find('img').attr('src');
+  var img = $(this).parent('li').attr('data-img');
+  var useimg = '';
+  if( img == '' ){
+    useimg = imgf;
+  }else{
+    useimg = img;
+  }
+
+  $(this).parents('.sub-menu-grd-col').siblings('.sub-menu-grd-col-fea').find('img').attr('src', useimg);
+  $(this).parents('.sub-menu-grd-col').siblings('.sub-menu-grd-col-fea').find('h5').text(title);
+});
+
+function IsEmail(email) {
+  var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  if(!regex.test(email)) {
+    return false;
+  }else{
+    return true;
+  }
+}
 
 })(jQuery);
