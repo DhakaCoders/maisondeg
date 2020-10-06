@@ -9,7 +9,8 @@ a,input,img,textarea,button,svg,.hdr-wishlist-btn strong,.hf-img,
 	-webkit-transition: all 0.5s;
 }
 .tm-post-grid-innr:hover .tm-post-grid-img,
-.scale,.search-result-product-wrp .image-text-grid-fea-img:hover div{
+.scale,.search-result-product-wrp .image-text-grid-fea-img:hover div,
+.wd-pro-grd-col:hover a img{
 	transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
