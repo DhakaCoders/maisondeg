@@ -50,6 +50,8 @@
 	display: inline-block;
 	color: #1D1D1B;
 	text-decoration: underline;
+	text-transform: uppercase;
+	font-weight: 400;
 }
 .msd-products-desc a:hover{
 	text-decoration: none;

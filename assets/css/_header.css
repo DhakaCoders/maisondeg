@@ -693,6 +693,10 @@ header.bnr-hdr{
 .fl-text-white .pageBnrSlideItemDes a{
 	border-color: #fff;
 }
+.fl-text-white .pageBnrSlideItemDes a:hover{
+	background: #fff!important;
+	color: #1D1D1B;
+}
 .overlay-bg{
 	position: absolute;
 	left: 0;
