@@ -22,7 +22,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'CabinBold';
     src: url('CabinBold/CabinBold.eot');
@@ -32,7 +31,6 @@
          url('CabinBold/CabinBold.ttf') format('truetype'),
          url('CabinBold/CabinBold.svg#CabinBold') format('svg');
 }
-
 @font-face {
     font-family: 'NunitoSansRegular';
     src: url('NunitoSansRegular/NunitoSansRegular.eot');
@@ -42,10 +40,6 @@
          url('NunitoSansRegular/NunitoSansRegular.ttf') format('truetype'),
          url('NunitoSansRegular/NunitoSansRegular.svg#NunitoSansRegular') format('svg');
 }
-
-
-
-
 @font-face {
     font-family: 'ProximaNova-Semibold';
     src: url('ProximaNova-Semibold/ProximaNova-Semibold.eot');
