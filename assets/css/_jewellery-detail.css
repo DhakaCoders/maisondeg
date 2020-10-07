@@ -106,7 +106,9 @@
 	color: #fff;
 	text-decoration: none;
 }
-
+.prdct-dwnld a:hover{
+	color: #FF674D;
+}
 
 
 .slider-cntlr .slider-single .slide-item-img{

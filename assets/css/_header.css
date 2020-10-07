@@ -1018,13 +1018,14 @@ body.hdr-search-popup-active{
 .xs-menu-cntlr{
 	position: fixed;
 	left: 0;
-	top: 100px;
+	top: 179px;
 	bottom: 0;
 	right: 0;
 	background: linear-gradient(180deg, #F2F2F2 40%, rgba(255, 255, 255, 1) 100%);
 	width: 100%;
     transform: scale3d(1, 0, 1);
     transform-origin: top;
+    z-index: 100;
 }
 nav.nav-mobile {
     width: 100%;
@@ -1178,6 +1179,9 @@ body.xs-menu-active{
 	.pageBnrTitle{
 		font-size: 55px;
 	}
+	.sub-menu-grd-col-fea h5{
+		font-size: 17px;
+	}
 
 }
 
@@ -1225,7 +1229,7 @@ body.xs-menu-active{
 	.nav-opener-btn span:nth-child(3){
 		top: 20px;
 	}
-	.menu-expend span:nth-child(1){
+	.xs-menu-active .nav-opener-btn span:nth-child(1){
 	  position: absolute;
 	  top: 44%;
 	  transform: rotate(45deg);
@@ -1235,10 +1239,10 @@ body.xs-menu-active{
 	  margin-bottom: 0;
 	  width: 100%;
 	}
-	.menu-expend span:nth-child(2){
+	.xs-menu-active .nav-opener-btn span:nth-child(2){
 		opacity: 0;
 	}
-	.menu-expend span:nth-child(3) {
+	.xs-menu-active .nav-opener-btn span:nth-child(3) {
 	  position: absolute;
 	  top: 13px;
 	  transform: rotate(-45deg);
@@ -1260,9 +1264,37 @@ body.xs-menu-active{
 	.pageBnrTitle {
 	    font-size: 50px;
 	}
+	.xs-menu-cntlr .bootstrap-select button{
+		border: 1px solid #1D1D1B!important;
+	}
+
+	.xs-menu-cntlr .bootstrap-select .dropdown-toggle .filter-option{
+		text-align: center;
+		text-transform: uppercase;
+		color: #1D1D1B;
+		font-weight: 400;
+	}
+	.xs-menu-cntlr .dg-select-field{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.sub-menu-grd-col strong{
+		text-transform: uppercase;
+	}
+/*	body.xs-menu-active header.header{
+		box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.04);
+	}*/
+	.xs-menu-cntlr .sub-menu-cntlr{
+		-webkit-box-shadow: 0px -8px 15px -1px rgba(235,235,235,1);
+		-moz-box-shadow: 0px -8px 15px -1px rgba(235,235,235,1);
+		box-shadow: 0px -8px 15px -1px rgba(235,235,235,1);
+	}
 }
 
 @media(max-width: 767px){
+	.xs-menu-cntlr{
+		top: 130px;
+	}
 	.pageBnrSlider.slick-slider ul.slick-dots{
 		padding-bottom: 30px;
 	}
@@ -1309,6 +1341,9 @@ body.xs-menu-active{
 }
 
 @media(max-width: 575px){
+	.xs-menu-cntlr {
+	    top: 100px;
+	}
 	.pageBnrSlideItemDes{
 		text-align: center;
 	}

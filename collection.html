@@ -73,19 +73,46 @@
 
 </head>
 <body>
+<div class="search-popup-wrap clearfix">
+  <div class="search-popup-inr">
+    <div class="cross">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div> 
+    <span class="search-popup-rgt-icon"></span>
+    <div class="search-popup-vcenter-con">
+      <div class="popup-search-form">
+        <div class="results-search-form">
+          <form>
+            <input type="search" name="" placeholder="Search for your new product">
+            <div class="rss-btn">
+              <input type="submit" name="" value="">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
 <header class="header bnr-hdr">
   <div class="hdr-cntlr">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="header-inr clearfix">
+            <div class="hdr-search hdr-search-show-md">
+              <button><i class="fas fa-search"></i></button>
+            </div>
+
             <div class="hdr-mid">
               <div class="logo">
                 <a class="logo-black" href="#"><img src="assets/images/logo.png"></a>
                 <a class="logo-white" href="#"><img src="assets/images/logo-white.png"></a>
               </div>
             </div>
-            <div class="hdr-lft">
+            <div class="hdr-lft hide-content-md">
               <nav class="main-nav">
                 <ul class="clearfix reset-list">
                   <li class="menu-item-has-children">
@@ -96,20 +123,50 @@
                           <div class="col-md-12">
                             <div class="sub-menu-inr clearfix">
                               <div class="clearfix sub-menu-grds">
-                                <div class="sub-menu-grd-col sub-menu-grd-col-01">
+                                <div class="sub-menu-grd-col grid-links sub-menu-grd-col-01">
                                   <strong>Featured Collections</strong>
                                   <ul class="reset-list">
-                                    <li><a href="#">Featured Collections</a></li>
-                                    <li><a href="#">Featured Collections</a></li>
-                                    <li><a href="#">Featured Collections</a></li>
-                                    <li><a href="#">Featured Collections</a></li>
-                                    <li><a href="#">Featured Collections</a></li>
-                                    <li><a href="#">Featured Collections</a></li>
+                                    <li class="has-data" 
+                                    data-title="Featured Collections 1"
+                                    data-img="assets/images/service-grid-item-img-001.jpg"
+                                    >
+                                      <a href="#">Featured Collections</a>
+                                    </li>
+                                    <li class="has-data" 
+                                    data-title="Featured Collections 2"
+                                    data-img="assets/images/service-grid-item-img-002.jpg"
+                                    >
+                                      <a href="#">Featured Collections</a>
+                                    </li>
+                                    <li class="has-data" 
+                                    data-title="Featured Collections 3"
+                                    data-img="assets/images/service-grid-item-img-003.jpg"
+                                    >
+                                      <a href="#">Featured Collections</a>
+                                    </li>
+                                    <li class="has-data" 
+                                    data-title="Featured Collections 4"
+                                    data-img="assets/images/service-grid-item-img-001.jpg"
+                                    >
+                                      <a href="#">Featured Collections</a>
+                                    </li>
+                                    <li class="has-data" 
+                                    data-title="Featured Collections 5"
+                                    data-img="assets/images/service-grid-item-img-002.jpg"
+                                    >
+                                      <a href="#">Featured Collections</a>
+                                    </li>
+                                    <li class="has-data" 
+                                    data-title="Featured Collections 6"
+                                    data-img="assets/images/service-grid-item-img-003.jpg"
+                                    >
+                                      <a href="#">Featured Collections</a>
+                                    </li>
                                     <li><a href="#">Featured Collections</a></li>
                                     <li><a href="#">Featured Collections</a></li>
                                   </ul>
                                 </div>
-                                <div class="sub-menu-grd-col sub-menu-grd-col-02">
+                                <div class="sub-menu-grd-col grid-links sub-menu-grd-col-02">
                                   <strong>Highlights</strong>
                                   <ul class="reset-list">
                                     <li><a href="#">Christmas</a></li>
@@ -117,7 +174,7 @@
                                     <li><a href="#">Product</a></li>
                                   </ul>
                                 </div>
-                                <div class="sub-menu-grd-col sub-menu-grd-col-03">
+                                <div class="sub-menu-grd-col grid-links sub-menu-grd-col-03">
                                   <strong>Metal & Gems</strong>
                                   <ul class="reset-list">
                                     <li><a href="#">Ceramic</a></li>
@@ -127,7 +184,7 @@
                                     <li><a href="#">Gemstones</a></li>
                                   </ul>
                                 </div>
-                                <div class="sub-menu-grd-col sub-menu-grd-col-04">
+                                <div class="sub-menu-grd-col grid-links sub-menu-grd-col-04">
                                   <strong>Categories</strong>
                                   <ul class="reset-list">
                                     <li><a href="#">Bracelets</a></li>
@@ -221,7 +278,7 @@
                 </ul>
               </nav>
             </div>
-            <div class="hdr-rgt">
+            <div class="hdr-rgt hide-content-md">
               <div class="fl-lang reset-slect">
                 <div class="fl-lang-cntlr">
                   <ul class="reset-list hide-sm">
@@ -246,9 +303,9 @@
                                     <use xlink:href="#close-gray-icon-svg"></use>
                                   </svg> 
                                 </i>
-                                <a href="#">
-                                  <img src="assets/images/pro-img-01.jpg">
-                                </a>
+                                <div class="wd-pro-grd-col-fea-img inline-bg" style="background: url(assets/images/pro-img-01.jpg);">
+                                  <a class="overlay-link" href="#"></a>
+                                </div>
                               </div>
                             </li>
                             <li>
@@ -258,9 +315,9 @@
                                     <use xlink:href="#close-gray-icon-svg"></use>
                                   </svg> 
                                 </i>
-                                <a href="#">
-                                  <img src="assets/images/pro-img-02.jpg">
-                                </a>
+                                <div class="wd-pro-grd-col-fea-img inline-bg" style="background: url(assets/images/pro-img-02.jpg);">
+                                  <a class="overlay-link" href="#"></a>
+                                </div>
                               </div>
                             </li>
                             <li>
@@ -270,9 +327,9 @@
                                     <use xlink:href="#close-gray-icon-svg"></use>
                                   </svg> 
                                 </i>
-                                <a href="#">
-                                  <img src="assets/images/pro-img-03.jpg">
-                                </a>
+                                <div class="wd-pro-grd-col-fea-img inline-bg" style="background: url(assets/images/pro-img-03.jpg);">
+                                  <a class="overlay-link" href="#"></a>
+                                </div>
                               </div>
                             </li>
                           </ul>
@@ -294,8 +351,14 @@
                 </div>
               </div>
               <div class="hdr-search">
-                <input type="search" name="">
                 <button><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            <div class="show-md nav-opener">
+              <div class="nav-opener-btn">
+                <span></span>
+                <span></span>
+                <span></span>
               </div>
             </div>
             
@@ -304,6 +367,137 @@
       </div>
     </div>
   </div>
+
+  <div class="xs-menu-cntlr">
+    <nav class="nav-mobile">
+      <ul class="clearfix reset-list">
+        <li class="menu-item-has-children">
+          <a href="#">Jewellery</a>
+          <div class="sub-menu-cntlr">
+            <div class="sub-menu-inr clearfix">
+              <div class="clearfix sub-menu-grds">
+                <div class="sub-menu-grd-col sub-menu-grd-col-01">
+                  <strong>Featured Collections</strong>
+                  <ul class="reset-list">
+                    <li><a href="#">Featured Collections</a></li>
+                    <li><a href="#">Featured Collections</a></li>
+                    <li><a href="#">Featured Collections</a></li>
+                    <li><a href="#">Featured Collections</a></li>
+                    <li><a href="#">Featured Collections</a></li>
+                    <li><a href="#">Featured Collections</a></li>
+                    <li><a href="#">Featured Collections</a></li>
+                    <li><a href="#">Featured Collections</a></li>
+                  </ul>
+                </div>
+                <div class="sub-menu-grd-col sub-menu-grd-col-02">
+                  <strong>Highlights</strong>
+                  <ul class="reset-list">
+                    <li><a href="#">Christmas</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Product</a></li>
+                  </ul>
+                </div>
+                <div class="sub-menu-grd-col sub-menu-grd-col-03">
+                  <strong>Metal & Gems</strong>
+                  <ul class="reset-list">
+                    <li><a href="#">Ceramic</a></li>
+                    <li><a href="#">Gold</a></li>
+                    <li><a href="#">Diamond</a></li>
+                    <li><a href="#">Pearls</a></li>
+                    <li><a href="#">Gemstones</a></li>
+                  </ul>
+                </div>
+                <div class="sub-menu-grd-col sub-menu-grd-col-04">
+                  <strong>Categories</strong>
+                  <ul class="reset-list">
+                    <li><a href="#">Bracelets</a></li>
+                    <li><a href="#">Earrings</a></li>
+                    <li><a href="#">Necklaces</a></li>
+                    <li><a href="#">Rings</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="menu-more-link">
+                <a href="#">Explore all collections</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="menu-item-has-children">
+          <a href="#">watches</a>
+          <div class="sub-menu-cntlr">
+            <div class="sub-menu-inr clearfix">
+              <div class="clearfix sub-menu-grds">
+                <div class="sub-menu-grd-col sub-menu-grd-col-01">
+                  <strong>Featured Collections</strong>
+                  <ul class="reset-list">
+                    <li><a href="#">Featured Collections</a></li>
+                    <li><a href="#">Featured Collections</a></li>
+                    <li><a href="#">Featured Collections</a></li>
+                    <li><a href="#">Featured Collections</a></li>
+                    <li><a href="#">Featured Collections</a></li>
+                    <li><a href="#">Featured Collections</a></li>
+                    <li><a href="#">Featured Collections</a></li>
+                    <li><a href="#">Featured Collections</a></li>
+                  </ul>
+                </div>
+                <div class="sub-menu-grd-col sub-menu-grd-col-02">
+                  <strong>Highlights</strong>
+                  <ul class="reset-list">
+                    <li><a href="#">Christmas</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Product</a></li>
+                  </ul>
+                </div>
+                <div class="sub-menu-grd-col sub-menu-grd-col-03">
+                  <strong>Metal & Gems</strong>
+                  <ul class="reset-list">
+                    <li><a href="#">Ceramic</a></li>
+                    <li><a href="#">Gold</a></li>
+                    <li><a href="#">Diamond</a></li>
+                    <li><a href="#">Pearls</a></li>
+                    <li><a href="#">Gemstones</a></li>
+                  </ul>
+                </div>
+                <div class="sub-menu-grd-col sub-menu-grd-col-04">
+                  <strong>Categories</strong>
+                  <ul class="reset-list">
+                    <li><a href="#">Bracelets</a></li>
+                    <li><a href="#">Earrings</a></li>
+                    <li><a href="#">Necklaces</a></li>
+                    <li><a href="#">Rings</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="menu-more-link">
+                <a href="#">Explore all collections</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="wishlist">
+          <a href="#">Wishlist (0)</a>
+        </li>
+      </ul>
+      <div class="dg-select-field"> 
+        <div class="select-input">
+          <div class="select-dep">
+            <select class="selectpicker">
+              <option value="1">English</option>
+              <option value="2">French</option>
+              <option value="3">Dutch</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="nav-mobile-dropowns">
+      <div class="nav-mobile-dropowns-in">
+        <div class="sub-menu-cntlr"></div>
+      </div>
+    </div>
+  </div>
+
 </header>
 
 <section class="page-bnr-cntlr">
