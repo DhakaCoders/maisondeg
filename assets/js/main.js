@@ -705,8 +705,12 @@ $('nav.nav-mobile li.menu-item-has-children').on('click', function(e){
   e.preventDefault();
   var html = $(this).find('.sub-menu-cntlr').html();
   $('.nav-mobile-dropowns .sub-menu-cntlr').html(html);
-  //$('.xs-menu-cntlr').css('left', -swfm);
-  $(this).toggleClass('this-active');
+  if( $(this).hasClass('this-active') ){
+    $('nav.nav-mobile li.menu-item-has-children').removeClass('this-active');
+    $(this).removeClass('this-active');
+  }else{
+    $(this).addClass('this-active');
+  }
   $('body').toggleClass('menu-label-2');
 });
 

@@ -230,6 +230,10 @@
 	padding: 0 13px;
 	width: 33.33%;
 	margin-bottom: 45px;
+	z-index: 1;
+}
+.msd-products-cntlr > ul > li:hover{
+	z-index: 99;
 }
 .msd-products-cntlr > ul > li:nth-child(3n+1){
 	clear: left;
