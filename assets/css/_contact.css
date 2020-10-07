@@ -424,17 +424,20 @@ ap-form-sec-wrp
 
 .ap-radio-type-middel span.checkmark{
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     width: 100%;
     border:1px solid#fff;
 }
 
-.ap-radio-type-middel input:checked ~ .checkmark{
+.ap-radio-type-middel input:checked ~ .checkmark {
     display: block;
-    border-color: #ababa9;
+    height: 1px;
+    background: #ababa9;
 }
-
+.ap-radio-type-middel input:checked ~ .label-text{
+	color: #1D1D1B;
+}
 .ap-form-radio-wrp{
 	padding-top: 130px;
 	padding-bottom: 55px;

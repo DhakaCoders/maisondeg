@@ -424,7 +424,12 @@
     height: 16px;
     background: #FF674D;
 }
-
+.dg-checkmark input[type="checkbox"] + span.checkmark:after{
+	width: 13px;
+    height: 13px;
+    background: #FF674D;
+    border-radius: 0;
+}
 .inputFields-row ul{
 	margin-left: -10px;
 	margin-right: -10px;
@@ -439,7 +444,9 @@
 	padding-left: 10px;
 	padding-right: 10px;
 }
-
+.inputFields-row ul.dropdown-menu li{
+	width: 100%;
+}
 .cnt-btn{
     margin-top: 35px;
 }

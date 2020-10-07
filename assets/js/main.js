@@ -30,7 +30,11 @@ if($('.mHc5').length){
 };
 
 
-//$('[data-toggle="tooltip"]').tooltip();
+$('a[data-toggle="tooltip"]').tooltip({
+    animated: 'fade',
+    placement: 'bottom',
+    html: true
+});
 
 //banner animation
 $(window).scroll(function() {
@@ -46,33 +50,18 @@ $(window).scroll(function() {
 
 
 if($('.fancybox').length){
-$('.fancybox').fancybox({
-    //openEffect  : 'none',
-    //closeEffect : 'none'
-  });
-
+  $('.fancybox').fancybox({});
 }
 
 
-/**
-Responsive on 767px
-*/
-
-// if (windowWidth <= 767) {
-  $('.toggle-btn').on('click', function(){
-    $(this).toggleClass('menu-expend');
-    $('.toggle-bar ul').slideToggle(500);
-  });
-
-
-// }
-
+$('.toggle-btn').on('click', function(){
+  $(this).toggleClass('menu-expend');
+  $('.toggle-bar ul').slideToggle(500);
+});
 
 
 // http://codepen.io/norman_pixelkings/pen/NNbqgG
 // https://stackoverflow.com/questions/38686650/slick-slides-on-pagination-hover
-
-
 /**
 Slick slider
 */
@@ -117,36 +106,33 @@ if( $('.responsive-slider').length ){
 }
 
 
-
-
 if( $('#mapID').length ){
-var latitude = $('#mapID').data('latitude');
-var longitude = $('#mapID').data('longitude');
+  var latitude = $('#mapID').data('latitude');
+  var longitude = $('#mapID').data('longitude');
 
-var myCenter= new google.maps.LatLng(latitude,  longitude);
-function initialize(){
-    var mapProp = {
-      center:myCenter,
-      mapTypeControl:true,
-      scrollwheel: false,
-      zoomControl: true,
-      disableDefaultUI: true,
-      zoom:7,
-      streetViewControl: false,
-      rotateControl: true,
-      mapTypeId:google.maps.MapTypeId.ROADMAP,
-      styles: CustomMapStyles
-      };
+  var myCenter= new google.maps.LatLng(latitude,  longitude);
+  function initialize(){
+      var mapProp = {
+        center:myCenter,
+        mapTypeControl:true,
+        scrollwheel: false,
+        zoomControl: true,
+        disableDefaultUI: true,
+        zoom:7,
+        streetViewControl: false,
+        rotateControl: true,
+        mapTypeId:google.maps.MapTypeId.ROADMAP,
+        styles: CustomMapStyles
+        };
 
-    var map= new google.maps.Map(document.getElementById('mapID'),mapProp);
-    var marker= new google.maps.Marker({
-      position:myCenter,
-        //icon:'map-marker.png'
-      });
-    marker.setMap(map);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-
+      var map= new google.maps.Map(document.getElementById('mapID'),mapProp);
+      var marker= new google.maps.Marker({
+        position:myCenter,
+          //icon:'map-marker.png'
+        });
+      marker.setMap(map);
+  }
+  google.maps.event.addDomListener(window, 'load', initialize);
 }
 
 
@@ -159,7 +145,6 @@ if (windowWidth <= 767) {
     $(this).parent().find('ul').slideToggle(300);
     $(this).parent().siblings().find('ul').slideUp(300);
   });
-
 }
 
 // body animate
@@ -182,9 +167,6 @@ $('.map-accordion-tab-row').removeClass('remove-border');
         $(this).parent().next().addClass('remove-border');
         return false;
 });
-
-
-
 
 
 if( $('.blg-tabs-slider').length ){
@@ -333,11 +315,7 @@ if( $('#googlemap').length ){
 }
 
 
-
- 
-
-
- $('.slider-single').slick({
+$('.slider-single').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
@@ -371,7 +349,6 @@ $('.slider-nav').slick({
     }
   ]
 });
-
 
 if( $('.dgProductSlider').length ){
     $('.dgProductSlider').slick({
@@ -424,8 +401,6 @@ $('.mobile-clsn-menu-cntlr strong').click(function(){
   $(this).next().toggleClass('mbl-clsn-actv-menu');
   $(this).toggleClass('mobile-clsn-menu-btn');
 });
-
-
 
 
 if (windowWidth <= 767){
@@ -486,7 +461,6 @@ if (windowWidth <= 767){
 
 var offset = 250;
 var duration = 500;
-
 $(window).scroll(function(){
   if($(this).scrollTop() > offset){
     $('.scroll-btn').fadeIn(duration);
@@ -498,7 +472,6 @@ $(window).scroll(function(){
 $('scroll-btn').click(function(){
   $('body').animate({scrollTop: 0}, duration)
 });
-
 
 
 $(window).scroll(function() {
@@ -515,9 +488,6 @@ $(".back-to-top-btn").click(function (e) {
     e.preventDefault();
    $("html, body").animate({scrollTop: 0}, 1000);
 });
-
-
-
 
 
 $('div.fl-tabs button').click(function(){
@@ -622,9 +592,6 @@ if( $('.hsmSlider').length ){
             arrows: false,
           }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
       ]
     });
 }
@@ -647,8 +614,6 @@ if($('.xs-tab-btn').length){
       $(this).parent().parent().find('.xs-tab-content').slideToggle();
     });
 }
-
-
 
 
 /* BS form Validator*/
@@ -729,6 +694,39 @@ $('.grid-links li.has-data a').hover(function(){
 
   $(this).parents('.sub-menu-grd-col').siblings('.sub-menu-grd-col-fea').find('img').attr('src', useimg);
   $(this).parents('.sub-menu-grd-col').siblings('.sub-menu-grd-col-fea').find('h5').text(title);
+});
+
+$('.nav-opener-btn').on('click', function(){
+  $('body').toggleClass('xs-menu-active');
+  var sw = $(window).width();
+  var swfm = sw - 49;
+  $('.nav-mobile-dropowns').css('width', swfm);
+});
+
+$('nav.nav-mobile li.menu-item-has-children > a').on('click', function(e){
+  e.preventDefault();
+});
+$('nav.nav-mobile li.menu-item-has-children').on('click', function(e){
+  e.preventDefault();
+  var html = $(this).find('.sub-menu-cntlr').html();
+  $('.nav-mobile-dropowns .sub-menu-cntlr').html(html);
+  //$('.xs-menu-cntlr').css('left', -swfm);
+  $(this).toggleClass('this-active');
+  $('body').toggleClass('menu-label-2');
+});
+
+$('#appointment-form input[name="date"]').on('change', function(){
+  var time = $('#appointment-form input[name="time"]:checked').val();
+  var thisval = $(this).val();
+  var text = thisval +' In The '+time;
+  $('.ap-msg-dsc-wrp strong').text(text);
+});
+
+$('#appointment-form input[name="time"]').on('change', function(){
+  var thisval = $('#appointment-form input[name="date"]:checked').val();
+  var time = $(this).val();
+  var text = thisval +' In The '+time;
+  $('.ap-msg-dsc-wrp strong').text(text);
 });
 
 function IsEmail(email) {

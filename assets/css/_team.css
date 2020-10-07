@@ -214,6 +214,10 @@ tm-post-grid-sec-wrp
     opacity: 1;
     text-shadow: none;
 }
+.tm-model-sec-wrp button:hover{
+	opacity: 1!important;
+	background: #f84627!important;
+}
 .modal.show .modal-dialog {
     -ms-transform: translate(0,25%) !important;
     -webkit-transform: translate(0,25%) !important;
