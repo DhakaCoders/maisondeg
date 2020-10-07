@@ -109,9 +109,13 @@
 
 .sitemap ol li a{
 	color: #FF674D;
+
 }
 .sitemap ol li{
 	padding-left: 25px;
+}
+.sitemap ol li a:focus{
+	text-decoration: underline;
 }
 
 
