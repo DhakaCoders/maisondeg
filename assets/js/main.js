@@ -436,14 +436,7 @@ if (windowWidth <= 767){
 }
 
 
-$(".wishlist-process ul li a").click(function(){
-  var tagid = $(this).data('tag');
-  $(".wishlist-process ul li a").removeClass('current');
-  $(".wishlist-tab-con").removeClass('current');
-  $(this).addClass('current');
-  $("#"+tagid).addClass('current');
 
-});
 
 if (windowWidth <= 767){
   if( $('.xs-jlp-slider').length ){
