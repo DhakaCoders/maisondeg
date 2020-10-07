@@ -397,6 +397,11 @@ nav.main-nav > ul > li.menu-item-has-children:hover .sub-menu-cntlr,
 .wd-pro-grd-col{
 	position: relative;
 	height: 324px;
+	position: relative;
+}
+.wd-pro-grd-col:hover a{
+	display: block;
+	overflow: hidden;
 }
 .wd-pro-grd-col-fea-img{
 	width: 100%;
@@ -692,6 +697,10 @@ header.bnr-hdr{
 }
 .fl-text-white .pageBnrSlideItemDes a{
 	border-color: #fff;
+}
+.fl-text-white .pageBnrSlideItemDes a:hover{
+	background: #fff!important;
+	color: #1D1D1B;
 }
 .overlay-bg{
 	position: absolute;

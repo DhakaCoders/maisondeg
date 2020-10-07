@@ -254,6 +254,9 @@ blg-watch-sec-wrp
 	.blg-tabs-gird-dsc {
 	    padding: 0 35px 55px;
 	}
+	.blg-tabs-gird-dsc-title{
+		font-size: 19px;
+	}
 }
 
 @media(max-width: 1299px){

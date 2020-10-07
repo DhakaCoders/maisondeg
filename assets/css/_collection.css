@@ -263,7 +263,7 @@
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	background: rgba(255,255,255,.8);
-	z-index: 3;
+	z-index: 15;
 }
 .msd-product-item-hover-img-cntlr{
 	height: 320px;
