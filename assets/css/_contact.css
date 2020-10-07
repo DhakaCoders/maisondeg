@@ -224,6 +224,11 @@ googlemap
 .map-accordion-wrp{
 	padding-bottom: 10px;
 }
+.map-accordion-tab-row{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #F8F8F8;
+}
 .map-accordion-title{
 	font-size: 14px;
 	line-height: 1.2;
@@ -233,11 +238,10 @@ googlemap
 	color: #1D1D1B;
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
-	padding-top: 40px;
-	padding-bottom: 40px;
 	position: relative;
-	border-top: 1px solid #F8F8F8;
 	cursor: pointer;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 /*.map-accordion-title:after{
 	content: "";
@@ -284,9 +288,6 @@ googlemap
 .remove-border .map-accordion-title:after{
 	transform: none;
 	top: 5px;
-}
-.map-accordion-des{
-	margin-bottom: 40px !important;
 }
 .map-accordion-des{
 	padding: 25px 25px;
@@ -687,7 +688,7 @@ ap-form-sec-wrp
 	    margin-bottom: 35px;
 	}
 	.map-accordion-title{
-		padding: 30px 0;
+		padding: 15px 0;
 	}
 	.contact-info-inr {
 	    padding: 30px 15px 0;
