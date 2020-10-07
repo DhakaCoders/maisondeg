@@ -162,9 +162,11 @@ $('.map-accordion-tab-row').removeClass('remove-border');
         allPanels.slideUp();
         $('.map-accordion-title').removeClass('map-accordion-active');
         $('.map-accordion-tab-row').removeClass('remove-border');
-        $(this).next().slideDown();
-        $(this).addClass('map-accordion-active');
-        $(this).parent().next().addClass('remove-border');
+        if( $(this).next().is(':hidden') ){
+          $(this).next().slideDown();
+          $(this).addClass('map-accordion-active');
+          $(this).parent().next().addClass('remove-border');
+        }
         return false;
 });
 
