@@ -181,6 +181,10 @@
 	align-items: center;
 	position: relative;
 	z-index: 1;
+	    background-attachment: fixed!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
 }
 .fea-juwellary-sec-inr,
 .fea-watch-sec-inr{
