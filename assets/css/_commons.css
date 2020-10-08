@@ -511,3 +511,13 @@ form .dropdown-menu li a{
 .slider-single.slick-initialized .slide-item-img{
     display: block;
 }
+
+
+
+.jl-page .fea-juwellary-sec,
+.wl-page .fea-watch-sec{
+    background-attachment: fixed!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
