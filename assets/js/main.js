@@ -736,5 +736,5 @@ function IsEmail(email) {
     return true;
   }
 }
-
+var $easyzoom = $('.easyzoom').easyZoom();
 })(jQuery);

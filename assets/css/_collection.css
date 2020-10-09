@@ -231,6 +231,7 @@
 	width: 33.33%;
 	margin-bottom: 45px;
 	z-index: 1;
+	transition: all 0.3s;
 }
 .msd-products-cntlr > ul > li:hover{
 	z-index: 99;
@@ -278,6 +279,23 @@
 	height: 100%;
 	width: 100%;
 }
+.easyzoom.easyzoom--overlay .msd-product-item-hover-img{
+	width: 100%;
+	height: 320px;
+}
+.easyzoom-flyout img{
+	max-width: initial;
+	transition: none;
+}
+.easyzoom{
+	display: block!important;
+}
+.easyzoom ~ .wished-card-icon{
+	z-index: 119;
+}
+.easyzoom.is-ready img{
+	cursor: auto;
+}
 .msd-product-item-hover-mblac-img{
 	height: 100%;
 	width: 100%;
@@ -303,6 +321,9 @@
 	font-size: 36px;
 	line-height: 1;
 	margin-bottom: 22px;
+}
+.msd-product-item-hover-title a{
+	color: #1D1D1B;
 }
 .msd-product-item-hover-desc a{
 	display: inline-block;
@@ -532,11 +553,11 @@
 		display: none;
 	}
 	.msd-product-item-hover-img-cntlr{
-		height: 195px;
+		height: 215px;
 	}
 	.msd-product-item-hover{
 		opacity: 1;
-		padding: 0;
+		padding: 10px;
 		background: #f8f8f8;
 		border: none;
 		position: initial;
@@ -576,6 +597,14 @@
 	}
 	.msd-product-list-pb{
 		padding-bottom: 0!important;
+	}
+	.easyzoom.easyzoom--overlay .msd-product-item-hover-img {
+	    width: 100%;
+	    height: 215px;
+	    display: block;
+	}
+	.easyzoom + .msd-product-item-hover-mblac-img{
+		display: none;
 	}
 }
 @media(max-width: 575px){
